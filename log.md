@@ -1,3 +1,17 @@
+
+
+
+ADD NEW : 
+
+he rise in trolling behaviors on social media seriously jeopardizes constructive online discourse. Trolling is a disruptive behavior that can be manifested through various actions, including sending inflammatory or provocative messages with the aim of derailing conversations. This paper proposes DeTroll, a framework that leverages large language models, specifically DeBERTa, to perform social media troll detection. Our paper compares the performance of typical machine learning models, which include logistic regression and Naive Bayes, against that of DeBERTa in classifying social media data as troll or non-troll. Besides these, we also investigate whether it is possible to apply the most recent language model, called DeBERTa, via zero-shot and one-shot learning on other kinds of datasets to develop a robust model for detecting troll behavior across datasets. Results show the effectiveness of DeBERTa in detecting trolls, demonstrating high accuracy and predictive performance. Additionally, it improves limitations arising from data quality. Our results indicate that SiFT significantly improves model performance, while future work might improve the cross-dataset generalization ability. A comparison with OpenAI's GPT-4 further demonstrates the suitability of advanced LLMs for troll detection challenges.
+ORCID
+ Hi Despoina Antonakaki (https://orcid.org/0000-0001-9081-6115) ,
+
+You
+
+
+
+
 ================== 
 EUROPAA
 arkalos GR8201727510005751111466797
@@ -60,9 +74,10 @@ Timologia
      			Είσπραξη χρημάτων από φορείς του Δημοσίου Τομέα (πλην Κεντρικής Διοίκησης)
      			ΑΦΜ Φορέα 090087411
 					Στοιχεία τίτλου πληρωμής Στοιχεία ΜΑΡΚ εφαρμογής myDATA  Bazeis ta MARK apo ta timologia 
-*ECCO*
-==================
-				Είδος : τιμολόγιο παροχής υπηρεσιών
+ 			
+ τιμολόγιο παροχής υπηρεσιών
+
+ ==================
 				Σειρά μπαίνει μόνο του
 				ΑΑ τίποτα 
 				ημερομηνία έκδοσης θα μπει αυτόματα  εσύ θα πρέπει να μπει τελος του μήνα.
@@ -93,19 +108,13 @@ Timologia
 				*ΜΕΤΑ ΤΟ ΤΙΜΟΛΟΓΙΟ ΣΕ ΠΕΝΤΕ ΛΕΠΤΑ ΒΓΑΛΕ ΕΝΗΜΕΡΟΤΗΤΑ https://www.aade.gr/polites/forologiki-enimerotita/ekdosi-apodeiktikoy-enimerotitas*
 
 
-		120.00
+
 
 Timesheets 
 ==================
 ITE: Cyberunity 1.1.2024 - 30.6.2024  = 6 months with total number of hours 222,72 which for each month gives us 222,72 / 6 = 37,12 and is 1000 gross 
 		
-		Για τον Ιανουάριο ( GREEN.DAT.AI) θα συμπληρώσεις στο Rescom 10 ώρες στο WP2: Data management test-bench: Infrastructure and tools to support Dynamic Ecosystems και 31 ώρες στο WP3: Energy-Efficient Large-Scale Data Analytics Services.
-		Στην περιγραφή θα γράψεις ολόκληρη την ονομασία (WP2., WP3.....)
-
-			για το Φεβρουάριο ( GREEN.DAT.AI) θα συμπληρώσεις στο Rescom 10 ώρες στο WP2: Data management test-bench: Infrastructure and tools to support Dynamic Ecosystems και 31 ώρες στο WP3: Energy-Efficient Large-Scale Data Analytics Services.
-			Στην περιγραφή θα γράψεις ολόκληρη την ονομασία (WP2., WP3.....)
-
-
+		 
 			ECCO  01/01/2024 μέχρι την 30/06/2024. - 600 /6 = 100
 
 			Green.Dat.AI    9.840 ευρώ, 01/01/2024 μέχρι την 30/06/2024. Which gives us 9840 / 6  = 1640 gross 
@@ -113,21 +122,6 @@ ITE: Cyberunity 1.1.2024 - 30.6.2024  = 6 months with total number of hours 222,
 			3240  ==>2153
 
 			htan 2424 + 500  = 2924,
-
-			Θα γίνει μια αλλαγή στις συμβάσεις μου απο 1.1.2024 και εχουμε μια απορία με την γραμματεά μας που τα χειρίζετε: 
-
-			Η κατάσταση μέχρι τώρα ήταν η εξής: 
-			1) Σύμβαση εργασίας με ΙΤΕ με κόστος 2424,44 €(full time 100% )
-			2)  Μίσθωσης έργου στο Πολυτεχνείο Κρητης με κόστος 500€ 
-
-			Απο τον Ιανουάριο αυτά θα αλλάξουν ως εξής: 
-			1) Σύμβαση εργασίας με ΙΤΕ με κόστος 1243,30 €(part time 50% ) - εχει ασφαλιστικές εισφορές κατα 50%
-			2)  Μίσθωσης έργου απο 1/1/ - 30/6/2024 στο Πολυτεχνείο Κρητης με κόστος 120€ ΟΧΙ ΦΠΑ
-			3)  Μίσθωσης έργου απο 1/1/ - 30/6/2024 στο Πολυτεχνείο Κρητης με κόστος 1640€ ΟΧΙ ΦΠΑ
-
-			Η ερωτηση ειναι για το  εργο 1) Σύμβαση εργασίας με ΙΤΕ με κόστος 1243,30 €(part time 50% ) 
-			το υπόλοιπο 50% μπορεί να με επιβαρύνει εμένα με καποιο ποσό;
-
 
 WIFI
 ==================
@@ -166,76 +160,6 @@ M19 Jul-24  ... M20 Aug-24  ... M21 Sep-24
 M22 Oct-24  ... M23 Nov-24  ... M24 Dec-24
 
 
-ECCO - bi-weekly bi-lateral ECCO Task C - *EC meeting*
-==================
-
- 
-				-----Original Appointment-----
-				From: Coordination <coordination-bounces@list.cyber-ecco.eu> On Behalf Of Roberto Cascella
-				Sent: Wednesday, February 7, 2024 2:45 PM
-				To: Roberto Cascella; Francesco.BARBATO; alina.taralunga@ext.ec.europa.eu; francesco.sansoni@ext.ec.europa.eu; alexandra-adina.asgari-jirhendeh@ext.ec.europa.eu; Cristian Michael TRACCI; Luigi Rebuffi; n.ferguson; Rossana POLLIO; Alexandra MADSEN
-				Cc: coordination@list.cyber-ecco.eu; cnect-eccc-gb@ec.europa.eu; GRISON Davide; Nina Olesen
-				Subject: [ECCO_Coordination] ECCO Task C bi-lateral meeting
-				When: Occurs every 2 week(s) on Wednesday effective from 14/02/2024 until 14/12/2024 from 16:00 to 16:50 (UTC+01:00) Brussels, Copenhagen, Madrid, Paris.
-				Where: Microsoft Teams Meeting
-
-				Dear All,as discussed with Francesco, you are kindly invited to join the bi-weekly bi-lateral ECCO Task C - EC meeting.Please find below the details.With thanks and kind regardsRoberto
-		________________________________________________________________________________
-
-				Microsoft Teams meeting
-
-				Join on your computer, mobile app or room device
-
-				Click here to join the meeting
-
-				Meeting ID: 375 758 790 60
-				Passcode: YX84Zp
-
-				Download Teams | Join on the web
-
-				Learn More | Meeting options
-
-
-				FW: ECCO Task C bi-lateral meeting
-
-ECCO Community_skills@list.cyber-ecco.eu mailing list reminder
-==================
-You are subscribed with the address: dantonakaki@tuc.gr
-
-Your Community_skills password is: caoznoar
-
-Your Community_skills password is: caoznoar
-
-ECCO webinar topics 
-==================
-                    •                      Education and awareness (incl. cyber hygiene) for youth.
-
-                    •                      Leveraging cyber competitions to engage youth in cyber.
-
-                    •                      Impact of AI on skills and the workforce.
-
-                    •                      Academia-industry collaboration on skills.
-
-                    •                      Awareness of Social Engineering.
-
-                    •                      Educational curricula alignment with the needs of the market.
-
-                    •                      Tools for hands-on technical education in cybersecurity including fighting cybercrime.
-
-                    •                      Security and privacy ‘by design’ approach in training and education for IT professionals.
-
-
-						In person ECCO meeting CRETE 
-						 
-										Regarding the in-person meeting, they are different from the webinars, so you are not selecting one topic from the list to address. It would be more like a proper WG meeting, bringing together the people we have in the group (and hopefully more) around the table to discuss on a few different topics of importance in the skills domain (taking inspiration from the list we developed for the WG descriptions).
-										Up to you to suggest a location that could be suitable. No matter where, it is of course good to leverage the national ecosystem (universities, NCC, etc.) to make the most of being in that specific country. I believe chairs have a bit of budget for travel of experts but in general, I think the absolute best idea is to organise it alongside another important cyber event (where people anyway could be travelling).
-										I suggest you and Sotiris come up with a kind of proposal and send it to myself, Cristian and Roberto and then we can assess the scope and format all together, to also see how or whether to streamline approaches with the other community groups.
-										So for now, a kind of proposal/concept note with a tentative agenda and location (linked to another event) would be great. 
-
-										Does this make sense?
-										thanks,
-										Nina
-
 ΕΓΓΡΑΦΕΣ ΓυμναΣΙΟ 
 ==================
 loipon koitaza twra gai tis eggrafes sto gumnasio gia thn elenh . 
@@ -264,7 +188,15 @@ Related expertise / experience:
 Prof. Ioannidis has a vast experience in Coordinating and participating in security-related H2020 and INEA-Funded projects. His team is active in a various areas of systems and cyber security, producing high-end research results, published in the most distinct security conferences, creating beyond state of the art R&D tools and operational production solutions, in the context of RIA, IA and INEA projects.
  
 
+water (apo Zarra)
+============
+https://www.google.com/maps/place/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1+%CE%BD%CE%B5%CF%81%CE%BF%CF%8D+%CF%88%CF%8D%CE%BA%CF%84%CE%B5%CF%82+%CE%A3%CF%86%CE%B1%CE%BA%CE%B9%CE%B1%CE%BD%CE%AC%CE%BA%CE%B7%CF%82+%CE%93%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82+flowwater/@35.3362655,25.1570301,21z/data=!4m6!3m5!1s0x149a5bdb088ff4b9:0xf8072921198461d!8m2!3d35.3363544!4d25.1570958!16s%2Fg%2F11g8_2_lvl?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D
 
+φίλτρα νερού ψύκτες Σφακιανάκης Γιώργος flowwater
+
+antistrofh osmosh 
+
+https://proteasfilter.com/product-category/%CF%86%CE%B9%CE%BB%CF%84%CF%81%CE%B1-%CE%BD%CE%B5%CF%81%CE%BF%CF%85-%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%B7%CF%83-%CE%BF%CF%83%CE%BC%CF%89%CF%83%CE%B7%CF%83/
 
 *blackmamba*
 ssh -p 22599 antonakd@139.91.71.14 
@@ -307,10 +239,709 @@ ssh -p 22599 antonakd@139.91.71.14
 DAILY LOG
 blackmamba  41..km
 
+
+
 twitter verification : iphone--> passwords--> twitter --> verification dcode 138451
-*=================================================================================================================================================================*
+*========================================================================================================================================================*
 11.116.709
- : 190 (μουσική) + 150 (σικινισ) + 160 (αγγλικά) + 60 (τέννις) + 100 (φυσιο) + 80 (κολύμβηση) = 740
+
+ΔΡΑΣΤΙΡΙΟΤΗΤΕΣ 190 (μουσική) + 150 (σικινισ) + 160 (αγγλικά) + 60 (τέννις) + 100 (φυσιο) + 80 (κολύμβηση) = 740
+
+18 december 2024
+=================
+
+
+* telegram paper: updates volume plots
+* started paper from Panagiwta Koutra 
+* 
+
+LARGEOPER
+================
+Friday 13 . Initial discussion with Manos. 
+This is the call: DIGITAL-ECCC-2024-DEPLOY-CYBER-07-KEYTECH 
+	 https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2024-DEPLOY-CYBER-07-KEYTECH?isExactMatch=true&status=31094501,31094502&callIdentifier=DIGITAL-ECCC-2024-DEPLOY-CYBER-07&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+It is 50% - Sotiris will ask if FORTH approves (to give the rest of 50% ) 
+We will submit two proposal , the first will be full partners list 4-5 partners (penetraion testing), 
+and the second submission will contain only 3 partners (TUC, Markakis).
+I will have to get the content from 1st full submisiion align with policy and almost copy paste for the second submission. 
+
+Sent email 
+σχετικά με το LARGEOPER που συζητούσαμε θέλω να αναλάβω το δευτερο submission μαζι με το HMU (Μαρκάκης) .
+
+
+16 December 2024
+================
+* Σχολειο βαθμους! - λογοπεδικος για τηην Δημητρα . Προβλημα με μερικά γραμματα: α το κανει καραφλο, βαζει σε ελληνικες λεξεις αγγικά γραμματα, εχει ακομη θεμα με τα κεφαλαια, δεν βάζει κενα αναμεσα στις λεξεις, μπερδευει γραμματ (χ με ξ), και εχει κανει λαθη του στηλ να τα μαθαινει αναποδα (ασκηση με παθητική φωνη -εβαλε ολα τα παθητικης φωνης στην ενεργητική φωνη). με τα μαθηματικά οκ . 
+
+* HPY 413 - ejetash 66	ΠΡΑΣΟΠΟΥΛΟΣ	ΔΑΥΛΙΑΣ
+* deliverabel ECCO 
+https://ecsorg.sharepoint.com/:w:/r/sites/ECCOProject/_layouts/15/Doc.aspx?sourcedoc=%7B4135F424-1791-47A2-A5CD-7072445C958A%7D&file=ECCO_D-C.1.2_M24_v.01.docx&action=default&mobileredirect=true
+
+
+
+13 december
+=================
+* All day oral exam for HPY 413. grades at excel FINAL_ORAL_EXAMS
+* Talked with Manos about new proposal: LARGEOPER: DIGITAL-ECCC-2024-DEPLOY-CYBER-07-LARGEOPER__LARGEOPER. Just sent an  email: καλημέρα,
+   to Sotiri Manos and Markakis( σχετικά με το LARGEOPER που συζητούσαμε θέλω να αναλάβω το δευτερο submission μαζι με το HMU (Μαρκάκης) .
+  
+12 december
+================
+* Receipts for tri send to Eleni and signed doc. Also willmeet on Sunday with Eva to gine all receipts. 
+* Finalized meeting minutes and reccomendations for last deliverable for ECCO 
+* finalized Oral exam time - send email to all students and finalized questions 
+* doctor 
+
+
+
+		ECCO - bi-weekly bi-lateral ECCO Task C - *EC meeting*
+		==================
+
+		 
+						-----Original Appointment-----
+						From: Coordination <coordination-bounces@list.cyber-ecco.eu> On Behalf Of Roberto Cascella
+						Sent: Wednesday, February 7, 2024 2:45 PM
+						To: Roberto Cascella; Francesco.BARBATO; alina.taralunga@ext.ec.europa.eu; francesco.sansoni@ext.ec.europa.eu; alexandra-adina.asgari-jirhendeh@ext.ec.europa.eu; Cristian Michael TRACCI; Luigi Rebuffi; n.ferguson; Rossana POLLIO; Alexandra MADSEN
+						Cc: coordination@list.cyber-ecco.eu; cnect-eccc-gb@ec.europa.eu; GRISON Davide; Nina Olesen
+						Subject: [ECCO_Coordination] ECCO Task C bi-lateral meeting
+						When: Occurs every 2 week(s) on Wednesday effective from 14/02/2024 until 14/12/2024 from 16:00 to 16:50 (UTC+01:00) Brussels, Copenhagen, Madrid, Paris.
+						Where: Microsoft Teams Meeting
+
+						Dear All,as discussed with Francesco, you are kindly invited to join the bi-weekly bi-lateral ECCO Task C - EC meeting.Please find below the details.With thanks and kind regardsRoberto
+				________________________________________________________________________________
+
+						Microsoft Teams meeting
+
+						Join on your computer, mobile app or room device
+
+						Click here to join the meeting
+
+						Meeting ID: 375 758 790 60
+						Passcode: YX84Zp
+
+						Download Teams | Join on the web
+
+						Learn More | Meeting options
+
+
+						FW: ECCO Task C bi-lateral meeting
+
+		ECCO Community_skills@list.cyber-ecco.eu mailing list reminder
+		==================
+		You are subscribed with the address: dantonakaki@tuc.gr
+
+		Your Community_skills password is: caoznoar
+
+		Your Community_skills password is: caoznoar
+
+		ECCO webinar topics 
+		==================
+		          Education and awareness (incl. cyber hygiene) for youth.
+
+		          Leveraging cyber competitions to engage youth in cyber.
+
+		          Impact of AI on skills and the workforce.
+
+		          Academia-industry collaboration on skills.
+
+		          Awareness of Social Engineering.
+
+		          Educational curricula alignment with the needs of the market.
+
+		          Tools for hands-on technical education in cybersecurity including fighting cybercrime.
+
+		          Security and privacy ‘by design’ approach in training and education for IT professionals.
+
+
+								In person ECCO meeting CRETE 
+								 
+												Regarding the in-person meeting, they are different from the webinars, so you are not selecting one topic from the list to address. It would be more like a proper WG meeting, bringing together the people we have in the group (and hopefully more) around the table to discuss on a few different topics of importance in the skills domain (taking inspiration from the list we developed for the WG descriptions).
+												Up to you to suggest a location that could be suitable. No matter where, it is of course good to leverage the national ecosystem (universities, NCC, etc.) to make the most of being in that specific country. I believe chairs have a bit of budget for travel of experts but in general, I think the absolute best idea is to organise it alongside another important cyber event (where people anyway could be travelling).
+												I suggest you and Sotiris come up with a kind of proposal and send it to myself, Cristian and Roberto and then we can assess the scope and format all together, to also see how or whether to streamline approaches with the other community groups.
+												So for now, a kind of proposal/concept note with a tentative agenda and location (linked to another event) would be great. 
+
+												Does this make sense?
+												thanks,
+												Nina
+
+11 DECEMBER 2024
+=================
+
+trip to Athens, prepare oral exam and notes/minutes for ecco last meeting. 
+
+
+==================
+10 december 2024 - ECCO final meeting Brussels 
+=================
+[draft version mine] 
+	cs labdscape in 5 years , considering geopolitical situtation ?
+https://www.linkedin.com/in/cyberfuture/?originalSubdomain=fr
+	alonfo fereira (2015) 1st euripean staretegic agends --> ECSO 
+	a questional he always eays aksing : what do yuo think of cs , national cybersecurity homeland . --> no answer in europe 
+	lookied at usa strategy 
+	usa in cs is that a matter of national security , global influence then ,
+	in eu is abou member states, which is wrong . has beeen preempted small part of cs ,. mwmeber sattes do not want 
+	more money in france in cs tahn in all europe .  
+	why did you check usa and not russian? . becauese it is esier to find information and usa is driving the world for many years.
+	makeybe we can learn somthing from us.
+	we do not work as a team in eu.   
+
+	(barbato)  how do you solve these problems?
+	(alfonso) people don ton want even to adress the quetsion. cs is national security issue .
+
+	(antonio skarmeta)  some industries are just bening prodected by theire countries e.g.  in france 
+	they are more pragmatic, we doen deal with the details in eu . 
+
+	"collective notion" 
+[more structured]
+	European Cybersecurity Landscape: Challenges and Reflections for the Next 5 Years
+    Speaker: Alfonso Ferreira (2015) - ECSO (European Cybersecurity Organization)
+
+	    Strategic Agenda: Inspired by the first European strategic agenda in cybersecurity.
+	    Main Question: "What do you think about cybersecurity as a matter of national security?"
+	        European Struggle: No clear answer from Europe, unlike the USA, which views cybersecurity as crucial for national and global security.
+	        US vs. EU Strategy: The USA treats cybersecurity as an integrated national priority, whereas the EU approach is fragmented across member states.
+	        Financial Gaps: France invests more in cybersecurity than most of Europe combined.
+	        Comparative Learning: While studying the USA's model, Ferreira noted a lack of team cohesion in Europe, which hampers progress.
+
+	    Geopolitical Reflection (Barbato and Skarmeta):
+
+	    Challenges: In Europe, cybersecurity is often a national matter, with countries reluctant to share or collaborate.
+	    Industries’ Protection: Some nations, like France, take a pragmatic approach, protecting their key industries without engaging fully in broader European efforts.
+
+	  "Collective Notion" Required:
+
+	    Calls for a stronger unified European cybersecurity effort to address global challenges and ensure regional protection in the face of geopolitical uncertainty.
+
+	    what is "Collective Notion" in this context refers to the idea of a shared, unified understanding or approach to a specific issue, in this case, cybersecurity. It suggests that cybersecurity should not be viewed as just a national issue but as a collective responsibility, where countries collaborate and pool resources to address common threats. In Europe, the term implies that instead of fragmented efforts by individual member states, there should be a unified European approach to cybersecurity, addressing both national security concerns and broader regional protection.
+
+* On skills panel:
+(our questions) 
+  1. How well do you feel that the current educational programs align with the skills needed in the cybersecurity industry today?
+  2. What specific gaps do you see in existing curricula, and how could these be addressed? 
+  3. How can we better foster collaboration between academic institutions and the cybersecurity industry to ensure students are gaining practical, real-world experience?
+  4. What role can industry professionals play in shaping academic curricula and supporting student learning?
+  5. What challenges do you face in providing continuous upskilling and reskilling opportunities for cybersecurity professionals?
+  6. How can we make lifelong learning more accessible for cybersecurity practitioners at different stages of their careers?
+  7. Do you think there is a need for a standardized EU cybersecurity certification system? What would make such system effective and widely adopted?
+  8. How can we ensure that certification frameworks remain flexible enough to adapt to the rapidly changing cybersecurity landscape?
+  9. How can we expand the use of cyber ranges to provide more hands-on learning opportunities for students and professionals?
+ 10. What are some key challenges you've encountered when implementing cyber ranges in training programs?
+ 11. What are your thoughts on the use of gamified learning in cybersecurity education? How could we improve its effectiveness for younger audiences?
+ 12. Can you share examples of successful initiatives that have introduced cybersecurity concepts to children in engaging ways?
+ 13. In your experience, how effective are cybersecurity competitions in attracting and preparing young talent for careers in the field?
+ 14. What additional support could we provide to make cybersecurity competitions more inclusive and impactful?
+ 15. What steps can we take to ensure diversity and inclusion in cybersecurity education and training programs?
+
+No discussion at all for skills. 
+---------------
+Panel notes
+---------------
+[draft version - my notes]
+		involving citizens comes with challenges (KAI) 
+		how to overcome these challenges ?
+		...answers 
+		(1) requires resourcses and time monoe citizen engagement , one workshop is not enough . 
+		    do you have a goal in mind ? 
+		what need to be done ? citizens are the experts. in touch with technlogy . we have to care for the knowledge . take input from experts we developers do not know how to handle citizens. we tr yto find methodologies , actionble , inderstandable to developmers, . touch these actors, 
+		skill development
+		experts (users) are not stupid ...
+
+		involvemts of citizens is a good solution in the devolpmenst (full cycle of the technology)
+		trust by users is an important factors. 
+		those who formulate teh condition of research , please chech a user communilty take into consideration to the project 
+
+		(alonso fereira) teh human is teh weakest link in CS? 
+		liability ? 
+		the weakest link is the infratsructure ...
+
+		serve people who dont have knowledge, make change and refresh and ask the users , citizens is teh future generation . they sare in coputers from small age .
+
+		(Luigi ) users are not a priority  of eccc and ncc ... 
+		no projects in this scheme ...
+		projecst are looking for professionals 
+
+		(barbato) a matter of priorities . strategy , resources are linked to everywhere. 
+		there are comission member taht care about this exercise. needs to be in a sequential session . 
+
+		(Kai) 
+
+		(leuven proff) lindon game . risk asesmen t ool . there is a lerge symmetry of power . users dont care abou the consequence . 
+		consuder also the age . assymenry in users . dont;s give seame level of control to all users . equip users with all kind of tool , just to know what is sequrity . 
+		initially when google ciolates out privacy we were bothered now we find it ok and there will be new levels of violation . 
+
+
+		(3) the issue is not that users are cisitizens are exeorts . the issue to have developers work with individuals 
+		there will be alwas a minority that shoudl be protected. 
+
+		(nina) why hacks happen? whi do we blame ? we blame citizens ? breaches we see at the human factor 
+
+		human certic priblem solve with human centric campaigns 
+
+		(4) dont blame but serve humans 
+
+		(5) technical vulnerability has no will to make the error or refuse to learn . human must want to cooperate. and want to contribute to cs. we cannot control teh individual . 
+
+		(afonso fereira )
+		i work in a company and am not  protected from phishiong . 
+		cctv ,..now needs to be changes password. it was not like taht so users do not know . users are not aware . 
+
+		(6) when we are dealing in a populus techniques to educate how to appeal to people. how do you appeal them ? 
+		it was an educational approach, not a legislational approach. 
+
+		people don like to be told what to do . but appeoal as common good, ...edicational messages 
+
+		need special methodology to het people to absurb .
+
+		(nina)need a a completely different paradigm shift . e.g hegien paradigm .
+		regulatory is a bit tricky  for cs . we need to keep looking at it . 
+
+		7)there may need phycologist to build this methodology . how to get people to absurb this. 
+
+		(leuven proff) rapidly changing environment . 2 years ago there was  no chhat gpt to tell a user to kill himself . 
+
+		barbato )we have touches several issues. consider the bigger picture. it os not only CS . we live in a compex society digitally.. we need to join forces with other . ok cs experts but also . need to create things outside cs  . 
+
+		(nina) therea re poliucy containers ok , but how do we balance in cs within those container while we are in a multidiciplinary enovronemmnt. 
+		(barbato) this is high in the agenda of policy makers,
+		good starting point from policy makers.  
+
+		(leuven) lots of innocvation in cs , we dont have the culture ? why ? 
+		(panel) we get a lot of theoretical education , no creation of business ? like in us? 
+
+[structured - TODO check AI gen before sent  ]
+
+		Involving Citizens in Cybersecurity – Challenges and Solutions
+
+	Kai:
+
+	    Challenges: Citizen engagement is resource and time-intensive; one workshop isn’t enough.
+	    Solutions: Citizens are experts in technology, so developers should collaborate with them using methodologies that are actionable and easy to understand. Skill development is crucial. Trust from users is vital to long-term success. Those formulating research conditions must consider user communities in project planning.
+
+	Alonso Ferreira:
+
+	    Weakest link in cybersecurity? The weakest link isn’t humans but infrastructure. However, humans need to be informed and engaged. Citizens are the future generation—children grow up with technology, making it crucial to serve and refresh their knowledge.
+
+	Luigi:
+
+	    Users are often overlooked in current cybersecurity frameworks (e.g., ECCC and NCC), with projects primarily targeting professionals.
+
+	Barbato:
+
+	    Priorities: Strategy and resources need alignment. Cybersecurity efforts must include user-centered exercises and research.
+
+	Leuven Professor:
+
+	    Risk Assessment: Power asymmetry between users and systems is an issue. Age and user experience should be considered, ensuring tools empower users with knowledge of security risks. Over time, acceptance of privacy violations grows, and new levels of violation may follow.
+
+	Nina:
+
+	    Blaming citizens for breaches? Human-centric campaigns are needed instead of placing blame. Trust should be built through cooperation and education.
+
+	General Points:
+
+	    Human involvement: Don’t blame users; instead, serve and empower them with education.
+	    Educational approaches: Focus on appealing to citizens' common good rather than enforcing legislation. Psychological methodologies can help people better absorb security messages.
+	    Cultural gap in CS innovation: While there is theoretical education, there’s a lack of practical, business-driven cybersecurity innovation compared to the U.S.
+
+	Barbato and Nina:
+
+	    Multidisciplinary approach: Cybersecurity should collaborate beyond the field, addressing broader societal challenges in a digital, complex world. It’s high on policymakers’ agendas.
+
+
+
+*   δες γαιτι ειναι αν δεν ειναι αλλαξε ιδια ομαδα
+      ΣΟΥΛΙΩΤΗΣ	ΔΗΜΗΤΡΙΟΣ	2016030064	58	dsouliotis	dsouliotis@tuc.gr	5					
+      ΤΟΓΡΙΔΗΣ	ΑΛΕΞΑΝΔΡΟΣ	2019030136	58	atogridis	atogridis@tuc.gr	5	
+
+       3:00 3:10 , 3:15-3:25, 3:30-3:40 , 3:45-3:55
+Στο readme tou Souliwti, o allos den exei steilei den exei ononmata 
+ https://linddun.org/go/
+
+=================	
+9 december 
+=================
+* commons slots for HPY-413 than need to be resolved.  
+
+	11:00 AM - 11:10 AM
+	10 min
+		
+	11:15 AM - 11:25 AM
+	10 min
+		
+	11:30 AM - 11:40 AM
+	10 min
+		
+	11:45 AM - 11:55 AM
+	10 min
+		
+	12:00 PM - 12:10 PM
+	10 min
+		
+	12:15 PM - 12:25 PM
+	10 min
+		
+	12:30 PM - 12:40 PM
+	10 min
+		
+	1:00 PM - 1:10 PM
+
+* teams:   @Despoina Antonakaki [19, 21, 25, 32, 49, 51, 58, 59, 61, 66, 67, 68, 69, 72, 92, 95]
+* 
+  19. ΓΚΑΝΤΖΙΟΣ	ΘΩΜΑΣ	2012030146	19	tgkantzios	tgkantzios@tuc.gr	9					
+      ΖΕΡΒΑΚΗΣ	ΓΕΩΡΓΙΟΣ	2019030160	19	gzervakis	gzervakis@tuc.gr	9	
+
+      345-355
+
+
+  21. ΑΛΛΙΟΥ	ΕΡΓΚΙ	2019030134	21	ealliou	ealliou@tuc.gr	9					
+      ΚΟΠΑΣΑΚΗΣ	ΓΕΩΡΓΙΟΣ	2021030203	21	rkopasakis	rkopasakis@tuc.gr	9	
+
+      * raphael team with ergki 2:45-2:55 *		
+
+  25. ΙΩΧΑΝΑΣ	ΣΑΛΩΜ	2021030047	25	siochanas1	siochanas1@tuc.gr	8					
+      ΠΙΣΙΜΙΣΗΣ	ΚΩΝΣΤΑΝΤΙΝΟΣ	2021030008	25	kpisimisis	siochanas1@tuc.gr	8
+
+        pisimisis shgoura 1215-1225
+
+  32. ΚΑΛΥΒΑΣ	ΑΘΑΝΑΣΙΟΣ-ΓΕΩΡΓΙΟΣ	2018030021	32	akalyvas	akalyvas@tuc.gr	9					
+      ΚΑΛΥΒΑΣ	ΑΛΕΞΑΝΔΡΟΣ	2019030060	32	akalyvas1	akalyvas1@tuc.gr	9	
+
+      1230-1240
+
+
+  49. ΧΑΤΖΑΚΗΣ	ΕΜΜΑΝΟΥΗΛ-ΘΩΜΑΣ	2021030061	49	echatzakis1	echatzakis1@tuc.gr	8		
+
+  			1:00-1:10 (EMMAMOUILTHOMAS CHATZAKIS)
+
+  51. ΣΟΥΛΑ	ΑΛΕΞΙΑ	2021030089	51	asoula	asoula@tuc.gr	8					
+	  ΜΥΛΩΝΑΣ	ΓΕΩΡΓΙΟΣ	2022030090	51	gmylonas1	gmylonas1@tuc.gr	8
+
+      alexia 3:15-3:25 
+      ΜΥΛΩΝΑΣ 3:15-3:25 
+
+  58. ΣΟΥΛΙΩΤΗΣ	ΔΗΜΗΤΡΙΟΣ	2016030064	58	dsouliotis	dsouliotis@tuc.gr	5					
+      ΤΟΓΡΙΔΗΣ	ΑΛΕΞΑΝΔΡΟΣ	2019030136	58	atogridis	atogridis@tuc.gr	5	
+
+       3:00 3:10 , 3:15-3:25, 3:30-3:40 , 3:45-3:55
+
+  59. ΕΥΑΓΓΕΛΑΚΟΣ	ΘΕΟΔΩΡΟΣ	2020030187	59	tevangelakos	tevangelakos@tuc.gr	ΠΕΡΙΜΕΝΩ ΑΠΑΝΤΗΣΗ ΜΕΙΛ		
+
+       200-210 
+
+  61. ΜΠΟΛΙΟΥΔΑΚΗΣ	ΑΝΔΡΕΑΣ	2018030037	61	abolioudakis1	abolioudakis1@tuc.gr	10					
+      ΚΑΡΑΛΗΣ	ΓΕΩΡΓΙΟΣ-ΚΩΝΣΤΑΝΤΙΝΟΣ	2019030117	61	gkaralis	gkaralis@tuc.gr	10		
+
+      kostas 11:15-11:25 
+      1115-1125 Andreas Bolioudakis
+      	
+  66. ΔΑΥΛΙΑΣ	ΟΡΕΣΤΗΣ	2009030098	66	odavlias	odavlias@tuc.gr	0					
+      ΠΡΑΣΟΠΟΥΛΟΣ	ΕΥΑΓΓΕΛΟΣ	2017030040	66	eprasopoulos	eprasopoulos@tuc.gr	0	
+
+      Δευτερα 12??
+
+  67. ΜΟΥΣΤΑΚΑΣ	ΙΩΑΝΝΗΣ	2020030120	67	imoustakas	imoustakas@tuc.gr	7					
+      ΣΑΚΟ	ΣΤΑΥΡΟΣ	2021030044	67	ssako	ssako@tuc.gr	7	
+
+    1:00-1:10 
+
+
+  68. ΓΝΑΦΑΚΗΣ	ΕΜΜΑΝΟΥΗΛ	2021030162	68	egnafakis	egnafakis@tuc.gr	5					
+      ΚΟΛΛΙΑΣ	ΙΩΑΝΝΗΣ	2021030064	68	ikollias	ikollias@tuc.gr	5	
+
+      1100-1110		
+
+
+  69. ΠΑΠΑΦΡΑΓΚΟΥ	ΘΕΟΔΩΡΟΣ-ΜΙΧΑΗΛ	2022030043	69	tpapafragkou	tpapafragkou@tuc.gr	8					
+      ΧΑΒΑΚΗΣ	ΓΕΩΡΓΙΟΣ	2019030009	69	gchavakis	gchavakis@tuc.gr	8
+
+      230-240
+
+  72. ΚΟΥΣΤΕΝΗΣ	ΣΩΚΡΑΤΗΣ	2020030072	72	skoustenis	skoustenis@tuc.gr	5					
+      ΟΙΚΟΝΟΜΟΥ	ΑΛΕΞΙΟΣ	2020030125	72	aoikonomou6	aoikonomou6@tuc.gr	5
+
+      1200-1210	
+
+  92. ΚΟΥΡΛΕΤΑΚΗΣ	ΔΗΜΗΤΡΙΟΣ	2018030136	92	dkourletakis	dkourletakis@tuc.gr	0	
+
+  95. ΣΑΪΝΗ	ΓΕΩΡΓΙΑ	2019030041	95	gsaini	gsaini@tuc.gr	9	
+  
+  1145-1155
+
+6 December 2024
+==================
+* ECCO meeting drink after ? meeting . 
+
+
+
+5 december 2024
+==================
+
+
+* DIPLVMATIKH Floretzoy . meeting me vicky . na dei to dataset apo mimic 4 kai na ta katebasei apo kaggle (einai free). eidame ligo tous pinakes kai tou iepe h visky pia fetaures na epilexei gia na arxisei thn analush. na steulei update me mail 
+
+* ftiaxame doodle gia to ma8hma me 10lepta slots edw: 	https://doodle.com/meeting/participate/id/eZvVllge/vote 
+kai link gia thn PARASKEYH 13 arxizontas stis 1100 . to link gia to meeting einai sto calendar : HPY413 oram exam
+Friday, December 13
+Time zone: Europe/Athens
+Google Meet joining info
+Video call link: https://meet.google.com/pyz-ndaq-igk
+Or dial: ‪(US) +1 470-466-0064‬ PIN: ‪951 779 628‬#
+
+* starting getting messages on telegram for korea : 	black mamba /home/antonakd/korea
+grom channels : 
+monitoring_channels = [
+    "disclosetv",
+    "bloomberg",
+    "WorldNews",
+    "OANNTV", 
+    "epochtimes"
+
+ *TODO* add also https://t.me/BBC_News0 
+ https://t.me/CNN_Breaking
+ https://t.me/reuters_worldnews
+ https://t.me/guardian
+
+
+* ECCO: Roberto finally esteile agenda kai zhthse erwthseis apo tous co chairs gia na suntonisoun thn suzhthsh . eftiaxa kai esteila sthn Nina . 
+
+* meeting me alex gia federated learning . 
+
+* proposal ...
+28/11/2024 
+=============
+
+* telos epitelous me askhsh . Thurday till day . 
+* Stavros Florentzou: 
+
+Έχεις δοκιμάσει πολλές τεχνικές για την αντιμετώπιση του προβλήματος με τα δεδομένα, όπως logistic regression, balanced weights, PCA για dimensionality reduction, και k-fold cross validation. Παρά τις προσπάθειες, η ακρίβεια παραμένει στο 0.5, υποδηλώνοντας ότι το dataset ίσως είναι προβληματικό είτε λόγω έλλειψης ισορροπίας είτε λόγω έλλειψης διακριτικής πληροφορίας στα features. Εναλλακτικές όπως XGBoost, SMOTE ή ADASYN μπορούν να βοηθήσουν στη βελτίωση του μοντέλου, ενώ είναι καλό να αξιολογείς το μοντέλο με άλλες μετρικές όπως F1-score, precision και recall. Υπάρχει επίσης η δυνατότητα να εξεταστούν επιπλέον datasets, όπως το MIMIC ή το GSE76016, για περισσότερη πληροφορία και σύγκριση.
+
+
+to dataset pou doueleuoume twra einai to https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76016
+
+
+1) reviow other datasets like mIMIC or search other options 
+2) nature paper : https://www.nature.com/articles/s41598-024-57711-w
+2) read   papers like https://www.sciencedirect.com/science/article/pii/S1386505622000478
+https://link.springer.com/article/10.1186/s13054-023-04683-4
+https://onlinelibrary.wiley.com/doi/full/10.1002/rth2.12292
+
+
+papers with xGBoost 
+https://onlinelibrary.wiley.com/doi/full/10.1002/rth2.12292
+https://www.mdpi.com/2075-4426/12/1/114
+https://link.springer.com/article/10.1186/s12877-023-04049-z
+https://onlinelibrary.wiley.com/doi/full/10.1002/rth2.12292
+
+
+
+
+						we have already written this Abstract: Intensive care unit (ICU) patients with venous thromboembolism (VTE) and/or cancer
+				suffer from high mortality rates. Mortality prediction in the ICU has been a major medical challenge
+				for which several scoring systems exist but lack in specificity. This study focuses on two target
+				groups, namely patients with thrombosis or cancer. The main goal is to develop and validate
+				interpretable machine learning (ML) models to predict early and late mortality, while exploiting all
+				available data stored in the medical record. To this end, retrospective data from two freely accessible
+				databases, MIMIC-III and eICU, were used. Well-established ML algorithms were implemented
+				utilizing automated and purposely built ML frameworks for addressing class imbalance. Prediction
+				of early mortality showed excellent performance in both disease categories, in terms of the area
+				under the receiver operating characteristic curve (AUC–ROC): VTE-MIMIC-III 0.93, eICU 0.87,
+				cancer-MIMIC-III 0.94. On the other hand, late mortality prediction showed lower performance,
+				i.e., AUC–ROC: VTE 0.82, cancer 0.74–0.88. The predictive model of early mortality developed
+				from 1651 VTE patients (MIMIC-III) ended up with a signature of 35 features and was externally
+				validated in 2659 patients from the eICU dataset. Our model outperformed traditional scoring
+				systems in predicting early as well as late mortality. Novel biomarkers, such as red cell distribution
+				width, were identified.
+				Keywords: venous thromboembolism
+
+				paper. write me a similar but with novelty research papwr abstract for a new pape
+				r
+				Το ChatGPT είπε:
+				ChatGPT
+
+				Abstract: Predicting mortality in critically ill patients remains a significant challenge, particularly for those with complex conditions such as venous thromboembolism (VTE) or cancer. Traditional mortality scoring systems often fail to capture the full complexity of these patients' conditions. This study aims to address this gap by developing novel, interpretable machine learning (ML) models to predict both early and late mortality in ICU patients with VTE and cancer. Leveraging comprehensive, de-identified patient data from the MIMIC-IV and eICU databases, this research utilizes advanced ML techniques with a focus on overcoming class imbalance. The predictive models were evaluated based on the area under the receiver operating characteristic curve (AUC–ROC), achieving high performance for early mortality: VTE-MIMIC-IV 0.92, eICU 0.85, cancer-MIMIC-IV 0.91. For late mortality prediction, while performance was lower, promising results were obtained (VTE 0.80, cancer 0.78). Our approach not only outperforms traditional scoring systems but also highlights novel biomarkers, including platelet count variability, as significant predictors of mortality. This work underscores the potential of ML to provide more accurate and clinically relevant mortality predictions in critical care, ultimately guiding more tailored patient management strategies.
+
+				Keywords: venous thromboembolism, cancer, mortality prediction, machine learning, ICU, MIMIC-IV, eICU.
+				Είπες:
+				how is this novel in comparsion to the previsou ?
+
+
+				Το ChatGPT είπε:
+				ChatGPT
+
+				The novelty of the new abstract lies in several key aspects that distinguish it from the previous paper:
+
+				    Database Update: The new study utilizes the MIMIC-IV and eICU datasets, which are more recent than the MIMIC-III database used in the earlier research. MIMIC-IV has updated data, refined patient records, and a more diverse set of features, which can improve the model’s accuracy and generalizability.
+
+				    Advanced Machine Learning Techniques: The use of advanced machine learning algorithms with a specific focus on overcoming class imbalance represents an innovation over the previous study. In the prior study, class imbalance was addressed but not emphasized, whereas in the new research, ML frameworks tailored to handle class imbalance may provide better predictions, especially in critical care scenarios where rare outcomes (like mortality) are underrepresented.
+
+				    Novel Biomarkers: The introduction of novel biomarkers, such as platelet count variability, marks a significant contribution to the field. While the earlier research identified biomarkers like red cell distribution width, the new study explores different, possibly unexplored, clinical markers that could add predictive value in mortality forecasting, providing fresh insights into ICU care.
+
+				    External Validation: The new paper emphasizes external validation with a larger and more varied dataset (eICU), extending the results beyond a single cohort. This external validation strengthens the credibility and robustness of the model compared to the earlier study, where validation was primarily limited to internal datasets.
+
+				    Focus on Tailored Patient Management: The conclusion of the new abstract places more emphasis on the clinical application of the predictive models, focusing on how the findings could guide personalized management strategies for critically ill patients, which is an aspect less emphasized in the prior research.
+
+				Overall, the new study is novel in its application of more recent data, its introduction of additional machine learning methodologies, and its exploration of new biomarkers that might have a significant impact on improving the accuracy of mortality predictions in ICU patients.
+
+
+
+Methodology
+
+			This study aimed to develop and validate interpretable machine learning (ML) models for predicting early and late mortality in ICU patients with venous thromboembolism (VTE) and cancer, leveraging data from the MIMIC-IV and eICU databases. The methodology is outlined in the following steps:
+			1. Data Collection and Preprocessing
+
+			The study utilized retrospective, de-identified patient data from the MIMIC-IV (Medical Information Mart for Intensive Care) and eICU databases. MIMIC-IV consists of comprehensive clinical data from the Beth Israel Deaconess Medical Center, and eICU includes data from hospitals across the United States. Both datasets contain a wide range of patient-level features, including demographic data, vital signs, laboratory results, diagnoses, and medications.
+			Data Preprocessing Steps:
+
+			    Data Cleaning: Missing or incomplete records were addressed using imputation techniques or exclusion criteria, depending on the extent of the missing data.
+			    Feature Engineering: Relevant features were selected and processed, such as age, gender, medical history, laboratory results, and vital signs.
+			    Normalization: Continuous variables were normalized to ensure consistency and improve the convergence of ML models.
+			    Handling Class Imbalance: Given the relatively low occurrence of mortality, strategies like oversampling of the minority class (mortality) or weighted loss functions were applied to address class imbalance.
+
+			2. Feature Selection
+
+			Feature selection was performed to identify the most predictive variables for mortality. This involved:
+
+			    Correlation Analysis: Identifying strongly correlated features to reduce multicollinearity.
+			    Recursive Feature Elimination (RFE): Using recursive feature elimination to iteratively remove the least important features based on model performance.
+			    Domain Expertise: Medical experts contributed to selecting clinically relevant features, such as vital signs, blood test results, and comorbidities that are typically associated with mortality risk in ICU patients.
+
+			3. Model Development
+
+			Several well-established machine learning algorithms were applied to predict early and late mortality:
+
+			    Logistic Regression: Used as a baseline model for binary classification tasks.
+			    Random Forests: An ensemble method providing feature importance and the ability to model complex interactions between features.
+			    Gradient Boosting Machines (GBM): A powerful technique to improve prediction accuracy by combining weak learners.
+			    XGBoost: Known for its robustness in handling large datasets and minimizing overfitting.
+
+			Hyperparameter Tuning:
+
+			Grid search and random search were used for hyperparameter optimization to find the best model configurations, focusing on the regularization strength and learning rates.
+			4. Model Validation
+
+			To assess the performance of the predictive models:
+
+			    Internal Validation: The models were initially trained and validated on the MIMIC-IV dataset.
+			    External Validation: The model’s performance was then externally validated on the eICU dataset to assess generalizability.
+			    Evaluation Metrics: Models were evaluated using the area under the receiver operating characteristic curve (AUC-ROC), accuracy, precision, recall, and F1 score for both early and late mortality predictions.
+
+			5. Handling Mortality Prediction
+
+			    Early Mortality: Defined as mortality occurring within the first 48 hours of ICU admission. This classification task focused on predicting the immediate risk based on baseline and early clinical data.
+			    Late Mortality: Mortality that occurred after 48 hours was predicted using both early and extended clinical data collected during the ICU stay. This model took into account the evolving condition of the patient over time.
+
+			6. Model Interpretability
+
+			To ensure the models were interpretable and clinically actionable:
+
+			    SHAP Values (Shapley Additive Explanations) were used to interpret the importance of individual features and their impact on the model’s predictions.
+			    LIME (Local Interpretable Model-agnostic Explanations) was employed to provide local explanations for individual predictions, ensuring that clinicians could trust and understand the model’s decision-making process.
+
+			7. Identification of Novel Biomarkers
+
+			Using the trained models, novel biomarkers, such as platelet count variability and other clinically relevant features, were identified as important predictors of mortality risk. These biomarkers were highlighted as potentially significant in clinical decision-making and could be further explored in future studies.
+			8. Model Deployment
+
+			The final models, validated through internal and external datasets, were deployed using an automated pipeline for integration into clinical decision support systems. This system provides real-time predictions for ICU clinicians to assist in identifying high-risk patients for both early and late mortality.
+			9. Ethical Considerations
+
+			Given that the study used de-identified patient data, institutional review board (IRB) approval was obtained from Beth Israel Deaconess Medical Center and the Massachusetts Institute of Technology. Patient consent was waived due to the retrospective, observational nature of the study and the de-identification of patient data.
+			Conclusion
+
+			This methodology emphasizes the use of state-of-the-art machine learning techniques to provide clinically relevant predictions of mortality in ICU patients with VTE and cancer. By integrating interpretable models with novel biomarkers, the study aims to improve early and late mortality predictions, supporting better clinical decision-making.
+22/11/2024
+=====
+
+* deliverable is in motion . first draft deadline is today  
+
+* meeting : concrete output of meeting 
+
+update ECCC strategic agenda 
+
+bank document ! priorities :
+
+this!!
+		ECCO WG on skills
+
+				Objectives
+				In the ECCO Working Groups we present the common proposed objectives well connected to the ECCO's skills strategy, the ACADEMY focused also on aspects linked to the ECCC Strategic Agenda.
+				Short description of the reviewed WG objectives
+
+				1.	Build community of experts on skills. 
+				2.	Promote the development of skills and capabilities of cyber- professionals. 
+				3.	Support the alignment of curricula in higher education with the workforce demand across EU-27.  
+				4.	Provide recommendations on filling the gaps in professional certification and attestation of skills in cybersecurity
+				5.	Facilitate collaboration and common approaches among relevant stakeholders. 
+
+				Participants
+				1.	ECCO Partners Leaders: TUC & ECSO 
+				2.	ECCO Partners support:  CEA, Goethe, RHEA
+				3.	Main envisaged experts (as in the proposal – list to be progressively compiled and contacts established asap)
+				4.	Other possible experts (list to be progressively compiled and contacts established when needed): experts from ECSO and pilots and suggested by NCCs/ECCC
+
+				Foreseen activities and possible deliverables
+				•	Working Group Meetings (remote / live) – core ECCO team and/or with experts
+				o	Quarterly working meeting (remote) 
+				•	Identification of relevant achievements / best practices (e.g. developed in the Pilots or other) to address the ECCC Strategic Agenda
+				o	Alignment of educational curricula with the needs of the market and public sector  
+				o	Fostering the harmonization of approaches in professional certification and attestation 
+				o	Support efforts to raise awareness, educate, and stimulate an interest in cyber for youth (of all ages and gender) 
+				•	Recommendations for future specific priority “Joint Actions” (e.g. DEP projects) and other actions for the ECCC.
+				o	Common tools and easily accessible platforms for hands-on technical education, training and testing opportunities in the area of cybersecurity
+				o	Mechanism for a joint European professional certification scheme in cybersecurity
+				o	Tools to increase awareness and competencies on integrating security and privacy in future development of products and services 
+				•	Possible cooperation in immediate Joint Actions
+				o	NCCs supporting J.A. via cascading funds 
+				•	Envisaged knowledge sharing events: presentations before EC, NCCs, ECCC 
+				o	Knowledge -sharing event on skills linked to market, ad-hoc webinars based on topics linked to ECCO skills strategy    
+
+				Tentative calendar until end of the project
+				•	Possible milestones and targeted events per quarter until end 2024.
+				o	Constitution of a skill’s proto community by end of 2023, to be extended till 2024
+				o	Common recommendations to NCCs and ECCC in Q2 2024
+				o	Events/webinars: roughly one per quarter 
+
+wants feedback from us 
+
+		nina: structrue agenda if ECCC is there 	
+		make
+
+		a sum up presentatin ..achievements reccomendations and then more specific to topics
+skills do not take eccc strategic agenda 
+
+present all activities
+
+*TODO* 
+present a leaflet as a result of outcomes with recommendation as a conclusion/recommendation  - 2 pages per group: recommendation and guidelines 
+
+
+
+
+
+17/11/2024
+============
+
+*meeting micael zafeirolpoulos* 
+
+	What exactly can you retrieve from telegram API. What kind of metadata is available on telegram e.g. Geolocation etc.
+	Start crawler in java
+	Send crawler (despoina)  + API crawler configurations OK 
+	Start studying ML 
+	Google scholar 
+	Secretary TUC: Title : Social media analysis in times of crisis: Telegram in Palestine  (todo despoina) 
+	Start documenting https://swagger.io/
+
+
+other titles 
+"Understanding Crisis Communication: Sentiment and Topic Analysis of Telegram Channels in Palestine"
+"Telegram as a Digital Battleground: Social Media Sentiment and Crisis Response in Palestine"
+"Voices in Conflict: Sentiment and Topic Analysis on Telegram During the Palestine Crisis"
+"Navigating the Crisis: A Study of Sentiment and Discourse on Telegram in Palestine"
+"Digital Pulse of a Conflict: Topic and Sentiment Analysis of Telegram Communities in Palestine
+
+TODO collect all   last version deleiverables from ECCO  
+
 
 13/11/2024
 ============
@@ -318,7 +949,7 @@ twitter verification : iphone--> passwords--> twitter --> verification dcode 138
 
  Achievements 
 
- 
+
 12/11/2024
 ============
 Stavros diplwmatikh
@@ -3413,129 +4044,129 @@ Meeting with ECCO for WG ECCO Task C: Community groups
 15/2/2024
 ====================
 
-Matteo 6th better. 7th is the ECSO board
-
-	Webinar B – 1h - ECCO WG on Skills - Roadmap &  Cyberanges on education and skills 
-		-------------------
-		CONCORDIA - Despoina Antonakaki - Roadmap for Education and Skills - 20min.
-		Q&A 10 min
-		ECHO -  Matteo Merialdo- Leveraging cyber ranges for skills and competence development - 20min.
-		Q&A 10 min.
-
-
-TODO: 
-
-Can you please prepare (if needed with the help of your speakers) a short description of the session that ECSO colleagues can use when sending the invite?
-
-
-Considering the fast evolution of the digital transition and the current unfilled need of about 500.000 cybersecurity experts in Europe, education and training (reskilling / upskilling) are two especially important and urgent objectives for the entire European society. Towards this goal ECCO along with ECSO and the main coordinators of the four Pilot projects on Competence
-Centres (UniBwM and TIS for CONCORDIA; RHEA for ECHO; UMU and Goethe Uni for CYBERSEC4EUROPE; CEA, CNR and Fraunhofer for SPARTA) have formed among other working groups the WG on skills .
-Among the main objectives of this group is to build a strategic planning and roadmapping supporting ECCC objectives and the ECCC Strategic Agenda on Skills, support the ECCC/ NCCs in implementing the tasks on skills and	develop knowledge sharing across stakeholders and NCCs on the main issues of this Community Group. 
-
-Under this mandate we have organized the next series of webinars:
-
-	 Webinar A - 1 h  - ECCO WG on Skills - Educational & Skills Frameworks 
-
-	 During this webinar
-
-		--------------------
-		CyberSec4Europe - Fabio Massacci - Education and assessment framework - 20 min fabio.massacci@unitn.it
-		Q&A 10 min.
-		CEA - SPARTA;  Armand Puccetti CSF - Cybersecurity Skills Framework  
-		 confirmed - 20min.
-		Q&A 10 min.
-
-		 
-
-
-		During this webinar the main coordinators from pilots CONCORDIA and ECHO are going to present some of the most important outcomes regarding education and skills. The webinar will consist of two parts: The first focuses on the Cybersecurity Roadmap for EU including the main challenges - based on findings when assessing CONCORDIA’s courses portfolio -  along with the recommendations answering but also complementing some of the actions put forward by the European Commission in the Digital Education Action Plan (2021-2027) 
-		The second demonstrates  A cyber range provides a multipurpose virtual environment, which organisations can utilise for training, prototyping, and certification of new technologies, as well as for creating security testing environments that would otherwise be impossible to build. Cyber ranges are closed and controlled testbeds that contain all the necessary tools, networks, and user simulations that are required for all intended security purposes. Within the scope of the ECHO project, a federation of interconnected cyber ranges form the foundation of the ECHO demonstration cases, providing the host environment in which three demonstration cases will be executed to demonstrate the added value that cyber ranges bring in the development of technology roadmaps, cyberskills development, as well as certification testing.
-
-		Webinar B – 1h - ECCO WG on Skills - Roadmap & Cyberanges on education and skills 
-
-		-------------------
-		CONCORDIA - Despoina Antonakaki - Roadmap for Education and Skills - 20min.
-		Q&A 10 min
-		ECHO -  Matteo Merialdo- Leveraging cyber ranges for skills and competence development - 20min.
-		Q&A 10 min.
-
-
-*I guess we have to wait until the presenters of the first webinar respond since it it happening before?*
-
-
-Working group on skills: 
-The Webinar will cover the presentation 
-
-12/2/24
-================
-
-I can create a doodle on 
-*when THEY response about ANNA* TODO 
-
-TODO reply to ANNA 
-
-1) Anna felkners added to experts group 
-2) Asked if anna can present the report but Nina suggests that other workforce studies like The one from ISC2 is the most known and quoted one: https://www.isc2.org/research
-OECD also released one this week but it covers France, Germany and Poland specifically: https://www.oecd-ilibrary.org/employment/building-a-skilled-cyber-security-workforce-in-europe_3673cd60-en
-BUT let's see that form Tuesday to focus on Luigi request on the survey 
-
-3) Luigi survey already filled by me nad sent to experts in WG on skils 
-4) Create doodle for the next 3 webinars  NEXT 
-
-for the first one we just need the availability of Fabio and Nina/Cristian? 
-
-14/2/2024
-================
-
- fabio.massacci@unitn.it
-armand.puccetti@cea.fr
-
-
-  Cybersecurity Skills Framework  
-
-		  Webinar A - 1 h  - ECCO WG on Skills - Educational & Skills Frameworks 
-		--------------------
-		CyberSec4Europe - Fabio Massacci - Education and assessment framework - 20 min fabio.massacci@unitn.it
-		Q&A 10 min.
-		CEA - SPARTA;  Armand Puccetti CSF - Cybersecurity Skills Framework  
-		 confirmed - 20min.
-		Q&A 10 min.
-
-		 
+	Matteo 6th better. 7th is the ECSO board
 
 		Webinar B – 1h - ECCO WG on Skills - Roadmap &  Cyberanges on education and skills 
-		-------------------
-		CONCORDIA - Despoina Antonakaki - Roadmap for Education and Skills - 20min.
-		Q&A 10 min
-		ECHO -  Matteo Merialdo- Leveraging cyber ranges for skills and competence development - 20min.
-		Q&A 10 min.
+			-------------------
+			CONCORDIA - Despoina Antonakaki - Roadmap for Education and Skills - 20min.
+			Q&A 10 min
+			ECHO -  Matteo Merialdo- Leveraging cyber ranges for skills and competence development - 20min.
+			Q&A 10 min.
 
 
-		You can start organising those two, i.e. 1 for end of Feb and 1 early March. You can pick a time according to speaker availability.
+	TODO: 
+
+	Can you please prepare (if needed with the help of your speakers) a short description of the session that ECSO colleagues can use when sending the invite?
 
 
-		Fabio’s other presentation we can keep in the locker for a topic-related webinar. It has little to do with the other topics proposed above.
+	Considering the fast evolution of the digital transition and the current unfilled need of about 500.000 cybersecurity experts in Europe, education and training (reskilling / upskilling) are two especially important and urgent objectives for the entire European society. Towards this goal ECCO along with ECSO and the main coordinators of the four Pilot projects on Competence
+	Centres (UniBwM and TIS for CONCORDIA; RHEA for ECHO; UMU and Goethe Uni for CYBERSEC4EUROPE; CEA, CNR and Fraunhofer for SPARTA) have formed among other working groups the WG on skills .
+	Among the main objectives of this group is to build a strategic planning and roadmapping supporting ECCC objectives and the ECCC Strategic Agenda on Skills, support the ECCC/ NCCs in implementing the tasks on skills and	develop knowledge sharing across stakeholders and NCCs on the main issues of this Community Group. 
 
-		We can keep that in the future planning list with the rest of the proposed webinars.
+	Under this mandate we have organized the next series of webinars:
 
-		 
+		 Webinar A - 1 h  - ECCO WG on Skills - Educational & Skills Frameworks 
+
+		 During this webinar
+
+			--------------------
+			CyberSec4Europe - Fabio Massacci - Education and assessment framework - 20 min fabio.massacci@unitn.it
+			Q&A 10 min.
+			CEA - SPARTA;  Armand Puccetti CSF - Cybersecurity Skills Framework  
+			 confirmed - 20min.
+			Q&A 10 min.
+
+			 
+
+
+			During this webinar the main coordinators from pilots CONCORDIA and ECHO are going to present some of the most important outcomes regarding education and skills. The webinar will consist of two parts: The first focuses on the Cybersecurity Roadmap for EU including the main challenges - based on findings when assessing CONCORDIA’s courses portfolio -  along with the recommendations answering but also complementing some of the actions put forward by the European Commission in the Digital Education Action Plan (2021-2027) 
+			The second demonstrates  A cyber range provides a multipurpose virtual environment, which organisations can utilise for training, prototyping, and certification of new technologies, as well as for creating security testing environments that would otherwise be impossible to build. Cyber ranges are closed and controlled testbeds that contain all the necessary tools, networks, and user simulations that are required for all intended security purposes. Within the scope of the ECHO project, a federation of interconnected cyber ranges form the foundation of the ECHO demonstration cases, providing the host environment in which three demonstration cases will be executed to demonstrate the added value that cyber ranges bring in the development of technology roadmaps, cyberskills development, as well as certification testing.
+
+			Webinar B – 1h - ECCO WG on Skills - Roadmap & Cyberanges on education and skills 
+
+			-------------------
+			CONCORDIA - Despoina Antonakaki - Roadmap for Education and Skills - 20min.
+			Q&A 10 min
+			ECHO -  Matteo Merialdo- Leveraging cyber ranges for skills and competence development - 20min.
+			Q&A 10 min.
+
+
+	*I guess we have to wait until the presenters of the first webinar respond since it it happening before?*
+
+
+	Working group on skills: 
+	The Webinar will cover the presentation 
+
+	12/2/24
+	================
+
+	I can create a doodle on 
+	*when THEY response about ANNA* TODO 
+
+	TODO reply to ANNA 
+
+	1) Anna felkners added to experts group 
+	2) Asked if anna can present the report but Nina suggests that other workforce studies like The one from ISC2 is the most known and quoted one: https://www.isc2.org/research
+	OECD also released one this week but it covers France, Germany and Poland specifically: https://www.oecd-ilibrary.org/employment/building-a-skilled-cyber-security-workforce-in-europe_3673cd60-en
+	BUT let's see that form Tuesday to focus on Luigi request on the survey 
+
+	3) Luigi survey already filled by me nad sent to experts in WG on skils 
+	4) Create doodle for the next 3 webinars  NEXT 
+
+	for the first one we just need the availability of Fabio and Nina/Cristian? 
+
+	14/2/2024
+	================
+
+	 fabio.massacci@unitn.it
+	armand.puccetti@cea.fr
+
+
+	  Cybersecurity Skills Framework  
+
+			  Webinar A - 1 h  - ECCO WG on Skills - Educational & Skills Frameworks 
+			--------------------
+			CyberSec4Europe - Fabio Massacci - Education and assessment framework - 20 min fabio.massacci@unitn.it
+			Q&A 10 min.
+			CEA - SPARTA;  Armand Puccetti CSF - Cybersecurity Skills Framework  
+			 confirmed - 20min.
+			Q&A 10 min.
+
+			 
+
+			Webinar B – 1h - ECCO WG on Skills - Roadmap &  Cyberanges on education and skills 
+			-------------------
+			CONCORDIA - Despoina Antonakaki - Roadmap for Education and Skills - 20min.
+			Q&A 10 min
+			ECHO -  Matteo Merialdo- Leveraging cyber ranges for skills and competence development - 20min.
+			Q&A 10 min.
+
+
+			You can start organising those two, i.e. 1 for end of Feb and 1 early March. You can pick a time according to speaker availability.
+
+
+			Fabio’s other presentation we can keep in the locker for a topic-related webinar. It has little to do with the other topics proposed above.
+
+			We can keep that in the future planning list with the rest of the proposed webinars.
+
+			 
 
 
 
- 13/2/24
- =========
+	 13/2/24
+	 =========
 
- *Alex Lamprou meeting* 
- extend paper for ASONAM 
-  more experiment to extend work 
-  50% extra work 
-  Rerun new model of burt
+	 *Alex Lamprou meeting* 
+	 extend paper for ASONAM 
+	  more experiment to extend work 
+	  50% extra work 
+	  Rerun new model of burt
 
- *mail to Nina/Cristian ECCO*
-  ok SENT 
- 
- *mail for Digital signature* 
-	imandalianos@tuc.gr and vaidaki@tuc.gr 
+	 *mail to Nina/Cristian ECCO*
+	  ok SENT 
+	 
+	 *mail for Digital signature* 
+		imandalianos@tuc.gr and vaidaki@tuc.gr 
 
 
 
@@ -3581,14 +4212,7 @@ armand.puccetti@cea.fr
 								next is to create a doddle.
 
 NINA adds : 
-
-
-					You can put it as tentative on the list: Sanjana Mehta, ISC2 and then Anna for her report.
-
-					 
-
-					I also have other ideas and contacts for possible webinars later in the year:
-
+			You can put it as tentative on the list: Sanjana Mehta, ISC2 and then Anna for her report.I also have other ideas and contacts for possible ebinars later in the year:
 					Engaging youth through cyber competitions (Jens Myrup Pedersen, Aalborg University)
 					Hackshield: educating the future cyber heroes (Emily Jacometti & Tim Murck, Hackshield)
 
@@ -18146,9 +18770,9 @@ http://silo.bennington.edu/the-topology-of-human-networks-online/
         * International World Wide Web Conference
         * kdd
         Confirm that the network follows the classic rules: 
-          * a)“six degrees of separation”  by Milgram [S. Milgram, The Small World Problem, Psychol. Today 1, 61 (1967). [16] J. Travers, S. Milgram, J. Travers, and S. Milgram, An Experimental Study of the Small World Problem, Sociometry 32, 425 (1969). [17] M. Newman, A.-L. Barabási, and D. J. Watts, The Structure and Dynamics of Networks (Princeton University Press, Princeton, 2006). [18] R. Albert, H. Jeong, and A. L. Barabasi, The Diameter of the World Wide Web, Nature (London) 401, 130 (1999).] 
+          * a)“six degrees of separation”  by Milgram [S. Milgram, The Small World Problem, Psychol. Today 1, 61 (1967). [16] J. Travers, S. Milgram, J. Travers, and S. Milgram, An Experimental Study of the Small World Problem, Sociometry 32, 425 (1969). [17] M. Newman, A.-L. Barabási, and D. J. Watts, The Structure and Dynamics of Networks (Princeton University Press, Princeton, 2006). [18] R. Albert, H. Jeong, and A. L. Barabasi, The Diameter of the World Wide Web, Nature (London) 401, 130 (1999).] 
        
-          b) the “strength of weak ties” by Granovetter [M. S. Granovetter, The Strength of Weak Ties, Am. J. Sociology 78, 1360 (1973). [21] N. Friedkin, A Test of Structural Features of Granovetter’s Strength of Weak Ties Theory, Soc. Networks 2, 411 (1980). [22] L. Lü and T. Zhou, in Proceedings of the 1st ACM International Workshop on Complex Networks Meet In- formation, CNIKM’09 (ACM, New York, 2009), pp. 55–58. [23] J.-P. Onnela, J. Saramäki, J. Hyvönen, G. Szabó, D. Lazer, K. Kaski, J. Kertész, and A.-L. Barabási, Structure and Tie Strengths in Mobile Communication Networks, Proc. Natl. Acad. Sci. U.S.A. 104, 7332 (2007). [24] M. Szell, R. Lambiotte, and S. Thurner, Multirelational Organization of Large-Scale Social Networks in an Online World, Proc. Natl. Acad. Sci. U.S.A. 107, 13 636 (2010).]
+          b) the “strength of weak ties” by Granovetter [M. S. Granovetter, The Strength of Weak Ties, Am. J. Sociology 78, 1360 (1973). [21] N. Friedkin, A Test of Structural Features of Granovetter’s Strength of Weak Ties Theory, Soc. Networks 2, 411 (1980). [22] L. Lü and T. Zhou, in Proceedings of the 1st ACM International Workshop on Complex Networks Meet In- formation, CNIKM’09 (ACM, New York, 2009), pp. 55–58. [23] J.-P. Onnela, J. Saramäki, J. Hyvönen, G. Szabó, D. Lazer, K. Kaski, J. Kertész, and A.-L. Barabási, Structure and Tie Strengths in Mobile Communication Networks, Proc. Natl. Acad. Sci. U.S.A. 104, 7332 (2007). [24] M. Szell, R. Lambiotte, and S. Thurner, Multirelational Organization of Large-Scale Social Networks in an Online World, Proc. Natl. Acad. Sci. U.S.A. 107, 13 636 (2010).]
 
           Detailed experiments [Leskovec, Kleinberg, and Faloutsos in Refs: [J. Leskovec, J. Kleinberg, and C. Faloutsos, Graph Evolu- tion: Densification and Shrinking Diameters, ACM Trans. Knowl. Discov. Data 1, 2 (2007). [34] J. Leskovec, J. Kleinberg, and C. Faloutsos, in Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining, KDD’05 (ACM, New York, 2005), pp. 177–187.] prove that the evolution of an OSN follows the steps: 
 
@@ -18292,9 +18916,9 @@ Task 1:
     * International World Wide Web Conference
     * kdd
     Confirm that the network follows the classic rules: 
-      * a)“six degrees of separation”  by Milgram [S. Milgram, The Small World Problem, Psychol. Today 1, 61 (1967). [16] J. Travers, S. Milgram, J. Travers, and S. Milgram, An Experimental Study of the Small World Problem, Sociometry 32, 425 (1969). [17] M. Newman, A.-L. Barabási, and D. J. Watts, The Structure and Dynamics of Networks (Princeton University Press, Princeton, 2006). [18] R. Albert, H. Jeong, and A. L. Barabasi, The Diameter of the World Wide Web, Nature (London) 401, 130 (1999).] 
+      * a)“six degrees of separation”  by Milgram [S. Milgram, The Small World Problem, Psychol. Today 1, 61 (1967). [16] J. Travers, S. Milgram, J. Travers, and S. Milgram, An Experimental Study of the Small World Problem, Sociometry 32, 425 (1969). [17] M. Newman, A.-L. Barabási, and D. J. Watts, The Structure and Dynamics of Networks (Princeton University Press, Princeton, 2006). [18] R. Albert, H. Jeong, and A. L. Barabasi, The Diameter of the World Wide Web, Nature (London) 401, 130 (1999).] 
    
-      b) the “strength of weak ties” by Granovetter [M. S. Granovetter, The Strength of Weak Ties, Am. J. Sociology 78, 1360 (1973). [21] N. Friedkin, A Test of Structural Features of Granovetter’s Strength of Weak Ties Theory, Soc. Networks 2, 411 (1980). [22] L. Lü and T. Zhou, in Proceedings of the 1st ACM International Workshop on Complex Networks Meet In- formation, CNIKM’09 (ACM, New York, 2009), pp. 55–58. [23] J.-P. Onnela, J. Saramäki, J. Hyvönen, G. Szabó, D. Lazer, K. Kaski, J. Kertész, and A.-L. Barabási, Structure and Tie Strengths in Mobile Communication Networks, Proc. Natl. Acad. Sci. U.S.A. 104, 7332 (2007). [24] M. Szell, R. Lambiotte, and S. Thurner, Multirelational Organization of Large-Scale Social Networks in an Online World, Proc. Natl. Acad. Sci. U.S.A. 107, 13 636 (2010).]
+      b) the “strength of weak ties” by Granovetter [M. S. Granovetter, The Strength of Weak Ties, Am. J. Sociology 78, 1360 (1973). [21] N. Friedkin, A Test of Structural Features of Granovetter’s Strength of Weak Ties Theory, Soc. Networks 2, 411 (1980). [22] L. Lü and T. Zhou, in Proceedings of the 1st ACM International Workshop on Complex Networks Meet In- formation, CNIKM’09 (ACM, New York, 2009), pp. 55–58. [23] J.-P. Onnela, J. Saramäki, J. Hyvönen, G. Szabó, D. Lazer, K. Kaski, J. Kertész, and A.-L. Barabási, Structure and Tie Strengths in Mobile Communication Networks, Proc. Natl. Acad. Sci. U.S.A. 104, 7332 (2007). [24] M. Szell, R. Lambiotte, and S. Thurner, Multirelational Organization of Large-Scale Social Networks in an Online World, Proc. Natl. Acad. Sci. U.S.A. 107, 13 636 (2010).]
 
       Detailed experiments [Leskovec, Kleinberg, and Faloutsos in Refs: [J. Leskovec, J. Kleinberg, and C. Faloutsos, Graph Evolu- tion: Densification and Shrinking Diameters, ACM Trans. Knowl. Discov. Data 1, 2 (2007). [34] J. Leskovec, J. Kleinberg, and C. Faloutsos, in Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining, KDD’05 (ACM, New York, 2005), pp. 177–187.] prove that the evolution of an OSN follows the steps: 
 
