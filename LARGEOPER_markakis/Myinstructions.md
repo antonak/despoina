@@ -1,0 +1,27 @@
+  Part A of the proposal typically appears after you begin the submission process, specifically in the next step of the submission flow. Here's a breakdown of the submission steps:
+
+    Start the Submission: After selecting your submission type (e.g., DIGITAL JU Grants for Financial Support or DIGITAL Action Grant Budget-Based) and confirming your choice, you'll start the submission process.
+
+    Part A (Administrative Information): This section usually includes:
+        General Information (Project title, acronym, summary, duration, etc.)
+        Applicant Details (Information about your organization or consortium, contact persons, etc.)
+        Financial Information (Budget, funding requests, etc.)
+        Ethical and Legal Issues (This may include declarations or approvals if required for your project).
+
+    Part B (Technical Proposal): After completing Part A, you’ll be asked to upload or fill in Part B, which contains the detailed technical description of the proposal:
+        Objectives
+        Expected outcomes
+        Methodology
+        Work packages
+        Deliverables
+        Milestones and timeline
+
+Once you press submit, you typically see Part B available for completion first, but Part A should come first in the submission workflow. If Part A isn't visible, it might be because you need to complete certain steps before it’s unlocked or it could be in a separate form that's shown after filling in the basic project details.
+
+To Summarize:
+
+    Part A usually comes first in the submission process, with basic administrative and financial details.
+    Part B contains the detailed technical and descriptive part of your proposal.
+
+If you cannot locate Part A right away, it’s likely in the early steps of the submission process, after you choose the submission type but before entering the detailed technical sections. Let me know if you need further clarification!
+
