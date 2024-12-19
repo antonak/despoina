@@ -1,17 +1,3 @@
-
-
-
-ADD NEW : 
-
-he rise in trolling behaviors on social media seriously jeopardizes constructive online discourse. Trolling is a disruptive behavior that can be manifested through various actions, including sending inflammatory or provocative messages with the aim of derailing conversations. This paper proposes DeTroll, a framework that leverages large language models, specifically DeBERTa, to perform social media troll detection. Our paper compares the performance of typical machine learning models, which include logistic regression and Naive Bayes, against that of DeBERTa in classifying social media data as troll or non-troll. Besides these, we also investigate whether it is possible to apply the most recent language model, called DeBERTa, via zero-shot and one-shot learning on other kinds of datasets to develop a robust model for detecting troll behavior across datasets. Results show the effectiveness of DeBERTa in detecting trolls, demonstrating high accuracy and predictive performance. Additionally, it improves limitations arising from data quality. Our results indicate that SiFT significantly improves model performance, while future work might improve the cross-dataset generalization ability. A comparison with OpenAI's GPT-4 further demonstrates the suitability of advanced LLMs for troll detection challenges.
-ORCID
- Hi Despoina Antonakaki (https://orcid.org/0000-0001-9081-6115) ,
-
-You
-
-
-
-
 ================== 
 EUROPAA
 arkalos GR8201727510005751111466797
@@ -247,8 +233,22 @@ twitter verification : iphone--> passwords--> twitter --> verification dcode 138
 
 ΔΡΑΣΤΙΡΙΟΤΗΤΕΣ 190 (μουσική) + 150 (σικινισ) + 160 (αγγλικά) + 60 (τέννις) + 100 (φυσιο) + 80 (κολύμβηση) = 740
 
+19 December 2024
+=================
+
+
 18 december 2024
 =================
+
+
+ADD NEW : 
+
+he rise in trolling behaviors on social media seriously jeopardizes constructive online discourse. Trolling is a disruptive behavior that can be manifested through various actions, including sending inflammatory or provocative messages with the aim of derailing conversations. This paper proposes DeTroll, a framework that leverages large language models, specifically DeBERTa, to perform social media troll detection. Our paper compares the performance of typical machine learning models, which include logistic regression and Naive Bayes, against that of DeBERTa in classifying social media data as troll or non-troll. Besides these, we also investigate whether it is possible to apply the most recent language model, called DeBERTa, via zero-shot and one-shot learning on other kinds of datasets to develop a robust model for detecting troll behavior across datasets. Results show the effectiveness of DeBERTa in detecting trolls, demonstrating high accuracy and predictive performance. Additionally, it improves limitations arising from data quality. Our results indicate that SiFT significantly improves model performance, while future work might improve the cross-dataset generalization ability. A comparison with OpenAI's GPT-4 further demonstrates the suitability of advanced LLMs for troll detection challenges.
+ORCID
+ Hi Despoina Antonakaki (https://orcid.org/0000-0001-9081-6115) ,
+
+You
+
 
 
 * telegram paper: updates volume plots
