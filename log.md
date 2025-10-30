@@ -1,170 +1,139 @@
-================== 
-EUROPAA
-arkalos GR8201727510005751111466797
-ΑΦΜ και Ημερομηνία εγγραφής στην ΑΑΔΕ	802346217
+* EUROPAA
+* A3 122268086 aegean miles and bonus 
+* arkalos GR8201727510005751111466797
+* ΑΦΜ και Ημερομηνία εγγραφής στην ΑΑΔΕ	802346217
+*passkey skype faceid in iphone 
+* INTACT https://meet.google.com/eic-ptiu-igz?hs=224
+7910 netflix 
+
+icloud
+
+
+eleni laptop AlexandKant  4@...
+eleni 
+12345blacK#
+dimitra
+45734UNicorn%
+
+mac
+dimitra 9999
 
 *ΤΙΜΟΛΟΓΙΟ*
-			https://mydata.aade.gr/timologio/Account/Login?ReturnUrl=%2Ftimologio
+* https://mydata.aade.gr/timologio/Account/Login?ReturnUrl=%2Ftimologio
 			antonakd - 118915739 - d3f42c6256e8a6681eabe631184bd285 
 
-			Subscription key	Όνομα χρήστη	Διεύθυνση ηλ. ταχυδρομείου	Ημερομηνία Εγγραφής	Κατάσταση	Διαγραφή
-			d3f42c6256e8a6681eabe631184bd285	antonakd		26/04/2023	Ενεργή	
+* Subscription key	Όνομα χρήστη	Διεύθυνση ηλ. ταχυδρομείου	Ημερομηνία Εγγραφής	Κατάσταση	Διαγραφή
+	d3f42c6256e8a6681eabe631184bd285	antonakd		26/04/2023	Ενεργή	
  
+V6-ZGUxuL9-4PCnA^    easyjet
+
+
 Timologia 
 ==================
-			*GREEN.DAT.AI*
-			https://mydata.aade.gr/timologio/Account/Login?ReturnUrl=%2Ftimologio
-			antonakd - 118915739 - d3f42c6256e8a6681eabe631184bd285 
+* GREEN.DAT.AI*
+	https://mydata.aade.gr/timologio/Account/Login?ReturnUrl=%2Ftimologio
+	antonakd - 118915739 - d3f42c6256e8a6681eabe631184bd285 
+* Είδος* : τιμολόγιο παροχής υπηρεσιών
+* Σειρά* μπαίνει μόνο του
+* ΑΑ* τίποτα 
+* ημερομηνία έκδοσης* Θα τιμολογήσεις 31/01/2024.τίποτα 
+* υποκατάστημα*
+* Επωνυμία*: ΕΙΔΙΚΟΣ  και το βρίσκει μόνο του,
+* ΑΦΜ* μπαίνει μόνο του 090087411,  
+* υποκατάστημα* το αφήνουμε ως έχει
+* χώρα* Ελλάδα  
+* Διεύθυνση*: Kτίριο Ε4 Πολυτεχνειούπολη, Χανιά Κρήτης, Τ.Κ. 73 100.Κουνουπιδιανά, Χανιά
+* Τρόπος πληρωμής* επί πιστώσει
+* Λοιπoί Συσχετιζόμενοι ΑΦΜ ΛΟΓΙΚΑ ΑΦΟΡΑ ΤΟ ΑΦΜ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ΠΟΥ ΕΧΕΤΕ ΤΩΡΑ ΜΕ ΤΟΝ ΑΛΕΞΑΝΔΡΟ! ΝΑΙ ΔΕΝ ΒΑΖΕΙΣ ΚΑΤΙ ΕΚΕΙ
+* Αγαθα* ADD NEW !! προσθηκη 2 - και μπαινουν ολα μονα τους . Δες και του προηγουμενου μηνα !6 - Συμμετοχή σε ερ. 
+  ευρωπαϊκό έργο Υποστήριξη της ΕΚ /ECCO Community Call LC-01973360 κωδικό 82899 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ *1/4/2024-30/4/2024*
+* Τιμή Μονάδος: στανταρ εχει μονο ενα 
+* Τιμή Μονάδος* 
+* ΦΠΑ* 0%  
+* Αιτία Εξαιρ. ΦΠΑ*: Λοιπες εφαιρεσεισ ΦΠΑ*
+* Χαρακτηρισμοί*  Έσοδα από Παροχή Υπηρεσιών (1.3) Πωλήσεις Αγαθών και υπηρεσιών Χονδρικές - Επιτηδευματιών (E3_561_001) 
+  poso 1640
+* Αγαθό/Υπηρεσία* 	 
+* Συμμετοχή ευρ.έργο «Ενεργειακά αποδ. χώροι δεδομένων/Green.Dat.AI101070416»κωδ. 82895ΔΙΑΣΤ. ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
+* ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 01/01/2024-31/01/2024
+* Συμμετοχή σε ερ. ευρωπαϊκό έργο «Ενεργειακά αποδοτικοί χώροι δεδομένων /  Green.Dat.AI 101070416» και κωδικό   82895  - 
+* WP2: Data management test-bench: Infrastructure and tools to support Dynamic Ecosystems, WP3: Energy-Efficient 
+* Large-Scale Data Analytics Services. - ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024 Συμμετοχή σε ευρωπαϊκό έργο «Ενεργειακά 
+* αποδοτικοί χώροι δεδομένων/Green.Dat.AI 101070416» κωδικό 82895 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
+* Συμμετοχή σε ευρ. έργο «Ενεργειακά αποδ. χώροι δεδομένων/Green.Dat.AI101070416»κωδ. 82895
+* ΔΙΑΣΤ. ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
+* Διάφοροι Φόροι*Παρακρατούμενοι Περ. δ'- Αμοιβές Συμβουλών Διοίκησης - 20% 1640 328 
+* Σχολια/Παρατηρησεισ ;
+* Tο εργολαβικό αντάλλαγμα απαλλάσσεται από το ΦΠΑ σύμφωνα με τις διατάξεις του άρθρου 4 παρ.5 της υπ ́.αριθ. Υπουργικής 
+* Απόφασης 1040588/1700/528/0014(ΦΕΚ 335/23-4-97).  Στο πληρωτέο ποσό δε συμπεριλαμβάνονται οι νόμιμες κρατήσεις (ΑΕΠΠ, 
+* ΕΑΑΔΗΣΥ,ΧΑΡΤ,ΟΓΑΧΑΡΤ,ΕΦΚΑ).ΔΙΑΣΤΗ.ΑΜΟΙΒΗΣ *01/06/2023-30/06/2023* 
+* Σχόλια / Παρατηρήσεις*
+* Tο εργολαβικό αντάλλαγμα απαλλάσσεται από το ΦΠΑ σύμφωνα με τις διατάξεις του άρθρου 4 παρ.5 της υπ ́.αριθ. Υπουργικής 
+* Aπόφασης 1040588/1700/528/0014(ΦΕΚ 335/23-4-97).  Στο πληρωτέο ποσό δε συμπεριλαμβάνονται οι νόμιμες κρατήσεις (ΑΕΠΠ, 
+* ΑΑΔΗΣΥ,ΧΑΡΤ,ΟΓΑΧΑΡΤ,ΕΦΚΑ).ΔΙΑΣΤΗ.ΑΜΟΙΒΗΣ 1/4/2024-30/4/2024
 
+* ΜΕΤΑ ΤΟ ΤΙΜΟΛΟΓΙΟ ΣΕ ΠΕΝΤΕ ΛΕΠΤΑ ΒΓΑΛΕ ΕΝΗΜΕΡΟΤΗΤΑ https://www.aade.gr/polites/forologiki-enimerotita/
+  ekdosi-apodeiktikoy-enimerotitas*
+* Το τιμολόγιο και τη φορολογική ενημερότητα θα τα στέλνεις ΜΟΝΟ σ εμένα κι εγώ θα τα προωθώ στη γραμματεία.
+* ενημερότητα* σχετικά με την ενημερότητα εχει δυο πεδια: ΔΕΝ επιλεγεις κανενα!
+  Παρακράτηση όλου του ποσού kαι Ύπαρξη περιοδικής απαίτησης (Ο έλεγχος γίνεται από τον φορέα πληρωμής ή εξόφλησης του τίτλου)
+ * Λόγοι έκδοσης Ενεργοποίηση επεξηγήσεων* Είσπραξη χρημάτων από φορείς του Δημοσίου Τομέα (πλην Κεντρικής Διοίκησης)
+   ΑΦΜ Φορέα 090087411
+   Στοιχεία τίτλου πληρωμής Στοιχεία ΜΑΡΚ εφαρμογής myDATA  Bazeis ta MARK apo ta timologia 
+* Tιμολόγιο παροχής υπηρεσιών
+* Σειρά μπαίνει μόνο του, ΑΑ τίποτα, ημερομηνία έκδοσης θα μπει αυτόματα  εσύ θα πρέπει να μπει τελος του μήνα.
+  τίποτα υποκατάστημα, Επωνυμία: ΕΙΔΙΚΟΣ  και το βρίσκει μόνο του,  ΑΦΜ μπαίνει μόνο του 090087411,  υποκατάστημα το αφήνουμε ως έχει χώρα Ελλάδα διεύθυνση
+  Διεύθυνση: : Kτίριο Ε4 Πολυτεχνειούπολη, Χανιά Κρήτης, Τ.Κ. 73 100.Κουνουπιδιανά, Χανιά
+  Τρόπος πληρωμής επί πιστώσει
+  Αγαθα ADD NEW !! προσθηκη 2 - και μπαινουν ολα μονα τους . Δες και του προηγουμενου μηνα !6 - Συμμετοχή σε ερ. ευρωπαϊκό έργο Υποστήριξη της ΕΚ /ECCO Community Call LC-01973360 κωδικό 82899 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ *1/2/2024-29/2/2024*
+  Συμμετοχή σε ερ.έργοΥποστήριξη της ΕΚ /ECCO Community Call LC-01973360-82899-ΔΙΑΣΤ. ΑΜΟΙΒΗΣ 1/4/2024-30/4/2024
+  Τιμή Μονάδος: στανταρ εχει μονο ενα 
+* ΦΠΑ: 0% δεν εχει 20%?* 
+* Αιτία Εξαιρ. ΦΠΑ: Λοιπες εφαιρεσεισ ΦΠΑ*
+  Είδος Φόρου 	Κατηγορία Φόρου 	Υποκείμενη Αξία (€) 	Ποσό Φόρου (€) 	Ενέργειες
+  Παρακρατούμενοι	Περ. δ'- Αμοιβές Συμβουλών Διοίκησης - 20%	120.00	24.00
+  Xarakthrismos Esoda apo Paroxh Yphresivn 1.3
+  ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 01/01/2024-31/01/2024
+  Σχολια/Παρατηρησεισ ;
+  Tο εργολαβικό αντάλλαγμα απαλλάσσεται από το ΦΠΑ σύμφωνα με τις διατάξεις του άρθρου 4 παρ.5 της υπ ́.αριθ. Υπουργικής Απόφασης 1040588/1700/528/0014(ΦΕΚ 335/23-4-97).  Στο πληρωτέο ποσό δε συμπεριλαμβάνονται οι νόμιμες κρατήσεις (ΑΕΠΠ, ΕΑΑΔΗΣΥ,ΧΑΡΤ,ΟΓΑΧΑΡΤ,ΕΦΚΑ).ΔΙΑΣΤΗ.ΑΜΟΙΒΗΣ 01/4/2024-30/04/2024
 
-  *Είδος* : τιμολόγιο παροχής υπηρεσιών
-			*Σειρά* μπαίνει μόνο του
-			*ΑΑ* τίποτα 
-			*ημερομηνία έκδοσης* Θα τιμολογήσεις 31/01/2024.
-			τίποτα *υποκατάστημα*
-			*Επωνυμία*: ΕΙΔΙΚΟΣ  και το βρίσκει μόνο του,
-			*ΑΦΜ* μπαίνει μόνο του 090087411,  
-			*υποκατάστημα* το αφήνουμε ως έχει
-			 *χώρα* Ελλάδα  
-			*Διεύθυνση*: Kτίριο Ε4 Πολυτεχνειούπολη, Χανιά Κρήτης, Τ.Κ. 73 100.Κουνουπιδιανά, Χανιά
-			*Τρόπος πληρωμής* επί πιστώσει
-
- *Λοιπoί Συσχετιζόμενοι ΑΦΜ*	
- 	  ΛΟΓΙΚΑ ΑΦΟΡΑ ΤΟ ΑΦΜ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ΠΟΥ ΕΧΕΤΕ ΤΩΡΑ ΜΕ ΤΟΝ ΑΛΕΞΑΝΔΡΟ!
-			ΝΑΙ ΔΕΝ ΒΑΖΕΙΣ ΚΑΤΙ ΕΚΕΙ
-
- *Αγαθα* ADD NEW !! προσθηκη 2 - και μπαινουν ολα μονα τους . Δες και του προηγουμενου μηνα !6 - Συμμετοχή σε ερ. ευρωπαϊκό έργο Υποστήριξη της ΕΚ /ECCO Community Call LC-01973360 κωδικό 82899 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ *1/4/2024-30/4/2024*
- 	Τιμή Μονάδος: στανταρ εχει μονο ενα 
-	*Τιμή Μονάδος* 
-	*ΦΠΑ* 0%  
-	*Αιτία Εξαιρ. ΦΠΑ*: Λοιπες εφαιρεσεισ ΦΠΑ*
- *Χαρακτηρισμοί*  Έσοδα από Παροχή Υπηρεσιών (1.3) Πωλήσεις Αγαθών και υπηρεσιών Χονδρικές - Επιτηδευματιών (E3_561_001) poso 1640
- *Αγαθό/Υπηρεσία* 	 
- 			- Συμμετοχή ευρ.έργο «Ενεργειακά αποδ. χώροι δεδομένων/Green.Dat.AI101070416»κωδ. 82895ΔΙΑΣΤ. ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
-				 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 01/01/2024-31/01/2024
-				Συμμετοχή σε ερ. ευρωπαϊκό έργο «Ενεργειακά αποδοτικοί χώροι δεδομένων /  Green.Dat.AI 101070416» και κωδικό   82895  - WP2: Data management test-bench: Infrastructure and tools to support Dynamic Ecosystems, WP3: Energy-Efficient Large-Scale Data Analytics Services. - ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
-			Συμμετοχή σε ευρωπαϊκό έργο «Ενεργειακά αποδοτικοί χώροι δεδομένων/Green.Dat.AI 101070416» κωδικό 82895 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
-			Συμμετοχή σε ευρ. έργο «Ενεργειακά αποδ. χώροι δεδομένων/Green.Dat.AI101070416»κωδ. 82895ΔΙΑΣΤ. ΑΜΟΙΒΗΣ 1/3/2024-31/3/2024
-*Διάφοροι Φόροι*Παρακρατούμενοι Περ. δ'- Αμοιβές Συμβουλών Διοίκησης - 20% 1640 328 
-			Σχολια/Παρατηρησεισ ;
-			Tο εργολαβικό αντάλλαγμα απαλλάσσεται από το ΦΠΑ σύμφωνα με τις διατάξεις του άρθρου 4 παρ.5 της υπ ́.αριθ. Υπουργικής Απόφασης 1040588/1700/528/0014(ΦΕΚ 335/23-4-97).  Στο πληρωτέο ποσό δε συμπεριλαμβάνονται οι νόμιμες κρατήσεις (ΑΕΠΠ, ΕΑΑΔΗΣΥ,ΧΑΡΤ,ΟΓΑΧΑΡΤ,ΕΦΚΑ).ΔΙΑΣΤΗ.ΑΜΟΙΒΗΣ *01/06/2023-30/06/2023* 
-*Σχόλια / Παρατηρήσεις*
-		Tο εργολαβικό αντάλλαγμα απαλλάσσεται από το ΦΠΑ σύμφωνα με τις διατάξεις του άρθρου 4 παρ.5 της υπ ́.αριθ. Υπουργικής Απόφασης 1040588/1700/528/0014(ΦΕΚ 335/23-4-97).  Στο πληρωτέο ποσό δε συμπεριλαμβάνονται οι νόμιμες κρατήσεις (ΑΕΠΠ, ΕΑΑΔΗΣΥ,ΧΑΡΤ,ΟΓΑΧΑΡΤ,ΕΦΚΑ).ΔΙΑΣΤΗ.ΑΜΟΙΒΗΣ 1/4/2024-30/4/2024
- *ΜΕΤΑ ΤΟ ΤΙΜΟΛΟΓΙΟ ΣΕ ΠΕΝΤΕ ΛΕΠΤΑ ΒΓΑΛΕ ΕΝΗΜΕΡΟΤΗΤΑ https://www.aade.gr/polites/forologiki-enimerotita/ekdosi-apodeiktikoy-enimerotitas*
- Το τιμολόγιο και τη φορολογική ενημερότητα θα τα στέλνεις ΜΟΝΟ σ εμένα κι εγώ θα τα προωθώ στη γραμματεία.
-*ενημερότητα*
-			σχετικά με την ενημερότητα εχει δυο πεδια: ΔΕΝ επιλεγεις κανενα!
-			Παρακράτηση όλου του ποσού
-			και Ύπαρξη περιοδικής απαίτησης (Ο έλεγχος γίνεται από τον φορέα πληρωμής ή εξόφλησης του τίτλου)
-     *Λόγοι έκδοσης Ενεργοποίηση επεξηγήσεων*      
-     			Είσπραξη χρημάτων από φορείς του Δημοσίου Τομέα (πλην Κεντρικής Διοίκησης)
-     			ΑΦΜ Φορέα 090087411
-					Στοιχεία τίτλου πληρωμής Στοιχεία ΜΑΡΚ εφαρμογής myDATA  Bazeis ta MARK apo ta timologia 
- 			
- τιμολόγιο παροχής υπηρεσιών
-
- ==================
-				Σειρά μπαίνει μόνο του
-				ΑΑ τίποτα 
-				ημερομηνία έκδοσης θα μπει αυτόματα  εσύ θα πρέπει να μπει τελος του μήνα.
-				τίποτα υποκατάστημα
-				Επωνυμία: ΕΙΔΙΚΟΣ  και το βρίσκει μόνο του,  ΑΦΜ μπαίνει μόνο του 090087411,  υποκατάστημα το αφήνουμε ως έχει χώρα Ελλάδα διεύθυνση
-				Διεύθυνση: : Kτίριο Ε4 Πολυτεχνειούπολη, Χανιά Κρήτης, Τ.Κ. 73 100.Κουνουπιδιανά, Χανιά
-				Τρόπος πληρωμής επί πιστώσει
-				Αγαθα ADD NEW !! προσθηκη 2 - και μπαινουν ολα μονα τους . Δες και του προηγουμενου μηνα !6 - Συμμετοχή σε ερ. ευρωπαϊκό έργο Υποστήριξη της ΕΚ /ECCO Community Call LC-01973360 κωδικό 82899 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ *1/2/2024-29/2/2024*
-
-		Συμμετοχή σε ερ.έργοΥποστήριξη της ΕΚ /ECCO Community Call LC-01973360-82899-ΔΙΑΣΤ. ΑΜΟΙΒΗΣ 1/4/2024-30/4/2024
-
-					Τιμή Μονάδος: στανταρ εχει μονο ενα 
-					*Τιμή Μονάδος:       
-		*
-					*ΦΠΑ: 0% δεν εχει 20%?* 
-					*Αιτία Εξαιρ. ΦΠΑ: Λοιπες εφαιρεσεισ ΦΠΑ*
-					Είδος Φόρου 	Κατηγορία Φόρου 	Υποκείμενη Αξία (€) 	Ποσό Φόρου (€) 	Ενέργειες
-					1	Παρακρατούμενοι	Περ. δ'- Αμοιβές Συμβουλών Διοίκησης - 20%	120.00	24.00
-
-					Neow Xarakthrismos Esoda apo Paroxh Yphresivn 1.3
-
-					 ΔΙΑΣΤΗΜΑ ΑΜΟΙΒΗΣ 01/01/2024-31/01/2024
-
-				Σχολια/Παρατηρησεισ ;
-				Tο εργολαβικό αντάλλαγμα απαλλάσσεται από το ΦΠΑ σύμφωνα με τις διατάξεις του άρθρου 4 παρ.5 της υπ ́.αριθ. Υπουργικής Απόφασης 1040588/1700/528/0014(ΦΕΚ 335/23-4-97).  Στο πληρωτέο ποσό δε συμπεριλαμβάνονται οι νόμιμες κρατήσεις (ΑΕΠΠ, ΕΑΑΔΗΣΥ,ΧΑΡΤ,ΟΓΑΧΑΡΤ,ΕΦΚΑ).ΔΙΑΣΤΗ.ΑΜΟΙΒΗΣ 01/4/2024-30/04/2024
-
-				*ΜΟΝΟ ΣΕ στη όσοι έχετε σύμβαση στο Principals και Ecco μόνο σε Κουτρούλη κι εμένα*
-				*ΜΕΤΑ ΤΟ ΤΙΜΟΛΟΓΙΟ ΣΕ ΠΕΝΤΕ ΛΕΠΤΑ ΒΓΑΛΕ ΕΝΗΜΕΡΟΤΗΤΑ https://www.aade.gr/polites/forologiki-enimerotita/ekdosi-apodeiktikoy-enimerotitas*
-
-
+* ΜΟΝΟ ΣΕ στη όσοι έχετε σύμβαση στο Principals και Ecco μόνο σε Κουτρούλη κι εμένα*
+* ΜΕΤΑ ΤΟ ΤΙΜΟΛΟΓΙΟ ΣΕ ΠΕΝΤΕ ΛΕΠΤΑ ΒΓΑΛΕ ΕΝΗΜΕΡΟΤΗΤΑ https://www.aade.gr/polites/forologiki-enimerotita/
+  kdosi-apodeiktikoy-enimerotitas*
 
 
 Timesheets 
 ==================
-ITE: Cyberunity 1.1.2024 - 30.6.2024  = 6 months with total number of hours 222,72 which for each month gives us 222,72 / 6 = 37,12 and is 1000 gross 
-		
-		 
-			ECCO  01/01/2024 μέχρι την 30/06/2024. - 600 /6 = 100
-
-			Green.Dat.AI    9.840 ευρώ, 01/01/2024 μέχρι την 30/06/2024. Which gives us 9840 / 6  = 1640 gross 
-
-			3240  ==>2153
-
-			htan 2424 + 500  = 2924,
+* ITE: Cyberunity 1.1.2024 - 30.6.2024  = 6 months with total number of hours 222,72 which for each month gives us 
+  222,72/ 6 = 37,12 and is 1000 gross 
+* ECCO  01/01/2024 μέχρι την 30/06/2024. - 600 /6 = 100
+* Green.Dat.AI    9.840 ευρώ, 01/01/2024 μέχρι την 30/06/2024. Which gives us 9840 / 6  = 1640 gross 3240  ==>2153
+* htan 2424 + 500  = 2924,
 
 WIFI
 ==================
-			4QPEM8E3
-			WVRMD84W
-			5454048604
-			!d..ZYXEL adim
-			4QPEM8E3
-			VPN
-			VPN dvVqxPnRYS8SKS2
+* 4QPEM8E3
+* WVRMD84W
+* 5454048604
+* !d..ZYXEL adim
+* 4QPEM8E3
+* VPN
+* VPN dvVqxPnRYS8SKS2
 
 Info about CYBERUNITY: 
 ==================
 
-			Community for Integrating and Opening Cyber Range Infrastructures that Build
-			an Interoperable CrossDomain and Cross-Sector Cyber Range Federation, funded under DIGITAL- ECCC-
-			2022-CYBER-03”
-			Desired starting date: January 1st, 2024
-			Duration: 6 months
-			Location: Heraklion, Crete, Greece
-			Opening date: 20/11/2023
-			Closing date: 05/12/2023
-			Ref.: “CYBERUNITY -05-Nov-2023”ΑΔΑ: 9Η8Τ469ΗΚΥ-3ΥΗ
+* Community for Integrating and Opening Cyber Range Infrastructures that Build an Interoperable CrossDomain and 
+  Cross-Sector Cyber Range Federation, funded under DIGITAL- ECCC-2022-CYBER-03”
+* Desired starting date: January 1st, 2024
+* Duration: 6 months
+* Location: Heraklion, Crete, Greece
+* Opening date: 20/11/2023
+* Closing date: 05/12/2023
+* Ref.: “CYBERUNITY -05-Nov-2023”ΑΔΑ: 9Η8Τ469ΗΚΥ-3ΥΗ
 
 
-ECCO timeline 
-==================
-
-M1  Jan-23  ... M2  Feb-23  ... M3  Mar-23
-M4  Apr-23  ... M5  May-23  ... M6  Jun-23
-M7  Jul-23  ... M8  Aug-23 ...  M9  Sep-23
-M10 Oct-23  ... M11 Nov-23  ... M12 Dec-23
-M13 Jan-24  ... M14 Feb-24  ... M15 Mar-24
-M16 Apr-24  ... M17 May-24  ... M18 Jun-24
-M19 Jul-24  ... M20 Aug-24  ... M21 Sep-24
-M22 Oct-24  ... M23 Nov-24  ... M24 Dec-24
-
-
-ΕΓΓΡΑΦΕΣ ΓυμναΣΙΟ 
-==================
-loipon koitaza twra gai tis eggrafes sto gumnasio gia thn elenh . 
-θα χρειαστέι αποδεικτικό κατοικίας 
-	 Στην περίπτωση που η διεύθυνση κατοικίας δεν αποτυπώνεται στο έντυπο Ε1, θα πρέπει να επισυνάψετε και αντίγραφο πρόσφατου λογαριασμού σταθερής τηλεφωνίας ή ηλεκτροδότησης ή ύδρευσης ή φυσικού αερίου. 
-
-	 οποτε Ισως να κανουμε μια αιτηση για σταθερο σε καποιο σπιτι κοντα (filh ths Δημητρας, Φραγκουληδες, αλλα αν εχουν ήδη σταθερο μπορέι να μπει δευετρη γραμμη; , h ston 8eio. alla den xwrw an 8a uparxie provlham an exoun hdh sta8ero ...pame apo allh etairia isws ? 
-
-	 	https://www.cosmote.gr/eshop/go/Fixed%20Plans/Telephony%20plans/Home%20Telephony
-
-
-	 	Απο εδω συστυχως μασ στελνει δειλινα https://dide.ira.sch.gr/scholikes-monades/chartis-gymnasion-n-i/
-	 	αλλα απο εδω με ΤΚ https://xorotaksiko.gis.minedu.gov.gr/schoolmap
-
-	 	θυπαρχει και το ευρωπαικο https://seeh.eu/el/enrolment
-
-	 	γ) τέκνα εργαζομένων σε οργανισμούς, ιδρύματα και άλλους φορείς των οποίων το αντικείμενο αφορά στην Ερευνα και Ανάπτυξη. Εάν υποβληθούν αιτήσεις περισσότερες του μεγίστου αριθμού ανά τάξη θα διενεργηθεί ανοιχτή δημόσια κλήρωση.
-
-	 	
+  
 TUC General Profile: 
 ==================
 The Technical University of Crete (TUC) is a state university under the supervision of the Greek Ministry of Education and was founded in 1977 in Chania, Crete. The Technical University of Crete is particularly active in conducting basic and applied research.The research and development projects, managed by the Research Committee, are funded by the European Union, the General Secretariat for Research and Technology, the Ministry of Education, the Region of Crete, local administration organizations and many private businesses. A large number of TUC undergraduate and postgraduate students are employed in these projects; in this way, they benefit from the best possible training and they familiarize with conducting research.
@@ -176,66 +145,2622 @@ Prof. Ioannidis has a vast experience in Coordinating and participating in secur
 
 water (apo Zarra)
 ============
-https://www.google.com/maps/place/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1+%CE%BD%CE%B5%CF%81%CE%BF%CF%8D+%CF%88%CF%8D%CE%BA%CF%84%CE%B5%CF%82+%CE%A3%CF%86%CE%B1%CE%BA%CE%B9%CE%B1%CE%BD%CE%AC%CE%BA%CE%B7%CF%82+%CE%93%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82+flowwater/@35.3362655,25.1570301,21z/data=!4m6!3m5!1s0x149a5bdb088ff4b9:0xf8072921198461d!8m2!3d35.3363544!4d25.1570958!16s%2Fg%2F11g8_2_lvl?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D
+* 
+  https://www.google.com/maps/place/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1+%CE%BD%CE%B5%CF%81%CE%BF%CF%8D+%CF%88%CF%8D%CE%BA%CF%84%CE%B5%CF%82+%CE%A3%CF%86%CE%B1%CE%BA%CE%B9%CE%B1%CE%BD%CE%AC%CE%BA%CE%B7%CF%82+%CE%93%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82+flowwater/@35.3362655,25.1570301,21z/data=!4m6!3m5!1s0x149a5bdb088ff4b9:0xf8072921198461d!8m2!3d35.3363544!4d25.1570958!16s%2Fg%2F11g8_2_lvl?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D
+* φίλτρα νερού ψύκτες Σφακιανάκης Γιώργος flowwater - antistrofh osmosh 
+* https://proteasfilter.com/product-category/%CF%86%CE%B9%CE%BB%CF%84%CF%81%CE%B1-%CE%BD%CE%B5%CF%81%CE%BF%CF%85-%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%B7%CF%83-%CE%BF%CF%83%CE%BC%CF%89%CF%83%CE%B7%CF%83/
 
-φίλτρα νερού ψύκτες Σφακιανάκης Γιώργος flowwater
-
-antistrofh osmosh 
-
-https://proteasfilter.com/product-category/%CF%86%CE%B9%CE%BB%CF%84%CF%81%CE%B1-%CE%BD%CE%B5%CF%81%CE%BF%CF%85-%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%B7%CF%83-%CE%BF%CF%83%CE%BC%CF%89%CF%83%CE%B7%CF%83/
-
-*blackmamba*
-ssh -p 22599 antonakd@139.91.71.14 
-
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-*=================================================================================================================================================================*
-
-
-DAILY LOG
-blackmamba  41..km
+* blackmamba*
+* ssh -p 22599 antonakd@139.91.71.14  blackmamba  41..km
+* twitter verification : iphone--> passwords--> twitter --> verification dcode 138451
+*  ΔΡΑΣΤΙΡΙΟΤΗΤΕΣ 190 (μουσική) + 150 (σικινισ) + 160 (αγγλικά) + 60 (τέννις) + 100 (φυσιο) + 80 (κολύμβηση) = 740
 
 
 
-twitter verification : iphone--> passwords--> twitter --> verification dcode 138451
-*========================================================================================================================================================*
-11.116.709
+--------------General INFO for Proposals ----------------------
+WP distribution of PMs: 
+===================
+WP1: 5%
+WP2: 15-20%
+WP3: 20%
+WP4: 20%
+WP5: 15% 
+ 
 
-ΔΡΑΣΤΙΡΙΟΤΗΤΕΣ 190 (μουσική) + 150 (σικινισ) + 160 (αγγλικά) + 60 (τέννις) + 100 (φυσιο) + 80 (κολύμβηση) = 740
+from skype 
+============
+https://suno.com/song/c6a8aeb8-fc43-45a4-8aac-9f6f375f26d5
+https://suno.com/song/9a8bcddd-9788-4733-b266-89d32bcc5955
+https://suno.com/song/88fb1a6a-67a6-4e17-a9ea-ba960d430b1d
+https://suno.com/song/a67d32d2-4f12-4665-bc4f-d51e9ebed86e
 
-19 December 2024
+eelnh Ελενη πρωτη παρελαση https://www.youtube.com/watch?v=Izjj1q1-oEA  1:14
+https://youtu.be/ZZDEaLW26gY?feature=shared
+
+https://www.amazon.com/photos/shared/Ka2mqAOfTNy2Z4qVPMi12Q.MQKFBIIDXtI8n_ZrIoWZU_
+Αριθμός Παροχής ΔΕΗ: 54635388
+
+
+PROPOSALS
+=============
+https://smart-networks.europa.eu/current-call-for-proposals/
+https://6g-xr.eu/open-calls/oc3/
+https://docs.google.com/spreadsheets/d/1tvlp9_9-uLjbhBIZP9Q6F2H2VNF7knS1uLikxYwsC9k/edit?gid=0#gid=0
+https://cascadefunding.eu/open-call/cybersecdome-open-call-1/
+
+
+
+closes: 	Sun 10 Aug 2025 18:05
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*=========================================================================================================================================================*
+*====DAILY LOG============================================================================================================================================*
+
+[run_telegram_info]
+
+1. ssh blackmamba: ssh -p 22599 antonakd@139.91.71.14 
+2. cd TelegramCollector/newCrawler_Files/
+3. screen  - python run5minutes.py 
+4. saves at /home/antonakd/TelegramCollector/data/Eyeonpalestine2_
+5. count API messages python count_API_mess_perchannel.py
+6. count python count_messages_inFiles2.py ../data/*2025-06*.json 
+**23/6/2025: 93125++
+** ciril characters
+
+
+22 October 2025
+================
+Digital systems today are growing more complex, including cloud platforms, edge devices, and industrial networks. This creates large volumes of data that need constant monitoring and protection. Traditional security tools often struggle to keep up with modern cyber threats.
+
+Security teams still rely heavily on human oversight, which can slow responses and limit scalability. As attackers use more advanced methods, organizations risk falling behind in detection and response.
+
+ABACo-AI uses AI to handle routine monitoring and threat detection. This reduces manual work, speeds up responses, and allows security teams to focus on more complex issues that need human judgment.
+
+The project offers a framework for modern cybersecurity operations, combining automation and machine learning to improve detection, response, and overall security. ABACo-AI helps organizations stay ahead of threats while using resources more efficiently.
+
+-------------
+
+Digital systems today are growing more complex, including cloud platforms, edge devices, and industrial networks which creates large volumes of data that need constant monitoring and protection. Traditional security tools often struggle to keep up with modern cyber threats while security teams still rely heavily on human oversight, which can slow responses and limit scalability. As attackers use more advanced methods, organizations risk falling behind in detection and response.
+ABACo-AI uses AI to handle routine monitoring and threat detection. This reduces manual work, speeds up responses, and allows security teams to focus on more complex issues that need human judgment.
+
+The project offers a framework for modern cybersecurity operations, combining automation and machine learning to improve detection, response, and overall security. ABACo-AI helps organizations stay ahead of threats while using resources more efficiently.
+
+14 October 2025
+=================
+* ABACO : removed text as inspired by CONCORDIA : 
+
+	ABACo-AI management structure ensures efficient coordination, transparent decision-making, and strong interaction among all partners and stakeholders. ABACo-AI Management Board is the central decision-making body, overseeing both strategic and operational aspects of the project, and maintaining communication with the European Commission, …<fill in with TOP layer parts >, and other relevant EU bodies. It interacts closely with two advisory entities: the Advisory Board, providing independent scientific and strategic guidance, and the Public–Private Partnership (PP) Board, ensuring alignment with European cybersecurity and AI ecosystems.
+	Supporting the Management Board are two key committees,  the Industry Strategy Committee and the Scientific & Technology Committee , coordinate activities between industrial and research partners. Beneath these, the Work Package (WP) Leaders and Task Leaders ensure day-to-day implementation and progress monitoring within their respective domains. At the foundation, the General Assembly, composed of all consortium partners, guarantees inclusive decision-making and validates major project outcomes. The entire structure is underpinned by engagement with stakeholders, including universities, research centers, large industry, SMEs, startups, and public authorities, ensuring that ABACo-AI remains grounded in real-world needs and contributes to Europe’s trusted, AI-driven cybersecurity ecosystem.
+	Decision-Making Mechanisms. Decision-making in ABACo-AI ensures efficient coordination and timely resolution of issues. WP leaders handle technical decisions within their WPs while cross-cutting matters are decided in consultation with the Project Coordinator and other WP Leaders. The Industry Strategy Committee and Scientific & Technology Committee address industrial and scientific issues at project level, while the General Assembly (GA) serves as the final decision-making body (<MAYBE a Table here??>).
+	Communication and Monitoring. Internal communication will combine a secure online workspace, regular email exchanges, and biannual plenary meetings. A shared repository will store deliverables, reports, and documentation. Each WP Leader submits semi-annual progress reports to the Project Coordinator, comparing actual progress with planned milestones and deliverables.
+	Conflict Resolution. Conflicts will first be addressed at task level, escalating if necessary to WP Leaders, Management Board, and ultimately the GA, where voting decisions are final. The Project Coordinator has tie-breaking authority.
+	Coordinator Capabilities. Technical University of Crete (TUC) acts as Project Coordinator, bringing long-standing experience in managing EU-funded projects in AI, cybersecurity, and data analytics. TUC’s coordination team ensures scientific excellence, administrative reliability, and smooth communication with the European Commission and consortium partners.
+
+
+16 October 2025
+================
+* Bucharest tickets 
+** Aegean flights  465€
+		Outbound
+		Flight details
+			Heraklion N. Kazantzakis (HER) to Bucharest Henri Coanda (OTP), 1 stop
+				A3301				, 
+				A3960 
+			---->Wed 10 Dec 2025, 06:00 - 10:00<-----
+			2 Passenger(s): 2 × Adult
+			Fare family: Flex, Booking Class: S
+		€ 200.04
+		Inbound
+		Flight details
+			Bucharest Henri Coanda (OTP) to Heraklion N. Kazantzakis (HER), 1 stop
+				A3961				, 
+				A3314 
+			Sat 13 Dec 2025, 10:50 - 14:20
+			2 Passenger(s): 2 × Adult
+			Fare family: Flex, Booking Class: S
+		€ 265.90
+** Momondo: Wizz+ Aeegan 
+		Departure
+		Dec 10
+		Economy
+		11:35
+		HERCrete Heraklion
+
+		‪4h 15min‬
+
+		1 stop
+		15:50
+		BBUBucharest
+		Aegean Airlines
+		+1
+		Self-transfer
+		Return
+		Dec 13
+		Economy
+		16:40
+		OTPBucharest
+
+		‪4h 25min‬
+
+		1 stop
+		21:05
+		HERCrete Heraklion
+		Tarom
+		+1
+		Self-transfer
+
+		‪US$275.99‬
+
+15 October 2025
+================
+ABACO
+14 October 2025
+================
+ABACO
+13 October 2025
+================
+
+abaco meeting: 
+
+apo  chrystou : 
+* 	Section 3 mnagmenement pare roles
+*  Exei q & a dedicated partner 
+*  exei dedicated Legal partner 
+TUC roles :
+  1) coordination 
+  2) Lambrou code basilisk 
+  3) OXI Ids chrusouOxi
+  4) Papoutsakis  ai tool
+* Three years 
+
+
+sxhmata 8eloun fix ka ta duo 
+vale kpi yhla 
+consistent in vertical 
+objectives- WPs alignment 
+
+** FINE TUNE  prepei na meinei 
+
+** expected outcomes meta to telos tou ergou 
+
+NA MPEI KEIMENO pantou 
+
+
+IDEA #2
+    Explore:
+        The AI bubble is 17 times the size of the dot-com frenzy - and four times subprime, this analyst argues
+        Analysts warn AI hype is a 'Red Flag' — bubble now bigger than 2008 Subprime crisis
+    Build:
+        Tools to collect stats inidating the health status of main AI companies
+        Emit early warning signs
+
+IDEA #1 How are the same online service priced around the world? How do prices change depending on where you are when you make the payment? Take this example that studies chess.com https://mobeigi.com/blog/economics/chesscom-regional-pricing/ . Perform the same for various very common online services (spotify, netflix, ...)
+
+10 October 2025
+===============
+* first ABACO meeting
+**  Christou: everyone is in the portal now . 
+** Saracino has created in teams ? 
+**they don work on drive because people changes teh budget without notice, they changes the working copy . 
+** next step: start pushing 33 day till deadline we need to finalize everything . 
+** they have sent the input collector form . No inputs yet. Wait till monday and they personal emails. 
+** open thing on consortuim ..still partners ? any update ? no news (christou: sotiris had aegis)
+**
+
+
+3 October 2025
+===============
+* bot detection for Zafeiropoulos  + isws leei kai o idios sentiment analyis 
+** https://github.com/alexdrk14/BotArtist
+* propaganda / fake news detection 
+** Alternative Analyses for Misinformation/Propaganda Campaigns
+
+* reddit isws na grayeis kai crwaler , bot detection 
+pro-palaistine sentiment analysis 
+https://www.reddit.com/dev/api/
+
+* 
+9 September 2025
+===============
+* δραστηριοτητες
+
+Ελενη : 
+----
+1)Πιανο 100
+2)Χορος 70
+3)Αγγλικα 90
+4)ψυχ 200
+5)φωνητικη 80
+6)τεννις 60
+600
+
+Δημητρα:
+----
+1)κιθαρα 
+2)χορος
+3)αγγλικα
+4)φυσιο
+5)μπαλετο
+
+1 September 2025 
+===============
+* Intact : mail by Akis for TUc contribution to 4.3  
+		Task 4.3: Explainable AI visualisation assistance and human-factor awareness tools – Led by K3Y [M04-M31]
+		Participants: SIEMENS, HMU, TUC, UBI, AXON, AEGIS, ICP
+		Task T4.3 has a twofold purpose. FIRST, it will follow the methodology of Section 1.2.4 to build the Assistant
+		Virtual Agent (AVA) using state-of-art cognitive AI visualisation and Explainable AI scripted rules (available in K3Y
+		K3CyberRadar). AVA will be a human-machine communications tool integrated within the INTACT Dashboard to
+		straight answering routine queries put by the end-users, thereby providing swift solutions to standard requests for
+		resolving security problems, while translating the optimal Security-to-Everything decisions of T3.2 in simplified terms to
+		humans. AVA will also support text-to-speech, speech-to-text, and open-voice datasets (developed using Leon, Mycroft
+		AI) to enable the end-user awareness over automated speech explainability, and real-time guidance for end-users to build
+		and assess custom cybersecurity scenarios.
+		SECOND, T4.3 will use Role Playing Game concepts of THALES Cybels CyberRange platform to build the INTACT
+		CyberRange that will work hand-in-hand with AVA, i.e., AVA will initiate a learner’s experience with a laddering
+		interview technique to achieve a structured approach for gathering the required data – these data will be used in Cybels’
+		12
+		Associated with document Ref. Ares(2024)4873082 - 05/07/2024
+		Project: 101168438 — INTACT — HORIZON-CL3-2023-CS-01
+		games to resemble functionalities of a Sandbox (i.e. to emulate attacks and forensics without harming the physical
+		infrastructure). The Sandbox will be virtualised (e.g. using the Tensorflow of UBI MAESTRO and OpenStack) to support
+		automated system deployments and network configuration within small time windows and managed infrastructure
+		services (e.g. IaaS such as Microsoft Azure, Google Cloud Platform and AWS). That way, T4.3 will facilitate expert and
+		non-expert users to transferring their own attack- defence models
+
+lambrou 
+
+The tools we have available  apply to Twitter data  for social network analysis and bot detection. Specifialy  SAMLP framework is used to process large volumes of tweets, applying ML models for sentiment analysis, topic extraction, and anomaly detection. In parallel, BotArtist is being employed to build conversational agents that can interact with Twitter data streams, generate insights, and provide user-facing explanations. Together, these tools allow us to detect malicious activity, misinformation, or coordinated behavior on social media and to present the findings in an interpretable and explainable way.
+GitHub: https://github.com/alexdrk14/SAMLP
+GitHub: https://github.com/alexdrk14/BotArtist
+
+aurio me8ayri mporei o andreas 4-10 den mporeei
+
+
+26 August 2025
+==============
+SONAR : check all from input forms to proposla (standardization + exploitation)
+WP roles
+
+TODO: Partner Roles: All partners will contribute to T5.1 and T5.3 by closely following the activities suggested in the dissemination and exploitation strategy. WINGS will lead dissemination activities as well as exploitation planning and innovation management, helping to translate SONAR results into commercial pathways. ++
+
+
+25 August 2025 
+==============
+ASONAM
+	Thi is the recording for : 
+	Paper 0032
+	Alexander Shevtsov, Despoina Antonakaki, Ioannis Lamprou, Polyvios Pratikakis and Sotiris Ioannidis
+	BotArtist: Generic approach for bot detection in Twitter via semi-automatic machine learning pipeline Short 20
+
+For session ID: Research - 4b , SessionTItle: 
+Virtual Session:
+	LLM, Security,
+	Privacy, &
+	Network Analysis
+	Presenting on Date: August 27 (continue)
+	If you need anything else do not hesitate to contact me . 
+
+
+	Salons B+C Join Zoom Meeting https://ucalgary.zoom.us/j/97627454383 Meeting ID: 976 2745 4383 Passcode: asonam2025
+
+Salon A Join Zoom Meeting https://ucalgary.zoom.us/j/92849438666 Meeting ID: 928 4943 8666 Passcode: asonam2025
+
+	Boardroom B Join Zoom Meeting https://ucalgary.zoom.us/j/94700852647 Meeting ID: 947 0085 2647 Passcode: 495080
+
+	Salon D Join Zoom Meeting https://ucalgary.zoom.us/j/93335028189 Meeting ID: 933 3502 8189 Passcode: asonam2025
+
+
+25 August 
+===============
+
+sonar: meeting
+21 August 2025
+=============
+* TODO : check the room and link for asonam 
+
+
+1. data collector for
+2. align the WP file 
+3. budget 
+
+μαπ https://www.mapchart.net/europe.html
+20 August 2025 
+=============
+* TODO : des to section pou exeis grayei me vasei to GA tou elastic OK apla allaxa mono to Complementary of Partnership to , Capacity and Roles in the Project den uphrsxe sto elastic , an 8elete to vgazoume kai to teeutaio 3.2.3 Partner's roles and resources justification eida kai sxolia panw apo allo opote den to allazw 
+
+* sthn sunanthsh na doume mazi 
+0) important : - All partners - please finish ASAP Input Collector forms:
+https://drive.google.com/drive/u/0/folders/1S6c43frF6tMCk5zsjEXRRom8e6WZQBvM
+
+--> EMEIS edw exoume dwsei apothn prwth evdomada alla leipoun ta tmhmata tou Chrysou + gchristou !
+
+	EGW EGRAYA ayta 
+		
+		AI Intrusion Detection/Prevention System
+
+					The AI-IDS methodology combines hardware acceleration with AI-enhanced detection mechanisms to achieve real-time intrusion detection for WebAssembly (Wasm)-based workloads in 6G environments. It integrates a reconfigurable hardware module with an AI-driven decision layer, enabling adaptive detection and prevention of cyberattacks in resource-constrained and latency-critical scenarios. The methodology relies on parallelized string-matching algorithms (Aho-Corasick) mapped to FPGA/GPU accelerators and is enhanced by machine learning models that adapt signature databases dynamically, minimizing false positives and ensuring rapid threat mitigation. The IDS will be integrated at the orchestration level, enabling telemetry-aware security decisions in Function-as-a-Service (FaaS) deployments across edge, far-edge, and cloud domains.
+
+				State of the art:
+				Current intrusion detection systems (IDS) in 5G/6G research are primarily software-based, such as Snort or Suricata, which can provide strong coverage but struggle with scalability and real-time performance under high-throughput scenarios. Hardware-assisted solutions exist but are often limited to fixed-function accelerators and lack integration with AI-based adaptation or with serverless orchestration frameworks like Wasm. Recent EU projects (e.g., INSPIRE-5G, SPIDER) have explored AI-driven IDS for telecom but without hardware acceleration or seamless coupling with orchestration runtimes.
+
+				Advancement:
+				SONAR advances the state of the art by introducing a hardware-accelerated, AI-driven IDS fully integrated with Wasm runtimes for 6G serverless workloads. Unlike static IDS solutions, this methodology enables:
+
+				Per-function security enforcement at runtime.
+
+				Dynamic AI-based adaptation of signature databases and anomaly detection thresholds.
+
+				Real-time orchestration feedback loops, allowing security events to directly influence workload placement.
+
+				Latency guarantees (<10% overhead, >95% detection accuracy) validated on heterogeneous platforms (SmartNIC, ARM-based edge devices, RAN controllers).
+				This innovation directly supports secure, adaptive orchestration in multi-domain 6G environments.
+
+				Research/Innovation
+
+		AI-Driven, Hardware-Aware Orchestration
+
+				Description of your methodology:
+				This methodology develops an AI-native orchestration engine capable of making real-time, hardware-aware placement decisions for Wasm-based functions across the 6G continuum. It integrates telemetry data (latency, energy consumption, trust levels, storage activity) into a multi-objective decision model powered by reinforcement learning and graph-rewiring algorithms. The orchestration runtime deploys placement-adaptive hooks into the Wasm environment, enabling transparent migration of workloads between cloud, edge, and far-edge environments. The system also integrates declarative policies (e.g., SLAs, energy efficiency, security compliance), ensuring that orchestration decisions are both AI-optimized and policy-compliant.
+
+				State of the art:
+				Existing orchestration frameworks (e.g., Kubernetes, OpenFaaS, Knative) provide container/serverless orchestration but lack real-time adaptation to heterogeneous hardware constraints (SmartNICs, FPGAs, TEEs). AI-driven orchestration research exists (e.g., in O-RAN projects) but is typically limited to narrow domains such as RAN slicing or traffic prediction and rarely accounts for multi-hardware heterogeneity or integration with Wasm runtimes. Furthermore, current orchestration systems operate in cloud-centric environments, with limited capabilities for far-edge or highly resource-constrained devices.
+
+				Advancement:
+				SONAR’s orchestration engine goes beyond the state of the art by introducing:
+
+				Hardware-aware placement with per-function decision latency ≤5 ms.
+
+				AI-driven optimization combining latency, trust, and energy parameters in multi-domain, heterogeneous environments.
+
+				Declarative graph-based orchestration, allowing runtime rewiring of functions based on telemetry and policy triggers.
+
+				Integration with Wasm runtimes for lightweight, portable deployment across embedded, edge, and cloud infrastructures.
+				This provides a federated orchestration capability that is scalable, adaptive, and resilient, ensuring SONAR’s technical objectives are met in real-world 6G deployments.
+
+1) to budget : eiani sumplhrwmeno and makes sense
+2) to proposal opou exoun mpei sto part 3 PMS + TUC + Work pachages 
+3)  vlepw keno thn perigrafh tou elastic sto 1.2.3.2 opote evala se sxolia kati an 8elei na to valei
+4)  sumplhrwsa ta PMs sto 3.1.2.1 Table 3.1 a) - List of work packages
+5) alalxa to 3.2  Capacity of participants and Consortium as a whole, vevaia h eisagwgh einai polu kalh opote thn afhsa . 
+6) check TUC is in the follwioing tasks: 
+* Task 1.1 - Modular WebAssembly Runtime with Component Model and Secure Execution; [Lead: IMEC; Participants: AMA, TID, URV, TUC. Output: D1.1. M04-M24]:
+* Task 1.2 - Runtime Extensions for Embedded, Real-Time, and AI-Aware Execution; [Lead: TUC; Participants: AMA, IMEC, TID, URV. Output: D1.2. M013-M30]
+* Task 2.1 - Declarative Function Graphs, Secure Packaging, and Execution Interfaces; [Lead: AMA; Participants: URV, TUC, TID, WINGS, FSE. Output: D2.1. M07-M34]:
+* Task 2.2 - Policy-Aware Scheduling, Secure Placement, and Federated Orchestration; [Lead: URV; Participants: WINGS, TUC, TID, AMA. Output: D2.1. M07-M24]:
+* Task 2.3 - Embedded and Far-Edge Orchestration for 6G Continuum; [Lead: IMEC; Participants: AMA, FSE, TUC, WINGS. Output: D2.2. M013-M34]
+* WP6 
+
+after MILAN TODO : 
+===================
+
+
+check despoinas input : 
+1.2.2.5 Open science
+1.2.2.6.Research data management and management of other research outputs 
+
+
+	SONAR recognises the persistent gender disparities within the digital and ICT sectors, where women continue to be underrepresented across both technical roles and leadership positions. Counter to this, the consortium is firmly dedicated to ensuring gender equality and diversity at all stages of its research efforts, innovation processes, and results. SONAR's real-time serverless computing architecture—although by design technology-based—will be designed with care towards obtaining accessibility, usability, and societal relevance across gender divides. In this, particular focus will be on addressing human-facing aspects such as orchestration logic using AI, system interfaces, and feedback mechanisms. These will be analyzed to avoid repeating existing biases or even locking out underrepresented groups inadvertently.
+	The consortium will also ensure equal participation of female engineers and researchers in all phases of the project, including design, implementation, testing, and demonstration. Gender-balanced stakeholder engagement will be promoted, particularly in user studies, pilot deployment, and impact evaluation. Where necessary, SONAR will adopt a "fairness, accountability, and transparency" approach to AI model development to minimize algorithmic bias and deliver equitable results. Consideration of datasets, training methods, and testing metrics will be used to prevent the duplication of discriminatory patterns.
+	Moreover, SONAR partners will engage with EU-wide gender equality schemes such as Women4Cyber and will seek expert guidance from relevant bodies, including the European Institute for Gender Equality (EIGE), to inform and strengthen their internal policies and practices. In addition, partners will actively participate in the Women in Telecommunications and Research (WiTaR) Working Group, an initiative launched within the Hexa-X flagship project and now open to the broader 5G Infrastructure PPP community, promoting gender equality and inclusion in 6G R&I. 
+	All of the public research and higher education organisations included in SONAR—UCD, TUC, and TID—have formal Gender Equality Plans (GEPs) in line with Horizon Europe legislation. These include published strategies, data collection that is gender-aware, training, and monitoring within organisations. While not mandatory for private partners (e.g., AMA, ABD, WINGS), each of the consortium members adheres to inclusive employment and workplace culture values and is committed to diversity and equal opportunity promotion during the project.
+	Lastly, SONAR will integrate gender in its ethics and data protection policies, particularly when conducting user engagement or field testing. Gender equity, non-discrimination, and inclusivity will be cornerstones in SONAR's vision for next-generation trustworthy digital infrastructure in Europe.
+
+
+
+MILAN
+===========
+✅ Milan Family Itinerary – August 5–10, 2025
+
+🧳 Day 1 – Arrival in Milan Malpensa 📅 Tue, 5 Aug 2025 
+    ✈️ Arrival: 16:10
+    🚕 Transfer to hotel : Via Emilio Morosini 32 in Milano. (y Car / Taxi / UberDistance: ~50 km (depending on the route) Travel Time: ~45 to 60 minutes (depending on traffic) 
+	Scala milano 
+		💶 Estimated Prices:    Taxi (Official Milan Taxi):        Flat rate to/from Malpensa Airport: €104 (fixed price from central Milan as of 2025)
+    							Uber:        UberX: ~€80–€110))TRAIN : Total one-way for four ≈ €42
+    🛏️ Settle in, early dinner
+    Optional evening walk near your hotel to stretch legs and get gelato
+
+🏙️ Day 2 – City Walk + BLACKPINK Concert 📅 Wed, 6 Aug 2025
+	🏰 1) Morning–Afternoon: Cultural Walk
+		Duomo di Milano – Cathedral rooftop views, epic architecture
+		🍦 Gelato Break: Cioccolati Italiani (near the Duomo)
+	🎤 2) Evening: BLACKPINK Concert
+		📍 Ippodromo Snai La Maura, Milan
+		🕗 Starts around 8:00 PM
+			best Combination: Metro + Bus
+				Total Time: ~45–60 minutes
+				Total Cost: €2.20 (standard ATM urban ticket – valid for 90 minutes)
+			UberX: €20–€40
+
+  🧪 Day 3 – Science & Local Fun 📅 Thu, 7 Aug 2025 OR MODERN ART MUSEUM  
+		1) Museo del Novecento – 20th-century art, colorful and compact (great with kids) NOT AVILABLE TICKETS YET wait 3 days 
+			Distance: ~2.3 km	
+			Walking Time: ~25–30 minutes
+			on 07/08/2025 at 15:00  - 
+		2) Galleria Vittorio Emanuele II – Look for the mosaic bull on the floor!
+			Museo del Novecento and Galleria Vittorio Emanuele II are right next to each other.
+
+	
+
+🌄 Day 4 – Lake Como Day Trip 📅 Fri, 8 Aug 2025
+    🚆 Train to Como (30–60 mins, ~€10)
+    🚢 Take a boat ride on the lake
+    🚡 Funicular to Brunate for amazing panoramic views
+    🧺 Optional lakeside lunch or gelato in Como town
+🎈 Day 5 – Flexible / Chill Day
+
+📅 Sat, 9 Aug 2025		1	Museo Nazionale della Scienza e della Tecnologia CONFIRMED 1230
+- close to the last supper (The Museo Nazionale della Scienza e della Tecnologia "Leonardo da Vinci" is very close to Leonardo da Vinci's The Last Supper (Italian: Il Cenacolo), which is housed at Santa Maria delle Grazie church.From the museum to The Last Supper:🏃‍♂️ ~5–6 minutes on foot
+ ~450 meters)
+	1	Museo Nazionale della Scienza e della Tecnologia
+				Distance: ~3.3 km
+				Estimated Walk Time: ~40–45 minutes
+				A mostly flat route through central Milan — scenic and walkable if weather permits.
+				🔬 Planes, trains, submarines + interactive kids’ lab (book in advance)
+				🚋 Ride the Vintage Tram (Line 1) – Historic wooden seats, very fun for kids
+				🛍️ Optional: Corso Vercelli / Via Torino for souvenirs, kid-friendly shops
+the last supper NOT available tickets !!!..   
+Options:
+    Visit Parco Sempione for picnic and play
+    Triennale Design Museum or MUBA (Children’s Museum) if weather is hot/rainy
+    Shopping or free exploration
+
+🛫 Day 6 – Departure
+
+📅 Sun, 10 Aug 2025
+    ✈️ Departure: 18:45
+    🧳 Bag drop opens: 15:45 - start at 1410  
+	
+    🚕 Transfer to hotel : Via Emilio Morosini 32 in Milano. (y Car / Taxi / UberDistance: ~50 km (depending on the route) Travel Time: ~45 to 60 minutes (depending on traffic)
+		💶 Estimated Prices:    Taxi (Official Milan Taxi):        Flat rate to/from Malpensa Airport: €104 (fixed price from central Milan as of 2025)
+    							Uber:        UberX: ~€80–€110))TRAIN : Total one-way for four ≈ €42
+
+    Optional light activity or brunch in the morning
+🍽️ Kid-Friendly Food Stops in Milan
+    Spontini – Thick, cheesy pizza
+    Luini – Famous panzerotti (fried dough with fillings)
+    Pizzeria Gino Sorbillo – Classic Italian pizza
+    Panini Durini – Great for breakfast or lunch on the go
+
+
+
+1 August 2025
+==================
+* SONAR : finalized Roles and objectves by me. expect input from Chryssos and gchristou and proposal planning : 
+* I insered more fro INTACT one sentence : 
+* wrote gender equality 
+31 July 
+===================
+INTACT general assembly meting : 
+1) [TODO]4.3 input in intact from TUC? he has sent an email TODO
+2) [TODO] wp6 aslo attend metings and check what we need to do 
+
+*=========================*
+SONAR meeting 29 July 
+=====================
+* changes in wp4 as nuno proposed 
+** optimized set of tasks 
+** 4.1 same
+** 4.2 merged wth otehr
+** 3 + 4 reconfigured optimized
+** Joao _ Nuno prujuica 
+* TODO : where do we fit and write a description of teh task taht we will impleemnt : specific technology we user . He will create another template to collect this info in folder ojectives 
+
+25 July
+===============
+Praktika h depsoina 8a sunisferei gia coordination + diorganwsh 
+na katalavw se va8os to texniko kommati na grayw to kommti twn kpi ..
+8a kanoume to cordination tou ergou  - sigoura 
+* sto elastic AI intrusion detection system  GRIGORIS -  
+* 8a grayoume sto IMPACT section sto se ola ta WPs ...
+* kanoume TUC cryprography somtheing 8a grayoume me to thales 
+
+
+22 July 
+===============
+* [INTACT meeting ] WP3 issues is any 
+* 3.1  lancaster university . no updates
+* 3.2 ilias papas from aegis . they are pending only the identification of the approach that each case will use . evrything ready  in collabitarion wuth lancaster. 
+* 3.3 AIRBUS . now more clear the involvement. monti,age nterconnection . intergration with ?? orient malware  ?? sendingthe response? teh VM ... 
+* 3.4  
+
+22 July 
+==============
+* SONAR proposal Drasco
+** Shared drive : in concept he refers to TUC: TUC
+												Technical University of Crete
+												Academic institution with expertise in networking, edge/cloud systems
+												Research on orchestration algorithms, edge placement strategies
+
+21 July 
+==============
+* SONAR 1st meeting:
+	** TUC @elastic :     WP7: Project Management and Consortium Coordination 
+
+			Lead Beneficiary: TUC
+			Duration: M1-M36
+
+		WP7 focuses on the overall management and coordination of the ELASTIC project. The main objectives are:
+
+			Co-coordinate all technical, scientific and administrative project activities
+			Produce a quality assessment and monitoring plan for the project
+			Compliance with the project contract, description of work, quality plan, and related legal and IPR issues
+			Plan and facilitate communication and interactions within the consortium
+			Produce reports on project progress and ensure the effective use of resources for realising the project objectives
+
+		Key Tasks:
+
+			Task 7.1: Financial Management and Activities Monitoring.
+			Task 7.2: Scientific and Technical Management.
+			Task 7.3: Quality Assurance, and Risk Management.
+			Task 7.4: Data Management Plan and Ethics
+		Expected Outcomes:
+		WP7 will ensure the smooth and efficient execution of the project, with timely reporting and communication. The outcomes will include high-quality management practices, effective use of resources, and successful achievement of project milestones.
+
+* SONAR proposal Drasco
+** Shared drive : in concept he refers to TUC: TUC
+												Technical University of Crete
+												Academic institution with expertise in networking, edge/cloud systems
+												Research on orchestration algorithms, edge placement strategies
+* The SONAR proposal offers an ambitious, technically cohesive, and forward-looking architecture for enabling serverless 
+computing in 6G. The WP structure is logically organized and exhibits strong cross-WP integration. 
+
+TUC’s positioning aligns  closely with WP3 – Distributed Orchestration Engine, where orchestration algorithms and placement strategies are critical. 
+Below are key observations and targeted comments.
+
+COMMENTS FOR TUC : 
+
+			Objectives Review
+			✅ Strengths:
+									Scope Fit: The objectives are directly aligned with Scope 3 of the call (FaaS orchestration, instant start, multi-domain orchestration, and embedded security).
+									Technology Leadership: Introduction of Wasm, OCI-compliant packaging, and WASI interfaces show state-of-the-art ambition.
+									Federated and Policy-Driven Orchestration: Strong emphasis on real-time, trust-sensitive scheduling aligns with the 6G vision of decentralization and sovereignty.
+								❗ Suggestions for Improvement:
+									KPIs and Success Metrics: Each WP would benefit from explicitly quantifiable objectives (e.g., orchestration decision latency <10ms, cold-start <5ms).
+									Societal and Sustainability Objectives: Add impact dimensions on energy optimization, sustainability, and societal benefits — these are strategic to the EU evaluation.
+									Objective Traceability: Some objectives (like “adaptive behavior” or “resilience”) are too general; linking them clearly to specific tasks/deliverables improves evaluability.
+								🧱 WP Structure Review
+								WP2 – Lightweight Serverless Runtime for 6G
+								🔹 Comments:
+									Solid design for modular runtime with WASI and Wasm Component Model support is very innovative.
+									The combination of WAMR, Wizer, and profiling tools reflects thorough thinking on both embedded and high-performance execution.
+								🔸 Opportunities:
+									Clarify how edge-triggered execution (WP4) and orchestration feedback (WP3) will alter runtime behavior dynamically.
+									Include evaluation metrics for AOT performance and platform heterogeneity (e.g., power use on SmartNICs, inference throughput).
+				WP3 – Distributed Orchestration Engine (Key WP for TUC)
+				🔹 Strengths:
+					TUC’s expertise in edge/cloud orchestration and network-aware placement fits naturally into Tasks 3.2, 3.3, and 3.4.
+					Federated orchestration, TEE-aware scheduling, and trust-policy enforcement are timely and technically relevant.
+				🔸 Suggestions for TUC’s Engagement:
+					Contribute directly to policy-aware placement algorithms with a focus on latency vs. energy vs. trust trade-offs.
+					Take leadership or co-lead in Task 3.2, especially around orchestration in multi-operator or multi-domain environments.
+					Propose a quantitative model for evaluating orchestration strategies using metrics like orchestration latency, placement efficiency, or compliance cost.
+				❗Areas to Improve:
+					Task 3.3 would benefit from a stronger formalization of the orchestration agent behavior under partial connectivity (e.g., models for offline graph syncing).
+					Include a benchmarking framework or simulation testbed to compare orchestration strategies (could be led or co-developed by TUC).
+
+							WP4 – Real-Time Ephemeral Storage
+							🔹 Comments:
+								Sophisticated integration with plugins and inference directly in storage is unique and aligns with current trends in near-data computing.
+									The plugin security model (WP5) and orchestration hooks are well connected.
+								🔸 Suggestions:
+									Clarify how storage events influence orchestration (Task 4.3); could benefit from control flow diagrams or case-based examples.
+									Discuss fallback behavior in data-constrained environments (e.g., cache invalidation or stale reads at far edge).
+								WP5 – Security, Monitoring, and Policy Enforcement
+								🔹 Observations:
+									Clear cross-cutting design, though the lead partner is TBD—opportunity for TUC to strengthen proposal by suggesting a strong security-focused partner.
+									Per-function policies and federated compliance tracking are aligned with EU digital sovereignty and trust.
+								🔸 Recommendations:
+									Make explicit how security insights feed into orchestration decisions (loop from WP5 to WP3).
+									Describe the policy negotiation protocols between orchestrators in multi-domain setups—this would benefit from formalization.
+
+
+
+Summary for TUC Role
+WP Task	Suggested Contribution	Justification
+WP3.2	Lead or co-lead on policy-aware scheduling	Core expertise in orchestration algorithms
+WP3.3	Develop orchestration agent model for far-edge	TUC’s cloud/edge systems experience
+WP3.4	Define runtime–orchestration APIs and telemetry feedback	Aligns with system integration and monitoring competencies
+WP2.4	Contribute to function adaptation based on placement/orchestration hints	Bridge runtime–orchestration logic
+WP5.3	Define policy-driven adaptation strategies	Link telemetry to orchestration reactions
+
+
+
+
+* Leave your commnets on:  
+**  Objectives 
+** WP structure
+		WP3 – Distributed Orchestration Engine (Key WP for TUC)
+		🔹 Strengths:
+			TUC’s expertise in edge/cloud orchestration and network-aware placement fits naturally into Tasks 3.2, 3.3, and 3.4.
+			Federated orchestration, TEE-aware scheduling, and trust-policy enforcement are timely and technically relevant.
+		🔸 Suggestions for TUC’s Engagement:
+			Contribute directly to policy-aware placement algorithms with a focus on latency vs. energy vs. trust trade-offs.
+			Take leadership or co-lead in Task 3.2, especially around orchestration in multi-operator or multi-domain environments.
+			Propose a quantitative model for evaluating orchestration strategies using metrics like orchestration latency, placement efficiency, or compliance cost.
+		❗Areas to Improve:
+			Task 3.3 would benefit from a stronger formalization of the orchestration agent behavior under partial connectivity (e.g., models for offline graph syncing).
+			Include a benchmarking framework or simulation testbed to compare orchestration strategies (could be led or co-developed by TUC).
+
+* Summary for TUC Role
+		WP Task	Suggested Contribution	Justification
+		WP3.2	Lead or co-lead on policy-aware scheduling	Core expertise in orchestration algorithms
+		WP3.3	Develop orchestration agent model for far-edge	TUC’s cloud/edge systems experience
+		WP3.4	Define runtime–orchestration APIs and telemetry feedback	Aligns with system integration and monitoring competencies
+		WP2.4	Contribute to function adaptation based on placement/orchestration hints	Bridge runtime–orchestration logic
+		WP5.3	Define policy-driven adaptation strategies	Link telemetry to orchestration reactions
+
+* 	Why WP3 Is a Strategic Fit for TUC:
+1. Core Expertise Match
+    TUC's strengths in orchestration algorithms and edge/cloud systems align directly with:
+        Task 3.2: Policy-Aware Scheduling and Federated Orchestration — your expertise can directly contribute to designing smart, latency-aware, and SLA-compliant placement decisions.
+        Task 3.3: Embedded and Far-Edge Orchestration — your background in edge system constraints and communication makes you ideal for designing lightweight agents and protocols.
+        Task 3.4: Orchestration Interfaces and Coordination — you can help define and validate APIs for telemetry, orchestration triggers, and runtime adaptation.
+2. Cross-WP Collaboration Opportunities
+    TUC can also play a bridging role:
+        Between WP2 (runtime behavior) and WP3 (orchestration logic).
+        Between WP3 (scheduling policies) and WP4 (data-aware orchestration via triggers and replication policies).
+        Influencing WP5 with telemetry feedback loops and security-driven orchestration.
+3. Potential Leadership Roles
+    TUC could co-lead Task 3.2 or lead selected subtasks focused on:
+        Adaptive scheduling algorithms.
+        Benchmarking orchestration decision latency.
+        Federation models across domains/operators.
+17 July 
+==============
+Σε συνέχεια των συζητήσεων που είχαμε, σας προωθούμε την πρόσκληση για συμμετοχή στο έργο: “CYBeREACT – Operational Cybersecurity Response & Readiness Platform for Europe’s Critical Sectors”, στο πλαίσιο της επερχόμενης προκήρυξης του Horizon Europe: HORIZON-CL3-2025-02-CS-ECCC-02.
+
+Πρόκειται για ένα Research and Innovation Action (RIA) στον τομέα της λειτουργικής κυβερνοασφάλειας κρίσιμων υποδομών, με στόχο την ανάπτυξη μιας federated πλατφόρμας ανίχνευσης και απόκρισης σε κυβερνοαπειλές, εστιασμένης στους τομείς ενέργειας, υγείας και μεταφορών. Ιδιαίτερη έμφαση δίνεται στην πρακτική εφαρμογή και πιλοτική δοκιμή τεχνολογιών όπως:
+
+    AI-based threat detection & risk correlation,
+
+    Digital Twin προσομοιώσεις επιθέσεων,
+
+    Αυτοματοποιημένα playbooks απόκρισης,
+
+    Cross-border συνεργασία με CSIRTs και εθνικές αρχές.
+
+Στην προετοιμασία καθώς και στη συμμετοχή της πρότασης συμμετέχει ένα ευρύ consortium, συμπεριλαμβανόμενου εμάς, ως το Πολυτεχνείο Κρήτης (TUC), καθώς και του NASK (Πολωνία), της AIRBUS Cybersecurity, και της Bitdefender (Ρουμανία), ενώ γίνονται επαφές με CSIRTs και εταίρους στους αντίστοιχους τομείς. Η ΔΕΗ εκτιμάται να έχει ένα budget γύρω στις [συμπληρώστε εκτίμηση] EUR.
+
+Ο ρόλος της ΔΕΗ εκτιμάται να είναι ως ο βασικός πιλότος για τον τομέα της ενέργειας, όπου θα εφαρμοστούν και θα αξιολογηθούν οι τεχνολογικές λύσεις που θα αναπτυχθούν. Αυτή τη στιγμή, οι υπόλοιποι πιλότοι αφορούν δομές υγείας και μεταφορές σε άλλες χώρες της ΕΕ, με τη συμμετοχή διαχειριστών κρίσιμων υποδομών.
+
+📎 Επισυναπτόμενα θα βρείτε το αντίστοιχο concept note του έργου, συμπεριλαμβανόμενου του συνολικού budget και των προτεινόμενων δραστηριοτήτων, καθώς και ένα σύντομο template για τη συλλογή πληροφοριών σχετικά με τα χαρακτηριστικά του πιλοτικού που θα θέλατε να συμπεριλάβουμε στην πρόταση.
+
+Είμαστε στη διάθεσή σας για οποιαδήποτε διευκρίνιση, καθώς και για online meeting εφόσον το επιθυμείτε, προκειμένου να συζητήσουμε πιο αναλυτικά τη συμμετοχή σας.
+
+15 July
+=========================
+Μιλησα με τον Παναγιωτη Καραφωτη και με ρωτησε τι ακριβως ζηταμε απο την DEH . To kalytero θα ηταν να τουσ ζητησουμε να μας δωσουν raw fata και το labelling για malicious /threat attck να γνει απο εμας η ή καποιον αλλον πpartner. ua στειλει unofficial ενα μινημα σε δεη να δουν αν ειναι θετικοι και αν πουν οχι μπορει να παει και σε καποια απο εξωτερικό . Απλε στην περιπτωση που θα απει σε παποια εκτος ελλαδοσ μαλλον θα χρειαστει να μπει και καποια εταιρια μαζι. 
+	----------
+	Σκοπός: Να συμμετάσχει ως πιλοτικός φορέας στον τομέα της ενέργειας για την ανάπτυξη και δοκιμή του συστήματος ανίχνευσης και απόκρισης σε κυβερνοεπιθέσεις, ειδικά σε περιβάλλοντα OT/SCADA.
+	🔹 Συγκεκριμένα ζητάμε:
+
+		Πρόσβαση σε raw (ακατέργαστα) δεδομένα από:
+
+			SCADA logs
+
+			OT συστήματα
+
+			Δεδομένα γεγονότων ασφαλείας (π.χ. network traffic, asset monitoring, logs)
+
+		Δεν χρειάζεται να είναι επισημασμένα (labeled) ως επιθέσεις — αυτό μπορεί να το κάνει η ερευνητική ομάδα (π.χ. TUC, NASK, Bitdefender).
+
+		Αν δεν είναι δυνατή η χρήση πραγματικών δεδομένων, ζητάμε τη δυνατότητα να:
+
+			Χρησιμοποιήσουμε συνθετικά ή ανωνυμοποιημένα δεδομένα
+
+			Αναπτύξουμε ψηφιακό δίδυμο υποδομής (digital twin) για να δοκιμάσουμε επιθέσεις σε ασφαλές περιβάλλον
+
+		Συμμετοχή στο πιλοτικό σενάριο:
+
+			Είτε ενεργή (με επίβλεψη των δοκιμών)
+
+			Είτε υποστηρικτική (παροχή δεδομένων + τεχνικών απαιτήσεων)
+
+
+
+			Η ΔΕΗ, ως διαχειριστής κρίσιμων ενεργειακών υποδομών, μπορεί να συμμετέχει στο έργο CYBREACT ως πιλοτικός εταίρος στον τομέα της ενέργειας, συμβάλλοντας σε πολλές από τις βασικές λειτουργίες της πλατφόρμας:
+		🔍 1. Detect Threats (Situational Awareness)
+
+			Συλλογή & ανταλλαγή πληροφοριών για απειλές σε IT και OT περιβάλλοντα.
+
+		📌 Από τη ΔΕΗ ζητείται:
+
+			Raw δεδομένα (ή ανωνυμοποιημένα) από:
+
+				OT συστήματα (SCADA, PLC logs)
+
+				Δίκτυα και συστήματα εποπτείας ασφαλείας
+
+			Περιγραφή ρεαλιστικών σεναρίων απειλών που αντιμετωπίζει
+
+			Συνεργασία στη δοκιμή μηχανισμών ανίχνευσης κινδύνων (TUC/NASK)
+
+		🧪 2. Train and Prepare (Preparedness)
+
+			Χρήση digital twin μοντέλων για εξομοίωση επιθέσεων και έλεγχο ανθεκτικότητας.
+
+		📌 Από τη ΔΕΗ ζητείται:
+
+			Υποστήριξη στη δημιουργία digital twin ενός υποσταθμού ή ενεργειακής υποδομής (π.χ. σε συνεργασία με TUC ή AIRBUS)
+
+			Συμμετοχή σε ασκήσεις κυβερνοετοιμότητας με βάση αυτό το μοντέλο
+
+			Παροχή λειτουργικών σεναρίων (π.χ. επίθεση ransomware, DDoS στο SCADA)
+
+		⚙️ 3. React Automatically (Response Automation)
+
+			Αυτόματη αναγνώριση και απόκριση σε επιθέσεις με χρήση AI και playbooks.
+
+		📌 Από τη ΔΕΗ ζητείται:
+
+			Εξομοίωση απόκρισης σε κυβερνοεπιθέσεις στο digital twin (π.χ. απομόνωση infected asset)
+
+			Συμμετοχή στην αξιολόγηση των playbooks από την πλευρά επιχειρησιακής πραγματικότητας
+
+			Παροχή feedback για την υλοποίηση σε OT/ICS περιβάλλον
+
+		🌍 4. Coordinate Across Borders (Crisis Coordination)
+
+			Πραγματικός ή εικονικός συντονισμός με CSIRTs και άλλους εταίρους σε περιπτώσεις κρίσης.
+
+		📌 Από τη ΔΕΗ ζητείται:
+
+			Συμμετοχή σε cross-border άσκηση κυβερνοκρίσης (π.χ. μαζί με CSIRT Πολωνίας, ΝΑΣΚ)
+
+			Εισροή για την ανάπτυξη dashboard που να καλύπτει ανάγκες του ενεργειακού τομέα
+
+		📑 5. Follow the Rules (Compliance)
+
+
+		kind of data 
+
+
+Cyberreact next steps
+============
+
+		RTE (France)	Critical for Energy Pilot – hard to replace, shows real-world infrastructure access, public operator. Proves CybeReact is grounded in operational use.	
+		🥈 5th Health Authority / PAGNI (Greece)	Crucial for Healthcare Pilot – few hospitals engage in EU pilots. Adds strong end-user validation, especially for medical IoT risks.	
+		🥉 THALES (France)	System integrator with critical infrastructure and cybersecurity credibility – strengthens technical realism, potential lead for architecture and impact. Known to EU evaluators.	
+		✅ UBITECH (Cyprus)	Platform integrator & compliance expert – very experienced in Horizon Europe, helpful for proposal writing, WP5, and architecture. SME credibility.	
+		✅ SBA Research (Austria)	Cyber risk modeling and ENISA collaboration – key for aligning with policy and scoring well on "Excellence" and "Impact". Also strong in AI for detection.	
+
+		
+		🎯 Secondary Tier – Strategic but Easier to Replace or Add Later
+		Partner	Role	Notes
+		AIRBUS (FR/DE)	Aerospace and digital twin validation	Strong brand, great for impact, but not strictly necessary early if you have AVL LIST and THALES
+		Bitdefender (Romania)	AI-based threat detection	Technically excellent, but other SMEs could fill this role if needed. Still valuable if secured.
+		AXON Logic (Greece)	GDPR & privacy	Good SME partner, but easier to substitute if needed with another legal tech SME
+		AVL LIST (Austria)	Transport digital twins	Strategic for the transport pilot, especially if AIRBUS isn’t confirmed. Might be flexible.
+		MONTIMAGE (France)	Monitoring tools	Useful, strong in validation/testbed setup, but not core to pilots
+		✅ Recommended First 5 to Secure (for a credible & fundable core)
+
+			RTE (France) – energy pilot validation
+
+			5th Health Authority / PAGNI (Greece) – healthcare pilot
+
+			THALES (France) – integration & critical infrastructure credibility
+
+			SBA Research (Austria) – research, risk modeling, ENISA alignment
+
+			UBITECH (Cyprus) – compliance modules, Horizon experience
+
+7 July 
+============
+* Sotiris: na steiloyme prwta sthn AIRBUS kai to contact pou esteila apo SIEMENS kanoun health . alla mporoume na valoume kai DEI gia energy . 
+* todo na steilw mail ston swthrh na steilei AIRBUS. na einai coordinate to NASK 
+* INTACT meeting discussion on PUC3: •
+ ** Our contribution could be : 	A Network-based Intrusion Detection System (NIDS) will be integrated using the IDS Tool developed by TUC, featuring a signature-based algorithm accelerated by FPGA hardware for high-performance, energy-efficient real-time monitoring and alerting.
+** Marksteiner Stefan from AVL/AT : they show what they are up to and an open discussion on how to collaborate with this. Many have solution that could help us . in chania some people expressed desire to collaborate . end of week will consilidate this discussion and next wekk colcusion who and how will contribute to this PUC. 
+** Kevin : Bruno should be involved. need to emphasize collaboration with Dimitris (WP4). + FRaunhofer + MONK,  
+**puc3 they have actors. systems is a test system, and human as test engineers , threat model and test . threatmodel is athreat modeling tool with pre-defining elements , predefined buiding blocks 
+** DIMITRIS Klonidis dklonidis@ubitech.eu
+4 July
+============
+
+
+* todo sent around the presentation 
+
+Minutes CyberREact - first meeting with NASK 3 July - draft notes
+
+
+🔹 Anna / NASK 
+
+ 
+	 They are not the same as the national CSIRT (e.g., CSIRT GOV or CSIRT NASK); they represent a different team and therefore should have distinct responsibilities. Their involvement should be clearly separated, with Anna’s team focusing specifically on the scientific and research-oriented aspects of the project.
+
+    Anna will be on holiday after July 21, so coordination should happen next week.
+    Marek Janiszewski will be the contact person during Anna’s absence.
+        ➤   Send Marek any requests, drafts, or clarifications.
+
+🔹 Concerns about participation​ of the potential partners I have sent around:
+		Willing to participate
+        Responsibility expectations (e.g., incident response obligations)
+        Data sharing risks, particularly involving digital twins and operational systems
+    ➤ He might prefer a limited engagement, or anonymized / synthetic data sharing.
+
+🔹 despoina
+
+   We can propos a scaled-down approach if needed, focusing on what is feasible,
+   Indeed we can mention that anonymized data or synthetic data could be alternatives,
+   I will reach out next week to clarify which of the potential partners could be onboard. 
+
+
+---------- Forwarded message ---------
+From: Despoina Antonakaki <antonakd@gmail.com>
+Date: Thu, Jul 3, 2025 at 4:34 PM
+Subject: CyberREact - first meeting with NASK 3 July - draft notes
+To: Despoina Antonakaki <antonakD@gmail.com>
+
+
+Anna wanted to make sure we understand they are different from the poland SCIRT and taht they will need of course different tasks 
+ana are diffirent task because they are different department . sceince part s
+
+SCRIrts  -
+
+Piotr  - the idea is ?? afraid a bit about
+
+critical infrastructureplayer. Maybe they want reposnd or be willing to be part of this nd share information
+The same fear about digital twin 
+
+i wnaswered that we conatct and see wif they are not onbiard then we limit our methodology to wcaht we can actually achieve in a smaller scale.
+
+maybe tey could share theier data anonymized maybe availble i some aother ways ...
+
+have you contaxtes with any digital twin ?
+
+ we will contact next week contact and let them know .
+
+Anna will be away for holidays 2 weeks and marek janiszewksi will be available . 
+MaREK send anything
+
+(NAKS)
+what are you  think of us to take in this proposal . where do we fit?
+(DEPOINA) Maybe actually you see and pick which parts you can take on.
+
+incident operation NASK ..
+after 21 of July . anna will be on holiday . next monday .  two ā
+
+the name are big actors what happens f rthey refuse . ?
+
+
+
+
+---
+regards!
+Despoina Antonakaki,
+Postdoctoral Researcher ICS-FORTH
+
+3 July
+==============
+* CybeReact is a federated cybersecurity platform that helps Europe’s critical sectors — like energy, healthcare, and transport — detect, respond to, and recover from cyber and hybrid attacks in real time. By combining threat intelligence sharing, AI-driven incident response, and digital twin-based simulations, CybeReact enables national CSIRTs, SOCs, and infrastructure operators to act faster and more effectively. The platform supports cross-border coordination (aligned with EU-CyCLONe) and ensures full compliance with EU cybersecurity regulations like NIS2, the Cyber Resilience Act, and the Cyber Solidarity Act — while preserving national data sovereignty.
+* In detail
+CybeReact is building a cybersecurity platform that helps Europe respond better and faster to big, complex cyberattacks — especially those that affect critical systems like power grids, hospitals, and transport networks.
+ Instead of each country or sector working alone, CybeReact creates a federated (connected but not centralized) system that allows:
+🔧 What the platform will do:
+1) See the Threats (Situational Awareness)
+        a) It collects and shares cyber threat information (e.g. from firewalls, sensors, and reports) using standard formats like STIX and TAXII, so all cybersecurity teams can understand and use it.
+        b) It analyzes the risk across both IT (servers, software) and OT (industrial systems like power stations).
+2) Train and Prepare (Preparedness)
+        a) It uses digital twins — virtual models of real infrastructure (like a power plant or a hospital) — to run cyber-attack simulations.
+	   b) This helps teams test how well they’re prepared and fix weak spots before a real attack happens.
+3) React Automatically (Response Automation)
+        a) It uses AI tools to detect threats quickly, decide what to do (using “playbooks”), and even take action — for example, isolate infected systems or block malicious traffic.
+4) Coordinate Across Borders (Crisis Coordination)
+        During a crisis, it shows all the important information in one dashboard so national CSIRTs (cyber teams) and EU bodies like EU-CyCLONe can act together in real-time.
+5) Follow the Rules (Compliance)
+        The platform constantly checks if everything is aligned with EU cybersecurity laws (like NIS2, Cyber Resilience Act), and generates automatic reports for audits.
+
+🔍 Example Use Cases (Pilots)
+Sector	Scenario	Tested by
+Energy	Cyberattack on the electricity grid using ransomware	RTE (France)
+Healthcare	Malware disabling hospital devices during a health emergency	5th Health Authority (Greece)
+Transport	Coordinated attack on airports and aerospace logistics	AIRBUS (France/Germany)
+Cross-border	Cyberattack affecting several countries' supply chains	NASK, ENISA
+Compliance	Real-time testing of how well the system follows EU cybersecurity laws	UBITECH (Cyprus)
+
+
+
+2 July
+=========
+* ASONAM will be handles in teh afternoon by Alex 18--> 8 pages. I will start tomorrow 
+* presentation for proposal 
+* Manos asked sotiris abou the consirtium and he replies lets see wh respons first 
+
+
+		CybeReact will deliver a federated cybersecurity response and readiness platform that improves Europe’s capacity to detect, respond, and recover from cross-border cyber and hybrid threats targeting critical infrastructure.
+		The platform supports real-time situational awareness, AI-powered response automation, and digital twin-based preparedness across sectors such as energy, healthcare, and transport, in full alignment with NIS2, CRA, the Cyber Solidarity Act, and the EU Cybersecurity Strategy.
+		Key Objectives
+		1.	Situational Awareness: Interoperable threat intelligence (STIX/TAXII, CSAF) and risk analysis across ICT/OT systems.
+		2.	Preparedness: Digital twin-based simulations to test infrastructure resilience in real-time.
+		3.	Response Automation: AI-assisted orchestration of detection, mitigation, and recovery processes.
+		4.	Crisis Coordination: Federated decision-making aligned with EU-CyCLONe and national CSIRTs.
+		5.	Compliance: Real-time monitoring and reporting aligned with EU cybersecurity laws.
+
+		Energy	Simulated ransomware/wiper attacks on grid SCADA/OT	RTE (France)
+		Healthcare	Ransomware targeting medical IoT during health crisis	5th Health Authority (GR)
+		Transport	Hybrid attacks on airport/rail systems and aerospace logistics	AIRBUS (FR/DE)
+		Cross-border	Coordinated CSIRT supply chain threat response	NASK, ENISA
+		Compliance	Testing regulatory enforcement at runtime in real operational environments	 , UBITECH
+
+
+
+		Innovative Elements
+		•	Federated Data Sovereignty – No central storage; secure interoperability
+		•	AI Threat Detection – ML-based triage and decision support
+		•	Digital Twin Simulation – Realistic, physics-accurate attack simulation
+		•	Policy-as-Code – Real-time compliance enforcement (NIS2, CRA, etc.)
+		•	Extensible API-based Architecture – Open integration with FSTP options
+
+1 July 
+==========
+* ASONAM ? slides 
+* ASONAM camera ready
+* ASONAM folder sent by Alex. Uploaded in https://www.overleaf.com/project/686392f85c4cc508a5fcecd1
+ https://www.overleaf.com/project/686392f85c4cc508a5fcecd1
+* timesheets ITE OK  
+* sumvash ITE OK
+* taytothta ITE 
+* INTACT doodle and misc 
+* foroogikh enhmerothta 
+* eishthr gai a8hna 
+
+
+30 June 
+===========
+* Timologio OK , forologikh enhmerothta den mporw , ekkremei 
+* Subject: Summary of Proposed CYBeREACT Consortium Partners for Review
+
+Dear [Boss's Name],
+
+Following our recent discussions and strategic planning for the CYBeREACT proposal under HORIZON-CL3-2025-02-CS-ECCC-02, please find below a summary of the proposed partner consortium. The selection aligns with our phased methodology (Digital Twins, AI-based detection, federated architecture, compliance, and pilot validation across sectors).
+🔹 Key Strategic Partners (Core Roles)
+
+    TUC (Greece) – Technical lead, Digital Twins, orchestration
+
+    THALES (France) – Federated architecture & zero-trust design
+
+    SOPRA STERIA (France) – Project coordinator, QA & regulatory oversight
+
+    NASK (Poland) – National cybersecurity authority, CSIRT/CTI expertise
+
+    Bitdefender (Romania) – AI threat detection, malware analytics
+
+🔹 Research & AI Excellence
+
+    SBA Research (Austria) – Risk modeling, ENISA collaboration
+
+    Imperial College (UK) – Advanced AI for threat prediction
+
+🔹 Digital Twin & Pilot Experts
+
+    AIRBUS (France/Germany) – Transport sector pilot lead, cyber-physical simulations
+
+    AVL LIST (Austria) – Transport digital twins (automotive/ICS)
+
+    RTE (France) – Energy sector pilot (OT/SCADA resilience)
+
+    5th Health Authority (Greece) – Healthcare pilot (medical IoT security)
+
+🔹 Compliance & Privacy Specialists
+
+    Arthur’s Legal (Netherlands) – Regulatory/policy lead (NIS2, DORA, CRA)
+
+    AXON Logic (Greece) – GDPR and privacy-preserving architecture
+
+    UBITECH (Cyprus) – Platform compliance modules & integration
+
+🔹 Monitoring, Validation & Federation
+
+    MONTIMAGE (France) – Monitoring, DPI, validation tools
+
+    DFN-CERT (Germany) – CSIRT pilot & CyCLONe integration
+
+    SIDN/SURFnet (Netherlands) – Federation, identity, and secure APIs
+
+🔹 Innovation & Standardisation
+
+    EIT Digital – Dissemination, SME engagement, standardisation input
+
+    ENISA (Observer) – Policy validation and threat landscape alignment
+
+📌 Key Strengths of the Consortium
+
+    Covers 11 EU countries – strong geographic and sectoral balance
+
+    Mix of industry, academia, SMEs, and public authorities
+
+    Real pilots in Energy, Health, Transport, and CSIRT Coordination
+
+    Advanced technical capabilities in AI, Digital Twins, and Compliance
+
+Let me know if you’d like to review the full partner matrix or discuss any substitutions or omissions before we finalize.
+
+* ASONAM - Niagara falls
+27 June 
+===========
+
+1) ποιοσ θα αναλαβει τι ; NASK ? TUC? 
+	NASK: Αν το έργο έχει έντονο cybersecurity policy/CERT περιεχόμενο, πιθανότατα να ηγηθεί στα security frameworks, incident response, integration με ευρωπαϊκά CSIRTs.
+	TUC (Πολυτεχνείο Κρήτης): Κατάλληλο για τεχνολογικό R&D, π.χ. AI για cybersecurity, digital twins, simulation environments, κλπ.
+2) pote apofasizete ayto ? 
+3) Τι εχουμε να προσφερουμε εμις σας TUC? uparxei ena meeting na mpw Pamth IDS tou intact ? 
+	     Ανταγωνιστικά πλεονεκτήματα TUC:
+	    Έρευνα σε AI, machine learning for threat detection, digital twins for cybersecurity.
+    	Συνεισφορά σε proof-of-concept demonstrators.
+
+    Δυνατότητα για simulated testbeds και digital twin frameworks για testing.
+4) ποιος αλλο consortuium ? δες consortium intact 
+5) Na πουμε στην Αννα για το αν προτιμαει να γινει ενα networking proposal(concordia) ή ενα call open call cyberguard? ισως ομως σε αυτην την περιπτωση να μην μπορει να παρει μερος ή να μην εινια τετοιο το kind of call οπως στο cybeguard ... na mhn εστιαζουν το budget se calls
+	a) Networking proposal (CONCORDIA τύπου): Εστιάζει σε community building, harmonization, roadmap shaping, λιγότερο σε R&D. Ίσως πιο εύκολο entry point για ακαδημαϊκούς.
+	b) "Αν προτιμάς να συμμετέχουμε σε ένα more lightweight networking-type proposal (τύπου CONCORDIA) ή να κυνηγήσουμε ένα πιο τεχνολογικά φορτισμένο call όπως CyberGuard open call."
+6) dew δες proposal + respective calls επιτυχημενα στο drive μας
+7) γραψε ενα reveiw paper for digital twins  
+
+25 June
+=========
+* resend concept note to Anna
+* start proposal 
+* fill in https://docs.google.com/spreadsheets/d/1tvlp9_9-uLjbhBIZP9Q6F2H2VNF7knS1uLikxYwsC9k/edit?gid=0#gid=0 for the proposal info OK 
+
+24 June
+==========
+
+[INTACT day 2. wp4]
+https://fraunhofer.conceptboard.com/board/soqh-mid6-8dcd-oy8h-3kkf
+
+[INTACT]
+our tool regarding the use cases : we need a scenario to define the use case 
+
+the use case could be used to use specific triggers /rules 
+
+23 June 
+==========
+* Intact physical meeting chania 
+** Other PUC potential aplicatio of TUC IDS
+**1. PUC related to Safety-Critical Systems
+    Why? FPGA-based NIDS is highly suitable for safety-critical, low-latency environments (e.g. industrial control systems, automotive, railway).
+
+    Match: If there's a use case around real-time decision-making or cyber-physical safety, TUC’s FPGA IDS would provide valuable monitoring.
+
+2. PUC for Telcos / 5G-Edge
+
+    Why? Telecom and 5G infrastructure benefit from high-speed, hardware-level packet inspection.
+
+    Match: TUC’s IDS (especially FPGA-based) could support edge-cloud threat detection in telecom settings.
+
+3. PUC in Health 4.0
+
+    Why? Medical networks (e.g. hospital IoT) require strict monitoring with minimal delay.
+
+    Match: TUC’s lightweight IDS components may be adaptable for medical data network security.
+
+* Anna Proposal for "CybeReact – Operational Cybersecurity Response & Readiness Platform for Europe’s Critical Sectors"
+**  
+
+11 June
+==========
+[Update on PGM meeting INTACT]
+* exoume telos iouniou to paradoteo (2.1? ) exoume dwsei emeis input sto demokrito . 
+* exoume kai to technical meetign sta xania stis 23-24 iouniou 
+* andreas: x8es stoo meeting eipan gia to puc oti ekkremei inut alla tipota - tous esteila mail 
+[new_proposal?] 
+* https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2025-02-CS-ECCC-02?keywords=Cybersecurity&isExactMatch=true&status=31094501,31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=relevance
+* HORIZON-CL3-2025-02-CS-ECCC-02 - HORIZON-IA HORIZON Innovation Actions, total: 	23 550 000,  	single-stage	2025-06-12	2025-11-12, 	4500000 to 6000000 - 4
+
+Mano skeftomouna authn thn protash gia noemvrio : 100% για δημόσιους / ερευνητικούς οργανισμούς HORIZON-CL3-2025-02-CS-ECCC-02 - HORIZON-IA HORIZON Innovation Actions, total: 	23 550 000,  	single-stage	2025-06-12	2025-11-12, 	4500000 to 6000000 - 4
+kapoioa idea poion na epoikoinwnhsw gia consortium  ? isws apo ecso? 
+
+				Καλησπέρα,
+
+		Σκέφτομαι την πρόταση για την πρόσκληση Νοεμβρίου του Horizon Europe:
+
+		Topic: HORIZON-CL3-2025-02-CS-ECCC-02 – Innovation Action
+		Deadline: 12 Νοεμβρίου 2025
+		Total Budget: 23.550.000 €
+		Προτεινόμενο ανά έργο: 4,5 – 6 εκατ. ευρώ
+		Χρηματοδότηση: 100% για δημόσιους/ερευνητικούς οργανισμούς
+
+		Το αντικείμενο της πρότασης αφορά 
+		**operational cybersecurity capabilities**, including:
+		- Advanced cyber threat intelligence and information-sharing tools
+		- Preparedness frameworks for cyber and hybrid threats across ICT and OT environments
+		- Enhanced SOC/CSIRT operations for detection, response, and remediation
+		- Testing and experimentation infrastructures (e.g., digital twins) for critical entities
+		- Cross-sectoral and cross-border cyber crisis management tools and coordination mechanisms
+
+		Θα μπορουσαμε να παμε πάλι με open calls οπως ειχαμε καταθέσει στο cyberguard?
+
+		Kάποια ιδέα για  partners;
+		
+		- Ερευνητικούς φορείς/ινστιτούτα με εμπειρία σε κυβερνοασφάλεια ή AI
+		- SMEs/startups με λύσεις σε SOC automation, threat intelligence, SOAR
+		- Δημόσιες αρχές / CERTs / operators υποδομών (ενέργεια, υγεία, μεταφορές)
+		- Νομικούς / ethical partners για συμμόρφωση με NIS2, CRA
+
+		Ίσως μέσω ECSO ?
+
+		Κάθε πρόταση ή επαφή ευπρόσδεκτη 🙏
+27 May 
+============
+* [INTACT] WP3 meeting 
+** 3.1 : update : panels recarding link on use case . use case 1 stared discussiion . tried toengage panesl . how task will be formulated. ongoing progress. focus on use case and see later if can be applied to other, but for now use case 1 . no issue . work in progress
+** 3.2   no one to report 
+** 3.3 airbus: work in progress for different partner. pilot progress. will use orion to analyse netwokr with IDS 
+** 3.4  
+** next meeing 10 june 
+* [INTACT] WP2 meeting 
+** wissam mallouli update 
+*** digital twin gettign input from digital twin 
+*** twinning agent staff 
+
+
+20 May 
+============
+* intact wp2.1 meeting 
+** evryone ask if not included in puc 
+** will add all pertbers for puc. there is a table of listing of pucs 
+but not included in the deliverable  
+
+aksed to add in the deliverable . add as a table, clise to final version so we checked all names 
+screen shot is what he spexects from everyone a mall ipece of architectitre a schema likethat a similar schema 
+copy this chema and create a insttioatoin instantiation 
+
+
+3.3.7 kpi see teh template kai prosarmose ta dika mas !!! [`yTODO]
+]
+
+actors table
+
+attack > 5 
+formulate kpis so that numbew show up 
+show abmition and mention concrete numbers ...
+
+19 May 
+===========
+* apella APP46465 ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ 	Επί Θητεία Επίκουρος Καθηγητής 	Επιστήμη Δεδομένων και Μηχανική Μάθηση
+* veivawsh prouphresias online gia IKA . ok 
+**gai efka ekremmei . ekana aithsh tsekare aurio esw https://www.atlas.gov.gr/apps/AsepReports/ReportApplication
+* aithsh edw https://search.et.gr/el/fek/?fekId=779046
+https://service-apella.grnet.gr/apella/ui/auth/my-profile/details 
+15 May 2025
+============
+* [PUC ubitech + dimokritos meeting] 
+* [WP4 meeting]
+** the weather talk !
+** Burdulea Ilinca -Laura hosts  
+** SDA Manuel Leithner presentation:  Combinatory methods fro remote attestation and threat modeling .
+****Q&A it is theat modeling 
+*****Ilinc next steps . comments on the presentation. identify on each device the attack model. 
+*****manuel answers that yes we have to see each device . find thinds that are hard to identify as atatck . modify edit fuctionality , need to talk abou this in separate meeting . 
+** Update from task leader . start collaboration and future steps 
+***4.1 see screenshot in corresponding file  4.1 connects with 4.3(Akis nousias asks that there is a connection with 4.3) ? Kevin . historical ; princin project karnica initially developed . will make a working group for 4.1 
+***4.2(SBA) update and next steps : 
+***4.3 Akis nt have a presenattion ready . we are working on the tempate to gather infprmatoio on artnret models in different parts of teh projects. model types input . which teh model operaters. we aim to share the tempate till next wp4 meeting. also workig on he existing implementaion to be able to acocmedate the nee dof intact but doidtn have any progress with partners , maybe till next wpc  meeting . 
+** T4.3 from AXON : Lim Siong : not available the responsible person ION is not here , willbe giving a more accurate decription in the meetinng. 
+
+
+see minute sof meeting. 
+
+14 May 2025
+=========
+* [proposal meeting]We are currently involved in the LLMs4EU project of the ALT-EDIC and in the IPCEI-CIS 8ra on edge-cloud continuum.
+* [PGM meeting] INTACT  sto webinar gia patents me rwthsan an exoume kanei to diko mas tool patent : Μαλιστα στο τέλος ειπαμε σχετικα με αυτό που δικο σας module αν εχει γινει patent , και ακόμη και να έχει γίνει θα μπορούσε οχι πολύ δυσκολα να γίνει append/update η λειτουργικότητα του με βαση το INTACT. IDS tool me snort 
+* INTACT enhmerwsh apo andrea: 2.1 deliverable ekremei me use cases (apo aegeis ? )
+
+
+
+13 May 
+=========
+* INTACT WP3 meeting 
+** 3.1 OK Qiang ni .discussion with partners . We have progress 
+** 3.2 Ilias Papas Aegis. Waiting for requirements to PUC.  WP2 waiting essentials inputs . Thomas Oudin: Maybe have a meeting for PUC ..and see WP2? 
+** 3.3 Thomas ongoing progress form Airbus 
+** 3.4 not here today but ogoing progress
+** 25 may next meeting shorter no presentations 
+* Exploring the Computational Universality of LLMs
+** Recent studies suggest that autoregressive(Autoregression is a statistical technique used in time-series analysis that assumes that the current value of a time series is a function of its past values.)) LLMs can simulate universal computation under specific prompting strategies. For instance, research has demonstrated that a transformer-based language model can emulate a universal Turing machine through carefully designed prompts and decoding methods .
+** https://arxiv.org/abs/2301.04589?utm_source=chatgpt.com
+**** We show that transformer-based large language models are computationally universal when augmented with an external memory. Any deterministic language model that conditions on strings of bounded length is equivalent to a finite automaton, hence computationally limited. However, augmenting such models with a read-write memory creates the possibility of processing arbitrarily large inputs and, potentially, simulating any algorithm.
+
+Memory Augmented Large Language Models are Computationally Universal - Dale Schuurmans
+Autoregressive Large Language Models are Computationally Universal - 	Dale Schuurmans1,2, Hanjun Dai1, and Francesco Zanin
+Potential Research Directions:
+
+    Analyzing the conditions under which LLMs exhibit computational universality.
+
+    Investigating the limitations and capabilities of LLMs in simulating various computational models.
+
+ Exploring the computational universality of Large Language Models (LLMs) is a fascinating intersection of theoretical computer science and modern AI. Recent research has demonstrated that, under specific conditions, LLMs can simulate universal computation, akin to a Turing machine.
+ 
+ 🧠 Two pivotal studies have advanced our understanding in this area:
+
+    Memory-Augmented LLMs: Schuurmans (2023) showed that by augmenting a transformer-based LLM, specifically Flan-U-PaLM 540B, with an external associative read-write memory, the system could simulate the execution of a universal Turing machine (U<sub>15,2</sub>). This setup doesn't require modifying the model's weights but relies on a "stored instruction computer" paradigm, where prompts guide the LLM's operations, and outputs are parsed to update the memory state .
+
+    Unaided LLMs with Extended Decoding: In a subsequent study, Schuurmans et al. (2024) demonstrated that even without external memory or modifications, an LLM could achieve computational universality. By employing a generalized autoregressive decoding strategy, where generated tokens are appended to the input sequence, the LLM simulates a computational model known as a Lag system. They successfully used this approach with the Gemini-1.5-pro-001 model, guiding it through 2027 production rules to emulate a universal Turing machine .
+
+🔍 Potential Research Directions
+
+Building upon these findings, several research avenues emerge:
+
+    Formalizing the Computational Boundaries of LLMs: Investigate the theoretical limits of LLMs' computational capabilities. How do factors like context window size, model architecture, and decoding strategies influence their ability to simulate various computational models?
+
+    Designing Efficient Prompting Mechanisms: Develop and analyze prompting strategies that enable LLMs to perform complex computations reliably. This includes creating "prompt programs" that can guide LLMs through multi-step algorithms without external interventions.
+    ar5iv+1arXiv+1
+
+    Evaluating LLMs' Computational Reasoning: Utilize benchmarks like TMBench to assess LLMs' abilities to follow algorithmic instructions and maintain state across computations. This can shed light on their potential for tasks requiring precise computational reasoning .
+    arXiv+1arXiv+1
+
+    Exploring the Implications for the Church-Turing Thesis: Examine how the computational behaviors of LLMs align with or challenge the principles of the Church-Turing thesis, especially in the context of the Extended Church-Turing Thesis, which considers interactive and non-uniform computations .
+    arXiv+3arXiv+3arXiv+3
+
+📚 Suggested Reading
+
+To delve deeper into this topic, consider reviewing the following papers:
+
+    Schuurmans, D. (2023). Memory Augmented Large Language Models are Computationally Universal. arXiv:2301.04589.
+    export.arxiv.org+7arXiv+7ar5iv+7
+
+    Schuurmans, D., Dai, H., & Zanini, F. (2024). Autoregressive Large Language Models are Computationally Universal. arXiv:2410.03170.
+    export.arxiv.org+2arXiv+2arXiv+2
+
+    Wu, H. et al. (2025). Turing Machine Evaluation for Large Language Model. arXiv:2504.20771.
+    arXiv+3arXiv+3arXiv+3
+
+    Wiedermann, J., & van Leeuwen, J. (2024). Large Language Models and the Extended Church-Turing Thesis. arXiv:2409.06978.
+    arXiv+1
+5 may 
+=======
+* Alex left TUC :(  etairia Cyprus 
+* [TODO] make a log for impact per WP
+* search proposals:
+**  
+
+
+
+2 May 
+=====
+* 2 online workshops 
+
+30 April 
+=================
+* mastography ok 
+* timologio ok timesheets ok ekk ook 
+* AI & sec webinar ok 
+* 
+29 April 
+=================
+* timologio OK 
+
+23-28 April Rome
 =================
 
+
+=========NTN DPN 79R67 Z115S Codice Fiscale Generator NEEDED for some of the tourist site to close tickets 
+=========Address:Via Sallustiana, 1A, 00187 Roma RM, Italy===
+
+Wednesday 23 April 13:00 Ηράκλειο - 17:30 Rome - 2 hours train 38minutes car 
+Thursday  24 April Galleria Borghese  09:00!!! nwris 13 lepta podia  AM 
+Thursday  24 April COLOSSEO 24H Thursday, April 24, 2025 at 5:00 PM 34 minute by foot/ 11 car 
+Friday 25 April  trastevere hill loukas restaruant laikh !! tonarello fai 
+Saturday 26 ...vatican 26 April 2025 1230A Vatican Museums and Sistine Chapel 26/04/2025 12:30. 1h by foot . 21minute car 
+Sunday 27/4 ...maxxiii 1200 . One hour by foot, 15 car    
+Monday 28 ... 18:25 Rome - 00:25 her 
+
+1) Villa Borgese not available 3 months before check February https://www.tosc.it/en/artist/galleria-borghese/galleria-borghese-2253937/ 
+2) National Gallery of Modern and Contemporary Art:  moderne art https://www.ticketone.it/eventseries/la-galleria-nazionale-2890614/?affiliate=T2C OMOIWS
+3) Museum of Contemporary Art MLAC - Sapienza no tickets ? no english site? 
+4) https://barberinicorsini.org/ available 
+https://ecm.coopculture.it/index.php?option=com_snapp&view=event&id=E2BE2FD9-64E4-5D37-412E-0194603DC454&catalogid=2E72098E-8006-5C92-1E3F-01948826CED3&lang=it
+5) Galleria d'Arte Moderna  - Tickets are not yet available for sale on Vivaticket
+or sales have been temporarily suspended or closed
+https://en.museodiroma.it/
+https://museiincomuneroma.vivaticket.it/en/event/ingresso-museo/154767?idt=2386 chack next month 
+https://museiincomuneroma.vivaticket.it/en/tour/galleria-d-arte-moderna/2387
+Gallerie Nazionali di Arte Antica - Palazzo Barberini
+
+17 April 2025
+=============
+[INTACT] meeting aurio sto  [WP4]( Task 4.3: Explainable AI visualisation assistance and human-factor awareness tools – Led by K3Y [M04-M31]
+Participants: SIEMENS, HMU, [TUC], UBI, AXON, AEGIS, ICP 
+Task T4.3 has a twofold purpose. FIRST, it will follow the methodology of Section 1.2.4 to build the [AssistantVirtualAgent] (AVA) using state-of-art cognitive AI visualisation and Explainable AI scripted rules (available in K3Y K3CyberRadar). 
+AVA will be a human-machine communications tool integrated within the INTACT Dashboard to straight answering routine queries put by the end-users, thereby providing swift solutions to standard requests for resolving security problems, while translating the optimal Security-to-Everything decisions of T3.2 in simplified terms tohumans. AVA will also support text-to-speech, speech-to-text, and open-voice datasets (developed using Leon, Mycroft AI) to enable the end-user awareness over automated speech explainability, and real-time guidance for end-users to build and assess custom cybersecurity scenarios.)
+
+SECOND, T4.3 will use Role Playing Game concepts of THALES Cybels CyberRange platform to build the INTACT CyberRange that will work hand-in-hand with AVA, i.e., AVA will initiate a learner’s experience with a laddering interview technique to achieve a structured approach for gathering the required data – these data will be used in Cybels’ 12
+Associated with document Ref. Ares(2024)4873082 - 05/07/2024
+Project: 101168438 — INTACT — HORIZON-CL3-2023-CS-01 games to resemble functionalities of a Sandbox (i.e. to emulate attacks and forensics without harming the physical infrastructure). The Sandbox will be virtualised (e.g. using the Tensorflow of UBI MAESTRO and OpenStack) to support automated system deployments and network configuration within small time windows and managed infrastructure
+services (e.g. IaaS such as Microsoft Azure, Google Cloud Platform and AWS). That way, T4.3 will facilitate expert and
+non-expert users to transferring their own attack- defence models within the INTACT Toolbox and emulating their own
+applications, services, datasets, etc. (Output: D4.3, D4.4)
+
+---
+Task 4.3: Explainable AI visualisation assistance and human-factor awareness tools – Led by K3Y [M04-M31]
+Participants: SIEMENS, HMU, TUC, UBI, AXON, AEGIS, ICP
+Task 4.4: Security service repository and Tooling kit selection (Dashboard tools) – Led by AXON [M04-M31]
+Participants: THALES, HMU, ULANCS, TUC, K3Y, AEGIS, ICP
+
+17 April
+====
+[WP4_meeting_intact]
+
+
+Burdudelea Ililinca : 
+4.1 work on users 
+waiting 
+update each task works indivendently, we keep this meeting t  give updates
+PUC1 PUc2, waiting for input and will define then scenario and define scenario for twining 
+
+develop iuser stories, will identify user stories 
+
+tehy have contacted parnters invlved to provide input 
+
+SBA : will integrate (see photoes : ) attack generation intead of DAG --> working on the amendment 
+infrastruvture threat modelling 
+
+Kevin: will pass to PA : amendment soethign on amendment some thisnkg will pass to amendment 
+concerns . are we keeping the same objectives?we have to justify . some colleuges agree/ some have ojcetives/ 
+
+
+[SBA research] will try to fit to currect ojectives
+[Kevin] try to reach ojcteives 
+they expect to implement someting ...impressions that are not defined correctly ? 
+
+einai ontws ligo 8olh h katastash kai apo thn pleura tou Kevin. 
+
+
+3.2 leader () need to be carefull to keep ojcteives of tasks separate . how shoudl it go for 3.2 3.4 ? 
+
+exalty differentiate taks sais Manuael from SBA ! you are right 
+
+[kevin] jumps in again: some movement in person months !!!
+within WP changesis ok , not mmove between WP!!! that is a problem. PO need to know the second , 
+
+
+ilinnca -alura Burddulea please fibalize teh amendment
+
+
+[Akis_Nousias] has a presentation : 4.3 see slides explainable Ai with TUC!!!
+slide one : 2 scope , GANNT diagram 
+
+
+ [Ilinca] some notes on teh way we collaborate 
+ . but plan from presentation sounds good. 
+
+ 4.4. task . nobody from partners AXON? is here !!!Maybe they are not invited from Teams problems? all from me. Note from Kevin ?
+
+ kNOtes in chat : 
+[KEVIN]The amendment process will be:
+excel with a list of required/proposed changes sent to the PP
+discuss these (my problem)
+write up the amendment and confirm with the consortium (everyone's problem )
+pass onto the PO and so forth
+ 
+[Ilinca] also shares PUCs in screen . tehy will sent in teams 
+and user stories. tehy want to capture some behaviour from users and and assign a category to behavior
+once we calibrate tehy will form teh scenarios --> 
+all teh same for all PUc , only stakeholders change 
+identify different use cases. She will upload all these in Microosft link 
+
+[WissamMallouli] wondering about stakeholder 
+[AnnaCavalli] propose evaluations|? alot of them will evaluation be possible ? metrics? impact assessment? risk analysis?
+[Ilinca] need to wait for hospital and then restrict them . start with long list and then will decide the most important . not the final list. need feedback also  from puc 2. what is the value , stakeholders etc. 
+
+[kevin] a general classification? but still very nice work! excellent ! 
+
+[ilinca] tahnk you for teh suggestions
+ 
+16 April 2025
+=============
+
+
+[proposals] 
+* Arapakis, eva andrea grigoris manos gai call me telefonica me Ai - health 8a paei kala pathfinder 
+* Drasko - mail gia arsernal 
+
+
+15 April 2025
+==============
+
+[INTACT]  WP3 meeting :
+* Matjaz Breskvar, CEO of Beyond Semiconductor  ? presents "beyond semiconductor| Data diode with Orion presentation with slides. 
+* second presentations os Akis Nousias : K3CyberRadar Probes : 
+	* ensure security policeis focus on Dodos atatcjks , similar to work they presenetd before with Boukas
+    * based on ML classifiing. dedicated datasets and trained corresoinads classifiers 
+	* will add more proptocols, and explore more ways to add new data . 
+	* docker composer 
+	* Probe: A small utility program that is used to investigate, or test, the status of a system, network or website. Probes are mostly used for lawful purposes to determine if a device is functional. They can also be used by crackers to locate weaknesses in the system.
+	* Qiang ni asked about mitigation . Akis  asnwers i t is part of another project its is experimental. tehy are only sending notifications!!
+	* showed a demos from SANCUS project: command lines showing detection of attacks .
+* everything uploaded to DRIVE [TODO] find drive . 
+* Qiang ni asked about mitigation asks again on mitigation Thomas Oudin: asnwers teh same . but Ziga (beyond ) answers ..send a warning email ...prevent paylod to be disctributed ,
+* Qiang says they try to optimize the mitigation.  
+* some thigs that can be mitigated, this can be done on the spot. eg email , remore attack and pass on teh email.. what makes sense depends in part of the interest of this project ... 
+* second part of meeting : 	
+* task 3.1: Qiang: update ..analyze , model , decision making , how to optimize, try to define, baed on the used case, wokring in progress  
+* 3.2 ilias pappas from aegis: first ones to provide a demo. Will start analyzing document . requirements from puc . focus on predictive models . which puc fits best. PUC 1 . puc session happned ? (PILOT USE CASE. Any PUC available? ) 
+	* (MY TEXT) Technical University of Crete (TUC) is involved in implementing a Pilot Use Case (PUC) in the INTACT project. Specifically:    TUC is partnered with UBI (the project integrator) to integrate the INTACT Toolbox on NCSRD’s Nuclear Reactor campus access network.    This forms part of PUC4, which addresses Safety-Critical Infrastructures
+* 3.3 Airbus : they are workingn , trying to improve all tools aspects. Will provide taht you can test next week. for 3.2 not sure if they have found a PUC . wokring on this to find which puc fits best. 
+* 3.4 generation of different kind of attacks (Willam Maloulli) . e-health server use dto stoe manage and share medical data and share. the tool is a target to check vulnerabilirt, try to explot network fuzzer. based on this paer to be submitted end of month also a meeting is panned this afternoon FRAUNHOFFER . toplan different adaptaion toother context that can be linked to project.  
+3.5 
+
+CLEANER VERSION
+
+https://inlecomsystems.sharepoint.com/sites/INTACT
+
+
+[INTACT]  WP3 meeting :
+* Matjaz Breskvar, CEO of Beyond Semiconductor  ? presents "beyond semiconductor| Data diode with Orion presentation with slides. 
+* second presentations os Akis Nousias : K3CyberRadar Probes : 
+	* ensure security policeis focus on Dodos atatcjks , similar to work they presenetd before with Boukas
+    * based on ML classifiing. dedicated datasets and trained corresoinads classifiers 
+	* will add more proptocols, and explore more ways to add new data . 
+	* docker composer 
+	* Probe: A small utility program that is used to investigate, or test, the status of a system, network or website. Probes are mostly used for lawful purposes to determine if a device is functional. They can also be used by crackers to locate weaknesses in the system.
+	* Qiang ni asked about mitigation . Akis  asnwers i t is part of another project its is experimental. tehy are only sending notifications!!
+	* showed a demos from SANCUS project: command lines showing detection of attacks .
+* everything uploaded to DRIVE [TODO] find drive . 
+* Qiang ni asked about mitigation asks again on mitigation Thomas Oudin: asnwers teh same . but Ziga (beyond ) answers ..send a warning email ...prevent paylod to be disctributed ,
+* Qiang says they try to optimize the mitigation.  
+* some thigs that can be mitigated, this can be done on the spot. eg email , remore attack and pass on teh email.. what makes sense depends in part of the interest of this project ... 
+* second part of meeting : 	
+* task 3.1: Qiang: update ..analyze , model , decision making , how to optimize, try to define, baed on the used case, wokring in progress  
+* 3.2 ilias pappas from aegis: first ones to provide a demo. Will start analyzing document . requirements from puc . focus on predictive models . which puc fits best. PUC 1 . puc session happned ? (PILOT USE CASE. Any PUC available? ) 
+	* (MY TEXT) Technical University of Crete (TUC) is involved in implementing a Pilot Use Case (PUC) in the INTACT project. Specifically:    TUC is partnered with UBI (the project integrator) to integrate the INTACT Toolbox on NCSRD’s Nuclear Reactor campus access network.    This forms part of PUC4, which addresses Safety-Critical Infrastructures
+* 3.3 Airbus : they are workingn , trying to improve all tools aspects. Will provide taht you can test next week. for 3.2 not sure if they have found a PUC . wokring on this to find which puc fits best. 
+* 3.4 generation of different kind of attacks (Willam Maloulli) . e-health server use dto stoe manage and share medical data and share. the tool is a target to check vulnerabilirt, try to explot network fuzzer. based on this paer to be submitted end of month also a meeting is panned this afternoon FRAUNHOFFER . toplan different adaptaion toother context that can be linked to project.  
+3.5 
+
+CLEANER VERSION
+
+[INTACT] WP3 Meeting Summary
+🗣️ Presentations
+
+1. Matjaz Breskvar (CEO, Beyond Semiconductor)https://inlecomsystems.sharepoint.com/sites/INTACT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINTACT%2FShared%20Documents%2FWP3%20%2D%20Integrated%20models%20and%20mechanisms%2FMeetings%20and%20Minutes%2FINTACT%5FMeeting%2305%5F2025%5F04%5F15%2Fpresentations&viewid=393f78cf%2Dc7cf%2D4f23%2D9c97%2Df83e70690876
+
+    Presented “Data Diode with Orion” using slides.
+
+    Covered Beyond Semiconductor’s contributions to data security and diode technology.
+
+2. Akis Nousias (K3Y) – K3CyberRadar Probes
+
+    Focused on DoS attack detection, building on previous work with Boukas.
+
+    Uses machine learning classifiers trained on dedicated datasets.
+
+    Plans to:
+
+        Integrate more protocols.
+
+        Expand data acquisition methods.
+
+        Use Docker Compose for deployment.
+
+    Described the Probe as a small utility for checking the status of systems/networks (legitimate monitoring, but also a potential attack vector if misused).
+
+    Demonstrated probe functionality via SANCUS project command-line outputs for attack detection.
+
+Mitigation Discussion:
+
+    Qiang Ni raised questions on mitigation.
+
+        Akis clarified that mitigation is experimental and currently only notifications are sent.
+
+    Thomas Oudin echoed the same explanation.
+
+    Žiga (Beyond Semiconductor) added that:
+
+        A warning email is sent.
+
+        They attempt to block payload distribution.
+
+    Qiang emphasized:
+
+        Some mitigations can be done on the spot (e.g., email attacks).
+
+        Effectiveness should align with project scope and interest.
+
+🔧 Work Package Progress Updates
+
+🧩 Task 3.1 – Qiang Ni
+
+    Ongoing work on:
+
+        Analysis, modeling, decision-making.
+
+        Optimization and definition of objectives based on use cases.
+
+📊 Task 3.2 – Ilias Pappas (AEGIS)
+
+    First to provide a demo.
+
+    Currently analyzing documents and PUC requirements.
+
+    Focus on predictive models; identifying best-fit PUC.
+
+    Likely candidate: PUC1.
+
+    Question raised: Has a PUC session taken place?
+
+        🔹 Note: The Technical University of Crete (TUC) is involved in PUC4 (Safety-Critical Infrastructures). TUC and UBI will deploy the INTACT Toolbox on NCSRD’s Nuclear Reactor campus access network.
+
+🛠️ Task 3.3 – Airbus
+
+    Working on improving tools.
+
+    A testable version will be ready by next week.
+
+    Still determining which PUC best matches their contributions.
+
+🧪 Task 3.4 – William Maloulli (FRAUNHOFER)
+
+    Developing attack generation tools.
+
+    Targeting an e-Health server that manages and shares medical data.
+
+    Using a network fuzzer to simulate vulnerabilities.
+
+    A paper will be submitted by end of the month.
+
+    Planning a meeting with FRAUNHOFER to adapt work to other contexts within the project.
+
+📁 Action Item
+
+    🔍 [TODO] Locate and confirm the link to the shared DRIVE folder for materials.
+[DONE] https://inlecomsystems.sharepoint.com/sites/INTACT
+https://inlecomsystems.sharepoint.com/sites/INTACT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINTACT%2FShared%20Documents%2FWP3%20%2D%20Integrated%20models%20and%20mechanisms%2FMeetings%20and%20Minutes&viewid=393f78cf%2Dc7cf%2D4f23%2D9c97%2Df83e70690876
+
+ 
+TUC: FPGA-accelerated IDS (SNORT).
+
+11//4/2-25
+=============
+sudo snort -c /usr/local/snort3/etc/snort/snort.lua -i en0 -A alert_fast -R /usr/local/snort3/etc/snort/rules/snort3-community.rules
+
+10/4/2025
+=============
+* [TODO]On excel add the specific month that INTACT deliverables are
+* [Proposals] https://oscars-project.eu/oscars-2nd-open-call-open-science-projects-and-services
+** Instruction https://www.oscars-project.eu/open-calls#whatareopenscienceprojects%3E
+* [Proposals] https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EDF-2025-LS-RA-CHALLENGE-DIGIT-HAIDP-STEP?isExactMatch=true&status=31094501,31094502,31094503&callIdentifier=EDF-2025-LS-RA-CHALLENGE&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate
+
+9/4/2025 
+============
+*[INTACT] contunie with intact GA to find teh deadlines of teh deliverables !!!OK \
+		* Abbreviation	Description				Start Date	End Date
+		D3.1	D3.1 – Integrated services for predictive Cybersecurity processing (Automated heterogeneity sensing & security optimization)					M18
+		D3.2	D3.2 – Integrated services for predictive Cybersecurity processing (Automated heterogeneity sensing & security optimization), Final Release(Task 3.1 and 3.2 )					M31
+		D3.3 	D3.3 – Integrated services for predictive cybersecurity processing (Automated threat analysis & risk mitigation), V1  					M18
+		D3.4	"D3.4 – Integrated services for predictive Cybersecurity processing (Automated threat
+		analysis & risk mitigation), Final ReleaseTask 3.3"					M31
+		D4.3 	D4.3 – Toolbox infrastructure for resilient IoT-to- Cloud processing (Human-machine interfaces & Datasets), V1D 					M18
+		D4.4	 D4.4 – Toolbox infrastructure for resilientIoT-to- Cloud processing (Human-machine interfaces & Datasets), Final Release Task 4.3 and 4.4					M31
+		D5.3	Task 5.3 D5.3 – Overall assessment, verification and evaluation of the INTACT outcomes					M36
+		D6.1. D6.2	 D6.1 – Impact assessments of INTACT technology, V1 D6.2 – Impact assessments of INTACT technology, Final releaseTask 6.1					M18, M36
+* [MEDIATE] : plenary ok 
+ kostyas georgopoulos  uses cases ok 
+ sugkekrimenopoihshs arxitektonikhs + technology cpomponents 
+	**telos tou mhna 3 paradotea : data management plan dissemination , epikairopoihsh tiou state of art + requirements for pilost !kala pane ta paradoeta . ta epomena iounio 8 paradotea ..perigrafh architectire kai meta ton noemvrio paradotes --> periodic management reposrt ..website OK SNs OK (TUBS) plennary arxes octobery ibiza italia !!!!!
+
+*[TODO_INTACT] see when are the deliverable deadlines!in INTACT 
+*[PGM_meeting]: 
+	** exw parei enhmerwsh apo alex kai andrea, den xeoume kati akomh
+	rwthsame tous parnters sxtika me to CYBERHOT.. 
+	** mas zhthsan xtes input sxetika me to contribution tou TUC , o andreas apanthse hdh
+	** egw diavazw to GA kai exw valei ola ta task pou einai arketa sto excel alla ektos apo to suntask math expert den exoume allo lead  
+	**gia to meditate den exw koitaxei akomh kati .. eixa arxisei na vlepw to GA alal meta me phre to INTACT 
+*[newProposals] new proposals mainly related to defence Manos has sent : 
+		EDF-2025-LS-RA-SI-CYBER-3RAV-STEP: Risk, robustness and resilience for autonomous vehicles in military operations
+		EDF-2025-LS-RA-CHALLENGE-DIGIT-HAIDP-STEP: Privacy-preserving human-AI dialogue systems – Participation in a technological challenge
+* [EDF-2025-LS-RA-CHALLENGE-DIGIT-HAIDO] Privacy-preserving humanAI dialogue systems – Organisation of a technological challenge] 
+		EDF-2025-DA-CYBER-CDOC-STEP: Improved cyber defence operations capabilities
+		EDF-2025-DA-NAVAL-DSNCC-STEP: Digital Ship and Naval Combat Cloud
+		EDF-2025-RA-MATCOMP-CDA-STEP: Chiplet for Defence Application
+* INTACT Andreas sent last night that he sent email requested input to the partnters regarding TUC's contribution . See /Users/antonakd/Documents/INTACT/ 2 documents :
+** [text](<../../Documents/INTACT /Task 2/INTACT-Tools-Registry.xlsx>) [text](<../../Documents/INTACT /Task 2/DevSecOps_initial_ view_T2.3impactsWP3_4_5.docx>) 
+
+8/4/2025
+============
+* created excel in TSI projects tracking https://docs.google.com/spreadsheets/d/1-OIAmKOUZmWDuezX2R1V8QyIic9OTmSf/edit?gid=250731552#gid=250731552
+* PMs in INTACT: 
+**1.00 WP1
+**8.00 WP2
+**12.00 WP3
+**7.00 WP4
+**7.00 WP5
+**9.00 WP6
+*fixed date: 1 October 2024/ 36 Months 
+* Should I start seeing Eclipse Connector? 
+* SNORT 
+** Snort is the foremost Open Source Intrusion Prevention System (IPS) in the world. Snort IPS uses a series of rules that help define malicious network activity and uses those rules to find packets that match against them and generates alerts for users. 
+
+Snort can be deployed inline to stop these packets, as well. Snort has three primary uses: As a packet sniffer like tcpdump, as a packet logger — which is useful for network traffic debugging, or it can be used as a full-blown network intrusion prevention system. Snort can be downloaded and configured for personal and business use alike.
+  ** where does snort fits in devops? Snort fits into DevOps as a key security tool for network monitoring and threat detection. It's an open-source intrusion detection and prevention system (IDS/IPS) that helps secure the infrastructure that DevOps teams build and maintain.
+   In a DevOps context, Snort is typically integrated in these ways:
+ ***   Security automation - It can be incorporated into CI/CD pipelines to automatically scan network traffic for suspicious patterns
+ ***   Infrastructure monitoring - It provides real-time network traffic analysis to detect potential security threats
+ ***   Incident response - It helps teams quickly identify and respond to security incidents
+ ***   Security as Code - Snort rules can be version-controlled alongside infrastructure code, allowing security policies to evolve with the application
+ ***   Containerized environments - It can monitor traffic between microservices or containers to detect anomalies
+*****As DevOps emphasizes both velocity and security throughout the software delivery lifecycle, Snort helps address the security component by providing continuous monitoring and threat detection capabilities that can be automated and integrated into existing workflows.
+
+
+7/4/2025
+============
+* ok mail + drive of intact 
+* mail brokolakis about dissemination 
+* grant agreement ok 
+* INTACT: 
+ Project starting date: fixed date: 1 October 2024
+Project end date: 30 September 2027
+Project duration: 36 months
+* Subtask (group leader) WP3 will be led by AIRBUS and includes 2x Groups, e.g., the (1) “Math Experts Group” (led by ULANCS, TUC,
+NCSRD) to focus on deriving the new math-based KPIs and attack-defence game strategies, and the (2)
+* No deliverable leader !!! page 19 
+
+4/4/2025
+========
+INTACT  (Andreas, Alex)
+
+* Συναντηση με τον Αλεξ για το INTACT. 
+* δεν εχει ουτε αυτος το GA, και απλά μπηκε σε μια συναντηση (δεν εχει να μου αναφερει κατι γιααυτην ). Θα μιλησει με τον Kevin gia na me βαλει σε mailing lists + drive + teams κτλ. 
+TUC eiani se WP3, WP4 (τουλαχιστον σε αυτα μπηκε μονο σε συναντηση, χωρις να εχει να μοθ αναφερει κατι αξιοσημειωτο). 
+* Γενικα αποσο εχει καταλαβει  gia deployment στο SNORT θα συννησφέρουμε (Αργυρης εχει ασχοληθέι αρκετα σε διαφορα deployments , ο οποιος βεβαια τελειωνει το καλοκαιρι)
+* Υπαρχει ενα drive στο teams που ενδεχομενως να εινια εκει το GA. 
+
+2/4/2025
+=========
+* Bravos Detangle/ infrashield/Cybeguard: θα ξερουμε 23/5 central evaluation  
+cybersecurity compani se electica mobility saraccino santana
+
+1/4/2025
+==========
+* BackedUp Cyberguard to drive : Shared->0_Proposals->2025->Cyber 07 LargeOper-> vyberGuard+infrashield
+* Started 10M proposal help D5-02 Panagiotis Karafotis/Zarras
+** Drive location : https://drive.google.com/drive/u/1/folders/1s45tD8WR9w90lhBUCs8eJZRIlU8tWSen?exids=71471469,71471463
+** HORIZON-CL5-2025_11_28_2024_TC to 4th version  - HORIZON-CL5-2025-01-D5-02 - Topic: Cybersecure and resilient road e-mobility ecosystem (2ZERO Partnership)
+
+3/April 2025
+===========
+* Proposal : ELLAD einia autoi pou ta ftiaxane kai exoun testing facoliteis, epikoinwnia me diaforous aktos mazi me to ELLDA + HUBJECT 
+na ftiaxoume 2 arxitektinikes mia gia hardware `= software `
+* 2 new projects 
+* MEDIATE:  Start date MEDIATE:  11/01/2024 -  31/10/2027 
+** created calendar https://calendar.google.com/calendar/u/1?cid=Y184MjJiOGJlY2YyODU2YTE3ZmUzMDE2NDlkNjZmNTMzYzViNWQwOTcxNWE1OTgzZWY5OTE3OTEzMmQwOTdlZjQyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+*** added reporting NOT YET 
+
+
+* INTACT: start date : 
+
+27/3/2025
+===========
+TODO - cyberguard
+==================
+TODO
+0) check everything in portal! OKDONE@a.a  
+1) 
+ Add deliverable : deliverables such as meetings, events, seminars, trainings, workshops, webinars, conferences, etc., 
+ For deliverables such as meetings, events, seminars, trainings, workshops, webinars, conferences, etc., enter each deliverable separately and provide the following in the 'Description' field: invitation, agenda, signed presence list, target group, number of estimated participants, duration of the event, report of the event, training material package, presentations, evaluation report, feedback questionnaire. 
+*yghjg*
+ OK mail check fot confirmations wait_mail@a.a 
+
+2) check all FOR NO last minute surprise LIST OF ANNEXES 
+       
+      Detailed budget table/Calculator (annex 1 to Part B) —   mandatory for certain Lump Sum Grants (see Portal Reference Documents)
+      CVs (annex 2 to Part B) — not applicable
+      Annual activity reports (annex 3 to Part B) — not applicable
+      List of previous projects (annex 4 to Part B) — mandatory, if required in the Call document DONE@forth.gr
+
+      Special
+      Other annexes (annex 5 to Part B) — mandatory, if required in the Call document DONE@a.a
+
+3) Check again budget OK IN PORTAL DONE@a.a 
+4) fix again timeschedule gnat chart OK DONE@a.a 
+5) check again budget in word ! - CROSS CHECK WITH ONLINE DONEDONE@a.a 
+6) count previous projects. DONE clear formatting arial 9 DONE. upload DONEDONE@a.a 
+7) check if you can insert text you slughtered yesetrady snce pages are 62!! started 1.1 DONE@dsfhg.dfd
+
+
+
+* DIGITAL-ECCC-2024-DEPLOY-CYBER-07-LARGEOPER - DIGITAL-JU-GFS DIGITAL JU Grants for Financial Support
+* emarkakis@hmu.gr
+* 899132771 PIUC HMU 
+* 1254 EUROPA portal PIN CODE
+* 2 proposal on portal: SEP-211151271
+* DIGITAL DIGITAL-ECCC-2024-DEPLOY-CYBER-07 DIGITAL-JU-GFS  *SEP-211151271* CYBERGUARD  Draft tou exeo olous!
+* DIGITAL DIGITAL-ECCC-2024-DEPLOY-CYBER-07 DIGITAL-JU-SME  *SEP-211151248* CYBERGUARD  Draft 
+* 
+
+
+The training workshops will run alongside the open calls, empowering the participants from critical infrastructure and large operational-companies employees, with the knowledge and capacity to develop and implement cybersecurity solutions. 
+
+Training session will focus on training employees from large operational companies and critical infrastructure providers. 
+
+20/3/2025
+===============
+checked again portal budget OK 
+sent again markakis part B with corrected TRL 
+
+19/3/2025
+===============
+* infrashieeld pou WPs exoume mpei  :
+1)  WP1: 1 PM -     T1.1  Project Management & Coordination      all partners@all.gr :
+2)  WP2: 20 PMs 
+    
+  αλλα δεν τα εβαλα σε συγκεκριμενα task γιατι δεν εχει βαλει αυτος στο part B ονοματα participants στα tasks
+     WP2 LEAD: 
+      a)  M2.2  Finalization of Platform Architecture and Deployment Blueprint  2 TUC@tuc.gr Completion of the modular platform architecture and system deployment blueprint.  12  D.2.
+      b)  D2.2  System Architecture and Technical Specifications Document 2 TUC R PU  12  A document outlining system architecture, specifications, and technology stack for implementation
+            WP2 [Conceptualisation, Use cases and System Architecture ADR 0 0 0 0 0 0 0 0 20
+            T2.1  Stakeholders Identification and Co-Creation (User Stories, Reference Scenarios, Pilots  INSME                 
+            T2.2  Requirements elicitation and Platform Specifications  INSME                 
+            T2.3  Technology Radar and emerging platforms identification  NETC                  
+            T2.4  Specification of Platform Architecture and System Deployment Blueprints ADR                 
+4)  WP3: 20 
+T3.1 Development of Penetration Testing Tools  TUC                 10
+T3.2  Digital Twin and Cyber-Range Simulation ITML                  
+T3.3  LLM-Powered Consulting Services UBITECH                 
+T3.4  Continuous Risk Monitoring Services ADR                 
+T3.5  Threat and Risk Assessment Framework  NETC                  
+T3.6  Automated Testing and Validation Framework  TUC                 10
+
+18/3/2025
+===============
+This task oversees the end-to-end management of open calls and the financial administration of the FSTP program, ensuring compliance, transparency, and efficiency. 
+
+The call administration includes the announcement of the open calls, the submission management, the coordination of the evaluator assignments, organisation of the evaluation as well as the managing the financial aspects of the FSTP program, including contract preparation, payment processing, and financial monitoring of funded projects. The schedule of the three rounds is as follows: 
+
+Round 1: Open call announcement M9, Open call closure M12, Open call evaluation M21. 
+Round 2: Open call announcement M13, Open call closure M16, Open call evaluation M25. 
+Round 3: Open call announcement M17, Open call closure  M20, Open call evaluation M29 
+and finally the Final meeting of Open calls on M35.
+
+
+
+The interdependencies between WPs in the diagram illustrate how each work package (WP) builds on and supports the others. WP1 handles project and technical management, ensuring periodic reporting and overseeing all WPs. WP2 initiates the open call framework and training program design, conducting stakeholder engagement and requirement analysis until M12. This work is critical for WP3, where open calls are executed and training is delivered from M12 to M36, with 15 training sessions planned. The call administration in WP3 includes announcing open calls, managing submissions, coordinating evaluator assignments, organizing evaluations, and overseeing the financial aspects of the FSTP program, such as contract preparation, payment processing, and financial monitoring. The schedule of the three open call rounds is as follows:
+
+    Round 1: Open call announcement M9, closure M12, evaluation M21.
+    Round 2: Open call announcement M13, closure M16, evaluation M25.
+    Round 3: Open call announcement M17, closure M20, evaluation M29.
+    Final open call meeting on M35.
+
+WP4 focuses on FSTP management and impact assessment, evaluating the effectiveness of WP2 and WP3 activities. Meanwhile, WP5 supports all WPs by disseminating outcomes, managing communication, and conducting outreach activities.
+17/3/2025
+===============
+* added to cyberguard 1.1 as it was originally before cutting text  DONE alo for 1.2 DONE@DONE.sdrgs
+* detangle
+    * WP2 lead ATH  - (Work Package 2: Continuous stakeholder engagement, requirements analyses, feedback management and impact management)
+      * T2.2  Creating links and ensuring collaboration with multiple stakeholders (M7-M36) T 
+      * T2.3  Requirements elicitation and continuous refinement (M1-M24)  
+    * D3.5  Customised training modules 3 ATH R PU  M30
+    * T5.2  Set-up, continuous monitoring and assessment of validation procedures (M13-M36)   ATH   N
+    * T6.3  DETANGLE Free and Open-Source Framework and Community   ATH   N
+
+  * LIST OF previous projects from ATHENA!! MISSINg 
+           Προϋπολογισμός 8M Χρηματοδότηση 4M
+          Προϋπολογισμός ΕΚ
+          Αθην; 700.000 Χρηματοδότηση ΕΚ
+          Αθην; 350.000
+          Ιδία συμμετοχή 0.000,00
+          Ευρώ Πηγή EU
+          Έμμεσο κόστος (%) 7% Βάση υπολογισμού Direct cost
+          +other cost
+
+          Χρονική διάρκεια 36M
+          Έναρξη Jan 2026
+          Λήξη Dec 2028
+    
+
+* Infra shield
+    σχετικά με το budget, ειμαστε μόνο στο task 3.6 "Automated Testing and Validation Framework".
+    και βλεπω maximum amount to reach per partner  300.000
+
+    θα τον ρωτησω ποσα ταξιιδια θα χρειαστουν και 
+    Αλλαγές στο part B: 
+
+        προσθεσα το profile TUC + logo
+        team from TUC:  Prof. Sotiris Ioannidis,  Dr. Despoina Antonakaki , Ms. Despoina Kopanaki,  Ms. Maria Mastoraki, Dr. Evangelia Papadogiannaki, Ms. Eleni Pateraki,  Ms. Pinelopi Kyranoudi
+        Dr. Grigorios Chrysos .
+        Sto part B μας εχει WP2 - lead (Finalization of Platform Architecture and Deployment Blueprint, Completion of the modular platform architecture and system deployment blueprint., System Architecture and Technical Specifications Document, WP3 lead of deliverable D3.1   - Technical Report on the Development of Cybersecurity Testing Tools - Documentation on the development of penetration testing, digital twin simulations, and risk assessment tools
+        PMs : 40 * 6500 =  260.000,00
+        Προς το παρόν δεν βλέπω καμια αναφορα στο part B για ταξίδια , οποτε εβαλα για τους 36 μηνες, 2 review meeting, + 4 επιπλεον ... =1500*6*2 = 18.000,00
+        Total budget (without indirect costs) =  278.000,00
+        E. Indirect costs =  278.000,00 * 7%=  19.460,00
+         Total budget = 278.000,00 + 19.460,00 =   297.460,00  < 300.000 (που μας ζητησε)
+
+
+10/3/2025
+===============
+3.000.000 για τα προπόσαλ me 100 προπόσαλ     
+90.000 για τα review processes 3x30.000 to kathe round      
+500K emeis 450K o baggelis kai 300K o open call manager     
+4.440.000     
+ 
+ rewrite the following that were initially written to describe platform + open call. Now we have only open calls and trainigs so thery is no other features that describe the implementation of an onboarding mix and match platform .  only refer to the open call mechanisms and trainigs  
+
+
+
+* meeting notes.
+* first of all have you seen the WP PMs? Are yu ok ?
+* missing info: 
+    1) Nuno cost of organizing a workshop ? 1000 ? 
+    2) award 100 projects is a very high KPI, considering the low value of the grant and a 50% funding rate.
+Additionally, we should not expect more than 300 applications. if each is reviewed by 2x evaluators at a cost of €50/review, we require €30k??? ti ennoeis ??? 
+     2) 2.1 maturity will is  profile of company F6S + DIENEKES
+    2) Vaggelis still missing past projects in Annex 
+
+* Now regarding teh Budget : Kick off meeting in Crete    --> travel only for Nuno
+            Review meetings (online ?) --> No travel
+            Open calls * 3 meeting + 1 final Showcase --> 2 located in Crete + 2 in F6S 
+            regarding the  workshops of open calls  how much should allocate  per workshop (Στο  D.2 Internally invoiced goods and services?)
+
+            Επίσης Βαγγέλη,  σχετικά με την πλατφορμα που μου έστειλες την Παρασκευη (15Κ εξοπλισμό για να κάνω host to platform), αυτό δεν καλυβεται απο το συνολικό budget (450K);
+
+* 
+
+7/3/2025
+===============
+7 6 5 8 7 8 7 7 15
+Χατζηπαντελής 2020030005
+
+
+budget for travel : 1000 to taxidi ? 
+
+TRAVEL-------------------------
+
+WP1
+FORTH : Project Coordinator/Lead Partner 
+Kick-off Meeting (HER): 1 travel for F6S
+
+Open Call Strategy and Stakeholder Engagement : 1
+Open Call Finalization and Training Assessment (HER?): 1
+Annual Consortium Meetings ( ): 3
+Final Evaluation and Closing ( ): 1
+Total Travels: 11
+
+
+
+
+
+
+
+-------------------------------
+baggelis budget stous allou kai 
+cv kai profiles organismou 
+past projects vaggelis
+
+*TODO for partners*
+
+ 1. sent necessary docs/CV/projects/
+ 2. take a look at comments assigned for you in the document
+ 3. take a look at the WPs - description + timeframe 
+ 4. take a look at the budget 
+
+6/3/2025
+===============
+ tasks 2.1 identify need to design how to write proposals + training
+ 2.2 define ans write the techinacl requirements for open call evaluation criteria . define which are the KPIs
+ 2.3 design trainign programs (learning objectives etc)
+ 2.4 establish complete framework for open calls . develop monitoring tools report templates support insert complete  kpis
+
+
+--> IMPORTANT -->3.1 handle how to run open calls : annouce calls. manage evaluation (M9-23)+ finalize project selection 
+3.2 implement training --> TRAVEL  ? 
+3.3.ONgoing support for selected beneficiaries . statrt after project selkection  
+3.4 QA for all activiteis 
+
+4.1 financial aspects of FSTP programs:contract preparation, payment processing, financial monitoring of funded projects
+4.2 evaluates the impact of funded projects across different industry sectors, 
+4.3 organization of showcase events where funded projects can demonstrate their solutions and share results.
+4.4 comprehensive analysis of the FSTP program's effectiveness, including assessment of selection processes, funding distribution efficiency, and overall program impact.
+
+
+
+
+
+
+abstract
+CyberGuard is an initiative aimed to strengthen the cybersecurity resilience of critical infrastructure sectors, such as energy, transportation, telecommunications, and banking. With the rapid digital industrial revolution, industries are increasingly exposed to sophisticated cyber threats. CyberGuard addresses these challenges by focusing on the support of innovative cybersecurity solutions through an open call mechanism and comprehensive training sessions. The project emphasizes proactive risk management, real-time threat detection, and compliance with the NIS2 Directive, offering Financial Support to Third Parties (FSTP) to encourage SMEs, start-ups, and critical infrastructure providers to develop cutting-edge cybersecurity tools and services.
+
+CyberGuard allocates 64.2% of its €4.8M budget to fund innovative solutions from external stakeholders, providing €30,000 per shortlisted proposal, matched by an additional €30,000 from participants' own budgets. These open calls will drive collaboration, helping participants refine proof-of-concept solutions that meet regulatory and industry standards. Additionally, training sessions will equip participants with the necessary skills to effectively implement and scale their solutions in real-world environments.
+
+The project fosters openness and collaboration through workshops, training, and oversight by an Open Call committee. External evaluators ensure the integrity of the selection process, while face-to-face meetings between participants and the consortium facilitate knowledge sharing and hands-on training. CyberGuard's comprehensive approach will play a key role in building long-term cybersecurity resilience, enabling SMEs and critical infrastructure operators to implement advanced tools while staying ahead of emerging cybersecurity needs. Through financial support, co-investment, and specialized training, CyberGuard encourages innovation, ensuring robust cybersecurity across key sectors in the EU.
+5/3/2025
+===============
+Budget: 
+Total budget 4.804.300
+
+    Open calls πρεπει να ειναι το 64% = 3.074.752 τα οποία χωρίζονται ως εξης:
+
+     30.000/proposal,  και εχουμε 100 προτασεις==>  3.000.000
+     30.000/reviewers και εχουμε 3 rounds.        ==>       90.000
+    Total proposals & review                             ==>  3.090.000
+
+    Αυτα τα ποσά τα εχω στο Work Package 3: [WP3: Open Call Implementation and Training Delivery]
+    Στο  C.3 Other goods, works and services,  αλλα μήπως πρπει να πάει στο D.1 Financial support to third parties?
+
+
+    7% indirect costs :                                     ==>     314.300
+
+    FORTH                                                     ==>    500.000
+    HMU                                                               ==>    450.000
+    F6S                                                                 ==>   300.000
+    DIENEKES                                                ==>  150.000
+    Total                                                         ==>1.400.000
+
+    Ειναι και εδω https://docs.google.com/spreadsheets/d/1X6eiIiCSKu3dk6OYPHqqkFj2hCRNOkJYJW3CusVvbcU/edit?gid=1473897425#gid=1473897425
+
+    Αν ειναι οκ το προωθώ και στους partners. 
+
+    7%  indirect costs ? prepei na desmeusoume ena poso ?       
+    64% tou budget einai to open call       
+            
+    100 64      
+    4804300 3074752 ara eimaste ok    
+
+
+
+4/3/2025
+===============
+1) check docs from Thomas (dienekes) and Nuno (nuno@f6s.com) added in portal only dienekes 
+2) check budget
+3) Fix previous projects form FORTH OK 
+
+
+28/2/2025
+===============
+OK 
+
+FIX months for deliverables according to fixed montsh for subtasks 
+
+3.000.000 για τα προπόσαλ me 100 προπόσαλ     
+90.000 για τα review processes 3x30.000 to kathe round      
+500K emeis 450K o baggelis kai 300K o open call manager     
+4.440.000     
+
+
+DIENEKES gia ola ta tasks tou 6 
+Task 6.3: Tools, Website, Communication Channels, Outreach, and Social Media  27/2025
+==========
+1)M1-6 proptoimazeis to open call (task 2.2)
+2)M10 anakoinwneis T3.1
+3)M11-12-18 to afhneis anoikto 
+4) T3.1: finalize proposal selections
+5)M12 kanoeis evaluation kai epilegeis T3.3
+6)selected at M18
+
+Task 3.1: Open Call Administration and Communication
+    This task will begin once the open calls are developed (in WP2) and announced, covering the entire open call cycle, from announcement to project selection.
+    M12-M18: Announcing the open calls, managing submissions, coordinating evaluators, and organizing panels.
+    M18-M24: Communication with applicants, managing the evaluation process, and finalizing project selection.
+ 
+T3.1 SOS 9-23 months
+1) announce
+2) evaluate + select 
+3) 
+
+
+Gantt charts
+
+Work Package 1: [Project & Technical Management]  lead FORTH 
+Work Package 2: [Open Call Framework and Training Program Design] Lead Beneficiary:  HMU 
+Work Package 3: Work Package 3: [WP3: Open Call Implementation and Training Delivery] Lead Beneficiary: forth + HMu 
+Work Package 4: [Core Platform Integration and Modular Tool Onboarding]  ead Beneficiary: 1-F6S 
+Work Package 5: [Dissemination, Impact Assessment and Sustainability of Open Calls and Training Programs] Lead Beneficiary: FORTH
+Work Package 6: [Impact Maximisation & Ecosystem Building]  Lead Beneficiary:5-ADR 
+
+
+Task 1.1 - Project Management & Coordination (1-36)
+Task 1.2 - Open Call Strategic Steering (M1-36)
+Task 1.3 - Quality Control, Risk Management and Contingency Planning (M6-36)
+Task 1.4 - Quality Control, Risk Management and Contingency Planning(M1-M36)
+
+Task 2.1: Stakeholder Engagement and Requirements Analysis (M1-3)
+Task 2.2: Open Call Framework Development (M1-M6) Ananoikwns 
+Task 2.3: Training Program Design and Curriculum Development (M1-M6)
+Task 2.4: Evaluation and Support Framework Implementation (M12-M36)
+
+
+M1-M6: Stakeholder engagement and needs assessment (Task 2.1).
+M6-M12: Development of the open call framework and training program design (Tasks 2.2, 2.3).
+M13-M18: Finalizing both frameworks.
+M12-M36: Implementation of evaluation and support mechanisms (Task 2.4).
+
+M12-M18: Open call administration (Task 3.1).
+*M18-M24: Open call finalization and selection* (Task 3.1). <--- ANNOUNCE  the open calls, managing submissions, coordinating evaluators, organizing panels. Communication managing evaluation process, finalizing project selection.
+M18-M36: Training program execution (Task 3.2) and beneficiary support (Task 3.3).
+M12-M36: Quality assurance and documentation (Task 3.4).
+
+M12-M36: Financial management and monitoring (Task 4.1).
+M18-M36: Cross-sector impact assessment (Task 4.2).
+M24-M36: Showcase organization and knowledge dissemination (Task 4.3).
+M18-M36: Program performance analysis (Task 4.4).
+
+M01-M36: Strategic communications and outreach (Task 5.4).
+M06-M36: Stakeholder engagement and community building (Task 5.2).
+M12-M36: Open call results dissemination and success stories (Task 5.1).
+M18-M36: Sustainability and best practices analysis (Task 5.3).
+
+    T6.1 - Dissemination, Communication, and Project Branding
+
+        Start: M01
+        End: M36
+        Key Milestone: Website and social media launch by M03.
+
+    T6.2 - Clustering Activities and Liaison with Other Initiatives
+
+        Start: M01
+        End: M36
+
+    T6.3 - Exploitation Strategy, Market Analysis, and Commercial Roadmap
+
+        Start: M01
+        End: M36
+        Market analysis: Expected at the beginning of the activities.
+
+    T6.4 - Contribution to Standards and Policy Recommendations
+
+        Start: M01
+        End: M36
+25/2/2025
+===========
+* part A για ολους 
+* 
+3.000.000 για τα προπόσαλ me 100 προπόσαλ
+90.000 για τα review processes 3x30.000 to kathe round 
+500K emeis 450K o baggelis kai 300K o open call manager 150 θωμας
+[D1] Peer-reviewed and open access journal publications
+Disseminate research findings, share knowledge, and involve the scientific community.
+≥ 10 published open-access scientific papers -- not aplicable >
+
+
+
+ 4.490.000
+
+ Notes for next meeting 
+* Mano poia etairia tou Swthrh ? 8es na milhsw egw ? Svthsh 
+* budget ? (pinakes@WPs) 
+* sto WP4 kai WP3 οπου πrεπει μα μπει το open call να μπει η Φ6Σ? exoume proodo ? 
+* de sola ta red points p.x Milestone/Key Performance Indicator: Number of selected projects funded through open calls: Target 100 projects.
+
+
+  IMPROVEMENTS 
+      1. Executive Summary
+
+          Clarify the project’s unique value: Ensure the summary clearly highlights the key innovation, how the project is tackling a current issue, and its unique value to stakeholders.
+          Add quantifiable goals: Make the anticipated outcomes measurable, showing the scope of your impact in numbers (e.g., number of companies involved, individuals trained, cybersecurity vulnerabilities addressed).
+          Highlight strategic alignment: Briefly tie the project to current EU cybersecurity policies (e.g., NIS2) and demonstrate its relevance.
+
+      2. Introduction / Background
+
+          Provide context with statistics: Use recent data or case studies to underline the urgency and relevance of the cybersecurity challenges the project aims to address.
+          Demonstrate a clear problem: Frame the issue clearly—whether it's the growing complexity of cyberattacks on critical infrastructure or the lack of cybersecurity training—and show why the current state is insufficient.
+          State the long-term vision: Place the project in the larger context of building EU cybersecurity resilience, outlining how it will contribute to the long-term digital ecosystem.
+
+      3. Objectives
+
+          Make objectives more precise and actionable: Use SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to ensure each objective is clear and measurable (e.g., “Train 500 participants across 30 sessions by year 2”).
+          Tie objectives to impact: Each objective should link directly to how it solves the identified problem. Clearly explain how achieving the objective contributes to a tangible result (e.g., increased resilience against cyber threats in specific sectors).
+
+      4. Work Plan and Implementation
+
+          Detail roles and responsibilities: Each partner’s role should be more explicitly defined based on their strengths, and interconnections between Work Packages (WPs) should be explained.
+          Enhance clarity of timeline and milestones: Use a Gantt chart or a visual timeline to clearly map out the project phases, showing how open calls, training, and deliverables will progress.
+          Show interdependencies between WPs: Highlight how work packages interrelate to ensure that one WP’s output feeds directly into the next.
+
+      5. Budget Justification
+
+          Link financial allocations to objectives: Explain how the budget will be used to directly achieve the project’s goals (e.g., how the €3,000,000 allocated to proposals and the training programs will develop key cybersecurity tools and skills).
+          Explain cost-effectiveness: Emphasize why the planned expenditures (for open calls, training sessions, and project management) represent the best use of funds. Consider pointing out cost-saving measures or efficiencies built into the project design.
+          Detail contingency planning: Show how the budget allows flexibility to adapt to unforeseen circumstances without compromising on the project’s key deliverables.
+
+      6. Impact and Sustainability
+
+          Show clear benefits for key sectors: Link the project to specific industries or sectors that will benefit from the results, such as energy or healthcare. Describe how these sectors will be able to apply the results and maintain them after the project ends.
+          Highlight long-term sustainability: Detail how the project will ensure its outcomes (tools, knowledge, and collaborations) will remain useful and be scalable post-project. This could involve creating open-access resources or fostering ongoing partnerships.
+
+      7. Dissemination and Exploitation Plan
+
+          Detail outreach strategies: Specify which platforms, publications, and events will be used to disseminate the project’s findings. Make this more targeted to the cybersecurity industry and policy stakeholders (e.g., specialized conferences, cybersecurity blogs, EU networks).
+          Focus on stakeholder engagement: Explain how the project will involve SMEs, large enterprises, and other stakeholders through workshops, collaborative pilots, and open calls.
+          Ensure exploitation pathways: Clearly explain how the project’s results (tools, training modules, or guidelines) will be commercialized or made accessible to relevant entities (e.g., SMEs adopting the tools developed via open calls).
+
+      8. Monitoring and Evaluation
+
+          Define KPIs in more detail: Provide specific, actionable KPIs (e.g., “number of cybersecurity tools developed,” “increase in organizational cybersecurity preparedness by 20%”). Ensure each KPI is linked to the objectives and can be regularly tracked.
+          Include both qualitative and quantitative metrics: Make sure to evaluate both numerical data (e.g., number of proposals funded, training sessions conducted) and qualitative feedback (e.g., participant satisfaction or stakeholder feedback on training effectiveness).
+          Regular assessment mechanisms: Include a schedule of evaluations (e.g., quarterly reviews, final impact assessments) and explain how feedback will be integrated into improving the project’s processes.
+
+      9. Risk Management
+
+          Expand risk identification and mitigation: Ensure that each risk (e.g., delays in proposal reviews, low participation in open calls) is accompanied by specific mitigation strategies. Consider adding a risk register with likelihood and impact assessments.
+          Plan for project adaptation: Specify contingency plans for adjusting the scope, budget, or timeline in response to emerging risks (e.g., budget reallocations, rescheduling training sessions if external factors affect participation).
+
+      10. Conclusion
+
+          Reinforce the project’s unique value: End by summarizing why this project is important and how it will contribute to strengthening EU-wide cybersecurity resilience. Focus on its potential for long-term impact.
+          Highlight collaboration and future growth: Emphasize the collaboration between project partners, SMEs, and other stakeholders as a driving force behind innovation. Suggest that this project will form the foundation for further cybersecurity advancements.
+
+
+
+24/2/2025
+============
+
+
+
+
+Despina Kopanaki is a Project Manager at the Technical University of Crete (TUC) and the Institute of Computer Science (ICS) at FORTH. She has extensive experience in day-to-day coordination of EU-funded research projects, including I-BiDaaS (Industrial-Driven Big Data as a Self-Service Solution, GA#780787), MARVEL (Multimodal Extreme Scale Data Analytics for Smart Cities Environments, GA#957337), SecOPERA (Secure OPen source softwarE and hardwaRe Adaptable framework, GA#101070599), and ELASTIC (Efficient, portabLe And Secure orchesTration for reliable servICes, GA#101139067). Moreover, she has led ethical activities, served as Quality and Risk Manager, and developed Data Management Plans. She has also contributed as an External Advisory Board member for three EU-funded projects. Previously, she was involved in over 20 European and national projects in mobility, data mining, privacy, and big data as a researcher, project manager, and financial manager. Despina holds a Bachelor’s degree in Statistics and an MSc in Applied Economics & Finance from the Athens University of Economics and Business (AUEB), Greece. She was also a researcher at the University of Piraeus, focusing on data analytics, privacy, and big data management.
+
+20/2/25
+=============
+* meeting with Manos 
+
+The proposal of cyberguard should focus only on the open calls . No implementation of a mix and match patform . We just invite open tools that will be taliking to ecah other . We just provide funding . I invite sme? that will giv ethe opportunity to run the penetration testing. We just administer the budget in order to give 60.000 per peoject (they contribute 30.000 by themselved b)
+
+1,5 M - 2 emeis + 90.000 for ALL reviewers 3 rounds for open calls ==> 4.5 M
+
+
+3.000.000 για τα προπόσαλ me 100 προπόσαλ
+90.000 για τα review processes 3x30.000 to kathe round 
+500K emeis 450K o baggelis kai 300K o open call manager 
+4.440.000 
+
+For EU funding requests, you need to consider the funding rate applicable to the call. Looking at the call details from the DIGITAL Europe Programme, for DIGITAL JU SME Support Actions, you would typically receive a percentage of the total eligible costs.
+However, I notice I cannot find the specific funding rate in the provided call excerpt. To be absolutely certain about the exact amount to put in the "request for funding contribution" field (ZZZ,ZZZ.ZZ), we would need to know:
+
+The exact funding rate from the call (usually between 50% and 100% for EU projects)
+Confirmation that all your listed costs are considered eligible under the program rules
+
+
+
+*μαλλον Ανθη και Ευτυχια δεν εινια στο tuc οπότε εβγαλα καποιους απο την λιστα ολων των ατομων που εχουμε στο tuc για να εχουμε  >50% γυναικες
+Prof  Sotirios  Ioannidis
+Mr  Charalambos-Ioannis  Mitropoulos
+Ms  Despoina  Antonakaki
+Mr  Manos Athanatos
+Ms  Despoina  Kopanaki
+Ms  Maria Mastoraki
+Ms  Evangelia Papadogiannaki
+Ms  Eleni Pateraki
+Mr. Grigorios Chrysos
+** TODO: 
+* Ownership and Control Declaration (Document Attached): A signed declaration confirming your organization’s ownership 
+  structure and control, as required by the call's guidelines for compliance with Article 12(5) of Regulation (EU) 2021/694. Χρειάζεστε απο TUC Ownership and Control Declaration, εφόσον ειναι public body Organization Profile (See Part A document) συννημένο
+ Proposed Solutions for On-boarding: A description of any tools, technologies, or services your organization could onboard to support the InfraShield platform (see attached mapping). εδω φανταζομαι δεν χρειαζεσαι κατι απο εμας
+ * List of Previous Projects. A list is already provided please add as much as you can as they don't count in the Page limit. 
+* steile se markaki Re: Invitation to the InfraShield Consortium, under the DIGITAL-ECCC-2024-DEPLOY-CYBER-07-LARGEOPER call
+1) part A 
+* piese ton mano na apanthsei poios 8a parei meros sto infra wste na sunplhrwseis o Project_teams_and_staff_TUC kai na to kaneis kai auto attach . 
+*sto part A exei projects + tools . 8a meinoun ola ? 
+* SKYPE sto mano καλημερα, ο Μαρκακης στο mail του Infrashield ζηταει 
+  Proposed Solutions for On-boarding: A description of any tools, technologies, or services your organization could onboard to support the InfraShield platform (see attached mapping).
+      εδω φανταζομαι δεν χρειαζεται κατι απο εμας, σωστα;
+19/2/25
+=============
+apories 
+1) oi opercaller 8a mpoun ston proppoal alla 8a diorganwsoun autoi to open call ? 
+den pou anaferete to open call an to kanoun autoi 8a prosarmosoume to keimeno analoga 
+auth thn apanthsh den an mporeis na thn pareis apo ayta pou sou exei pei o chrysis gia ta open calls
+
+2) However, as industries such as energy, banking, transportation, telecommunications, and space expand their digital infrastructures
+edw anaferoume ta panta ola energy, banking, transportation, space ..ok eina isthn eisagwgh alla na ta afhsoume kai sto upoloipo keimeno ? 
+
+
+
+18/2/25
+=============
+* CyberGuard
+* M1: 
+* M2
+* M3
+* M4 D1.1 - Project management handbook
+* M5  
+* M6 D1.2 -Data management plan – interim version
+* M7
+* M8 D2.1 - Joint Development, CyberGuard Platform Specifications, Technological Ecosystem Analysis, and Architecture Implementation Report – Interim Version
+* M9
+* M10 D5.1 Cybersecurity Awareness , Partner Engagement and market strategy report - Initial version 
+
+
+* M11
+* M12 D2.2 - Joint Development, CyberGuard Platform Specifications, Technological Ecosystem Analysis, and Architecture Implementation Report – Final Version
+* M13
+* M14 D4.1 - FSTP Call Management, Tool Integration, and Sector-wide Performance Review   - Initial report 
+* M15
+* M16
+* M17
+* M18 D3.1 Main Platform Coordination, Service-Oriented Design, and Compatibility & Integration Framework for CyberGuard – Initial Version
+
+
+...
+* M30 D3.2 Main Platform Coordination, Service-Oriented Design, and Compatibility & Integration Framework for CyberGuard – Final Version
+* M31 - D4.2 FSTP Call Management, Tool Integration, and Sector-wide Performance Review   - Final report 
+* M36 D1.3 - Data management plan – final version
+      D5.2  - Cybersecurity Awareness , Partner Engagement and market strategy report  - Final version 
+
+
+
+
+An Interoperable, Plug-and-Play Cybersecurity Toolbox for Holistic Risk Management in Larger Industrial Operations and Installations 
+An Interoperable, Plug-and-Play Cybersecurity Toolbox for Holistic Risk Management in Larger Industrial Operations and Installations
+
+A Scalable, Adaptve Platform for Unified Cyber Defense in Critical Infrastructure Networks  
+4. CYBERGUARD: ComplianCY-Based Enterprise Risk Governance, Unified Architecture for Risk Detection
+
+
+
+17/2/25
+=============
+Merged Report: FSTP Call Management, Tool Integration, and Sector-wide Performance Review  
+
+
+11/2/25
+=============
+Arxiv submitted for bot detection
+
+
+3/2/2025
+=============
+* LARGEOPER: questions for next meeting :
+
+
+
+* Work Breakdown Structure 
+* Budget  4M ? epends on #objectiives (page 4 objective 6 na fugei ? )8a exarth8ei kai apo to poios allos partner 8a mpei 
+* Maybe skip some objectives? Do we need all 7? (page 9 - section 1.2 )
+* Physical meeting/travelling? how much for travel mallon oxi an den exoume allo partnetr : At least two face-to-face meetings of 
+  the consortium with the selected participants will be held to better collaborate and present the findings.
+
+* page2 is in RED :
+	This project will also raise awareness through workshops and will create an Open Call committee that will oversee the process with full transparency, sharing the work with external evaluators. At least two face-to-face meetings of the consortium with the selected participants will be held to better collaborate and present the findings.
+Other questions that need to be asked
+-----------------
+* Milestone/Key Performance Indicator :The number of interoperable tools to be deployed in full operability in the platform is ??
+* Measurable KPI: Number of organizations making use of continuous monitoring tools-outcome to be achieved is 50 organizations.
+* Measurable KPI: Number of successful pilots, including cross-border pilots: 5 pilots.
+* REMOVE Objective 6: AI-driven Strategic Advice using LLM Consulting ?§
+* KPIs red text in table page 4
+* 15 interoperable tools onboard
+* 20 risk scenarios verified
+* 50 organizations utilizing surveillance tools
+* 5 pilots finalized, including international (cross-border)
+* 2.75M assigned to external partners
+* 5 entities leveraging LLM consulting
+* 5+ Member States participating
+* page 9Long-term Objective 5: Strengthened EU-Wide Cyber Crisis Readiness and Response?? Time-bound: Tools will be deployed with associated exercises by Month 30.
+*    Challenges Addressed by InfraShield:  einia keno (selida 6)
+edw einai ena prwto draft apo emena gai ta WPs AN kai PRWTA 8a prpei na poume pios 8a kanei ti ??
+https://docs.google.com/spreadsheets/d/10tSUG3f0HnW1nljbmiYah-AXYMyRmR2C/edit?gid=419758106#gid=419758106
+
+* TA DELIVERABLE EXOUN mpei ola sxedon ton idio mhna kalo 8a htan na skorpistoun :) isws mporei na ginei kai meta ? 
+* The platform will be implemented? After the acceptance …CHANGE THIS accordingly 
+* to maturity input , exw valei mono FORTH 
+
+* NIS Guard / NIS Secure (name)
+
+
+31/1/2025
+=============
+* Timologio 
+* timesheets
+* meeting about CyberGuard gia t FSTP 3 calls 
+ 1)change the names of the RED WP/subtasks 
+ 2) wp1 -1-36 
+
+	Wp2 2 deliverable ana exi mhnes 
+	2.1+ 2.2 sto deliverable M8 stakeholder identification  ... M8,  
+	2.3 + 2.4 allo ena tech M8, M12 
+
+	paromoia sto 3
+	M10 - 30
+	paradodosh M18 kai M30 
+
+	paromoia sto 4 
+	M1 - M36 
+
+	paromoia sto 5
+	M1 - M36 
+* fix GitHub locally 
+* 
+
+
+This report will provide an in-depth analysis of the current technological ecosystem, exploring emerging tools, platforms, and trends relevant to enhancing the functionality, scalability, and security of the CyberGuard platform. It will also outline the planned architecture and implementation framework of the platform, ensuring it is scalable, secure, and aligned with the needs of critical industries. The document will guide future integration of new technologies and third-party solutions, supporting flexibility, resilience, and regulatory compliance. The report will be delivered in PDF format, written in English.
+29/1/2025
+=================
+Sentiment Analysis on telegram
+(sentiment3.py - )
+		INFO:root:Average sentiment for palestineonline_2025-01-20.json: -0.52. Accuracy: 58.06%
+		INFO:root:Processing file: StopGazaGenocide_2025-01-20.json
+		INFO:root:Average sentiment for StopGazaGenocide_2025-01-20.json: -0.68. Accuracy: 100.00%
+		INFO:root:Processing file: AlQassamBrigades9_2025-01-20.json
+		WARNING:root:Error analyzing sentiment: The size of tensor a (689) must match the size of tensor b (512) at non-singleton dimension 1
+		INFO:root:Average sentiment for AlQassamBrigades9_2025-01-20.json: -0.57. Accuracy: 97.50%
+		INFO:root:Processing file: GazaNow_2025-01-20.json
+		INFO:root:Average sentiment for GazaNow_2025-01-20.json: -0.12. Accuracy: 100.00%
+		INFO:root:Processing file: The_Jerusalem_Post_2025-01-20.json
+		INFO:root:Average sentiment for The_Jerusalem_Post_2025-01-20.json: -0.57. Accuracy: 100.00%
+		INFO:root:Processing file: Eyeonpalestine2_2025-01-20.json
+		INFO:root:Average sentiment for Eyeonpalestine2_2025-01-20.json: -0.62. Accuracy: 100.00%
+		INFO:root:Processing file: Aqsatvsat_2025-01-20.json
+		INFO:root:Average sentiment for Aqsatvsat_2025-01-20.json: -0.83. Accuracy: 100.00%
+		INFO:root:Processing file: pal_Online9_2025-01-20.json
+
+
+22/1/2025
+=================
+- athina ? mporei kapoios na mas voh8hsei me to profile tou organismou ?
+ si: Fournaris - Athina 8a steilei o soriris mail na mas apanthsei 
+
+- LARGEOPER - ?CyberGuard? - FORTH - prpeei na doume ton trito partnet ..epishs na doume mazi Mano thn katanomh twn WPs ? posa xronia 8a einai ? ti budget ua exei ? 
+TODO Na kanonisw kapoia sunanthsh me ton markaki ?
+OK done  na ta doume emeis oi duo prwta kai meta milame me ton markaki ? HMU?
+
+TODO sent FORTH profile steile se mano 
+
+
+section 2 TODO practice 
+
+todo kanonise ena call me ton vaggeli na doume 
+
+LARGEOPER - markakis -  
+
+ola ta erga pou exoun ginei fund ta teleytaia 4 xronia . to eixame kanei kapou ? 
+
+21/1/2025
+=================
+1. Overall volume of messages over time as cumulative distribution function - /home/antonakd/TelegramCollector/volume/overal\_volume2.py}
+2. Overall volume in all channels plotted as cumulative distribution function - /home/antonakd/TelegramCollector/volume/overal\_volume.py }
+   cdf_messages_over_time.png - /home/antonakd/TelegramCollector/volume/overal_volume2.py
+3. overall_cdf_messages.png - {Overall volume across all channels as CDF/home/antonakd/TelegramCollector/volume/overal\_volume.py  21_jan_cdf_messages_
+   over_time.png - antonakd/reddit/volume.py
+4. \includegraphics[width=0.8\linewidth]{volume/overall\_cdf\_messages.png}
+5. \caption{Overall volume in all channels plotted as cumulative distribution function - /home/antonakd/TelegramCollector/volume/overal\_volume.py }
+6. \includegraphics[width=0.8\linewidth]{volume/cdf_reddit_posts_over_time.png}
+7. \caption{Overall volume in reddit posts from dataset B/home/antonakd/reddit/volume.py }
+8. \label{fig:all_volume_cdf}
+9. \includegraphics[width=0.8\linewidth]{volume/reddit_top_words.png}
+10. \caption{Barplot showing the distribution of messages per channel in reddit from dataset B-/home/antonakd/reddit/entExtr.py}
+11. \caption{Barplot showing the distribution of tweets per dataset file /home/antonakd/entExtr.py  }
+12.   \label{fig:barplot_tweets}
+13. \caption{Most common hashtags and words with their frequencies of appearance in the dataset./home/antonakd/TelegramCollector/entity\_extraction/
+    entExtr.py}
+14. {twitter/word_cloud_topic_0.png}
+    \caption{The entities contained in the 1st topic}
+15. \caption{Word clouds for each topic in the analysis - //home/antonakd/twitter/rizqikapratamaa /visualTopics3.py}
+16. \includegraphics[width=0.8\linewidth]{volume/cdf_messages_over_time.png}
+17. \caption{Overall volume of messages over time as cumulative distribution function - /home/antonakd/TelegramCollector/volume/overal\_volume2.py}
+18. \includegraphics[width=0.8\linewidth]{volume\messages_count_per_channel_2024_12_18}
+19. \caption{Barplot showing the distribution of messages per channel - /home/antonakd/TelegramCollector/barplot/barplot5.py  }
+20. \includegraphics[width=\linewidth]{topic/topic1.png}   \caption{The entities contained in the 1st topic /home/antonakd/TelegramCollector/topic/LDA3.py }  \label{fig:topic1_LDA}
+
+LDA .
+---- 
+   Modify the code to output a graph in PNG format and provide the option for the user to specify the number of top topics to include in the graph. If the number of nodes (topics or entities) is too large, we can filter to include only the most important ones, based on their frequency or relevance.
+
+    Add functionality to plot a graph with nodes representing topics.
+    Allow the user to specify the number of top topics to include in the graph.
+    Save the graph as a PNG file.
+    Plot only the most important topics if the total number of topics exceeds a specified threshold.
+    add the graph plotting using matplotlib for visualizing the most important topics. Here's the modified code:
+
+
+13/1/2025
+================
+* TODO : Ναι τα ίδια! απλά να φτιάξουμε ένα part A για το FORTH. 
+* finished paper 
+
+
+10/1/2025
+================
+* Paper Social media trolls - reveiw - added contribtions , passes from humanizer . TODO: if we need more contnet to fill the page maybe search for recent citation on the field ...
+* 
+
+9/1/2025
+================
+* DETANGLE: TODO sent bravos! 
+* DETANGLE: exw sumplhrwsei kapoia apo ta rxeia, me to topic pou 8a summetexoume, ta roles (tria atoma depsoina sotiris, manos) kai perimenoume gai to kapelo pou 8a summetexoume 
+* CyberGuard: diavazontas to eida oti kai to allo proposal cyberGuard 8a xreoastei ena xanagrayino sto intro opou 8a ginonta xeka8ara state tria tesera provkhmeta kai antistoixa ta idiap provlhmata 8a dinei lush h platorma pou protinoume kai meta mia mikrh  paragrafo me sugkekrimena features pou ta ulopoioun , epishs kalo 8a htan na poume oti h douleia sunexosete apo ena prohgoumeno project ..uparxei kapoio ? 
+* CyberGuard:  des apishs to LOT 01 27 ENISA procureent 
+sto section 1 methodology na graftei oti 8a ginoun 3 gurei open calls . ousiastika 8a eimaste mesazontes 
+* CyberGuard rwthsa ton Mano an 8a ulopoihsoume platforma. kai mou eipe OXI . 8a eimaste mesazontai ...8a kanoun 3 gurous apo open calls . 
+
+
+8/1/2025 
+================
+1. DETANGLE Partners’ administrative info - PartA: Please use the attached template to provide your organization’s details for PartA
+
+			logo ics https://cidoc-crm.org/ics-forth
+			999995893 PIC number https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/999999999/project/101128024/program/43152860/details
+					sotiris@ics.forth.gr mathanatos@gmail.com(EU portal)
+				athanat@ics.forth.gr(mailing lists)
+				despoina@ics.forth.gr
+
+				mastoma@ics.forth.gr
+		2. DETANGLE Partners’ expertise, role and team: Please use the attached template, to provide the details regarding your organisation’s profile and the core team to be engaged in the project
+
+		3. DETANGLE Partners’ ecosystem: Please use the attached template, to provide some information about your existing ecosystem that can support the project’s execution and outreach
+
+		4. DETANGLE DETANGLE offerings and roles: Please check the file “Detangle offerings, tools and end users”.
+
+	a. For end users (MOH, VODAFONE, San Rafelle, ABI, Eurostar*, Satcen*): Please check the tab ‘end users’ roles and use cases’, and fill in cells where you find your organisation interested in contributing. Based on that, use column ‘I’ to provide 2 paragraphs describing the use case(s) you would like to set up within the project.
+
+	b. For technology / services providers (UBI, NCI, SLC, FORTH, IMPRO): Check the tab ‘technology providers’ offerings’ and come back to us with related offerings’ descriptions (about 0,5 page for each offering) covering the services envisioned for DETANGLE. We have already mentioned some offerings; feel free to adjust / refine.
+
+
+7/1/2025
+================
+* CyberGuard:  des epishs to LOT 01 27 ENISA procureent 
+sto section 1 methodology na graftei oti 8a ginoun 3 gurei open calls . ousiastika 8a eimaste mesazontes 
+* CyberGuard rwthsa ton Mano an 8a ulopoihsoume platforma. kai mou eipe OXI . 8a eimaste mesazontai ...8a kanoun 3 gurous apo open calls . 
+
+
+* CyberGuard check latest version of the doc from markakis
+* CyberGuard καλημέρα και καλή χρονιά! εχω δουλεψει στην προταση μεχρι το 4. WORK PLAN, WORK PACKAGES, ACTIVITIES, RESOURCES AND TIMING. Το έχω προσαρμόσει με βάση το κειμενό σου .  θα το δω και απο δω και κατω και μθα το ανανεωσω με βαση τις τελειυετια ααλαλγες ποθ εχεις κανει . ποιος ειναι ο  αλλο παρτνερ που θα συμμετεχει λωστε να μπει στα  working packages 
+* CyberGuard diavase kalutera leei o grigorhs apo ta template gai na peis sto proposal sou ti einai ta open call. 
+oxi to grant agreement giati 8a leei mperdemena 
+
+6/1/2025
+================
+* CyberGuard Regarding Open call docsuments provided by Chrysos
+** D6.7 In Grant agreement of Cyrene |: D7.6 Open Call Organization and Selection WP7 5 - TSI Report Confidential, only for members
+of the consortium (including the Commission Services) Due date in months : 28
+** D7.10 Outcome of Open Call WP7 5 - TSI Report Public 36
+**  WP7    Dissemination, Exploitation, Sustainability and Market Take Up - (d) To establish and engage external groups (third-parties specified in Section 1.3.5) in the validation, evaluation and wider use of the project’s results. These groups will include all relevant supply chain operators and stakeholders ncluding SCs Services providers, other CIIs, standardization bodies, policy makers, accredited cyber-security
+certification agencies, audit agencies, etc. (Open call process and workshops); : Finally, an Open Call will be organized, and several actors of a supply chain service will be funded which to evaluate the CYRENE system in both the supply chain domain, as well as in different domains. Finally, this task will support the organization of CYRENE’s workshops as described in Sect. 2.2.2.1, focusing on attacking attendees
+ 
+* CyberGuard Task 7.5 Open Call Involvement, Awareness and Participation (Leader: TSI; Contributors: MAG, CRF, VPF, UNSPMF,
+FP, HYPER, ZELUS, STS) [M24-M36]
+The purpose of this task is to publish an Open Call to promote the involvement of external third parties (see Sect. 1.3.6)
+from supply sectors that want to develop proof of concept demonstrations for managing cybersecurity and privacy risks
+based on the CYRENE cybersecurity conformity assessment process. Moreover, this task will raise awareness of the
+advances that CYRENE solution is offering in (i) building risk awareness within the digital supply chain ecosystem;
+(ii) enhancing supply chain operators’ insights into their CIIs and (iii) fostering the exchange of reliable and trusted
+incident-related information without revealing sensitive corporate and private details. The purpose of the Open Call is
+as follows. Firstly, being aware of the vastness of supply chain ecosystem, we aim to seek for external stakeholders,
+institutions, research teams and SMEs with expertise on relevant technological areas. The selected experts will provide
+the consortium with new algorithms, services and applications to be incorporated in the CYRENE solution enhancing its
+efficiency and, if possible, facilitating its application to other critical domains. Furthermore, through the Open Call we
+will seek to evaluate the validity and compliance with existing approaches of the proposed CYRENE solution. During
+the first six months of the task a raising awareness workshop will be held (T7.1). At the same period an Open Call
+committee will be set up inside the consortium that will plan and execute the Open Call. External evaluators will be
+appointed by the committee to select all the external parties. At least two face to face meetings will be held between the
+consortium and the external parties for better collaboration and presentation of the Open Call findings.
+
+3/1/2025 - CyberGuard apories dikes mou gia to CyberGuard
+=================
+* 36 months for proposal?
+* FSTP program allows more than 55% of the project budget to be transferred to the SMEs and startups from the EU ? 55% is also same for us? 
+* This project requires, in total, XXX person-months within three years; responsibilities among partners will be distributed based on role, needed resources, and skills, keeping inter-relations between the different WPs in mind. The total project budget amounts to YYY,YYY.YY € (request for funding contribution: ZZZ,ZZZ.ZZ €).
+* , T1.4 in accordance with GDPR ? is 1.4 ok? 
+* CyberGuard will also deploy a Collaboration and Real-time Communication Platform, that shall provide  : implement or use an existing one ? 
+* format. Official documentation and templates provided for this end would follow precise indications to be provided within D6.1.? D6.1 ois coorect ? 
+* Dissemination, Communication and Public Engagement Activities: talsk about gadgets and dissmeination materials. shoudl we offer all tese?
+* same numbers? ≥ 10 published open-access scientific papers
+* reveiw KPI [C1] CyberGuard’s website connecting to  data assets & tools	Act as a central hub for information	Frequent visits	≥ 1000 visits, ≥ 200 registers, ≥ 200 blog interactions
+
+24 december 
+=================
+
+diavase kalutera leei o grigorhs apo ta template gai na peis sto proposal sou ti einai ta open call. 
+oxi to grant agreement giati 8a leei mperdemena 
+23 December 2024
+=================
+meeting 
+
+erwthseis gregfory : 
+
+* Τα penetration testing, threat assessments και continuous risk monitoring θα πραγματοποιηθούν μέσω εργαλείων που θα παρέχονται από οι εταιριεσ φορείς, οι οποίοι θα συμμετέχουν στο έργο μέσω του open call.Αρα εμεις  από την πλευρά μασ, θα πρέπει να υλοποιήσουμε και να παρέχουμε μια κεντρική πλατφόρμα, στην οποία τα εργαλεία των τρίτων θα "κουμπώσουν" ή θα ενσωματωθούν, ώστε να επιτυγχάνεται η πλήρης λειτουργικότητα των παραπάνω υπηρεσιών
+
+
+		poios 8a ulopoihsei thn platforma ? autoi pou 8a dhlwnoun mesw ths platformas thn ummetoxh tous? h 8a ta ukopihsoume ameis ?
+
+		8a prosferoun oi alloi to diko tous software kai 8a to prosferoun h tha ulopoihsoume ?
+---------------
+
+		ANOIHMA PROS ETAIRIES NA SOU UPOVALOUN PROTASEIS . SAN ta proposla pou grafoume. 
+
+		otan xekkinaei h diadikasia grafeis ena keimeno pou perigrafeis ka8e leptomereia, kanones 
+
+
+
+		einai shmantiko na fanei posa  einai ta xrhmata pou 8a pareis 
+
+
+		?thn pltaforma thn eixen uloipihsei sto CYRENE ITML ...? 
+
+		emeis 8a ulopohsoume autyhn thn platrfoma meta apo kana 2 xronia pou 8a exoume parei to ergo . 
+
+		gregory 
+					==========
+		*  reviews 8a kanoun evaluate an 8a paroun ta lefta gia na summetexoun  - apo 0-5 va8mo evazan  -  sta tria pedia pou  einai ston pinaka . Autoi oi reveiwers 8a krinoun an ta proposals pou 8a katate8oun . 
+
+		* tous reviewer pws tous vrikate ? eixane kanei call kaname cal oloi oi etairoi ..poios grwrizei pi8anouw reveiws  kaidialexan oi etairoi ...
+		* oi piloi 8a dokimasoun ta tools 
+		* se ka8e eteiria egrafe ena doc o gregory mou ekane evaluation 
+		* 
+		* -----7.5 open call ----
+				dow
+		* oi reviewer apl vlepoan ta tempate sumplhwnoun oi eteires kai apo ekei krinoun an 8a dextoun h oxi thn etairia . den vlepoun kaoio demo. epiehs mia eteiraiamporien a fugei sthn proth fash kai na parei mono to 30%
+
+		* deliverable diavase * 
+
+		poios 8a kanei ti ? 
+		8a ftiaxeti h platorma panw sthn poioa 8a kanoun embed ta dika tous tools? opws exoun kanei kai sto cyrene ?  
+		h 8a ftiaxtei h platforma pou 8a kanoun apla aithsh gai na summetexoun ? 
+
+		pws akrivws 8a ginei embed h leitourgikota pou zhtaei to call: ta penetration testing, threat assessments, and continuous risk monitoring.
+		8a uloipih8oun h 8a exoun ginei apo tools twn eteiriwsn pou 8a summetexoun sto ergo mas mesw to open call. alla ki emeis 8a prepei n a ulopoihsouen thn platforma ayth sthn opoi 8a koumposoun ta ergaleia tous . swsta ? 
+
+		C.
+
+--------------
+
+
+	meeting for large oper me gregory chrysos gia ta open call pws souleueoun gai na ta perigrayoume sto proposal pws sxediazoume na ginoun 
+
+
+	* Το CyberGuard θα δημιουργήσει μια onboarding mix and match penetration testing, threat assessments, and continuous risk monitoring. 
+	*  Η πλατφόρμα θα εξασφαλίσει εύκολη ένταξη για μεγάλες βιομηχανικές εγκαταστάσεις και κρίσιμους τομείς υποδομής, όπως η ενέργεια, οι μεταφορές, η τραπεζική και οι τηλεπικοινωνίες, όλα ευθυγραμμισμένα με την Οδηγία NIS2.
+	*  Το CyberGuard θα υποστηρίξει vulnerability testing, continuously monitor emerging threats, and facilitate collaboration through an open call mechanism.
+	* 	 Περισσότερο από το 55% του προϋπολογισμού των 5 εκατομμυρίων ευρώ θα αφιερωθεί στην Οικονομική Υποστήριξη για Τρίτους (FSTP), χρηματοδοτώντας καινοτόμες λύσεις κυβερνοασφάλειας για ΜΜΕ και παρόχους κρίσιμων υποδομών.
+
+
+		 	apo thn sunanths pou eixame thn paraskeyh 
+
+	* Yποβολή δύο προτάσεων, η μία με μεγάλο κονσόρτσιουμ και η δεύτερη με μικρό κονσόρτσιουμ.
+	* Οι τελικοί χρήστες είναι 90, αυτές είναι οι εταιρείες.
+	* Στη δεύτερη πρόταση μιλάμε για μια πλατφόρμα onboarding, μια κεντρική πλατφόρμα όπως το InfraShield;
+	* Υποβολή δύο προτάσεων, η μία με μεγάλο κονσόρτσιουμ και η δεύτερη με μικρό κονσόρτσιουμ. Οι τελικοί χρήστες είναι 90, αυτές είναι οι εταιρείες.
+	* Στη δεύτερη πρόταση μιλάμε για μια πλατφόρμα onboarding, μια κεντρική πλατφόρμα όπως το InfraShield;
+	* FSTP που αναφέρεται σε συγκεκριμένους αριθμούς όπως 3800 και 7600.
+	TO POSO 35.000.000 8A SPASEI SE OSOU KANOUN THN PORATSH 
+
+
+
+
+
+* Έχουμε 127 SME και εταιρείες που συμμορφώνονται με το NIS3. 
+	Συγκεκριμένα, για το διάστημα, την ενέργεια και τις βιομηχανίες γύρω από αυτά τα θέματα.
+* Ανοιχτή πρόσκληση για τα εργαλεία και τους πιλότους.
+* Μπορεί να είναι η ίδια αγορά όπως το InfraShield. Πρέπει να το ονομάσουμε διαφορετικά και να είναι το μέρος όπου συνδυάζουμε και προσαρμόζουμε. ( 
+		--> Eκεί πρέπει να κάνουμε το matchmaking για το FSP.
+
+* 	Δεν έχουμε πολλούς πιλότους.
+* 	Σκεφτείτε τη δεύτερη πρόταση. Cyber Rangers με 50 πελάτες που εισέρχονται στην πλατφόρμα και αγοράζουν.
+* Έχουμε τρία επίπεδα. Το πρώτο είναι το κονσόρτσιουμ. Είμαστε το κονσόρτσιουμ και στη συνέχεια δίνουμε χρήματα στις εταιρείες για να εφαρμόσουν αυτές τις υπηρεσίες... έπειτα μπορούν να τα αναθέσουν σε άλλες εταιρείες.
+* 	Τι πρέπει λοιπόν να περιγράψουμε στην υποβολή;
+* Όπως το InfraShield που ο Βαγγέλης θα περιγράψει στην πρώτη υποβολή του, πρέπει να μετονομάσουμε το InfraShield, το οποίο θα είναι η υπηρεσία onboarding για το συνδυασμό και την προσαρμογή υπηρεσιών, συμπεριλαμβανομένων της διάχυσης και της ανοιχτής πρόσκλησης.
+
+19 december 2024
+=================
+    Evangelos Markakis is inviting you to a scheduled Zoom meeting.
+    Join Zoom Meeting
+    https://zoom.us/j/96115670187?pwd=Dv0wmQNMNZYKfxKvQBStXPf9wrVuwQ.1
+20/12/2024
+==============
+Minutes 
+*Submit to submissions one in with a big consortium and the second with small consortium. 
+* The final and users are 90 this are the companies. 
+* Considering the second submission we are talking about a boarding platform, a core platform like the infra shield?
+* Submit two submissions one in with a big consortium and the second with small consortium. The final and users are 90 this are the companies. 
+* Considering the second submission we are talking about a boarding platform, a core platform like the infra shield?. 
+* FSTP talking about specific numbers like 3800 and 7600. 
+* We have one 127 SMEs plus NIS3 complied comnpanies  . Specifically space, energy, and industries around these topics. 
+* The open call for the tools and the pilots. 
+* It can be the same marketplace as the infrashield. We have to name it differently and is the place where we mix and much. Where we should do the FSP match making, 
+* talking about some numbers in the budget  something about that we have to give less for companies and industries. 
+We don’t have many pilots. 
+* consider the second submission. Cyber rangers of 50 clients that enter the platform and buy 
+* we have three levels. The first is the consortium. We are the consortium and then we give money to the companies to apply these services...then they can also outsourced to other companies. W.
+* So what do we have to actually describe in the submission. 
+Like the infra shield that Vaggelis has *will* describe in his First submission, we have to rename this intro shield, which will be the onboarding service for mix and Mac services, including the semination and the open call.
 
 18 december 2024
 =================
@@ -17650,10 +20175,10 @@ free sample http://www.qmags.com/magazines/PubHomePage.asp?publication=207&sessi
 http://delivery.qmags.com/d/?pub=IC&upid=16328SP&fl=others%2fIC%2fIC_20110101_Jan_2011.pdf
 
 
-gia to IMC, pame gai 3w http://www.www2015.it/ http://www2016.ca/calls.html - Research track abstract registration:  
+gia to IMC, pame gai 3w http://www.www2015.it/ http://www2016.ca/calls.html - Research track abstract registration: 
 Saturday, October 10, 2015 (23:59 Hawaii Standard Time)
 Research track full paper submission:
- Saturday, October 17, 2015 (23:59 Hawaii Standard Time)  
+Saturday, October 17, 2015 (23:59 Hawaii Standard Time)  
 
 ?? h asonam? , gai merika mikra parallhla dataset opws auto pou exoume (apo tuxaia shmeia mesa stongrafo) kai prospa8oume na apodeixoume oti einai homogenius & isotropic (paper fusikhs??)
 Giati xreiazomaste toso polu epexergastkh isxu??
@@ -18136,7 +20661,7 @@ gia to layout tou graph pou rwthse o Swthrhs ontws auto htan to defaut poy evaze
 regards,
 
 =========
-python /Users/antonakd/GitHub/phd/code/marienbad.py --action build_graph 
+python /Users/antonakd/GitHub/phd/code/marienbad.py --action build_graph
 python /Users/antonakd/GitHub/phd/code/marienbad.py --action plot --plot 3
 
 24 Febraruiou 
@@ -18531,15 +21056,15 @@ Exoume katevasei 277.908.000 user objects. Dld exoume ta meta-data (creation_tim
 
 Alla mporoume na trexoume to heuristic gia tous ~12.000.000 ekatomuria xrhstes pou exoume tous following / followers.
 
-Dhladh: Katebasame gia 12M users tous friends/followers. Oi friends/followers autwn twn 12M xrhstwn periexoun 350M diaforetika user ids kai emeis mporesame na katebasoume ta user_objects twn 278M apo autous (prin mas kopsei to twitter)  
+Dhladh: Katebasame gia 12M users tous friends/followers. Oi friends/followers autwn twn 12M xrhstwn periexoun 350M diaforetika user ids kai emeis mporesame na katebasoume ta user_objects twn 278M apo autous (prin mas kopsei to twitter)
 
-Opote twra 8a efarmosoume to heuristic gia tous 12.000.000 xrhstes . An omws enas apo autous exei enan follower pou den anoikei  tous 278M (dld den prolabame na katebasoume to user object tou) tote to heuristic an kai mporei na efarmostei apla den 8a einai toso akribes.   
+Opote twra 8a efarmosoume to heuristic gia tous 12.000.000 xrhstes . An omws enas apo autous exei enan follower pou den anoikei  tous 278M (dld den prolabame na katebasoume to user object tou) tote to heuristic an kai mporei na efarmostei apla den 8a einai toso akribes. 
 
-Twra koitanw na dw pws 8a proxwrisoume me auta ta data  .
+Twra koitanw na dw pws 8a proxwrisoume me auta ta data.
 
 Oson afora to dataset apo to snap, telika eixe Connections: 1.468.365.182 , Nodes: 40.103.281 (xrhstes). 
 (To arxeio exei duo ari8mous se ka8e grammh, dld duo sthles, Metrhsa posous diaferika noumera uparxoun sth prwth sthlh
- kai einai 40.103.281, upo8etw einai xrhstes)  
+ kai einai 40.103.281, upo8etw einai xrhstes)
 
  pare to 1/10 ..subset gia 
 scp backup to dataset 
@@ -18726,7 +21251,7 @@ kai twra metatrepoume olon ton pinaka apo epochs se strings:
 
 from_epochs_to_string = lambda x :  time.strftime('%a %b %d %H:%M:%S +0000 %Y', time.localtime(x))
 auto einai to idio me:
-def from_epochs_to_string(x):    return time.strftime('%a %b %d %H:%M:%S +0000 %Y', time.localtime(x))
+def from_epochs_to_string(x):   return time.strftime('%a %b %d %H:%M:%S +0000 %Y', time.localtime(x))
 
 twra mporw na kanw:
 
@@ -19714,8 +22239,8 @@ Edges: 3.439.424
 Xmm.. auto shmainei oti den mporoume na diaxeiristoume ena diktuo me 2.9M users kai 3.4M edges?
 To mhxanima exei 8G
 MemTotal:        8009880 kB
-MemFree:         5844188 kB --------------------------------- >>> import networkx as nx
->>> G = nx.gnm_random_graph(2907671, 3439424) --------------------------------- MemTotal:        8009880 kB
+MemFree:         5844188 kB--------------------------------->>> import networkx as nx
+>>> G = nx.gnm_random_graph(2907671, 3439424)---------------------------------MemTotal:        8009880 kB
 MemFree:         2666908 kB
 
 MONGO !
