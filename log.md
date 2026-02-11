@@ -26,10 +26,10 @@ dimitra 9999
 	d3f42c6256e8a6681eabe631184bd285	antonakd		26/04/2023	Ενεργή	
  
 V6-ZGUxuL9-4PCnA^    easyjet
-
+ 
 
 Timologia 
-==================
+================================================================
 * GREEN.DAT.AI*
 	https://mydata.aade.gr/timologio/Account/Login?ReturnUrl=%2Ftimologio
 	antonakd - 118915739 - d3f42c6256e8a6681eabe631184bd285 
@@ -103,7 +103,7 @@ Timologia
 
 
 Timesheets 
-==================
+================================================================
 * ITE: Cyberunity 1.1.2024 - 30.6.2024  = 6 months with total number of hours 222,72 which for each month gives us 
   222,72/ 6 = 37,12 and is 1000 gross 
 * ECCO  01/01/2024 μέχρι την 30/06/2024. - 600 /6 = 100
@@ -111,7 +111,7 @@ Timesheets
 * htan 2424 + 500  = 2924,
 
 WIFI
-==================
+================================================================
 * 4QPEM8E3
 * WVRMD84W
 * 5454048604
@@ -121,7 +121,7 @@ WIFI
 * VPN dvVqxPnRYS8SKS2
 
 Info about CYBERUNITY: 
-==================
+================================================================
 
 * Community for Integrating and Opening Cyber Range Infrastructures that Build an Interoperable CrossDomain and 
   Cross-Sector Cyber Range Federation, funded under DIGITAL- ECCC-2022-CYBER-03”
@@ -135,7 +135,7 @@ Info about CYBERUNITY:
 
   
 TUC General Profile: 
-==================
+================================================================
 The Technical University of Crete (TUC) is a state university under the supervision of the Greek Ministry of Education and was founded in 1977 in Chania, Crete. The Technical University of Crete is particularly active in conducting basic and applied research.The research and development projects, managed by the Research Committee, are funded by the European Union, the General Secretariat for Research and Technology, the Ministry of Education, the Region of Crete, local administration organizations and many private businesses. A large number of TUC undergraduate and postgraduate students are employed in these projects; in this way, they benefit from the best possible training and they familiarize with conducting research.
 It is entirely funded from external research and development grants and contracts in telecommunications and allied areas: telecommunication systems/networks and network services, networking hardware, sensors, RF, and high-performance computing systems, machine learning, information systems, big data analytics, signal processing for telecommunications, speech, language and image processing, and biomedical applications. Funding mainly comes from the European Commission, international industry, National Funding Agencies, and DARPA. TUC has had significant experience in FP6, FP7 and H2020 projects, including FET, acting in many occasions as coordinator. It has also adopted a strategy of promoting the commercial exploitation of R&D results, by providing services (e.g. consulting) and contracting with industrial partners for specific products.
 
@@ -144,7 +144,7 @@ Prof. Ioannidis has a vast experience in Coordinating and participating in secur
  
 
 water (apo Zarra)
-============
+================================================================
 * 
   https://www.google.com/maps/place/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1+%CE%BD%CE%B5%CF%81%CE%BF%CF%8D+%CF%88%CF%8D%CE%BA%CF%84%CE%B5%CF%82+%CE%A3%CF%86%CE%B1%CE%BA%CE%B9%CE%B1%CE%BD%CE%AC%CE%BA%CE%B7%CF%82+%CE%93%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82+flowwater/@35.3362655,25.1570301,21z/data=!4m6!3m5!1s0x149a5bdb088ff4b9:0xf8072921198461d!8m2!3d35.3363544!4d25.1570958!16s%2Fg%2F11g8_2_lvl?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D
 * φίλτρα νερού ψύκτες Σφακιανάκης Γιώργος flowwater - antistrofh osmosh 
@@ -155,11 +155,9 @@ water (apo Zarra)
 * twitter verification : iphone--> passwords--> twitter --> verification dcode 138451
 *  ΔΡΑΣΤΙΡΙΟΤΗΤΕΣ 190 (μουσική) + 150 (σικινισ) + 160 (αγγλικά) + 60 (τέννις) + 100 (φυσιο) + 80 (κολύμβηση) = 740
 
-
-
 --------------General INFO for Proposals ----------------------
 WP distribution of PMs: 
-===================
+================================================================
 WP1: 5%
 WP2: 15-20%
 WP3: 20%
@@ -168,7 +166,7 @@ WP5: 15%
  
 
 from skype 
-============
+================================================================
 https://suno.com/song/c6a8aeb8-fc43-45a4-8aac-9f6f375f26d5
 https://suno.com/song/9a8bcddd-9788-4733-b266-89d32bcc5955
 https://suno.com/song/88fb1a6a-67a6-4e17-a9ea-ba960d430b1d
@@ -179,32 +177,10 @@ https://youtu.be/ZZDEaLW26gY?feature=shared
 
 https://www.amazon.com/photos/shared/Ka2mqAOfTNy2Z4qVPMi12Q.MQKFBIIDXtI8n_ZrIoWZU_
 Αριθμός Παροχής ΔΕΗ: 54635388
-
-
-PROPOSALS
-=============
-https://smart-networks.europa.eu/current-call-for-proposals/
-https://6g-xr.eu/open-calls/oc3/
-https://docs.google.com/spreadsheets/d/1tvlp9_9-uLjbhBIZP9Q6F2H2VNF7knS1uLikxYwsC9k/edit?gid=0#gid=0
-https://cascadefunding.eu/open-call/cybersecdome-open-call-1/
-
-
-
-closes: 	Sun 10 Aug 2025 18:05
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*=========================================================================================================================================================*
-*====DAILY LOG============================================================================================================================================*
+ 
 
 [run_telegram_info]
+================================================================
 
 1. ssh blackmamba: ssh -p 22599 antonakd@139.91.71.14 
 2. cd TelegramCollector/newCrawler_Files/
@@ -215,12 +191,987 @@ closes: 	Sun 10 Aug 2025 18:05
 **23/6/2025: 93125++
 ** ciril characters
 
+================================================================
+[Telegram analysis pipeline]
+1. crawler: 
+	/home/antonakd/TelegramCollector/newCrawler_Files/crawler9.py  - change data directory and channels 
+2. Volume Analysis:
+3. Translate ??? 
+4. /home/antonakd/TelegramCollector/mamba_topic/mamba_topic_october25
+	
 
+[PORTAL]
+================================================================
+ παρακαλω πολυ, σιγουρευτειτε οτι ειμαι σε ολες τις προτασεις που κατεβαινουν τωρα η εχουν κατεβει στο παρελθον μεσα στο πορταλ. Αν ειναι το Πολυτεχνειο (η το ΑΘΗΝΑ): sotiris@ece.tuc.gr, αν ειναι η εταιρεια: sotiris@dienekes.eu, αν ειναι το ΙΤΕ: sotiris@ics.forth.gr. Μπειτε ολοι στο πορταλ και κοιταχτε ολες σας τισ προτασεις αμεσα.
+
+[PROPOSALS]
+================================================================
+* https://smart-networks.europa.eu/current-call-for-proposals/
+* https://6g-xr.eu/open-calls/oc3/
+* https://docs.google.com/spreadsheets/d/1tvlp9_9-uLjbhBIZP9Q6F2H2VNF7knS1uLikxYwsC9k/edit?gid=0#gid=0
+* https://cascadefunding.eu/open-call/cybersecdome-open-call-1/
+* Search for call that fund my research . SSH call. 
+* https://research-and-innovation.ec.europa.eu/research-area/social-sciences-and-humanities/ssh-integration_en
+* Open calls https://cascadefunding.eu/open-calls/
+  * πολλα απο αυτα εχουν προθεσμια αρχεσ δεκεμβρη 1,2/12
+  * Ισως αυτο The 6th REINFORCING Open Call (Incubators Call) on "Responsible Innovation" 2/12
+* DEMOCRACY : The European Digital Media Observatory (EDMO) is the EU’s central platform that connects fact-checkers, researchers, and media literacy experts to monitor, analyse, and counter disinformation across Europe. The new DIGITAL-2026-BESTUSE-TECH-EDMO-09 call aims to maintain and further develop this platform, expand multilingual fact-checking capacity, and strengthen cooperation among national and regional hubs. It supports activities such as disinformation monitoring, open-source investigations, AI-based detection tools, media literacy campaigns, and crisis/election-related responses. The goal is to enhance Europe’s resilience against disinformation through a coordinated, multidisciplinary, pan-European effort.
+​		https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?keywords=democracy&isExactMatch=true&status=31094501,31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=relevance
+		https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/topic-announcements/49614481
+
+		Opening date
+		04 November 2025
+		Deadline date
+		03 March 2026 17:00:00 Brussels time
+
+[IDSChrysos]
+================================================================
+The  Intrusion Detection and Prediction System (IDPS) is designed to monitor and analyze network
+traffic in real time, detecting cybersecurity intrusions and predicting emerging anomalies. The system comprises two
+parallel components—intrusion detection and intrusion prediction tools—that communicate and exchange information
+regarding detected intrusions. The Intrusion Detection System (IDS), shown in Fig. 4, is an Field Programmable Gate Array
+(FPGA) based tool [5], that offers real-time cybersecurity threat detection. Its primary function is to monitor network traffic,
+identify potential attacks, and generate corresponding security alerts. The IDS operates in three phases. First, the system
+undergoes pre-training using IDS signatures stored in its internal database. Next, the real-time network data processing
+begins on the hardware platform. The Dome network traffic is forwarded to the IDS, where a parallel hardware-based
+[DETANGLE] 
+================================================================
+[coordinator] IOTAM INTERNET OF THINGS APPLICATIONS AND MULTI LAYER DEVELOPMENT LTD (ITML CY), George Bravos 
+[technicalCoordinator] 
+sthn eikona leei Sophia Karagiorgou UBI Sophia Karagiorgou	skaragiorgou@ubitech.eu
+
+
+ T1.3 Technical Management & AI Robustness Continuous Assurance (M1-M36); Leader: UBI, Participants: ITMLCY;
+Overall technical coordination of the platforms and unfiled dashboarding:
+================================================================
+[DETANGLE_Wp2_partners]
+
+ICERT (T2.1):
+Alice Zanasi	alice.zanasi.ext@infocert.it  
+Tommaso Boatto	tommaso.boatto@agorasecurity.it
+Matteo Brunati	matteo.brunati@agorasecurity.it
+
+UBI (2.4): 
+Sophia Karagiorgou	skaragiorgou@ubitech.eu
+Ioannis Pastellas	ipastellas@ubitech.eu
+Evangelos Kafantaris	ekafantaris@ubitech.eu
+
+NCI (T2.5):
+Marios Logothetis	marios.logothetis@netcompany.com
+Olga Segou	Olga.SEGOU@netcompany.com
+Spyros Evangelatos	Spyros.EVANGELATOS@netcompany.com
+
+IMPRO (T2.6):
+IMPRO	DK	Nikos Lambrou	nlambrou@improvisesoftware.com 
+===============================================================
+[DetangleMeetings]
+* PMB at Wednesday 11:00-12:00 CET - on the 1st and 3rd week of each month (recommended start on 18th of February in alignment with PMB) 
+* Microsoft Teams meeting Join: https://teams.microsoft.com/meet/33718016871117?p=9F9qvUc2Hm9M5hXmwy Meeting ID: 337 180 168 711 17 Passcode: MM2cw2cP 
+
+Regarding the scheduling of the TC Meeting I want to thank our partners from ITML, QnR, NETC, ATH, IMPRO, SRA and TP for submitting their votes. As of now it seems that Wednesday 11:00-12:00 CET - on the 1st and 3rd week of each month (recommended start on 18th of February in alignment with PMB) is supportive of most partners. 
+
+ DETANGLE ATH" haleplidis@isi.gr apostolos fournaris . 
+
+
+=========================================================================================================================================================
+=========================================================================================================================================================
+=============================================================DAILY LOG===================================================================================
+=========================================================================================================================================================
+=========================================================================================================================================================
+11/2/2026
+==========
+* note on DETANGLE to say tommorow: 
+Sxetika me to DETANGLE kai to Wp2  συντονισμό του WP5. Η CRA προσπαθεί να κανονίσει μια συνάντηση συντονισμού με το UOP και να ευθυγραμμιστούν οι δράσεις του YP pilot, ενώ από την επόμενη εβδομάδα αναμένονται τεχνικές συναντήσεις μετά το KOM. Η ITML exei hsh ετοιμάζει ένα βασικό αρχείο Excel για να μαζευτούν και να παρακολουθούνται τα inputs των εταίρων, το οποίο θα παρουσιαστεί την επόμενη εβδομάδα. Η Alicia έχει ήδη επικοινωνήσει με την CRA για να προχωρήσει ο συντονισμός. Παράλληλα, η UBI δουλεύει πάνω στa  παραδοτέων και τις απαιτήσεις των stakeholders με στόχο μέχρι το M12 να είναι ξεκάθαρο πώς θα αξιοποιηθούν οι τεχνολογίες, ενώ η NCI έχει ξεκινήσει να μετατρέπει τις απαιτήσεις σε πιο πρώιμες αρχιτεκτονικές κατευθύνσεις. Γενικά υπάρχει αυξημένη εμπλοκή και παρακολουθούμε στενά τα επόμενα βήματα.** epishs Rwmh ? 
+* INTACT PUc 4 in progress
+
+10/2/2026 
+===========
+* WP2 meeting see drive minute etc
+* 
+Thank you for submitting your votes regarding the scheduling of the DETANGLE TC Meeting. From the submitted votes there is a preference for the TC Meeting to take place on the 1st and 3rd Wednesday of each month at 11:00 – 12:00 CET. A calendar invitation will be sent shortly to start our first meeting on the 18th of February.
+
+6/2/2026
+=========
+* Dtaa management plan for detangle . I dont beleive we have any dataset OK 
+MEETING PUc 4 INTACT doodle des pote 
+* Bernanrd : input refine . sent to gregory . perimenw apanths apoton grigorh 
+* ok den exei akomh ginei finalize . to dodole gai t puc 4
+* parouaish aurio ? 
+TODO : sdes ti sou exoun steilei internal requirements framework (T2.3)
+
+
+6/2/2026
+=========
+* aithsh gia ATHENA detangle: all files in /Users/antonakd/Documents/DETANGLE
+* input HLIA gia intact 
+* ASKHSH xana ckech 
+* DETANGLE parousiash gia WP2? 
+* CALLIOPE new proposal
+
+5/2/2026
+==========
+* INTACT doodle for pUC 4 
+* DETANGLE la8os input sto CA . to dior8wsa. 
+* Venezuela paper almost finished 
+* ASKHSH xana ckech va8moi kapoioi eleipan !!!
+Φοιτητές που φαίνεται ότι παρέδωσαν αλλά δεν έχουν βαθμό καταχωρημένο
+==========================
+KAI APO MAIL : 
+
+    Δημήτρης Σταθούλιας 2018030109 6.5
+    ΔΟΥΛΑΒΕΡΗ	ΕΙΡΗΝΗ	edoulaveri@tuc.gr	2022030056	edoulaveri	30	7.2
+
+	ΜΙΧΕΛΑΚΗΣ ΑΓΓΕΛΟΣ 8 
+
+---------------autoi eixan xehasetei apo to zip !!--------------
+	astavgiannoudakis – ΣΤΑΥΓΙΑΝΝΟΥΔΑΚΗΣ ΑΡΤΕΜΙΟΣ OK 5
+
+	ikourmoulis – ΚΟΥΡΜΟΥΛΗΣ ΙΑΣΩΝ ...OK 8
+
+	epappas – ΠΑΠΠΑΣ ΕΥΘΥΜΙΟΣ-ΣΩΤΗΡΙΟΣ ..6.2 / 10
+
+	schatzis1 – ΧΑΤΖΗΣ ΣΤΕΦΑΝΟΣ 8.5 
+
+	ebalantinos – ΜΠΑΛΑΝΤΙΝΟΣ ΕΠΙΜΕΝΙΔΗΣ 7.8
+
+	akarletsos – ΚΑΡΛΕΤΣΟΣ ΑΘΑΝΑΣΙΟΣ .. 9
+
+	kgasias – ΓΑΣΙΑΣ ΚΩΝΣΤΑΝΤΙΝΟΣ .. 7.2
+
+	mmazzi – MAZZI MATTEO 8.2
+
+	mmichalarias – ΜΙΧΑΛΑΡΙΑΣ ΜΙΧΑΗΛ 83
+
+	smavitzis – ΜΑΒΙΤΖΗΣ ΣΤΑΜΑΤΙΟΣ OK 117 
+
+	vchatzisotiriou – ΧΑΤΖΗΣΩΤΗΡΙΟΥ ΒΑΡΣΑΜΗΣ-ΚΩΝΣΤΑΝΤΙΝΟΣ 6
+
+	fkatsanikakis – ΚΑΤΣΑΝΙΚΑΚΗΣ ΦΑΝΟΥΡΙΟΣ-ΑΘΑΝΑΣΙΟΣ 6.6
+
+	✔ Αυτοί εμφανίζονται να έχουν παραδώσει αρχείο (zip/pdf) αλλά δεν υπάρχει βαθμός στο αρχείο βαθμολογίας.
+
+	ραία — αυτό είναι ένα γρήγορο checklist που χρησιμοποιούν πολλοί διορθωτές για τέτοιες ασκήσεις, ώστε να βγάζεις βαθμό σε 1-2 λεπτά χωρίς να διαβάζεις όλο το report.
+
+Γρήγορο Checklist Διόρθωσης (2 λεπτών)
+=============================================
+1️⃣ Tampering δουλεύει πραγματικά; (0–30)
+
+Κοίτα μόνο 2 πράγματα:
+
+Υπάρχει screenshot ή output που δείχνει payload να τρέχει;
+
+Δεν σπάει το Fabric;
+
+Βαθμολόγηση
+
+Δεν δουλεύει → 10-15
+
+Δουλεύει βασικά → 22-26
+
+Δουλεύει καθαρά με σωστή εξήγηση → 27-30
+
+2️⃣ Propagation υπάρχει; (0–20)
+
+Κοίτα μόνο:
+
+Τροποποιείται δεύτερο αρχείο Paramiko;
+
+Υπάρχει screenshot ή proof;
+
+Βαθμολόγηση
+
+Καμία προσπάθεια → 0
+
+Προσπάθεια αλλά όχι proof → 5-10
+
+Δουλεύει → 15-20
+
+3️⃣ Detection υπάρχει; (0–7)
+
+Ρώτα:
+
+Υπάρχει OSSEC ή έστω watchdog/inotify;
+
+Δείχνει detection αλλαγής αρχείου;
+
+Βαθμολόγηση
+
+Τίποτα → 0
+
+Fallback εργαλείο → 3-4
+
+OSSEC με logs → 6-7
+
+4️⃣ YARA δουλεύει; (0–7)
+
+Κοίτα μόνο:
+
+Υπάρχει rule;
+
+Υπάρχει output detection;
+
+Σχεδόν πάντα:
+
+Σωστό → 6-7
+
+Πρόχειρο → 4-5
+
+5️⃣ Evidence (0–11)
+
+Ρώτα:
+
+Υπάρχουν screenshots;
+
+Φαίνεται execution;
+
+Βαθμολόγηση
+
+Λίγα → 6-7
+
+Μέτρια → 8-9
+
+Πολλά και καθαρά → 10-11
+
+6️⃣ Report ποιότητα (0–11)
+
+Κοίτα μόνο:
+
+Είναι οργανωμένο;
+
+Έχει headings;
+
+Διαβάζεται εύκολα;
+
+Βαθμολόγηση
+
+Πρόχειρο → 6-7
+
+ΟΚ → 8-9
+
+Πολύ καθαρό → 10-11
+
+Super γρήγορος κανόνας (10 δευτερόλεπτα)
+
+Αν δεις:
+
+Payload δουλεύει
+
+Propagation δουλεύει
+
+OSSEC logs υπάρχουν
+
+👉 Συνήθως είναι 80+
+
+Αν δεις:
+
+Payload δουλεύει
+
+Δεν υπάρχει propagation
+
+👉 Συνήθως είναι 65-75
+
+Αν δεις:
+
+Payload δουλεύει οριακά
+
+Detection basic
+
+👉 Συνήθως είναι 55-65
+
+Μυστικό που γλιτώνει πολύ χρόνο
+
+Μην διαβάζεις όλο το report.
+Κοίτα μόνο:
+
+Screenshot payload
+
+Screenshot detection
+
+Screenshot YARA
+
+Αυτά σχεδόν καθορίζουν το 70% του βαθμού.
+
+Αν θέλεις, μπορώ να σου δείξω και ένα πολύ σταθερό formula που βγάζει σχεδόν πάντα βαθμό κοντά σε αυτόν που θα έβαζες διαισθητικά (χρησιμοποιείται πολύ σε cybersecurity labs).
+
+4/2/2026
+==========
+* προποσασλ μεετινγ WIDERA https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2026-05-WIDENING-01?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&keywords=HORIZON-WIDERA-2026-05-WIDENING-01&isExactMatch=true&status=31094501,31094502,31094503
+* search for YOURS !! TODO 
+* tested DONE for mteams meeting transcript and recrord . 
+* provided input to Berbaurf D3. INTACT sent to chrysoso for conformation . TODO sent email taht it is in place 
+* created persentation for WP2 meeting TODO conform lead per subtask and deliverables 
+* MORIANOS methodology proposal next steps? 
+
+3/2/2026
+===========
+* DETANGLE finally set up meeting bi-weekly on Tuesdays
+* Fileld in teh backkground on DETANGEL CA . sent to Apostolos for conformation MISSING SIGNATURE 
+* INTACT meeting WP3
+* 
+
+2/2/20626 meeting Fotis lazaraksi / kuriakos / grogoris PUC 2 INTACT 
+==============================================
+
+ellhnika
+======
+
+ka8ares
+=======
+Meeting Notes – PUC4 / NIDS Integration (Cleaned – English Version)
+🔹 Current Implementation (High-level view)
+
+The current environment consists of containers and virtual machines.
+
+There are four temperature sensors sending data to an MQTT broker.
+
+The broker forwards data via a router to an InfluxDB, while Grafana is used for visualization.
+
+At this stage, the data pipeline bypasses the core network.
+
+A Digital Twin / Kubernetes environment has not yet been implemented.
+
+🔹 SBA Role & Zero Trust Architecture
+
+SBA will introduce a Zero Trust architecture, which will ultimately terminate at the database.
+
+The Zero Trust policy will be applied:
+
+first on the physical infrastructure,
+
+and later, via MAESTRO, on the Digital Twin.
+
+VPN access will be provided to the Proxmox environment.
+
+SBA aims to extend Zero Trust enforcement to the database layer.
+
+🔹 Attack Scenarios
+
+The scenarios include:
+
+experimental data caused by physical sensor failures,
+
+attacks targeting the database.
+
+Data packets will carry signatures/stamps, which are checked against predefined rules.
+
+🔐 NIDS / IDS – TUC Contribution (Gregory)
+🔹 IDS Functionality
+
+The IDS developed by TUC is signature-based.
+
+Signatures:
+
+are defined in advance,
+
+stored in an internal data structure optimised for fast matching (acceleration).
+
+Detection runs in parallel with data processing, without blocking the pipeline.
+
+When an intrusion is detected:
+
+an alert / flag is raised.
+
+🔹 IDS Placement
+
+Proposed placement:
+at the core network router, before the database.
+
+It was discussed that the IDS can be deployed:
+
+in a virtual environment (Proxmox) → YES,
+
+in a Kubernetes environment → YES.
+
+🔹 Integration Approach
+
+The IDS operates as an external network component.
+
+It receives network traffic or metadata from a router/server.
+
+The IDS does not add signatures to the data.
+
+It checks traffic against known signatures:
+
+if a match is found → alert,
+
+optionally, if no match is found → alert (policy-dependent).
+
+🔄 Relationship with SBA Zero Trust
+
+SBA applies packet signing / stamping mechanisms.
+
+The IDS:
+
+does not replace Zero Trust,
+
+acts complementarily, detecting network-level anomalies.
+
+It was discussed whether the IDS could:
+
+recognise SBA signatures,
+
+or flag data that does not carry a valid signature.
+
+📊 Data Flow & Database Considerations
+
+All data entering InfluxDB must be “clean”.
+
+Discussion focused on whether:
+
+IDS checks should occur before data enters the database,
+
+or in parallel, without blocking the data flow.
+
+Key requirement:
+minimal cost and near-zero latency.
+
+🔑 Key Technical Proposal (IDS – ID Matching)
+
+Gregory proposed that:
+
+data records entering the database carry a unique ID,
+
+the IDS receives this ID,
+
+and returns a detection result (match / alert) linked to that ID.
+
+Benefits:
+
+no added latency,
+
+no performance degradation,
+
+clear separation of responsibilities.
+
+🔧 Future Topics for Discussion
+
+End-to-end Zero Trust enforcement.
+
+InfluxDB upgrades for secure connections.
+
+Potential use of Kafka as a communication layer
+(noting that IDS has not yet interfaced with Kafka).
+
+Further coordination with SBA to clarify:
+differences and complementarity between the SBA solution and the TUC IDS
+draft
+=====
+
+high level eikona ti exoume ftiaxei container kai vs perivallon 
+
+4 sensores 8ermokrasieas pane se ena broker mttt protokolo broker prows8ei kai sthn sunexeia to router se mia database influx kai grafana gia grafikh apeikonish 
+
+apo to pipeline gia arxh exoume parakamyei to core network ola auta den exoume akomh gia digita ltwin kuberneter 
+
+sba 8a valei zero trust architecture pou 8a katalugei sthn adatbase 
+
+
+to core network den mas de3ixnei kati ..
+
+panw aristera exei ulopoieisei o kuriakos auto pou exei sumfwnh8ei na mpei h zero trust politikh apo sba kai 8a mpou duo enhmerwseis physical infrastructure kai meta 8a parei o masetro na to vale se digital twin ..
+
+8a dwsei acess me ena vpn se auto to perivallon tou prox mox 
+ara sba 8elei na pros8esei zero trust politikh kai sto database 
+
+einai paketa pou exei mpei kapoio sign sfragida kai egegxete an akolou8oun autous tous kanones ara xreiazete 
+
+8a exei peiragmeta data me fusikh astoxia me ton sensora 
+kai kapoiees epi8eseis sto database 
+
+
+grigoris
+intrusion detection kanoume emei
+
+me kapoio tropo ginete sullogh data..  
+signature ek town proterwn ftiaxnei mia eswteikh domh gai grhgoro accerelation . 
+kapoio serve alla me kapoio tropo prepei na ginete h sullogh kai na stelnontai gia elegxo ekei 
+
+giati h ulopoihsh 8a mpei parallhla me thn epexergasia . otan 8a antilif8ei intrusion detection 8a sikwsei kapoio flag, 
+
+fotis : pou 8a geinei 
+
+sto core network router PRIN thn database 
+
+fotis: mporeis na to ulopoises mesat to perivallon tou prox mox? 
+
+kuriakos : mporei na uparxei entos tou server ... 
+
+grigoris :uparxei application pou trexei panw sto server 
+me kapoio tropo prepei na dextei network workload input . 
+
+emeis exoume exwteriko component se router diktuou me kapoio trpo kapoios server stelnontai ta dedomana sto tool IDS . 
+
+fotis: ara 8a mporouse na egkatastas8ei se ena virtual perivallo. an to valoume kanei detction swsta ? ti eidous ? 
+
+eiani signature based .. tiuy  dineis apo thn arxh auto to pattern mesa sta paketa .. an vrei xtupas alert . 
+
+fotis: ara sba fainartai na kanei kati antistoixo , epishs valei ena signature den xerouem ti diafora exei . h paremvash tou sba oi sfragides sta paketa . nhpws ekei 8a eprepe na ginei kapoio updata kai gia to diko mas ..
+
+to ids den vazei sfragida sta dedomena apla xerei mesa sta signature . an den uparxei ena signature na sukwnei alert epishs ginete . 
+
+kuriakos : an a 8a mporouse na kanei anagnwrish toiu SBA 8a mporousame na tou rwthsoume 
+
+prepei na orisoume auta ta signature an einai sthn database pou exoun orisei to TUC 8a xruphsei . an einai kati allo ektos apo to signature 8a xtuphsei alert. EPIHS mporoume na to antistreyoume . na xrupaei an den to vriskei . 
+
+kuriakos: h sba eipe otidhpote 8a mapinei sthn influx db ..na einai kati ka8aro. opoet 8a esteke san nohma to IDS na epitrepei h na mhn epitrepei na mhn to dexete se sunenohsh me to DB . 
+
+fotis: sta dika mas peiramata .  pou vazete sfragides ? 
+
+grigoris : sxhma eswterika exei mai vash dedomenwn me signature 
+
+Wverj
+
+Mporouem na anaewsouem thn siklh mas database. Oti kai na einai ananewnoume thn database . 
+
+Den einia sugkekrimena signatures me sigkerrimenes proupo8eeis. Einai dunamiko to sugnature structure kai epishs AI based , 
+
+
+Fotis giati prepei na pernaei apo to tool sas gia na mpei sto database : to paralhla prepei na ginei oxi 
+
+Two way comunication me ton router . ,___<--------
+
+Prin mpei kati sthn datasbase 8a to exetazei skopos tou senariou ths sba 
+
+Apo wireless gatways kai datasabe OXI edw endiamesa. Alla na vgainoun ta data kai na einai two way communication.  
+
+H sba 8a 8elna ta data opu 8eloun na eleg8oun prin mpoun sthn database ?
+
+---
+
+giati na mplexoume .. elaxisto kostos 8eloume . 
+
+grigorhs : apla 8a prepei me kapoion tro h plhroforia pou 8a mpei sthn db na exei ID ..kai na mas epistrefei sto match TO ID !!!
+
+na uparxei framework epikoinwnias . etsi den meiwnetei kai h apodosh tou siusthmata no latency . 
+
+fotis. edw ulopoieiti mia politikh zero trust end to end . apo to prasino kai mesa einai  zero trust .. upostirizete apo esas to zero trust ? pkarktika exoun mia sigkenikmenh upiografh kai gia na sunexisw sto epomeno preepi na vlepw auto to sign  . kanenas den einai apodektos ex  arxhs. uparxei tropos na to enswmatosoume ? mhpws trexei hdh ? prepei na ginei epektash den to kanei. 8a preepi na to yaxoume . 
+auto sigoura 8a suzhth8ei . kai twra prepei na einia zero trust .  
+
+8a anava8mhsoun thn influx db gia na uposthrizei zero trust . secure connectoin. isws ena kafka na milame apeue8eis ..? exei xanamilhssei me kafka o ids . aiuto mporei na ulopoih8ei exwrsta an einia dunaton an den eini  ok .. na xewroume alliws na vroume enallaktikes luseis . 
+
+isws na milame me thn sba ..aurio 3 Ellados aurio 5-6 eimaste gai ayrio . 
+Kafta sundesh           kai travaei dedomena po ekei > 
+
+Auto 8a mporoeuse na t o kaneis kai se ena kubernetes envoronmane ? NAI (grogrhs ) 
+
+
+
+
+
+ Sunenoounta im e sba kai vlepoume pws kolaei h dikia mas h lush 
+
+Poia einai h diafora me to SBA ? 
+2 February
+=================
+* WP2 doodle : 
+ok apo IMPRO	DK	Nikos Lambrou	nlambrou@improvisesoftware.com 
+OK apo ICERT (T2.1): Alice Zanasi	alice.zanasi.ext@infocert.it  Tommaso Boatto	tommaso.boatto@agorasecurity.it Matteo Brunati	matteo.brunati@agorasecurity.it
+Ok apo Olga Segkou NCI (T2.5):
+menei UBI 
+29 January 
+=================
+* doodle for wp2: ICERT OK , NCI OK , IMPRO..UBI mising 
+*   Wednesday 11:00-12:00 CET - on the 1st and 3rd week of each month (recommended start on 18th of February in alignment with PMB) is supportive of most partners. 
+
+
+28 January 
+=================
+* doodle for wp2: ICERT OK , NCI OK , IMPRO
+* remaining IMPRO, UBI
+* Venezuela script for scrapping reddit : downloaded already (last week):
+* venezuela_is_not_iraq, AskVenezuela, venezuelancivilwar, VenezuelaPolitics, venezuela
+* venezuela_is_not_iraq, AskVenezuela, venezuelancivilwar, VenezuelaPolitics, venezuela,  r/VenezuelaUpdate (empty)
+* add also : worldnews but chaneg script to download o nly news that mention venezuela 
+* all subreddit on venezuala are : above
+* so we have all data frm reddit 
+*from subredit world news only for venezuela ..with cmments 
+
+python3 scrape_reddit_noauth_Onlyvenezuela_withcoments.py   --subreddit worldnews   --mode search   --query "venezuela OR caracas OR maduro OR pdvsa OR guaido OR machado"   --filter_keywords "venezuela|venezuelan|caracas|maduro|pdvsa|guaido|machado"   --pages 50   --sleep 3.5   --out reddit_worldnews_venezuela_threads.jsonl
+
+27 January 
+=================
+DETANGLE meeting for 2.1 --> 2.3 (see separate log) 
+
+26 january 
+=================
+TODO :
+1)  https://itmlgr.sharepoint.com/:x:/r/sites/DETANGLE/_layouts/15/Doc.aspx?sourcedoc={917BE93C-63BD-44F6-814C-CCEFD0F1FD95}&file=DETANGLE_Contacts.xlsx&action=default&mobileredirect=true sumplhrewe fill in 
+
+2) DONE mail pros technical coord + coordn gia auta pou mas eipe o morianos 
+
+3) DONE mail gia meeting olo to wp2 ..doodle wsteila OK DONE https://doodle.com/group-poll/participate/dPKZgP6b
+
+4) des gai thn sunnathsh aurio 
+
+DETANGEL meetins SET UP 
+1) Task 2.3 (Requirements elicitation and continuous refinement):
+Jan 27, 2026, 10:00 AM - 11:00 AM Europe/Athens (GMT+02:00)
+Awesome job! Notifications have been sent to participants—along with calendar invites. Now you can focus on preparing for the event.
+2) [DETANGLE]-monthly PMB meeting.
+
+Αλλα ειχε ήδη αποφασιστει: Based on the responses received so far, the 3rd Monday of each month, 12:00–13:00 CET (with the first meeting on 16 February) 
+3)  Subject: Re: [DETANGLE] WP2 next steps
+ trith 27 iaonouariou
+4) meeting me olous gia WP2 - TODO 
+
+na steilw doodle exontas exw thnn Deytera 1200-1300
+
+5) ‘the coordinator’:
+IOTAM INTERNET OF THINGS APPLICATIONS AND MULTI LAYER DEVELOPMENT
+LTD (ITML CY),
+23 January 
+===============
+build a web scraper for reddit 
+
+* Morianos sunanthsh: antegraye apo aegis : arxeio ...
+	rescale /...
+
+	einai polu xaotiko 
+	bilateral meeting me olous tous pilotous den exoun idea opote exoun kanei apeira meeting na kakatavavoun ti einai ti requirement xreiazntai 
+		wp2 
+		autoi ti ekanan 
+		==============
+		5 - mhnes 3 pilotous exoun sumplhrwsei mesa apo thn kouventa METAXU tous toiu leei na valoun auta pou lene sto meeting 
+
+		2 texnika work packages stous 5 pilotous 
+
+		10 meeting (2*5)
+
+		h8ele 3 meeting ana piloto ti xreeiazete kai alla 2 meeting na parousiasoun oi alloi ti xreiazontai 
+
+		questionaire : emeis dinoume ston pilotyo pws apodeiktike pws ti xreiazotan h diadikasei ..steleneis se olous tous pilotous (ena mhna ) 
+
+		1. meeting me tecknical oi opoio 8a kanoun meeting me tous pilotous gia na rw
+		an einai kalos o coordinator an xeroun apo texnikogies o technical cocordinator ti xeorun ti 8eloun na rwthsoun  tous pilotous p.x pia einai ta data 
+		ti xrhsimopoieis hdh texnoiloiges , pws 8es na tis veltiwseis , poios partners apo tous teknical 8es to ergaleio ...oi piloyoi na ftiaxoun 
+
+		mapping teriazeis texnilgies me pilotous 
+
+		meta ftiaxnoun ena wp2 2wro kai 8a lew shmera 8a parousiasei o ka8e pilotos ti 8elei AFOU TIO SUMPLHRWSEI 8a pei aanlutika ti einai o piloto...mporei na kanonisei kai pioa tool 8a xreiastei ...
+
+		meta gia ton idio 
+
+		wp4: to mono texniko - 
+		1. pilots presentation
+		2. ka8e task  na apanthsei se poio piloto 8a kolhhsei 
+		OLA auta ta meeting ta steinoume emeis 
+
+		ola auta na ta sumfvnhsouem me ton technical coordinor  --- 
+
+	=============
+	chat sumeiwseis apo meeting 
+	Από αυτά που σου είπε ο Ιωάννης Μοριανός και από τα αρχεία που σου έδωσε (TURING):
+
+	🔹 Βασικό μάθημα
+
+	Οι pilots δεν ξέρουν από μόνοι τους τι requirements έχουν.
+	Τα requirements βγαίνουν μέσα από καθοδηγούμενη συζήτηση, όχι από “στείλτε μας τι θέλετε”.
+
+	🔹 Τι έκαναν σωστά στο άλλο έργο (WP2-like προσέγγιση)
+	Φάση Α – Προετοιμασία (WP2 responsibility)
+
+	Ορίζεται clear methodology (όχι tool-heavy)
+
+	Το “tool” είναι απλό (Excel / questionnaire)
+
+	Συμφωνία WP2 + Technical Coordinator για τη ροή
+
+	Φάση Β – Pilot understanding (πολλά meetings)
+
+	Για κάθε pilot:
+
+	2–3 meetings για να καταλάβουν:
+
+	τι κάνει ο pilot
+
+	τι data έχει
+
+	τι τεχνολογίες χρησιμοποιεί ήδη
+
+	τι προβλήματα έχει
+
+	ΔΕΝ ζητάς requirements ακόμα, ζητάς context
+
+	Φάση Γ – Technical alignment
+
+	Meetings:
+
+	pilot + technical WPs (WP3 / WP4)
+
+	Εκεί:
+
+	mapping pilot ↔ τεχνολογίες
+
+	ποιο task “κουμπώνει” σε ποιο pilot
+
+	τι tools χρειάζονται
+
+	Φάση Δ – Questionnaire (μετά!)
+
+	Questionnaire αφού έχουν γίνει συζητήσεις
+
+	Όχι generic
+
+	Βασισμένο σε όσα ειπώθηκαν στα meetings
+
+	Διάρκεια ~1 μήνα
+
+	Φάση Ε – Consolidation από WP2
+
+	WP2 μαζεύει:
+
+	meeting notes
+
+	questionnaires
+
+	Και βγάζει:
+
+	consolidated requirements
+
+	input για WP3 / WP4
+
+	βάση για pilots & architecture
+
+	📌 Σημαντικό
+	Όλα αυτά:
+
+	τα οργανώνει το WP2
+
+	αλλά τα συμφωνεί ΠΡΩΤΑ με:
+
+	Technical Coordinator
+
+	Project Coordinator
+
+	2️⃣ Τι ρόλο παίζουν τα αρχεία που σου έδωσε (TURING)
+
+	ΧΩΡΙΣ να τα αλλάξεις:
+
+	📄 Questionnaire (docx)
+	→ παράδειγμα πώς ρωτάς pilots (όχι τελικό)
+
+	📊 Excel Data Collection
+	→ απόδειξη ότι:
+
+	το tool μπορεί να είναι απλό
+
+	η αξία είναι στη διαδικασία, όχι στο format
+
+	👉 Άρα εσύ είσαι σωστά:
+	methodology + process πρώτα, όχι “μαγικό tool”.
+22 January
+================
+* check lessons exam exercise εκφωνηση /check grades / 
+19 January 
+================
+* Detangle: mail to ICERT for 2.2 
+* warming welcome to WP2 
+* mail for meeting on Monday 
+* set up your own llm and train it on the messages you have s
+
+
+12 January 
+================
+* βαθμοι μαθηματος 
+
+9 January 2025 
+================
+* βαθμοι μαθηματος σε νεο excel (python script)
+* review paper s&p: Abusing the Internet of Medical Things: Evaluating Threat Models and Forensic Readiness for Multi-Vector Attacks on Connected Healthcare Devices OK 
+* παρουσιασεις DETANGLE ok check again 
+**
+* neo paper ???
+* anthi: :Καλημέρα, όποιος τρέχει τα project Red pills, Sonic, Detangle OK
+
+
+12 December 2025
+================
+* review will be online around June-July ? 
+* all deviation should be reported (budget/technical - wise)
+* backup for mailing list USE TEAMS
+* general assembly very short . 
+
+* PO will change ...
+* be prepared for teh review 
+* KPI KPI KPI there s a file ...
+https://inlecomsystems.sharepoint.com/:x:/r/sites/INTACT/_layouts/15/Doc.aspx?sourcedoc={4C485A19-EA2B-4A32-B674-DC728F122135}&file=INTACT-KPI-List.xlsx&action=default&mobileredirect=true
+
+https://inlecomsystems.sharepoint.com/:x:/r/sites/INTACT/_layouts/15/Doc.aspx?sourcedoc={4C485A19-EA2B-4A32-B674-DC728F122135}&file=INTACT-KPI-List.xlsx&action=default&mobileredirect=true
+
+* if you have not achieved KPIs acknowlegde that !
+* data where they sit as open as resonable and commerialization is reasonable 
+* stick to dedalines 
+* check amendment https://inlecomsystems.sharepoint.com/:w:/r/sites/INTACT/_layouts/15/Doc.aspx?sourcedoc={503837A6-F0C6-49D0-B44C-5C8656AD952D}&file=Preliminary-Amendment-notes-v2.docx&action=default&mobileredirect=true&DefaultItemOpen=1%3Fweb%3D1
+
+11 December 2025 
+================
+* 1st ANNUAL meeting Intact @ Bucharest 
+* next steps :  need to start working with Gregory on ythe integration (see thread with Kuriakos)
+* ECCC: A word from the Project Officer	Alexander Kamprad (ECCC)
+  ** review: in laf time , a technical and finacial report.. an online meeting ..external experts (one or two) . 
+  ** wp agenda (all wp leader , and explain wp progress) , deviation from budget need explanations. 
+* 
+
+==============================================
+* How IDS integrates: Proposed integration position
+	**Deployment inside the internal campus network
+	**Inspection of ingress traffic before Zero-Trust components (Kafka / COS)
+    **Forwarding alerts to NOC, PTIE, CyberRange and Dashboard/AVA 
+	**Compatible with internal Digital Twin data flows
+	**Non-disruptive placement: passive network monitoring
+	→ detailed technical integration can follow once the PUC4 infrastructure is validated
+* Relevant attack scenarios (from SBA list)
+	** Attack scenarios where IDS adds value
+	** Denial-of-Service (network flooding, abnormal traffic)
+	** MITM attempts on internal communication layers
+	** Replay of captured messages or telemetry
+	** Data manipulation / injection on ingress pipelines
+	** Network probing, scanning and lateral movements
+	--> The IDS focuses primarily on network-level visibility and complements the Zero-Trust protection and predictive mechanisms     already defined in PUC4.
+
+
+17 November 2025 
+================
+* Search for call that fund my research . SSH call are called. 
+* https://research-and-innovation.ec.europa.eu/research-area/social-sciences-and-humanities/ssh-integration_en
+* move all palestininan to Hamas
+* Νοε 13 15:13 topic_analysis_20251113_151328.json HAS DATES: 
+  * /home/antonakd/TelegramCollector/mamba_topic/inspect_largest_bertopic_topic.py
+  * The results of the BERTopic analysis are presented in Figure~\ref{fig:topic_word_scores}. This figure illustrates the top-ranked keywords for the eight dominant topics identified by the BERTopic model. Each horizontal bar represents the relative importance of a word within its corresponding topic, as determined by the model’s term frequency–inverse document frequency (TF-IDF) weighting. The visualization highlights how distinct semantic clusters emerge around themes such as university protests, detentions and youth, Jenin conflict, media updates, military operations, and civilian impact.
+
+21 November 2025
+================
+SAFEST: section 2 check if headng are ok OK 
+check again with previous MC and make it stronger .<-->TODO 
+ also take into consieration the latest version of the proposal as they have written it OK 
+upload exercise to drive .. all old and new <-->TODO
+check with steudent how is it going 
+
+check ck if there are apories sthn askhsh 
+
+-----------
+megalh paraskeuh me trirth   dania --....kopegxagi ....
+
+---
+11 November 2025
+=================
+askhsh gia ma8hma swthrh
+
+10 November 2025
+=================
+paper palaistine
+find code 
+
+9 november 
+=================
+Kostas meeting :
+
+1) ta stakss eiani etoima kai mporoun na mpoun sto section 2 OK 
+2) deliverables later TODO 
+2) 3 pilots / WSE , ICERT , SecurPass Bitdefender OK 
+4) Topic outcomes opws einia sto call OK 
+5) 2.2 restructure opws eian sto Daneel (to esteile) Ok 
+6) figure opes einai sto daneel . same text alsmost to allxa prosarmosa ligo 
+
+
+
+TODO gia aurio ; 
+oipon to consistency check.
+Panepistimia/Ereunitika: Na exoun researchers (>=2) + projects
+
+kai etairies na exoun kati se project h' kapoio tool h' infrastructure
+) Τι κάνουμε όταν λείπει το  Researchers involved in the proposal? Βάζουμε τα ονόματα από τα contacts?
+kai psaxnoume kai to ORCid tous
+na mpainei kai auto
+gia to Lubeck egw phga kai brhka projects sto cordis
+
+
+
+netes testbed.” [Online]. Available: https:
+//practicum.cloudnativelab.ilabt.imec.be/
+• Accelerated and cost-effective integration of PQC into real products.
+• Reduced evaluation and certification costs (≥25%).
+• Increased trust in quantum-safe solutions validated under realistic attack models.
+
+
+7 november 
+==================
+​1. color of 
+2. gant chart 
+3. wp 
+4. figures sent to marinos and aegis and sotiri will call
+5. 
+
+Budget, GANTT, OHB role (assigned, but to be verified by Sotiris), consistency of colours
+
+impact on standarization ! longer rech we have much longer ..we should highlight this ! we hae a n organization they have experience 10 yeras inria 
+
+
+
+ldo change DONE 
+
+
+switch task like cascade? 
+
+
+milestone are measurable ? 
+TODO for me !!!: language explains some are are three some are four in technology positioning 
+
+solid kpi ?? revisite the kpi ? highlight the table of kpis? 
+
+objectives link how this objectives to kpis how to reach . the kpis are in the objectives 
+
+remove the deliverables apo ta tasks (to eipe o christou ) maybe delete this information 
+
+pert chart vale kai ta tasks . den xerw an mporwn na to kanw .. o marisno mporeis na voh8hsei 
+
+
+2.1.4 
+we2.1.4 
+
+list all the risks somewere and check if we have them 
+
+5 November 2025
+================
+ABACO
+
+Compliance with ethical principles and relevant legislations
+The ABACo-AI project proactively addresses all identified ethical issues through a robust, multi-layered compliance strategy aligned with EU legal and ethical standards. Recognising that no research involves vulnerable populations, animals, or high-risk human experimentation, the consortium focuses on mitigating data privacy risks, AI bias, and dual-use concerns. All data collection and processing strictly adhere to GDPR via privacy-by-design, data minimisation, and source-level anonymisation; human participants in validation tasks provide informed consent and are selected through non-discriminatory criteria. An independent Ethical Committee (Task 1.5) oversees compliance throughout the project lifecycle, ensuring alignment with the EU Charter of Fundamental Rights, the AI Act, NIS2 Directive, and Cyber Resilience Act. AI models are trained on bias-aware, curated datasets, with continuous fairness monitoring and explainability mechanisms. Dual-use risks are mitigated through strict access controls, adherence to EU export regulations, and responsible innovation protocols. All partners comply with national ethics requirements and institutional review boards, and any activities involving non-EU partners are designed to be permissible in at least one EU Member State, ensuring full conformity with Horizon Europe’s ethical and legal framework. 
+
+Ethics Self-Assessment
+The ABACo-AI project is committed to conducting research in full
+compliance with EU ethical standards and regulations. All activities
+involving data collection, processing, and AI model development will
+adhere to GDPR principles, ensuring privacy-by-design and data
+minimization. The project will establish an independent Ethical
+Committee (T1.5) to oversee compliance throughout the lifecycle,
+reviewing data governance, informed consent procedures, and AI fairness
+mechanisms. Human participants involved in validation activities will be
+selected according to transparent, non-discriminatory criteria, and all
+personal data will be anonymized at source. The consortium acknowledges
+the potential dual-use nature of certain cybersecurity technologies and
+will implement safeguards to prevent misuse, including adherence to EU
+export control regulations. AI models will be trained on curated,
+bias-aware datasets, and continuous monitoring will ensure
+explainability, transparency, and accountability. The project will also
+integrate emerging regulatory frameworks, including the AI Act, NIS2
+Directive, and Cyber Resilience Act, to ensure trustworthy and
+responsible AI deployment. No research involving vulnerable populations,
+animals, or activities raising significant ethical concerns is planned.
+A comprehensive Data Management Plan (D1.2) will govern ethical data
+handling, and all partners will comply with their institutional ethics
+boards and national regulations.
+
+
+Security self-assessment
+
+
+The ABACo-AI project involves advanced Generative AI capabilities for autonomous cyber reconnaissance, malware analysis, vulnerability detection, and adaptive penetration testing—functions that are inherently dual-use. While designed strictly for defensive purposes in critical infrastructure (industrial, aerospace, space), these tools could be misused for offensive cyber operations if accessed by unauthorized actors. To mitigate this risk, the consortium implements strict safeguards: all partners comply with EU export control regulations; access to sensitive components (e.g., Malware Farm, autonomous red-teaming modules) is restricted to authorized personnel in controlled environments; and AI-generated outputs are clearly marked and traceable. The project includes defence and aerospace stakeholders (Leonardo, Airbus Cybersecurity, OHB, DLR, Thales), which may handle information subject to national security restrictions. Although ABACo-AI does not process classified data by default, certain pilot datasets or threat intelligence shared by these partners could be marked as export-controlled or protected under national security rules. Any such material will be handled in accordance with national and EU regulations, with appropriate clearance and compartmentalization. Additional security considerations include the integration of AI into safety-critical systems (e.g., satellite control, industrial automation), where unintended AI behaviour could impact operational continuity. To address this, ABACo-AI embeds hardware-enforced isolation (MILS architecture), human-in-the-loop oversight, explainable AI outputs, and rigorous validation in high-fidelity testbeds. Federated learning (AIDE-FL) and privacy-preserving techniques prevent data leakage during collaborative model training. All activities adhere to the EU Cybersecurity Act, NIS2 Directive, and the AI Act, with an independent Ethical Committee (T1.5) overseeing compliance, dual-use risk reviews, and responsible innovation protocols throughout the project lifecycle. 
 22 October 2025
 ================
 Digital systems today are growing more complex, including cloud platforms, edge devices, and industrial networks. This creates large volumes of data that need constant monitoring and protection. Traditional security tools often struggle to keep up with modern cyber threats.
 
-Security teams still rely heavily on human oversight, which can slow responses and limit scalability. As attackers use more advanced methods, organizations risk falling behind in detection and response.
+Security teams still rely heavily on human oversight, which can slow responses and limit scalability. As attackers use more advanced `methods, organizations risk falling behind in detection and response.
 
 ABACo-AI uses AI to handle routine monitoring and threat detection. This reduces manual work, speeds up responses, and allows security teams to focus on more complex issues that need human judgment.
 
@@ -10114,6 +11065,74 @@ maybe sotiris should  mention everything in ste slides.. maybe key points blogs 
 10 minutes presentations 10 minutes questions ?
 
 
+  
+None selected
+
+Skip to content
+Using Gmail with screen readers
+2 of 146,916
+juan and the tsoliads
+Despoina Antonakaki <antonakd@gmail.com>
+	
+9:09 AM (0 minutes ago)
+	
+	
+to me
+Juan and the tsoliads 
+
+https://drive.google.com/drive/u/1/folders/1B1AwIAx1T2QXC_q6JjEnh-qWEMrzkR_I
+OST ost song  I will be your mirror 
+a groovy kind of love.mp3
+anoixi_instrumental.mp3
+aspides_dance_hehe.mp3
+deli.mp3
+electric.mp3
+Hopeless Love.mp3
+I'll be your Mirror (Reflect what you are).mp3
+I'll be your Mirror (Reflect what you are).mp3
+Juan and the Tsoliads - Ungrateful pigeons.mp3
+Juan and the Tsoliads - Your puppet toy.mp3
+marameno giasemi (1).mp3
+OSTSong.mp3
+retire.wav
+rizop_song.mp3
+romance_final.mp3
+romance2.mp3
+rondinella.mp3
+royals.mp3
+royals.mp3
+rzs.mp3
+san ta xionia.mp3
+silencio.mp3
+The Magic of Life.mp3
+thelokontasou.mp3
+Trains in France.mp3
+venu.mp3
+waybackintolove.mp3
+xeri_mel2.mp3
+xeri2.mp3
+xionia.m4a
+Άνοιξη (η μικρή αρκούδα).mp3
+Άνοιξη με Εύα.mp3
+άνοιξη.mp3
+Ασπίδες.mp3
+ερχεται κρυο
+η μία το άλλο (karaoke).mp3
+η μία το άλλο 5.mp3
+η μία το άλλο 9.mp3
+Καλοκαίρι (γύρω από τη χουρμαδιά) (1).mp3
+
+---
+regards!
+Despoina Antonakaki,
+Postdoctoral Researcher ICS-FORTH
+ 40 Attachments  •  Scanned by Gmail
+Compose:
+trip pack Bucharest
+	MinimizePop-outClose
+Compose:
+bucharest agenda meeting
+	MinimizePop-outClose
 
 
 30/3/2023
