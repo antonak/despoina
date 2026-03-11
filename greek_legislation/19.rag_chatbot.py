@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import chromadb
 from groq import Groq
+import os
 
 # 1. Τίτλος (Κανονικά Ελληνικά!)
 st.title("⚖️ Greek Legal AI Assistant")
@@ -12,8 +13,12 @@ client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # 3. Φόρτωση Δεδομένων (RAG Logic)
 # Εδώ βάλε το path του CSV σου
-csv_path = "praktika_2025_2026/laws_articles.csv"
+ 
 
+
+# Παίρνουμε το path του φακέλου στον οποίο βρίσκεται το script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(current_dir, "praktika_2025_2026/laws_articles.csv")
 @st.cache_resource
 def load_data():
     # Εδώ το Streamlit διαβάζει UTF-8 χωρίς πρόβλημα
