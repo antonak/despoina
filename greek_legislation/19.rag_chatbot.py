@@ -37,9 +37,15 @@ if user_input:
     # ... (ο κώδικας που βρίσκει τα σχετικά άρθρα) ...
     
     # Απάντηση από το AI
+   # Χρησιμοποιούμε το πιο πρόσφατο και σταθερό μοντέλο της Groq
+try:
     response = client.chat.completions.create(
-        model="llama3-70b-8192",
-        messages=[{"role": "user", "content": user_input}]
+        model="llama-3.3-70b-versatile", 
+        messages=[
+            {"role": "system", "content": "Είσαι ένας έμπειρος Έλληνας νομικός βοηθός. Απάντα βασισμένος αποκλειστικά στα έγγραφα που σου παρέχονται."},
+            {"role": "user", "content": user_input}
+        ],
     )
-    
     st.chat_message("assistant").write(response.choices[0].message.content)
+except Exception as e:
+    st.error(f"Κάτι πήγε στραβά με την Groq: {e}")
