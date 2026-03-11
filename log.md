@@ -5,7 +5,7 @@
 *passkey skype faceid in iphone 
 * INTACT https://meet.google.com/eic-ptiu-igz?hs=224
 7910 netflix 
-
+* TUC Είσοδος για αλλαγή μυστικού κωδικού https://pwd.tuc.gr/changepwd/
 icloud
 
 
@@ -206,9 +206,8 @@ https://www.amazon.com/photos/shared/Ka2mqAOfTNy2Z4qVPMi12Q.MQKFBIIDXtI8n_ZrIoWZ
 
 [PROPOSALS]
 ================================================================
-* https://smart-networks.europa.eu/current-call-for-proposals/
-* https://6g-xr.eu/open-calls/oc3/
-* https://docs.google.com/spreadsheets/d/1tvlp9_9-uLjbhBIZP9Q6F2H2VNF7knS1uLikxYwsC9k/edit?gid=0#gid=0
+* https://scaledem.eu/call/piloting-programme/
+* https://cordis.europa.eu/project/id/101178637
 * https://cascadefunding.eu/open-call/cybersecdome-open-call-1/
 * Search for call that fund my research . SSH call. 
 * https://research-and-innovation.ec.europa.eu/research-area/social-sciences-and-humanities/ssh-integration_en
@@ -219,10 +218,8 @@ https://www.amazon.com/photos/shared/Ka2mqAOfTNy2Z4qVPMi12Q.MQKFBIIDXtI8n_ZrIoWZ
 ​		https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2026-BESTUSE-TECH-EDMO-09-HUBS?keywords=democracy&isExactMatch=true&status=31094501,31094502&order=DESC&pageNumber=1&pageSize=50&sortBy=relevance
 		https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/topic-announcements/49614481
 
-		Opening date
-		04 November 2025
-		Deadline date
-		03 March 2026 17:00:00 Brussels time
+* https://smart-networks.europa.eu/current-call-for-proposals/
+* https://6g-xr.eu/open-calls/oc3/
 
 [IDSChrysos]
 ================================================================
@@ -271,19 +268,424 @@ IMPRO	DK	Nikos Lambrou	nlambrou@improvisesoftware.com 
 Regarding the scheduling of the TC Meeting I want to thank our partners from ITML, QnR, NETC, ATH, IMPRO, SRA and TP for submitting their votes. As of now it seems that Wednesday 11:00-12:00 CET - on the 1st and 3rd week of each month (recommended start on 18th of February in alignment with PMB) is supportive of most partners. 
 
  DETANGLE ATH" haleplidis@isi.gr apostolos fournaris . 
+=============================
+OPEN AI KEY 
 
+ 
 
 =========================================================================================================================================================
 =========================================================================================================================================================
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+10/3/2026
+===========
+
+* reveiw D6.1 Impact assessments of INTACT technology, V0.4: OK 
+* Meeting DETANGLE 
+	### Action 18 – WP2 Coordination Meeting #3 (Stakeholder Interviews Launch)
+	- Date: 10 March 2026
+	- Action: WP2 coordination meeting held to review progress of stakeholder engagement activities under T2.1 and confirm next steps for pilot interviews and requirements consolidation.
+	- Key Points:
+	- Stakeholder Needs Checklist distributed to all pilot organisations.
+	- Pilot interviews scheduled with SRA, IKEM, MOH, and Fundación Valenciaport.
+	- Interviews will involve ICERT (T2.1), ATH (WP2 Lead / T2.3), UBI (Technical Coordination), and SRA (WP5) to ensure alignment between requirements elicitation, technical feasibility, and pilot implementation.
+	- Confirmation that stakeholder inputs collected in T2.1 will be validated and refined under T2.2 before being converted into structured requirements in T2.3.
+	- Outcome:
+	- Stakeholder engagement phase formally launched.
+	- WP2 traceability matrix initiated to track pilot engagement and requirement sources.
+	- Next step: execution of pilot interviews and consolidation of collected inputs into the WP2 requirements workflow.
+	- Status: Ongoing.
+* PUC 4 today @INTACT not joining
+* INTACT EKLE mail to eleni/mria / ok eleni aswers OK 
+* Sotiris research vouli 
+* GEMINI import json fliles from chat gpt ok finde the correct json file 
+9/3/2026
+===========
+
+* reveiw intat deliverable
+	Dear Stamatis,
+
+		I have completed the review of the deliverable and attached the document with track changes and a few comments.
+
+		Overall, the document is well structured and clearly presents the dissemination and communication activities. My comments mainly concern minor editorial improvements, such as removing remaining template text, completing placeholder values (e.g., “XX”), ensuring consistent figure numbering, and making a few small grammar corrections. I also noted that Section 4.2 appears to still contain placeholder text and may need further elaboration, and suggested adding a couple of missing abbreviations (e.g., SEO and FAIR) to the glossary for completeness.
+
+		Please let me know if anything else is needed from my side.
+* apantshh sto xamelno ireael gi zenodo 
+	Dear Alaa,
+
+		Please take a look at the paper. It is already mentioned : 
+
+		"...Giving the recent limitation on Twitter API, we could not query and retrieve the
+		whole dataset regarding this period. Instead we use a publicly available dataset
+		available here [12] containing 2001 tweets, as described in table 2....
+
+		Finally we also use a dataset from Reddit opinions, available here [13], with a total
+		number of entries 2.134.070, containing comments from Reddit posts related to the'..."
+		current situation in Israel and Gaza.
+
+		Can you check this link  and this ?
+
+		I have made the dataset public. 
+
+
+* start of greek laws project 
+4/3/2026
+===========
+* meeting: TC meeting detangle 
+- m18 refined architecture of detangle 
+- we do have milestones preliminary software releases . presenattion of software ? he suggest include description of software in the delievrable . 1st software release and ...eleni kalogeraki agrees as a resonsible of the milestones . 
+olga is wp4 
+
+olga segou agrees since preliminaries of wp2 gives the first input . deliverable reflects milestones . 
+samew partners will give inputs and architecture 
+
+18 month deliverabels will heav a good foundation of reveiw 
+
+- icert is leading intwrveiws --> map requerement internal stakeholders have 
+- consolodates in intnal requirement ATH 
+but also 3& 4 --> recalibrated tecnologies and next steps make a references types of technlogies 
+
+- melitec cra tool matching: share bullets as in kom; : update the project tracjking tool - match use cases . (Panda saksaym): 
+-- healthcare particular intrest . idle use case and extend to otehr use cases 
+
+evangelos: initial engagement with internal stakeholders : what we have is in the ga: very initia dscription of technologeis ..todo also create a doc focuse of capabiiteis of dfefrent tool so provider can provide deriptooion  . data? what type? usese case data  ? 
+sugegseted in kom metlitec to have more point cra to be reffered to 
+
+- asks manuel L you were reveiing oath technical requirement had ised about potential collaboration - gamifing traing. collaboation ? 
+
+- manuela replies: not here 
+- 12/march  3 pm 4pm meeting 
+- asked me if it is ok to add a column with teh partner in teh [xls](../../Documents/DETANGLE/WP2/T2.3/T2.3_Requirements_Framework_v1_initial.docx)
+
+ikem demo presenattion now : 
+
+followup tech providers 
+
+internal reviw :start uptae callibrating ..followup email to have update of tecnologeis of project tracking file and an initial template effective reference all partners to see of how ech component development data requirements 
+ga meetng on monday
+and my meeting if there are question 
+
+use case tekholder engagement b emoving forward 
+
+tood add xls tracking to drive 
+
+
+
+
+
+
+next technical not hapening . 
+
+
+----------------------------------BY ME potential comment ----------------------------------------
+
+- detangle TC meeting : update on wp2: In WP2 we have started the stakeholder engagement process under T2.1. Interviews with the pilot owners (MOH, IKEM, SRA, and FV) have been scheduled, and the stakeholder needs checklist has been distributed to collect initial requirements.
+
+In parallel, we are preparing the internal framework for requirements collection and traceability to ensure that the inputs from stakeholders will be systematically captured and linked to the DETANGLE outputs.
+
+
+3/3/2026
+===========
+* INTACT 
+- From our side, there is clearly the possibility to deploy the hardware-based implementation as well, if required. We have already done similar remote hardware setups in other projects, so the deployment can also be performed remotely.
+- In parallel, on the Digital Twin side we can proceed with the software-based integration as planned.
+- However, in order to properly configure the intrusion detection mechanism and make the integration meaningful, we still need the specific traffic patterns that were supposed to be defined for search within the data. Without the finalized patterns, we cannot structure the detection rules or define the search logic.
+- Could you please confirm whether these patterns have been finalized? If so, we would need them shared with us in order to proceed with the configuration and integration.
+
+- FROM meeting Emanuel(sba) 
+		Interpreted & Structured Notes (Aligned with the Diagram)
+		1️⃣ General Architecture
+		The finalized wired protocol introduces a tunneling mechanism between:
+		ZTProxy (MQTT-side)
+		ZTProxy (Telegraf-side)
+		The communication is no longer dependent strictly on MQTT traffic. Instead, the protocol allows tunneling of arbitrary traffic through the secure channel.
+		This means:
+
+		The system can encapsulate different types of traffic.
+
+		The IDS will observe encrypted tunnel payloads rather than raw MQTT content.
+
+		2️⃣ Key Establishment Phase
+
+		According to the diagram:
+
+		Tunnel Request
+
+		Proposes symmetric key
+
+		Sends Bill of Health VP
+
+		Requests Bill of Health VP
+
+		Tunnel Response
+
+		Sends Bill of Health VP
+
+		Confirms key establishment
+
+		After this exchange:
+
+		A symmetric key is selected (by DID).
+
+		The secure tunnel is established.
+
+		3️⃣ Payload Structure
+
+		From the draft note:
+
+		structure will not include the ID
+
+		This likely means:
+
+		The final payload structure does not embed additional identity fields inside the tunneled encrypted payload.
+
+		Identification is handled during the OpenID / Verifiable Presentation phase.
+
+		After tunnel establishment, traffic is encrypted and transported as opaque payload.
+
+		Payload format (from diagram):
+
+		length as uint32
+
+		key-id
+
+		encrypted payload
+
+		So the IDS will not see plaintext MQTT topics or content.
+
+		4️⃣ Encryption Visibility
+
+		Your note:
+
+		in the end we will see encrypted in the fst
+		did string
+
+		Interpretation:
+
+		After the tunnel is established, the first visible layer to monitoring systems is encrypted.
+
+		The IDS will not inspect application-layer content unless SSL/TLS inspection or metadata-based detection is implemented.
+
+		Detection may need to rely on:
+
+		Flow metadata
+
+		Key exchange behavior
+
+		Tunnel establishment anomalies
+
+		Payload length patterns
+
+		5️⃣ Independence from MQTT
+
+		Your note:
+
+		not longer dependent on mqtt traffic can tunnel any traffic
+
+		Meaning:
+
+		The protocol abstracts away from MQTT.
+
+		The ZTProxy handles secure tunneling.
+
+		Any traffic type can be encapsulated.
+
+		So from IDS perspective:
+
+		It cannot rely on MQTT signatures.
+
+		Detection must consider:
+
+		Encrypted traffic signatures
+
+		Tunnel negotiation anomalies
+
+		Behavioral indicators
+
+		6️⃣ Role of IDS
+
+		Your note:
+
+		ids only identify
+
+		Interpretation:
+
+		The IDS remains a detection component only.
+
+		It does not decrypt traffic.
+
+		It does not participate in key exchange.
+
+		It generates alerts based on observable patterns.
+
+		Therefore:
+
+		In the encrypted tunnel scenario, IDS detection capability depends on:
+
+		Availability of metadata-level signatures
+
+		Structured encrypted traffic signatures
+
+		Rule definitions aligned with the new protocol
+
+		What This Means for PUC4 Discussion
+
+		If this wired protocol is finalized:
+
+		We must redefine what patterns are searchable.
+
+		We cannot rely on plain payload inspection.
+
+		We need the exact structure specification of:
+
+		Tunnel request
+
+		Tunnel response
+
+		Encrypted payload format
+
+		Otherwise, IDS rule definition is impossible.
+
+		 
+26/2/2026
+===============
+
+- TODO: reveiw intact deliverable TODO I can review the "Impact assessments of INTACT technology, V1". 
+- paper: 
+
+25/2/2026
+===============
+
+- TODO: reveiw intact deliverable TODO 
+- timesheets - prep timologio OK 
+- proposals mano ? i sent a ok 
+- caliopi I replied meeting friday
+- paper iran: accdidently(WRONG_FOLDER) starting telegram dowioad data in Saving to: /home/antonakd/data/GLOBAL_NEWS/IRAN
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+[rtnews] appended 500 records → /home/antonakd/data/GLOBAL_NEWS/IRAN/rtnews_2026-02-25.jsonl
+-- TODO move in data/iran 
+
+also get data for reddit: python3 reddit_iran.py   --subreddit news,worldnews,NewIran,iran,geopolitics   --mode search   --query iran   --pages 5   --out /home/antonakd/data/IRAN/reddit/25_2_2026/reddit_today_iran.jsonl
+[INFO] Resume ON: found 0 existing posts in /home/antonakd/data/IRAN/reddit/25_2_2026/reddit_today_iran.jsonl
+
+
+24/2/2026
+==============
+- meeting / minutes Wp2 detangle ok 
+- data managment plan ok 
+- Alica sent fiel from ICERT InfoCert_Detangle_WP2_T2.1 Stakeholders Analysis and Mapping_Checklist_v2.3 . i sent comment corrected ok she will iterate tommorrow 
+- 
+
+19/2/2026
+=============
+- Sent INTACT Qiang Lancaster ISD Detection Accuracy and Limitations
+- See again the presentation for Tuesday 
+
+18/2/2026 DETANGLE TC meeting 
+==============
+
+we have tsese dirrefent page i assume in order tfor teh use case tehy need to know which tool are 
+
+we have a pre liminary mapping we need back and forth 
+
+when we communicate this t o use case provider consider doa prelimibary completion 
+
+we nened sppreliminary entries 
+
+eleni : many it is too early to have a good mapping . dnt focus on this . we have not introduced discussion lest focus on pre liminary of actualy requirements certification NIS2 etc and this will go in paraller in this jurney 
+
+evaggelos OK 
+
+tomaso : YES agree with ELENI. after genereal check list go deeper.
+
+general cehecklist first and tehn ...
+
+--> he asked me the feed of data 2.3 form 2.1. I sayis this 2.3 is fro leater on but would be dgood to be dfed soem data form 2.1 
+
+
+pilot presenattion and host in these meeting ifregarding teh pilot of IKEM 
+
+#### INTACT drive prloblem with TUC account resolved
+#### neos exolpismos replied
+#### added Wp2 meeting send mail to all 
+#### firts DETANGEL TC meeting https://itmlgr.sharepoint.com/:w:/r/sites/DETANGLE/_layouts/15/Doc.aspx?sourcedoc={3C6C7943-FC57-4A9B-B8EF-C94464FC7CFD}&file=1%20TC%20Minutes%2018%20Feb%202026.docx&action=default&mobileredirect=true
+#### text to chrysos IDS
+#### DETANGLE FIF OK 
+#### new xls mapping sent to evangelos + 
+#### presanttaion for next week started NEED rehearsal 
+#### 
+
+
+
+
+17/2/2026
+=========puc4: 
+
+bernard: 
+
+grigoris 
+ids seem independent ..need to be mapped on a server . do you have server node that ids is going to be mapped? 
+
+how the ids can get acess to dtaa  ? 
+there are three place that need to be places check network nqtt . 
+ids has specific structure that the thing that it looks na dthis can create the alerts . do you have specif signature  ? 
+\garn: 
+yes this is possivble as. next wekk will be fanilized. and based on this it will be show how it will be done. 
+
+ids will be stored? (software taht need to be mapped and receive network workload )
+
+
+prox mox serevr shoudl be connected to ids (dimikritos) create a vm there .
+kyriakos : what is the role? 
+
+shoudl be inmplemnted by us the forward ? of nwetwoark load to ids ?
+mqtt broker ? https   
+
+
+
+16/2/2026
+===========
+### PMB meeting
+* ATH missing signatures (see screenshot)
+#### set internat reveiwer for YOUR deliverabels as well , aslko take parousaes otan arxizeis to meeting *TODO* 
+* location of file for drive links don work!
+* add mail to wp6 board ? board communication wp6 check emeil TODO !! 
+srtart actively organize pilot meeintg she says 
+* manuel asks in wp6 tehy are part ..how to contribute ? sandra : part of capacity building . training will be part 
+
+### TODO : opote ekremeoun upografes kai data management plan xanades an prepei na valoume kati . 
+
+* 
+* 
+13/2/2026
+===========
+#### 2.1 stakeholder analysis alignment meeting 
+* Cracowi project has been coordinated --> led to otehr three projcts . act 4 foof and other 2 projects 
+* explanatory note to anticipate to other file this annoted file . tryong to get question understand what is there 
+
+* DETANGLE has 5 main outputs for each of them we hav eto collect for each one . what yo u think for each of t he solutions 
+. shat matteo things aboy this ? 
+
+* just skip these meeting and get teh update on wp2 meeting. 
+
+
 11/2/2026
 ==========
 * aneipero backup at drive google 
 * note on DETANGLE to say tommorow: 
 Sxetika me to DETANGLE kai to Wp2  συντονισμό του WP5. Η CRA προσπαθεί να κανονίσει μια συνάντηση συντονισμού με το UOP και να ευθυγραμμιστούν οι δράσεις του YP pilot, ενώ από την επόμενη εβδομάδα αναμένονται τεχνικές συναντήσεις μετά το KOM. Η ITML exei hsh ετοιμάζει ένα βασικό αρχείο Excel για να μαζευτούν και να παρακολουθούνται τα inputs των εταίρων, το οποίο θα παρουσιαστεί την επόμενη εβδομάδα. Η Alicia έχει ήδη επικοινωνήσει με την CRA για να προχωρήσει ο συντονισμός. Παράλληλα, η UBI δουλεύει πάνω στa  παραδοτέων και τις απαιτήσεις των stakeholders με στόχο μέχρι το M12 να είναι ξεκάθαρο πώς θα αξιοποιηθούν οι τεχνολογίες, ενώ η NCI έχει ξεκινήσει να μετατρέπει τις απαιτήσεις σε πιο πρώιμες αρχιτεκτονικές κατευθύνσεις. Γενικά υπάρχει αυξημένη εμπλοκή και παρακολουθούμε στενά τα επόμενα βήματα.** epishs Rwmh ? 
+* 
+Χθες πραγματοποιήθηκε η πρώτη συνάντηση συντονισμού του WP2, με στόχο την ευθυγράμμιση όλων των εταίρων ως προς τη μεθοδολογία και τα επόμενα βήματα. Συζητήθηκε ο ρόλος των επιμέρους tasks (T2.1–T2.6), με έμφαση στη ροή των απαιτήσεων από το T2.1 προς το T2.3, τη διάκριση μεταξύ pilots, technical teams και ευρύτερων stakeholders, καθώς και στη σημασία των δομημένων συζητήσεων πριν από τη χρήση questionnaires. Επιβεβαιώθηκε ότι στην παρούσα φάση το βάρος πέφτει στη διαδικασία και στον συντονισμό (process & methodology), όχι σε ώριμο περιεχόμενο, ενώ συμφωνήθηκαν τα βασικά checkpoints μέχρι την επόμενη συνάντηση σε δύο εβδομάδες.
 * INTACT PUc 4 in progress
+Κατά τους τελευταίους δύο μήνες, η ομάδα του TUC έχει συμμετάσχει ενεργά στις τεχνικές συζητήσεις που αφορούν το PUC4, με έμφαση στη διερεύνηση της ενσωμάτωσης του Network Intrusion Detection System (NIDS) στην προτεινόμενη αρχιτεκτονική. Έχουν πραγματοποιηθεί συναντήσεις με τους εμπλεκόμενους εταίρους (SBA, NCSRD), κατά τις οποίες αποσαφηνίστηκε η θέση του IDS στο επίπεδο δικτυακής παρακολούθησης, σε συνάφεια με τις μηχανισμούς Zero Trust. Παράλληλα, συνεισφέραμε τεχνικό περιεχόμενο στα παραδοτέα D3.3 και D4.3, περιγράφοντας τη λειτουργία, τις διεπαφές και τον ρόλο του IDS στο πλαίσιο του INTACT. Τα επόμενα βήματα περιλαμβάνουν την περαιτέρω εξειδίκευση του σεναρίου ενσωμάτωσης μετά την οριστικοποίηση της αρχιτεκτονικής του PUC4.
 
 10/2/2026 
 ===========
