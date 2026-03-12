@@ -9,3 +9,4 @@ groq
 trafilatura
 yt-dlp
 youtube-transcript-api
+youtube-transcript-api==0.6.2
