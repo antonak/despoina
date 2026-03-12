@@ -87,7 +87,7 @@ with tab1:
 
         # 3. AI Response
         try:
-            with st.spinner("Η Δέσποινα αναλύει το ερώτημα..."):
+            with st.spinner("Ανάλυση..."):
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[
