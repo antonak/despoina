@@ -9,11 +9,13 @@ st.set_page_config(page_title="Parasecurity Legal AI", page_icon="⚖️", layou
 
 # --- FUNCTIONS ---
 def detect_suspicious_characters(text):
+    # Εντοπισμός κυριλλικών χαρακτήρων για προστασία από παραπλανητικό κείμενο
     cyrillic_pattern = re.compile(r'[а-яА-ЯёЁ]')
     found = cyrillic_pattern.findall(text)
     return list(set(found))
 
 def sanitize_greek_text(text):
+    # Αυτοδιόρθωση οπτικά όμοιων χαρακτήρων
     replacements = {
         'а': 'α', 'е': 'ε', 'і': 'ι', 'ο': 'ο', 'р': 'ρ', 
         'с': 'σ', 'у': 'υ', 'х': 'χ', 'д': 'δ', 'т': 'τ', 'н': 'ν'
@@ -50,7 +52,7 @@ df = load_data()
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector"])
 
 # ---------------------------------------------------------
-# TAB 1: Chatbot (Fixed Regex Logic)
+# TAB 1: Chatbot (Clean Logic & Neutral Identity)
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
@@ -58,12 +60,12 @@ with tab1:
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # TOP INPUT (No Form to avoid lag)
+    # TOP INPUT
     user_input = st.text_input("Ρωτήστε για τους νόμους:", key="main_input")
     send_btn = st.button("Αποστολή 🚀")
 
     if send_btn and user_input:
-        # Forensic Clean
+        # Forensic Check & Clean
         suspicious = detect_suspicious_characters(user_input)
         clean_input = sanitize_greek_text(user_input)
         
@@ -79,27 +81,34 @@ with tab1:
             text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
             target_col = text_cols[0] if text_cols else df.columns[-1]
             
-            # FIX: Escape special characters and remove empty strings
             keywords = [re.escape(word) for word in clean_input.split() if word]
             if keywords:
-                # regex=True requires escaped strings to avoid PatternError
                 pattern = '|'.join(keywords)
                 mask = df[target_col].astype(str).str.contains(pattern, case=False, na=False, regex=True)
                 context = "\n\n".join(df[mask].head(2)[target_col].astype(str).str[:1500].values)
 
-        # AI Response
+        # AI RESPONSE
         try:
-            with st.spinner("Αναζήτηση στη νομοθεσία..."):
+            with st.spinner("Ανάλυση και αναζήτηση στη νομοθεσία..."):
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[
-                        {"role": "system", "content": f"Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. Context:\n{context}"},
-                        *st.session_state.messages[-3:], 
+                        {
+                            "role": "system", 
+                            "content": (
+                                "Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. "
+                                "Μην χρησιμοποιείς κανένα όνομα (ούτε το δικό σου, ούτε του χρήστη) στην επικοινωνία. "
+                                "Απάντησε με απόλυτα ουδέτερο, επαγγελματικό και σοβαρό ύφος. "
+                                "Χρησιμοποίησε το παρακάτω context για την απάντησή σου:\n"
+                                f"{context}"
+                            )
+                        },
+                        *st.session_state.messages[-3:]
                     ]
                 )
                 answer = response.choices[0].message.content
                 st.session_state.messages.append({"role": "assistant", "content": answer})
-                st.rerun() # Use rerun here to update chat display instantly
+                st.rerun() 
         except Exception as e:
             st.error(f"Σφάλμα AI: {e}")
 
@@ -118,16 +127,19 @@ with tab2:
     
     if media_file:
         if st.button("🚀 Έναρξη Ανάλυσης"):
-            with st.status("Επεξεργασία...", expanded=True):
-                file_bytes = media_file.read()
-                transcription = client.audio.transcriptions.create(
-                    file=(media_file.name, file_bytes),
-                    model="distil-whisper-large-v3-it",
-                    response_format="text", language="el"
-                )
-                
-                check_res = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
-                    messages=[{"role": "user", "content": f"Fact-check this based on legal standards: {transcription[:3000]}"}]
-                )
-                st.success(check_res.choices[0].message.content)
+            with st.status("Επεξεργασία πολυμέσων...", expanded=True):
+                try:
+                    file_bytes = media_file.read()
+                    transcription = client.audio.transcriptions.create(
+                        file=(media_file.name, file_bytes),
+                        model="distil-whisper-large-v3-it",
+                        response_format="text", language="el"
+                    )
+                    
+                    check_res = client.chat.completions.create(
+                        model="llama-3.3-70b-versatile",
+                        messages=[{"role": "user", "content": f"Fact-check this based on legal standards: {transcription[:3000]}"}]
+                    )
+                    st.success(check_res.choices[0].message.content)
+                except Exception as e:
+                    st.error(f"Σφάλμα στην ανάλυση: {e}")
