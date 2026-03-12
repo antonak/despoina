@@ -3,99 +3,76 @@ import pandas as pd
 import os
 from groq import Groq
 
-# --- ΡΥΘΜΙΣΕΙΣ ΣΕΛΙΔΑΣ ---
-st.set_page_config(page_title="Greek Legal AI", page_icon="⚖️", layout="centered")
-
+# 1. Βασικές Ρυθμίσεις
+st.set_page_config(page_title="Greek Legal AI", page_icon="⚖️")
 st.title("⚖️ Greek Legal AI Assistant")
 st.subheader("Σύμβουλος Νομοθεσίας & Πρακτικών Βουλής")
-st.info("Το σύστημα αναλύει τα πρακτικά της περιόδου 2025-2026.")
 
-# --- ΣΥΝΔΕΣΗ ΜΕ GROQ ---
-# Βεβαιώσου ότι έχεις βάλει το GROQ_API_KEY στα Secrets του Streamlit
-try:
-    client = Groq(api_key=st.secrets["GROQ_API_KEY"])
-except Exception as e:
-    st.error("Λείπει το API Key από τα Secrets! Παρακαλώ πρόσθεσε το GROQ_API_KEY.")
+# 2. Σύνδεση με Groq (μέσω Streamlit Secrets)
+if "GROQ_API_KEY" not in st.secrets:
+    st.error("Παρακαλώ πρόσθεσε το 'GROQ_API_KEY' στα Secrets του Streamlit Cloud.")
     st.stop()
 
-# --- ΦΟΡΤΩΣΗ ΔΕΔΟΜΕΝΩΝ (CSV) ---
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+
+# 3. Φόρτωση Δεδομένων (CSV) με αυτόματο εντοπισμό στήλης
 @st.cache_data
-def load_legal_data():
+def load_data():
     current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Προσπαθούμε να βρούμε το CSV στο path που είχαμε ορίσει
     csv_path = os.path.join(current_dir, "praktika_2025_2026/laws_articles.csv")
     
     if not os.path.exists(csv_path):
-        st.error(f"Το αρχείο δεν βρέθηκε στο: {csv_path}")
+        st.error(f"Δεν βρέθηκε το αρχείο: {csv_path}")
         return None
     
-    # Διαβάζουμε το CSV (εξ ορισμού UTF-8 στο Streamlit Cloud)
     df = pd.read_csv(csv_path)
     return df
 
-df = load_legal_data()
+df = load_data()
 
-# --- CHAT INTERFACE ---
+# 4. Διαχείριση Ιστορικού Συνομιλίας
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Εμφάνιση ιστορικού συνομιλίας
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# Είσοδος χρήστη
-user_input = st.chat_input("Πώς μπορώ να σας βοηθήσω με τη νομοθεσία;")
+# 5. Κύρια Λειτουργία Chat
+if prompt := st.chat_input("Ρωτήστε με για τη νομοθεσία (π.χ. 'Επιτρέπονται οι διαδηλώσεις;')"):
+    st.chat_message("user").markdown(prompt)
+    st.session_state.messages.append({"role": "user", "content": prompt})
 
-if user_input:
-    # 1. Εμφάνιση ερώτησης χρήστη
-    st.session_state.messages.append({"role": "user", "content": user_input})
-    with st.chat_message("user"):
-        st.markdown(user_input)
-
-    # 2. Απλή Αναζήτηση στο CSV (Basic RAG Logic)
-    # Εδώ βρίσκουμε τις πιο σχετικές γραμμές από το CSV βάσει λέξεων-κλειδιών
+    # --- RAG LOGIC: Αναζήτηση στο Context ---
     context = ""
     if df is not None:
-        keywords = user_input.split()
-        # Φιλτράρουμε το DF για να βρούμε σχετικά άρθρα
-        relevant_rows = df[df.apply(lambda row: any(k.lower() in str(row).lower() for k in keywords), axis=1)]
-        if not relevant_rows.empty:
-            context = "Σχετικά αποσπάσματα από τη νομοθεσία:\n" + "\n".join(relevant_rows.iloc[:3]['article_text'].values)
+        # Ψάχνουμε ποια στήλη έχει το κείμενο (π.χ. 'text', 'content', 'article')
+        potential_cols = [c for c in df.columns if any(word in c.lower() for word in ['text', 'content', 'article', 'άρθρο', 'κειμενο'])]
+        text_col = potential_cols[0] if potential_cols else df.columns[-1]
+        
+        # Απλή αναζήτηση με keywords στο CSV
+        keywords = prompt.split()
+        mask = df[text_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
+        relevant_df = df[mask].head(3)
+        
+        if not relevant_df.empty:
+            context = "\n".join(relevant_df[text_col].values)
 
-    # 3. Κλήση στην Groq
-    try:
-        with st.spinner("Η Despoina αναλύει τη νομοθεσία..."):
-            # Σύνθεση του Prompt με το Context (RAG)
-            system_prompt = f"""
-            Είσαι η Despoina, ένας εξειδικευμένος νομικός βοηθός για την Ελληνική νομοθεσία.
-            Χρησιμοποίησε το παρακάτω context για να απαντήσεις. 
-            Αν δεν υπάρχει σχετική πληροφορία στο context, χρησιμοποίησε τις γενικές σου γνώσεις αλλά ενημέρωσε τον χρήστη.
-            Απάντα πάντα στα Ελληνικά με σοβαρό και τεκμηριωμένο ύφος.
-            
-            CONTEXT:
-            {context}
-            """
-
-            response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_input}
-                ],
-                temperature=0.3, # Χαμηλό temperature για μεγαλύτερη ακρίβεια
-            )
-            
-            answer = response.choices[0].message.content
-
-        # 4. Εμφάνιση απάντησης
-        with st.chat_message("assistant"):
-            st.markdown(answer)
-        st.session_state.messages.append({"role": "assistant", "content": answer})
-
-    except Exception as e:
-        st.error(f"Σφάλμα επικοινωνίας με το AI: {e}")
-
-# Κουμπί καθαρισμού
-if st.sidebar.button("Καθαρισμός Συνομιλίας"):
-    st.session_state.messages = []
-    st.rerun()
+    # --- Κλήση στην Groq ---
+    with st.chat_message("assistant"):
+        try:
+            with st.spinner("Αναζήτηση στη νομοθεσία..."):
+                response = client.chat.completions.create(
+                    model="llama-3.3-70b-versatile",
+                    messages=[
+                        {"role": "system", "content": f"Είσαι νομικός βοηθός. Απάντα στα ελληνικά. Χρησιμοποίησε το παρακάτω context αν είναι σχετικό:\n{context}"},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.2
+                )
+                answer = response.choices[0].message.content
+                st.markdown(answer)
+                st.session_state.messages.append({"role": "assistant", "content": answer})
+        except Exception as e:
+            st.error(f"Σφάλμα Groq: {e}")
