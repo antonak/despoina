@@ -2,93 +2,124 @@ import streamlit as st
 import os
 import trafilatura
 from groq import Groq
-from yt_dlp import YoutubeDL
+from youtube_transcript_api import YouTubeTranscriptApi
 
-st.set_page_config(page_title="Parasecurity | Multimodal Fact-Checker", page_icon="🛡️")
+# --- PAGE CONFIGURATION ---
+st.set_page_config(page_title="Parasecurity | Fact-Checker", page_icon="🛡️", layout="wide")
 
-st.title("🛡️ Parasecurity: YouTube & Media Fact-Checker")
-st.caption("Powered by Groq Whisper & Llama 3.3 @ FORTH & TUC")
+st.title("🛡️ Parasecurity: Truth Seeker")
+st.markdown("### Credibility Analysis: YouTube, Articles & Media")
+st.caption("Autonomous Misinformation Detection Tool | FORTH & TUC Lab")
 
+# --- API KEY VALIDATION ---
 if "GROQ_API_KEY" not in st.secrets:
-    st.error("Missing API Key")
+    st.error("Missing GROQ_API_KEY in Streamlit Secrets.")
     st.stop()
+
+# Initialize Groq Client
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-source = st.radio("Επιλέξτε πηγή:", ["🔗 YouTube Link", "📰 News Article Link", "📁 Upload File"])
+# --- SOURCE SELECTION ---
+source = st.radio("Select data source for analysis:", 
+                  ["🔗 YouTube Link", "📰 News Article Link", "📁 Upload Media File (MP3/MP4)"], 
+                  horizontal=True)
+
 content_to_check = ""
 
-# --- ΛΕΙΤΟΥΡΓΙΑ YOUTUBE ---
+# --- 1. YOUTUBE TRANSCRIPT LOGIC ---
 if source == "🔗 YouTube Link":
-    url = st.text_input("YouTube URL (π.χ. ομιλίες, ειδήσεις):")
+    url = st.text_input("Paste YouTube URL:")
     if url:
-        if st.button("Ανάλυση Βίντεο"):
-            with st.status("Επεξεργασία YouTube Video...", expanded=True) as status:
-                try:
-                    # Ρυθμίσεις για κατέβασμα μόνο του ήχου (πολύ ελαφρύ)
-                    ydl_opts = {
-                        'format': 'm4a/bestaudio/best',
-                        'outtmpl': 'temp_audio.%(ext)s',
-                        'postprocessors': [{
-                            'key': 'FFmpegExtractAudio',
-                            'preferredcodec': 'm4a',
-                        }],
-                    }
-                    
-                    st.write("1. Λήψη ήχου από το YouTube...")
-                    with YoutubeDL(ydl_opts) as ydl:
-                        ydl.download([url])
-                    
-                    st.write("2. Μεταγραφή ομιλίας (Whisper)...")
-                    with open("temp_audio.m4a", "rb") as audio_file:
-                        transcription = client.audio.transcriptions.create(
-                            file=("temp_audio.m4a", audio_file.read()),
-                            model="distil-whisper-large-v3-it",
-                            response_format="text",
-                            language="el"
-                        )
-                    
-                    content_to_check = transcription
-                    status.update(label="Η μεταγραφή ολοκληρώθηκε!", state="complete")
-                    st.info(f"Τι ειπώθηκε: {content_to_check[:300]}...")
-                    
-                    # Καθαρισμός αρχείου
-                    if os.path.exists("temp_audio.m4a"):
-                        os.remove("temp_audio.m4a")
-                except Exception as e:
-                    st.error(f"Σφάλμα YouTube: {e}")
+        # Extract Video ID from various URL formats
+        if "v=" in url or "youtu.be/" in url:
+            video_id = url.split("v=")[-1] if "v=" in url else url.split("/")[-1]
+            if "&" in video_id: video_id = video_id.split("&")[0]
+            
+            if st.button("Extract Video Speech"):
+                with st.spinner("Fetching subtitles from YouTube..."):
+                    try:
+                        # Attempt to fetch Greek first, fallback to English
+                        transcript_list = YouTubeTranscriptApi.get_transcript(video_id, languages=['el', 'en'])
+                        content_to_check = " ".join([t['text'] for t in transcript_list])
+                        st.success("Speech successfully retrieved!")
+                        with st.expander("View Extracted Text"):
+                            st.write(content_to_check)
+                    except Exception as e:
+                        st.error(f"Could not find subtitles for this video. Note: Video must have captions enabled. Error: {e}")
+        else:
+            st.warning("Please provide a valid YouTube Link.")
 
-# --- ΛΕΙΤΟΥΡΓΙΑ NEWS ARTICLES ---
+# --- 2. ARTICLE SCRAPING LOGIC ---
 elif source == "📰 News Article Link":
-    url = st.text_input("Link εφημερίδας/site:")
+    url = st.text_input("Paste article URL:")
     if url:
-        downloaded = trafilatura.fetch_url(url)
-        content_to_check = trafilatura.extract(downloaded)
-        if content_to_check:
-            st.success("Το άρθρο ανακτήθηκε!")
+        if st.button("Extract Article Content"):
+            with st.spinner("Scraping content..."):
+                try:
+                    # Download and extract the main text from the webpage
+                    downloaded = trafilatura.fetch_url(url)
+                    content_to_check = trafilatura.extract(downloaded)
+                    if content_to_check:
+                        st.success("Article successfully read!")
+                        with st.expander("View Scraped Content"):
+                            st.write(content_to_check)
+                except Exception as e:
+                    st.error(f"Error reading the link: {e}")
 
-# --- ΛΕΙΤΟΥΡΓΙΑ UPLOAD ---
+# --- 3. FILE UPLOAD LOGIC (WHISPER AI) ---
 else:
-    uploaded_file = st.file_uploader("Ανεβάστε MP3/MP4:", type=["mp3", "mp4", "wav"])
+    uploaded_file = st.file_uploader("Upload audio or video file:", type=["mp3", "mp4", "wav", "m4a"])
     if uploaded_file:
-        with st.spinner("Μεταγραφή..."):
-            transcription = client.audio.transcriptions.create(
-                file=(uploaded_file.name, uploaded_file.read()),
-                model="distil-whisper-large-v3-it",
-                response_format="text",
-                language="el"
-            )
-            content_to_check = transcription
+        if st.button("Transcribe with Whisper"):
+            with st.spinner("AI is listening to your file..."):
+                try:
+                    # Send audio data to Groq Whisper for high-accuracy transcription
+                    transcription = client.audio.transcriptions.create(
+                        file=(uploaded_file.name, uploaded_file.read()),
+                        model="distil-whisper-large-v3-it",
+                        response_format="text",
+                        language="el"
+                    )
+                    content_to_check = transcription
+                    st.success("Transcription complete!")
+                    st.text_area("Transcribed Text:", content_to_check, height=200)
+                except Exception as e:
+                    st.error(f"Whisper Transcription Error: {e}")
 
-# --- ΚΟΙΝΟ FACT CHECKING ---
+# --- FINAL FACT-CHECKING ENGINE ---
 if content_to_check:
-    if st.button("🚀 Έναρξη Fact-Checking"):
-        with st.spinner("Διασταύρωση ισχυρισμών..."):
-            res = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[
-                    {"role": "system", "content": "Είσαι Fact-Checker της Parasecurity. Ανάλυσε το κείμενο για ανακρίβειες βάσει της ελληνικής πραγματικότητας."},
-                    {"role": "user", "content": content_to_check}
-                ]
-            )
-            st.subheader("📊 Πόρισμα Ελέγχου")
-            st.markdown(res.choices[0].message.content)
+    st.divider()
+    if st.button("🚀 Launch Parasecurity Fact-Check"):
+        with st.status("Cross-referencing claims with official data...", expanded=True) as status:
+            try:
+                # Prompt Engineering: Assigning the LLM a Fact-Checker persona
+                prompt = f"""
+                You are the Parasecurity Fact-Checker. Analyze the following text retrieved from {source}.
+                
+                CONTENT:
+                {content_to_check}
+                
+                INSTRUCTIONS:
+                1. Identify the 3 most significant factual claims.
+                2. Evaluate each as True, False, or Misleading.
+                3. Compare them with the spirit of Greek legislation and parliamentary proceedings where applicable.
+                4. Provide a final Credibility Score (0-100%).
+                
+                Respond in GREEK with a professional, academic tone.
+                """
+                
+                # Use Llama 3.3 70B for high-reasoning fact checking
+                response = client.chat.completions.create(
+                    model="llama-3.3-70b-versatile",
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0
+                )
+                
+                status.update(label="Analysis Complete!", state="complete")
+                st.subheader("📊 Fact-Checking Report")
+                st.markdown(response.choices[0].message.content)
+            except Exception as e:
+                st.error(f"AI Analysis Error: {e}")
+
+st.divider()
+st.caption("© 2026 Parasecurity Project | FORTH & Technical University of Crete")
