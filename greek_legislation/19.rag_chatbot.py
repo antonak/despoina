@@ -33,45 +33,57 @@ df = load_data()
 
 # --- ΔΗΜΙΟΥΡΓΙΑ TABS ---
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector (Audio/Video)"])
-
 # ---------------------------------------------------------
-# TAB 1: Chatbot (RAG)
+# TAB 1: Chatbot (RAG) - Top Input Version
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
     
+    # Initialize session state for messages
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+    # 1. TOP INPUT FIELD
+    # Using a form helps handle the 'Enter' key properly for a top-mounted input
+    with st.form("chat_form", clear_on_submit=True):
+        user_input = st.text_input("Ρωτήστε για τους νόμους...", placeholder="Πληκτρολογήστε εδώ και πατήστε Enter")
+        submit_button = st.form_submit_button("Αποστολή 🚀")
 
-    if prompt := st.chat_input("Ρωτήστε για τους νόμους..."):
-        st.chat_message("user").markdown(prompt)
-        st.session_state.messages.append({"role": "user", "content": prompt})
+    # 2. CHAT LOGIC
+    if (submit_button or user_input) and user_input:
+        # Add user message to state
+        st.session_state.messages.append({"role": "user", "content": user_input})
 
         # Basic RAG Logic
         context = ""
         if df is not None:
             potential_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
             text_col = potential_cols[0] if potential_cols else df.columns[-1]
-            keywords = prompt.split()
+            keywords = user_input.split()
             mask = df[text_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
             context = "\n".join(df[mask].head(3)[text_col].values)
 
-        with st.chat_message("assistant"):
-            response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[
-                    {"role": "system", "content": f"Είσαι AI βοηθός της Parasecurity. Χρησιμοποίησε το context:\n{context}"},
-                    {"role": "user", "content": prompt}
-                ]
-            )
-            answer = response.choices[0].message.content
-            st.markdown(answer)
-            st.session_state.messages.append({"role": "assistant", "content": answer})
+        # Get AI Response
+        response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": f"Είσαι AI βοηθός της Parasecurity. Χρησιμοποίησε το context:\n{context}"},
+                {"role": "user", "content": user_input}
+            ]
+        )
+        answer = response.choices[0].message.content
+        st.session_state.messages.append({"role": "assistant", "content": answer})
+        
+        # Rerun to show new messages immediately
+        st.rerun()
 
+    # 3. MESSAGE DISPLAY (Bottom section)
+    # We display them in REVERSE order if you want the newest on top, 
+    # or normal order to keep it like a standard chat.
+    st.divider()
+    for message in reversed(st.session_state.messages):
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 # ---------------------------------------------------------
 # TAB 2: Fake News Detector (Whisper + Fact-Check)
 # ---------------------------------------------------------
