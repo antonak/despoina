@@ -50,7 +50,7 @@ df = load_data()
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector"])
 
 # ---------------------------------------------------------
-# TAB 1: Chatbot (Fixed Flow)
+# TAB 1: Chatbot (Fixed Regex Logic)
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
@@ -58,14 +58,12 @@ with tab1:
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # TOP INPUT
-    with st.container():
-        # Αφαιρέσαμε το st.form για πιο άμεση ανταπόκριση χωρίς σφάλματα ανανέωσης
-        user_input = st.text_input("Ρωτήστε για τους νόμους:", key="user_query", on_change=None)
-        send_btn = st.button("Αποστολή 🚀")
+    # TOP INPUT (No Form to avoid lag)
+    user_input = st.text_input("Ρωτήστε για τους νόμους:", key="main_input")
+    send_btn = st.button("Αποστολή 🚀")
 
     if send_btn and user_input:
-        # 1. Forensic Check & Sanitize
+        # Forensic Clean
         suspicious = detect_suspicious_characters(user_input)
         clean_input = sanitize_greek_text(user_input)
         
@@ -73,34 +71,39 @@ with tab1:
         if suspicious:
             display_text = f"🚩 [SUSPICIOUS CHARS: {', '.join(suspicious)}]\n\n{user_input}"
         
-        # Save user message
         st.session_state.messages.append({"role": "user", "content": display_text})
 
-        # 2. RAG Logic
+        # SAFE RAG LOGIC
         context = ""
         if df is not None:
             text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
             target_col = text_cols[0] if text_cols else df.columns[-1]
-            keywords = clean_input.split()
-            mask = df[target_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
-            context = "\n\n".join(df[mask].head(2)[target_col].astype(str).str[:1500].values)
+            
+            # FIX: Escape special characters and remove empty strings
+            keywords = [re.escape(word) for word in clean_input.split() if word]
+            if keywords:
+                # regex=True requires escaped strings to avoid PatternError
+                pattern = '|'.join(keywords)
+                mask = df[target_col].astype(str).str.contains(pattern, case=False, na=False, regex=True)
+                context = "\n\n".join(df[mask].head(2)[target_col].astype(str).str[:1500].values)
 
-        # 3. AI Response
+        # AI Response
         try:
-            with st.spinner("Ανάλυση..."):
+            with st.spinner("Αναζήτηση στη νομοθεσία..."):
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[
-                        {"role": "system", "content": f"Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. Απάντησε τεκμηριωμένα:\n{context}"},
+                        {"role": "system", "content": f"Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. Context:\n{context}"},
                         *st.session_state.messages[-3:], 
                     ]
                 )
                 answer = response.choices[0].message.content
                 st.session_state.messages.append({"role": "assistant", "content": answer})
+                st.rerun() # Use rerun here to update chat display instantly
         except Exception as e:
             st.error(f"Σφάλμα AI: {e}")
 
-    # 4. DISPLAY MESSAGES
+    # DISPLAY
     st.divider()
     for message in reversed(st.session_state.messages):
         with st.chat_message(message["role"]):
@@ -125,6 +128,6 @@ with tab2:
                 
                 check_res = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
-                    messages=[{"role": "user", "content": f"Fact-check this: {transcription[:3000]}"}]
+                    messages=[{"role": "user", "content": f"Fact-check this based on legal standards: {transcription[:3000]}"}]
                 )
                 st.success(check_res.choices[0].message.content)
