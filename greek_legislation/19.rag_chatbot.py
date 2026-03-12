@@ -7,15 +7,15 @@ from groq import Groq
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(page_title="Parasecurity Legal AI", page_icon="⚖️", layout="wide")
 
-# --- FUNCTIONS ---
+# --- FORENSIC & CLEANING FUNCTIONS ---
 def detect_suspicious_characters(text):
-    # Εντοπισμός κυριλλικών χαρακτήρων για προστασία από παραπλανητικό κείμενο
+    """Detects Cyrillic characters to protect against obfuscated/fake text."""
     cyrillic_pattern = re.compile(r'[а-яА-ЯёЁ]')
     found = cyrillic_pattern.findall(text)
     return list(set(found))
 
 def sanitize_greek_text(text):
-    # Αυτοδιόρθωση οπτικά όμοιων χαρακτήρων
+    """Auto-corrects visually similar characters from Cyrillic to Greek."""
     replacements = {
         'а': 'α', 'е': 'ε', 'і': 'ι', 'ο': 'ο', 'р': 'ρ', 
         'с': 'σ', 'у': 'υ', 'х': 'χ', 'д': 'δ', 'т': 'τ', 'н': 'ν'
@@ -32,7 +32,7 @@ with st.sidebar:
         st.session_state.messages = []
         st.rerun()
 
-# --- 2. API & DATA ---
+# --- 2. API & DATA LOADING ---
 if "GROQ_API_KEY" not in st.secrets:
     st.error("Missing GROQ_API_KEY in Secrets.")
     st.stop()
@@ -40,6 +40,7 @@ client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 @st.cache_data
 def load_data():
+    """Loads the legal dataset from the local CSV file."""
     current_dir = os.path.dirname(os.path.abspath(__file__))
     csv_path = os.path.join(current_dir, "praktika_2025_2026/laws_articles.csv")
     if os.path.exists(csv_path):
@@ -48,78 +49,88 @@ def load_data():
 
 df = load_data()
 
-# --- 3. TABS ---
+# --- 3. UI TABS ---
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector"])
 
 # ---------------------------------------------------------
-# TAB 1: Chatbot (Clean Logic & Neutral Identity)
+# TAB 1: Chatbot (Legal Consultant)
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
     
+    # Initialize session state for chat history
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # TOP INPUT
-    user_input = st.text_input("Ρωτήστε για τους νόμους:", key="main_input")
-    send_btn = st.button("Αποστολή 🚀")
+    # INPUT SECTION: Using a form to enable 'Enter' key submission and auto-clear
+    with st.container():
+        with st.form(key="chat_form", clear_on_submit=True):
+            user_input = st.text_input("Ρωτήστε για τους νόμους:", key="input_field")
+            submit_button = st.form_submit_button("Αποστολή 🚀")
 
-    if send_btn and user_input:
-        # Forensic Check & Clean
+    if submit_button and user_input:
+        # Step A: Forensic Check & Text Normalization
         suspicious = detect_suspicious_characters(user_input)
         clean_input = sanitize_greek_text(user_input)
         
+        # Prepare text for display (add warning flag if suspicious chars found)
         display_text = user_input
         if suspicious:
-            display_text = f"🚩 [SUSPICIOUS CHARS: {', '.join(suspicious)}]\n\n{user_input}"
+            display_text = f"🚩 [Εντοπίστηκαν ύποπτοι χαρακτήρες: {', '.join(suspicious)}]\n\n{user_input}"
         
+        # Append user message to history
         st.session_state.messages.append({"role": "user", "content": display_text})
 
-        # SAFE RAG LOGIC
+        # Step B: RAG Logic (Retrieval Augmented Generation)
         context = ""
         if df is not None:
+            # Identify the column containing the legal text
             text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
             target_col = text_cols[0] if text_cols else df.columns[-1]
             
+            # Escape keywords to prevent Regex PatternErrors (e.g., from '?' or '*')
             keywords = [re.escape(word) for word in clean_input.split() if word]
             if keywords:
                 pattern = '|'.join(keywords)
+                # Filter CSV for relevant laws/articles
                 mask = df[target_col].astype(str).str.contains(pattern, case=False, na=False, regex=True)
+                # Limit context to top 2 results and truncate to avoid Token Limit (Error 413)
                 context = "\n\n".join(df[mask].head(2)[target_col].astype(str).str[:1500].values)
 
-        # AI RESPONSE
+        # Step C: AI Generation via Groq (Llama 3.3)
         try:
-            with st.spinner("Ανάλυση και αναζήτηση στη νομοθεσία..."):
+            with st.spinner("Αναζήτηση..."):
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[
                         {
                             "role": "system", 
                             "content": (
-                                "Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. "
-                                "Μην χρησιμοποιείς κανένα όνομα (ούτε το δικό σου, ούτε του χρήστη) στην επικοινωνία. "
-                                "Απάντησε με απόλυτα ουδέτερο, επαγγελματικό και σοβαρό ύφος. "
-                                "Χρησιμοποίησε το παρακάτω context για την απάντησή σου:\n"
+                                "You are the AI Legal Consultant for Parasecurity. "
+                                "Respond strictly in Greek with a professional and neutral tone. "
+                                "Do NOT use any names (yours or the user's). "
+                                "Provide evidence-based answers using the provided context:\n"
                                 f"{context}"
                             )
                         },
+                        # Send the last 3 messages for conversational memory
                         *st.session_state.messages[-3:]
                     ]
                 )
                 answer = response.choices[0].message.content
                 st.session_state.messages.append({"role": "assistant", "content": answer})
-                st.rerun() 
+                st.rerun() # Refresh to show the new message immediately
         except Exception as e:
-            st.error(f"Σφάλμα AI: {e}")
+            st.error(f"AI Service Error: {e}")
 
-    # DISPLAY
+    # MESSAGE DISPLAY: Newest messages appear at the top
     st.divider()
     for message in reversed(st.session_state.messages):
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
 # ---------------------------------------------------------
-# TAB 2: Fake News Detector
+# TAB 2: Fake News Detector (Media Fact-Checking)
 # ---------------------------------------------------------
 with tab2:
     st.header("🔍 Ανίχνευση Ψευδών Ειδήσεων")
@@ -127,8 +138,9 @@ with tab2:
     
     if media_file:
         if st.button("🚀 Έναρξη Ανάλυσης"):
-            with st.status("Επεξεργασία πολυμέσων...", expanded=True):
+            with st.status("Επεξεργασία...", expanded=True):
                 try:
+                    # Step 1: Speech-to-Text via Whisper
                     file_bytes = media_file.read()
                     transcription = client.audio.transcriptions.create(
                         file=(media_file.name, file_bytes),
@@ -136,10 +148,11 @@ with tab2:
                         response_format="text", language="el"
                     )
                     
+                    # Step 2: Legal Fact-Checking based on the transcript
                     check_res = client.chat.completions.create(
                         model="llama-3.3-70b-versatile",
-                        messages=[{"role": "user", "content": f"Fact-check this based on legal standards: {transcription[:3000]}"}]
+                        messages=[{"role": "user", "content": f"Fact-check this based on Greek legal standards: {transcription[:3000]}"}]
                     )
                     st.success(check_res.choices[0].message.content)
                 except Exception as e:
-                    st.error(f"Σφάλμα στην ανάλυση: {e}")
+                    st.error(f"Analysis Error: {e}")
