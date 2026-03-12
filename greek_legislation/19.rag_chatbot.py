@@ -3,8 +3,16 @@ import pandas as pd
 import os
 from groq import Groq
 
-# --- 1. BASIC CONFIGURATION ---
+# --- 1. PAGE CONFIGURATION ---
 st.set_page_config(page_title="Parasecurity Legal AI", page_icon="⚖️", layout="wide")
+
+# --- CUSTOM CSS BRANDING ---
+st.markdown("""
+    <style>
+    .stButton>button { width: 100%; border-radius: 8px; height: 3em; background-color: #d32f2f; color: white; font-weight: bold; }
+    .stChatFloatingInputContainer { background-color: rgba(0,0,0,0); }
+    </style>
+    """, unsafe_allow_html=True)
 
 # --- SIDEBAR & BRANDING ---
 with st.sidebar:
@@ -12,7 +20,6 @@ with st.sidebar:
     st.subheader("FORTH & TUC Lab")
     st.markdown("[About Project](https://grelections.parasecurity.edu.gr/about)")
     st.divider()
-    # Clear history logic
     if st.button("🗑️ Clear Chat History"):
         st.session_state.messages = []
         st.rerun()
@@ -27,7 +34,6 @@ client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 @st.cache_data
 def load_data():
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    # Ensure this path matches your GitHub structure
     csv_path = os.path.join(current_dir, "praktika_2025_2026/laws_articles.csv")
     if os.path.exists(csv_path):
         return pd.read_csv(csv_path)
@@ -39,57 +45,59 @@ df = load_data()
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector (Audio/Video)"])
 
 # ---------------------------------------------------------
-# TAB 1: Chatbot (RAG) with TOP INPUT
+# TAB 1: Chatbot (RAG) with Token Optimization
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
     
-    # Initialize message history
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # UI Fix: Input stays at the top
+    # TOP INPUT UI
     with st.container():
         with st.form("chat_form", clear_on_submit=True):
-            user_query = st.text_input("Ρωτήστε για τους νόμους:", placeholder="π.χ. Τι προβλέπει το άρθρο 5...")
-            submitted = st.form_submit_button("Αποστολή 🚀")
+            user_input = st.text_input("Ρωτήστε για τους νόμους...", placeholder="π.χ. Διαζύγιο και επιμέλεια παιδιών")
+            submit_button = st.form_submit_button("Αποστολή 🚀")
 
-        if submitted and user_query:
-            # 1. Add User Message to History
-            st.session_state.messages.append({"role": "user", "content": user_query})
+    # CHAT LOGIC
+    if submit_button and user_input:
+        st.session_state.messages.append({"role": "user", "content": user_input})
 
-            # 2. RAG Logic (Context Retrieval)
-            context = ""
-            if df is not None:
-                # Find the column containing the law text
-                text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
-                target_col = text_cols[0] if text_cols else df.columns[-1]
-                
-                # Simple keyword match
-                keywords = user_query.split()
-                mask = df[target_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
-                context = "\n".join(df[mask].head(3)[target_col].values)
+        # Optimized RAG Logic to stay within Groq Token Limits (12,000 TPM)
+        context = ""
+        if df is not None:
+            # Detect the column with text
+            text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
+            target_col = text_cols[0] if text_cols else df.columns[-1]
+            
+            # Simple keyword search
+            keywords = user_input.split()
+            mask = df[target_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
+            
+            # CRITICAL FIX: Limit results to 2 rows and 1500 chars each to prevent 413 error
+            context_list = df[mask].head(2)[target_col].astype(str).str[:1500].values
+            context = "\n\n".join(context_list)
 
-            # 3. Get AI Response from Groq
-            try:
-                chat_completion = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
-                    messages=[
-                        {"role": "system", "content": f"Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. Χρησιμοποίησε το context για να απαντήσεις τεκμηριωμένα:\n{context}"},
-                        *st.session_state.messages[-5:], # Include last 5 messages for conversation memory
-                    ]
-                )
-                assistant_res = chat_completion.choices[0].message.content
-                st.session_state.messages.append({"role": "assistant", "content": assistant_res})
-                st.rerun() # Refresh to show response
-            except Exception as e:
-                st.error(f"Σφάλμα AI: {e}")
+        # AI Processing
+        try:
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[
+                    {"role": "system", "content": f"Είσαι AI βοηθός της Parasecurity. Απάντησε στα Ελληνικά χρησιμοποιώντας το context:\n{context}"},
+                    *st.session_state.messages[-3:], # Use only last 3 messages for memory to save tokens
+                ]
+            )
+            answer = response.choices[0].message.content
+            st.session_state.messages.append({"role": "assistant", "content": answer})
+            st.rerun()
+        except Exception as e:
+            st.error(f"Σφάλμα AI (Token Limit Check): {e}")
 
-    # 4. DISPLAY MESSAGES (Newest on Top)
+    # MESSAGE DISPLAY (Reverse order to keep newest at top)
     st.divider()
-    for msg in reversed(st.session_state.messages):
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+    for message in reversed(st.session_state.messages):
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 
 # ---------------------------------------------------------
 # TAB 2: Fake News Detector
@@ -104,30 +112,29 @@ with tab2:
         if st.button("🚀 Έναρξη Ανάλυσης"):
             with st.status("Επεξεργασία...", expanded=True) as status:
                 try:
-                    # Transcription via Whisper
+                    # Transcription
                     st.write("Μεταγραφή ομιλίας (Whisper)...")
-                    # Note: We must reset file pointer if read previously
-                    file_content = media_file.read()
+                    file_bytes = media_file.read()
                     transcription = client.audio.transcriptions.create(
-                        file=(media_file.name, file_content),
+                        file=(media_file.name, file_bytes),
                         model="distil-whisper-large-v3-it",
                         response_format="text",
                         language="el"
                     )
                     
-                    st.info(f"Κείμενο που εντοπίστηκε: {transcription[:300]}...")
+                    st.info(f"Κείμενο: {transcription[:300]}...")
 
-                    # Fact-Check via Llama
+                    # Fact-Check
                     st.write("Έλεγχος εγκυρότητας...")
-                    check_prompt = f"Είσαι Fact-Checker της Parasecurity. Ανάλυσε αν το κείμενο περιέχει παραπληροφόρηση βάσει της νομοθεσίας: {transcription}"
+                    check_prompt = f"Ανάλυσε αν το κείμενο περιέχει Fake News βάσει της νομοθεσίας: {transcription[:3000]}"
                     
                     check_res = client.chat.completions.create(
                         model="llama-3.3-70b-versatile",
                         messages=[{"role": "user", "content": check_prompt}]
                     )
                     
-                    status.update(label="Η ανάλυση ολοκληρώθηκε!", state="complete")
-                    st.subheader("📊 Πόρισμα Ελέγχου")
+                    status.update(label="Ολοκληρώθηκε!", state="complete")
+                    st.subheader("📊 Πόρισμα")
                     st.success(check_res.choices[0].message.content)
                 except Exception as e:
-                    st.error(f"Σφάλμα κατά την επεξεργασία: {e}")
+                    st.error(f"Σφάλμα: {e}")
