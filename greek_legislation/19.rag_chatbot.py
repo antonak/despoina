@@ -7,18 +7,29 @@ from groq import Groq
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(page_title="Parasecurity Legal AI", page_icon="⚖️", layout="wide")
 
-# --- SUSPICIOUS CHARACTER DETECTION FUNCTION ---
+# --- FORENSIC & SANITIZATION FUNCTIONS ---
 def detect_suspicious_characters(text):
-    # Εντοπίζει κυριλλικούς χαρακτήρες (π.χ. д, л, π, κτλ) μέσα σε ελληνικό κείμενο
+    """Detects Cyrillic or non-Greek characters hidden in Greek text."""
     cyrillic_pattern = re.compile(r'[а-яА-ЯёЁ]')
     found = cyrillic_pattern.findall(text)
-    return list(set(found)) # Επιστρέφει μοναδικούς ύποπτους χαρακτήρες
+    return list(set(found))
 
-# --- CUSTOM CSS ---
+def sanitize_greek_text(text):
+    """Automatically swaps suspicious Cyrillic letters with their Greek equivalents."""
+    replacements = {
+        'а': 'α', 'е': 'ε', 'і': 'ι', 'о': 'ο', 'р': 'ρ', 
+        'с': 'σ', 'у': 'υ', 'х': 'χ', 'д': 'δ', 'т': 'τ', 'н': 'ν'
+    }
+    for cyr, grk in replacements.items():
+        text = text.replace(cyr, grk)
+    return text
+
+# --- CUSTOM CSS BRANDING ---
 st.markdown("""
     <style>
-    .stButton>button { width: 100%; border-radius: 8px; height: 3em; background-color: #d32f2f; color: white; font-weight: bold; }
-    .warning-box { padding: 10px; border: 2px solid #ff4b4b; border-radius: 5px; background-color: #ffeaea; color: #b22222; }
+    .stButton>button { width: 100%; border-radius: 8px; height: 3.5em; background-color: #d32f2f; color: white; font-weight: bold; }
+    .stTextInput>div>div>input { border: 2px solid #d32f2f; }
+    .forensic-alert { color: #d32f2f; font-weight: bold; border: 1px solid #d32f2f; padding: 10px; border-radius: 5px; background: #fff1f1; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -48,11 +59,11 @@ def load_data():
 
 df = load_data()
 
-# --- 4. TABS CREATION ---
+# --- 4. TABS ---
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector (Audio/Video)"])
 
 # ---------------------------------------------------------
-# TAB 1: Chatbot (RAG) with Forensic Check
+# TAB 1: Chatbot (RAG) with Forensic Sanitization
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
@@ -63,33 +74,39 @@ with tab1:
     # TOP INPUT UI
     with st.container():
         with st.form("chat_form", clear_on_submit=True):
-            user_input = st.text_input("Ρωτήστε για τους νόμους...", placeholder="π.χ. Τι είναι τα докумένττα;")
+            user_input = st.text_input("Ρωτήστε για τους νόμους:", placeholder="π.χ. Τι προβλέπουν τα докумένττα;")
             submit_button = st.form_submit_button("Αποστολή 🚀")
 
     if submit_button and user_input:
-        # Check for suspicious characters before processing
+        # Step A: Forensic Detection
         suspicious = detect_suspicious_characters(user_input)
+        
+        # Step B: Auto-Sanitization (Cleaning the text)
+        clean_input = sanitize_greek_text(user_input)
+        
+        # Add to history (keeping the markers for the user to see)
+        display_text = user_input
         if suspicious:
-            st.warning(f"⚠️ **ΠΡΟΣΟΧΗ**: Εντοπίστηκαν ξένοι/ύποπτοι χαρακτήρες στο ερώτημά σας: {', '.join(suspicious)}. Αυτό μπορεί να επηρεάσει την ποιότητα της απάντησης.")
+            display_text = f"🚩 [SUSPICIOUS CHARS DETECTED: {', '.join(suspicious)}]\n\n{user_input}"
+        
+        st.session_state.messages.append({"role": "user", "content": display_text})
 
-        st.session_state.messages.append({"role": "user", "content": user_input})
-
-        # Optimized RAG Logic
+        # Step C: Optimized RAG Logic
         context = ""
         if df is not None:
             text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
             target_col = text_cols[0] if text_cols else df.columns[-1]
-            keywords = user_input.split()
+            keywords = clean_input.split() # Use clean input for searching
             mask = df[target_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
             context_list = df[mask].head(2)[target_col].astype(str).str[:1500].values
             context = "\n\n".join(context_list)
 
-        # AI Processing
+        # Step D: AI Processing with Clean Data
         try:
             response = client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[
-                    {"role": "system", "content": f"Είσαι AI βοηθός της Parasecurity. Αν το context περιέχει περίεργους χαρακτήρες, επισήμανέ το στον χρήστη. Context:\n{context}"},
+                    {"role": "system", "content": f"Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. Χρησιμοποίησε το context:\n{context}"},
                     *st.session_state.messages[-3:], 
                 ]
             )
@@ -99,18 +116,14 @@ with tab1:
         except Exception as e:
             st.error(f"Σφάλμα AI: {e}")
 
-    # MESSAGE DISPLAY
+    # MESSAGE DISPLAY (Reverse order)
     st.divider()
     for message in reversed(st.session_state.messages):
-        # UI Check: If message contains Cyrillic, mark it in the chat
-        is_suspicious = detect_suspicious_characters(message["content"])
         with st.chat_message(message["role"]):
-            if is_suspicious:
-                st.markdown(f"🚩 *[Εντοπίστηκαν ύποπτοι χαρακτήρες: {', '.join(is_suspicious)}]*")
             st.markdown(message["content"])
 
 # ---------------------------------------------------------
-# TAB 2: Fake News Detector
+# TAB 2: Fake News Detector with Forensic Audio Check
 # ---------------------------------------------------------
 with tab2:
     st.header("🔍 Ανίχνευση Ψευδών Ειδήσεων")
@@ -127,15 +140,17 @@ with tab2:
                         response_format="text", language="el"
                     )
                     
-                    # Check transcription for foreign letters
-                    suspicious_trans = detect_suspicious_characters(transcription)
-                    if suspicious_trans:
-                        st.error(f"🚩 **Alert**: Η μεταγραφή περιέχει μη-ελληνικούς χαρακτήρες ({', '.join(suspicious_trans)}). Πιθανή ένδειξη κακόβουλης πηγής.")
+                    # Forensic Audit of the Transcription
+                    susp_chars = detect_suspicious_characters(transcription)
+                    st.info(f"Κείμενο: {transcription[:300]}...")
+                    
+                    if susp_chars:
+                        st.markdown(f"<div class='forensic-alert'>🚩 ALERT: Εντοπίστηκαν κυριλλικοί χαρακτήρες ({', '.join(susp_chars)}) στη μεταγραφή. Υψηλή πιθανότητα παραπληροφόρησης (Bot-generated).</div>", unsafe_allow_html=True)
 
-                    check_prompt = f"Είσαι Fact-Checker. Έλεγξε για παραπληροφόρηση και περίεργους χαρακτήρες: {transcription[:3000]}"
+                    # Final Fact-Check
                     check_res = client.chat.completions.create(
                         model="llama-3.3-70b-versatile",
-                        messages=[{"role": "user", "content": check_prompt}]
+                        messages=[{"role": "user", "content": f"Fact-check this: {transcription[:3000]}"}]
                     )
                     
                     status.update(label="Ολοκληρώθηκε!", state="complete")
