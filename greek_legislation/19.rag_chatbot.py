@@ -74,7 +74,7 @@ with tab1:
     # TOP INPUT UI
     with st.container():
         with st.form("chat_form", clear_on_submit=True):
-            user_input = st.text_input("Ρωτήστε για τους νόμους:", placeholder="π.χ. Τι προβλέπουν τα докумένττα;")
+            user_input = st.text_input("Ρωτήστε για τους νόμους:", placeholder="π.χ. Τι είναι το νόμος 2103/1993;")
             submit_button = st.form_submit_button("Αποστολή 🚀")
 
     if submit_button and user_input:
