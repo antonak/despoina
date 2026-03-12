@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from groq import Groq
 
-# 1. Βασικές Ρυθμίσεις
+# --- 1. BASIC CONFIGURATION ---
 st.set_page_config(page_title="Parasecurity Legal AI", page_icon="⚖️", layout="wide")
 
 # --- SIDEBAR & BRANDING ---
@@ -12,108 +12,122 @@ with st.sidebar:
     st.subheader("FORTH & TUC Lab")
     st.markdown("[About Project](https://grelections.parasecurity.edu.gr/about)")
     st.divider()
+    # Clear history logic
     if st.button("🗑️ Clear Chat History"):
         st.session_state.messages = []
         st.rerun()
 
-# 2. Σύνδεση με Groq
+# --- 2. API CONNECTION ---
 if "GROQ_API_KEY" not in st.secrets:
-    st.error("Προσθέστε το GROQ_API_KEY στα Secrets.")
+    st.error("Missing GROQ_API_KEY in Secrets.")
     st.stop()
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-# 3. Φόρτωση Δεδομένων
+# --- 3. DATA LOADING ---
 @st.cache_data
 def load_data():
     current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Ensure this path matches your GitHub structure
     csv_path = os.path.join(current_dir, "praktika_2025_2026/laws_articles.csv")
-    return pd.read_csv(csv_path) if os.path.exists(csv_path) else None
+    if os.path.exists(csv_path):
+        return pd.read_csv(csv_path)
+    return None
 
 df = load_data()
 
-# --- ΔΗΜΙΟΥΡΓΙΑ TABS ---
+# --- 4. TABS CREATION ---
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector (Audio/Video)"])
+
 # ---------------------------------------------------------
-# TAB 1: Chatbot (RAG) - Top Input Version
+# TAB 1: Chatbot (RAG) with TOP INPUT
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
     
-    # Initialize session state for messages
+    # Initialize message history
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # 1. TOP INPUT FIELD
-    # Using a form helps handle the 'Enter' key properly for a top-mounted input
-    with st.form("chat_form", clear_on_submit=True):
-        user_input = st.text_input("Ρωτήστε για τους νόμους...", placeholder="Πληκτρολογήστε εδώ και πατήστε Enter")
-        submit_button = st.form_submit_button("Αποστολή 🚀")
+    # UI Fix: Input stays at the top
+    with st.container():
+        with st.form("chat_form", clear_on_submit=True):
+            user_query = st.text_input("Ρωτήστε για τους νόμους:", placeholder="π.χ. Τι προβλέπει το άρθρο 5...")
+            submitted = st.form_submit_button("Αποστολή 🚀")
 
-    # 2. CHAT LOGIC
-    if (submit_button or user_input) and user_input:
-        # Add user message to state
-        st.session_state.messages.append({"role": "user", "content": user_input})
+        if submitted and user_query:
+            # 1. Add User Message to History
+            st.session_state.messages.append({"role": "user", "content": user_query})
 
-        # Basic RAG Logic
-        context = ""
-        if df is not None:
-            potential_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
-            text_col = potential_cols[0] if potential_cols else df.columns[-1]
-            keywords = user_input.split()
-            mask = df[text_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
-            context = "\n".join(df[mask].head(3)[text_col].values)
+            # 2. RAG Logic (Context Retrieval)
+            context = ""
+            if df is not None:
+                # Find the column containing the law text
+                text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
+                target_col = text_cols[0] if text_cols else df.columns[-1]
+                
+                # Simple keyword match
+                keywords = user_query.split()
+                mask = df[target_col].astype(str).str.contains('|'.join(keywords), case=False, na=False)
+                context = "\n".join(df[mask].head(3)[target_col].values)
 
-        # Get AI Response
-        response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            messages=[
-                {"role": "system", "content": f"Είσαι AI βοηθός της Parasecurity. Χρησιμοποίησε το context:\n{context}"},
-                {"role": "user", "content": user_input}
-            ]
-        )
-        answer = response.choices[0].message.content
-        st.session_state.messages.append({"role": "assistant", "content": answer})
-        
-        # Rerun to show new messages immediately
-        st.rerun()
+            # 3. Get AI Response from Groq
+            try:
+                chat_completion = client.chat.completions.create(
+                    model="llama-3.3-70b-versatile",
+                    messages=[
+                        {"role": "system", "content": f"Είσαι ο AI Νομικός Σύμβουλος της Parasecurity. Χρησιμοποίησε το context για να απαντήσεις τεκμηριωμένα:\n{context}"},
+                        *st.session_state.messages[-5:], # Include last 5 messages for conversation memory
+                    ]
+                )
+                assistant_res = chat_completion.choices[0].message.content
+                st.session_state.messages.append({"role": "assistant", "content": assistant_res})
+                st.rerun() # Refresh to show response
+            except Exception as e:
+                st.error(f"Σφάλμα AI: {e}")
 
-    # 3. MESSAGE DISPLAY (Bottom section)
-    # We display them in REVERSE order if you want the newest on top, 
-    # or normal order to keep it like a standard chat.
+    # 4. DISPLAY MESSAGES (Newest on Top)
     st.divider()
-    for message in reversed(st.session_state.messages):
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+    for msg in reversed(st.session_state.messages):
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+
 # ---------------------------------------------------------
-# TAB 2: Fake News Detector (Whisper + Fact-Check)
+# TAB 2: Fake News Detector
 # ---------------------------------------------------------
 with tab2:
     st.header("🔍 Ανίχνευση Ψευδών Ειδήσεων")
-    st.write("Ανεβάστε ένα αρχείο ήχου ή βίντεο για να ελέγξουμε αν οι ισχυρισμοί συμβαδίζουν με τη νομοθεσία.")
+    st.write("Ανεβάστε αρχείο για διασταύρωση με τη νομοθεσία.")
     
     media_file = st.file_uploader("Upload Audio/Video", type=["mp3", "mp4", "wav", "m4a"])
     
     if media_file:
-        with st.status("Ανάλυση πολυμέσων...", expanded=True) as status:
-            # 1. Μεταγραφή
-            st.write("Μετατροπή ομιλίας σε κείμενο (Groq Whisper)...")
-            transcription = client.audio.transcriptions.create(
-                file=(media_file.name, media_file.read()),
-                model="distil-whisper-large-v3-it",
-                response_format="text",
-                language="el"
-            )
-            st.info(f"Κείμενο: {transcription[:200]}...")
+        if st.button("🚀 Έναρξη Ανάλυσης"):
+            with st.status("Επεξεργασία...", expanded=True) as status:
+                try:
+                    # Transcription via Whisper
+                    st.write("Μεταγραφή ομιλίας (Whisper)...")
+                    # Note: We must reset file pointer if read previously
+                    file_content = media_file.read()
+                    transcription = client.audio.transcriptions.create(
+                        file=(media_file.name, file_content),
+                        model="distil-whisper-large-v3-it",
+                        response_format="text",
+                        language="el"
+                    )
+                    
+                    st.info(f"Κείμενο που εντοπίστηκε: {transcription[:300]}...")
 
-            # 2. Fact-Checking
-            st.write("Διασταύρωση με επίσημα πρακτικά...")
-            check_prompt = f"Είσαι Fact-Checker της Parasecurity. Έλεγξε αν το παρακάτω κείμενο περιέχει Fake News βάσει της νομοθεσίας: {transcription}"
-            
-            check_res = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[{"role": "user", "content": check_prompt}]
-            )
-            
-            status.update(label="Η ανάλυση ολοκληρώθηκε!", state="complete")
-            st.subheader("📊 Αποτέλεσμα Ελέγχου")
-            st.success(check_res.choices[0].message.content)
+                    # Fact-Check via Llama
+                    st.write("Έλεγχος εγκυρότητας...")
+                    check_prompt = f"Είσαι Fact-Checker της Parasecurity. Ανάλυσε αν το κείμενο περιέχει παραπληροφόρηση βάσει της νομοθεσίας: {transcription}"
+                    
+                    check_res = client.chat.completions.create(
+                        model="llama-3.3-70b-versatile",
+                        messages=[{"role": "user", "content": check_prompt}]
+                    )
+                    
+                    status.update(label="Η ανάλυση ολοκληρώθηκε!", state="complete")
+                    st.subheader("📊 Πόρισμα Ελέγχου")
+                    st.success(check_res.choices[0].message.content)
+                except Exception as e:
+                    st.error(f"Σφάλμα κατά την επεξεργασία: {e}")
