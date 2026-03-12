@@ -2,89 +2,104 @@ import streamlit as st
 import os
 import trafilatura
 from groq import Groq
-# Explicit import to avoid attribute errors
-from youtube_transcript_api import YouTubeTranscriptApi 
+from youtube_transcript_api import YouTubeTranscriptApi
+import yt_dlp
 
-# --- APP CONFIGURATION ---
-# Set the page title and professional layout
-st.set_page_config(page_title="Parasecurity | Forensic Investigator", page_icon="🛡️", layout="wide")
+# --- PAGE CONFIGURATION ---
+st.set_page_config(page_title="Parasecurity | Hybrid Investigator", page_icon="🛡️", layout="wide")
 
-# --- CUSTOM INTERFACE STYLING ---
-# Professional Parasecurity branding with red/dark theme
+# --- CUSTOM CSS BRANDING ---
 st.markdown("""
     <style>
     .stButton>button { width: 100%; border-radius: 8px; height: 3.5em; background-color: #d32f2f; color: white; font-weight: bold; }
-    .stExpander { border: 1px solid #444; border-radius: 8px; }
+    .stAlert { border-radius: 10px; }
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🛡️ Parasecurity Investigator")
-st.markdown("### Forensic Intelligence: Multimedia Fact-Checking & Bias Analysis")
-st.caption("Lab Environment | FORTH & Technical University of Crete (TUC)")
+st.title("🛡️ Parasecurity Hybrid Investigator")
+st.markdown("### Multimedia Fact-Checking & Audio Forensics")
+st.caption("Advanced Lab Tool | FORTH & TUC")
 
-# --- SESSION STATE INITIALIZATION ---
-# Session state handles 'Memory'. It ensures extracted data isn't lost during UI refreshes.
+# --- INITIALIZE SESSION MEMORY ---
+# Ensures data persists during UI refreshes and button clicks
 if "content_to_check" not in st.session_state:
     st.session_state.content_to_check = ""
 if "analysis_report" not in st.session_state:
     st.session_state.analysis_report = ""
 
-# --- SECURITY & API CHECK ---
-# Verify Groq API Key existence in Streamlit Secrets
+# --- API KEY SECURITY CHECK ---
 if "GROQ_API_KEY" not in st.secrets:
     st.error("GROQ_API_KEY is missing from Secrets.")
     st.stop()
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-# --- INPUT MODULES ---
-# Navigation for data sources
-source = st.radio("Select Evidence Source:", 
-                  ["🔗 YouTube Video", "📰 News Link", "📁 Local Media"], 
+# --- DATA SOURCE SELECTION ---
+source = st.radio("Select Investigation Source:", 
+                  ["🔗 YouTube Hybrid", "📰 News Scraper", "📁 Manual Upload"], 
                   horizontal=True)
 
 col1, col2 = st.columns([3, 1])
 
 with col1:
-    # 1. YOUTUBE TRANSCRIPTION (Fixed Logic)
-    if source == "🔗 YouTube Video":
-        url = st.text_input("YouTube URL (e.g., Political Speech, Interview):")
-        if st.button("Extract Transcript"):
+    # 1. HYBRID YOUTUBE LOGIC (Transcript API + Whisper Fallback)
+    if source == "🔗 YouTube Hybrid":
+        url = st.text_input("Paste YouTube URL:")
+        if st.button("Process Video Evidence"):
             if url:
+                video_id = url.split("v=")[-1] if "v=" in url else url.split("/")[-1]
+                if "&" in video_id: video_id = video_id.split("&")[0]
+                
+                # Attempt 1: Fetching existing transcripts
                 try:
-                    # Parse the Video ID from the URL string
-                    video_id = url.split("v=")[-1] if "v=" in url else url.split("/")[-1]
-                    if "&" in video_id: video_id = video_id.split("&")[0]
-                    
-                    # Correct method call to YouTubeTranscriptApi class
-                    data = YouTubeTranscriptApi.get_transcript(video_id, languages=['el', 'en'])
-                    
-                    # Join transcript fragments into a single text block
-                    st.session_state.content_to_check = " ".join([item['text'] for item in data])
-                    st.success("Transcript successfully retrieved.")
-                except Exception as e:
-                    st.error(f"YouTube Transcript Error: {e}")
+                    with st.spinner("Step 1: Fetching official transcripts..."):
+                        data = YouTubeTranscriptApi.get_transcript(video_id, languages=['el', 'en'])
+                        st.session_state.content_to_check = " ".join([item['text'] for item in data])
+                        st.success("Transcript retrieved successfully.")
+                
+                # Attempt 2: Fallback to AI Audio Analysis (Whisper)
+                except Exception:
+                    st.warning("No subtitles found. Initializing AI Audio Extraction (Whisper)...")
+                    try:
+                        ydl_opts = {
+                            'format': 'm4a/bestaudio/best',
+                            'outtmpl': 'temp_yt_audio.%(ext)s',
+                            'quiet': True,
+                            'no_warnings': True
+                        }
+                        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                            ydl.download([url])
+                        
+                        with open("temp_yt_audio.m4a", "rb") as audio_file:
+                            transcription = client.audio.transcriptions.create(
+                                file=("temp_yt_audio.m4a", audio_file.read()),
+                                model="distil-whisper-large-v3-it",
+                                response_format="text",
+                                language="el"
+                            )
+                        st.session_state.content_to_check = transcription
+                        st.success("AI successfully transcribed video audio.")
+                        if os.path.exists("temp_yt_audio.m4a"): os.remove("temp_yt_audio.m4a")
+                    except Exception as e:
+                        st.error(f"Critical System Failure: {e}")
 
-    # 2. NEWS ARTICLE SCRAPING
-    elif source == "📰 News Link":
-        url = st.text_input("News Article URL:")
-        if st.button("Scrape Web Content"):
-            if url:
-                try:
-                    # Fetch and clean the article text
-                    downloaded = trafilatura.fetch_url(url)
-                    st.session_state.content_to_check = trafilatura.extract(downloaded)
-                    if st.session_state.content_to_check:
-                        st.success("Article content successfully parsed.")
-                except Exception as e:
-                    st.error(f"Scraping error: {e}")
-
-    # 3. AUDIO/VIDEO FILE TRANSCRIPTION
-    else:
-        uploaded_file = st.file_uploader("Upload Audio/Video:", type=["mp3", "mp4", "wav", "m4a"])
-        if uploaded_file and st.button("Transcribe via Groq Whisper"):
+    # 2. WEB CONTENT SCRAPER
+    elif source == "📰 News Scraper":
+        url = st.text_input("Article Link:")
+        if st.button("Scrape Data"):
             try:
-                with st.spinner("Whisper AI is processing the stream..."):
+                downloaded = trafilatura.fetch_url(url)
+                st.session_state.content_to_check = trafilatura.extract(downloaded)
+                st.success("Web content successfully indexed.")
+            except Exception as e:
+                st.error(f"Scraper Error: {e}")
+
+    # 3. LOCAL FILE FORENSICS
+    else:
+        uploaded_file = st.file_uploader("Upload Evidence (MP3/MP4/WAV):", type=["mp3", "mp4", "wav", "m4a"])
+        if uploaded_file and st.button("Run AI Transcription"):
+            try:
+                with st.spinner("Analyzing audio stream..."):
                     transcription = client.audio.transcriptions.create(
                         file=(uploaded_file.name, uploaded_file.read()),
                         model="distil-whisper-large-v3-it",
@@ -92,67 +107,64 @@ with col1:
                         language="el"
                     )
                     st.session_state.content_to_check = transcription
-                    st.success("Transcription complete.")
+                    st.success("Forensic transcription complete.")
             except Exception as e:
                 st.error(f"Whisper Error: {e}")
 
 with col2:
-    st.info("💡 **Security Tip**: Clear the memory between different investigations to ensure clean results.")
-    if st.button("Reset Lab Memory"):
+    st.info("🔎 **Investigator Mode**: Active")
+    if st.button("Clear Lab Records"):
         st.session_state.content_to_check = ""
         st.session_state.analysis_report = ""
         st.rerun()
 
 # --- FORENSIC ANALYSIS ENGINE ---
-# This part triggers only if content exists in the memory
+
+
 if st.session_state.content_to_check:
     st.divider()
-    with st.expander("📋 View Extracted Evidence (Raw Text)"):
+    with st.expander("📝 View Raw Evidence"):
         st.write(st.session_state.content_to_check)
 
-    if st.button("🚀 EXECUTE FORENSIC ANALYSIS"):
-        with st.status("Detecting propaganda and analyzing claims...", expanded=True) as status:
+    if st.button("🚀 EXECUTE FACT-CHECKING REPORT"):
+        with st.status("Analyzing content for misinformation & bias...", expanded=True) as status:
             try:
-                # SKEPTICAL INVESTIGATOR PROMPT
-                # Forces the model to look for fallacies, bias, and legal contradictions
+                # SKEPTICAL PROMPT: Forces AI to identify manipulation techniques
                 prompt = f"""
                 ΣΥΣΤΗΜΑ: Είσαι ο Ψηφιακός Ανακριτής της Parasecurity.
-                ΡΟΛΟΣ: Ειδικός στη γλωσσολογική ανάλυση και την ανίχνευση παραπληροφόρησης.
+                ΡΟΛΟΣ: Forensic Fact-Checker. 
                 
                 ΠΡΟΣ ΑΝΑΛΥΣΗ:
                 {st.session_state.content_to_check}
                 
                 ΟΔΗΓΙΕΣ:
-                1. Μην αποδέχεσαι το κείμενο ως αληθές. Αναζήτησε αντιφάσεις και 'Red Flags'.
-                2. Εντόπισε τεχνικές χειραγώγησης (π.χ. επίκληση στο συναίσθημα, επιλεκτική χρήση στοιχείων).
-                3. Έλεγξε αν οι ισχυρισμοί είναι νομικά βάσιμοι βάσει της Ελληνικής Νομοθεσίας.
-                4. Αξιολόγησε την αντικειμενικότητα της πηγής.
+                1. Εντόπισε ψευδείς ισχυρισμούς και λογικές πλάνες.
+                2. Ανίχνευσε τεχνικές προπαγάνδας (clickbait, επίκληση στο συναίσθημα).
+                3. Σύγκρινε με την Ελληνική πραγματικότητα και νομοθεσία.
+                4. Δώσε 'Red Flags' αν η πηγή δεν είναι αξιόπιστη.
 
                 ΔΟΜΗ ΑΠΑΝΤΗΣΗΣ:
-                - **ΒΑΣΙΚΟΙ ΙΣΧΥΡΙΣΜΟΙ**: (Λίστα με τους κύριους ισχυρισμούς)
-                - **ΑΞΙΟΛΟΓΗΣΗ ΕΓΚΥΡΟΤΗΤΑΣ**: (Αληθές / Ψευδές / Παραπλανητικό / Ανεπιβεβαίωτο)
-                - **ΣΗΜΑΤΑ ΚΙΝΔΥΝΟΥ (Red Flags)**: (Εντοπισμός τεχνικών προπαγάνδας)
+                - **ΒΑΣΙΚΟΙ ΙΣΧΥΡΙΣΜΟΙ**: (Λίστα)
+                - **ΑΞΙΟΛΟΓΗΣΗ**: (Αληθές / Ψευδές / Παραπλανητικό / Ανεπιβεβαίωτο)
+                - **RED FLAGS**: (Τεχνικές χειραγώγησης)
                 - **ΒΑΘΜΟΣ ΠΙΣΤΟΤΗΤΑΣ**: (0-100%)
                 
-                Απάντησε στα Ελληνικά με αυστηρά επαγγελματικό ύφος.
+                Απάντησε στα Ελληνικά με επαγγελματικό ύφος.
                 """
                 
-                # Temperature 0 for maximum factual accuracy
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[{"role": "user", "content": prompt}],
-                    temperature=0 
+                    temperature=0 # Absolute factual precision
                 )
                 
                 st.session_state.analysis_report = response.choices[0].message.content
-                status.update(label="Forensic Analysis Finished!", state="complete")
+                status.update(label="Forensic Audit Completed!", state="complete")
             except Exception as e:
                 st.error(f"AI Engine Error: {e}")
 
-# Render the final report
 if st.session_state.analysis_report:
-    st.subheader("📊 Forensic Investigative Report")
+    st.subheader("📊 Forensic Audit Report")
     st.markdown(st.session_state.analysis_report)
 
-st.sidebar.divider()
-st.sidebar.caption("Parasecurity Labs 2026 | FORTH & TUC")
+st.sidebar.caption("© 2026 Parasecurity Labs | FORTH & TUC")
