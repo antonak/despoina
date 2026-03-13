@@ -109,7 +109,7 @@ with tab1:
         except Exception as e:
             st.error(f"AI Service Error: {e}")
 
-    # 3. ΕΜΦΑΝΙΣΗ: Τελευταίο ζευγάρι πρώτο, αλλά μέσα στο ζευγάρι User -> Assistant
+    # 3. ΕΜΦΑΝΙΣΗ: Τελευταίο ζευγάρι πρώτο, αλλά μέσα στο ζευγάρι User -> Assistantthesrhs
     with chat_container:
         st.write("---")
         # Ομαδοποιούμε τα μηνύματα σε ζευγάρια (User, Assistant)
