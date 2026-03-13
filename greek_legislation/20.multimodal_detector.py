@@ -1,11 +1,12 @@
 import streamlit as st
 import os
+import re
 import trafilatura
 from groq import Groq
 from youtube_transcript_api import YouTubeTranscriptApi
 import yt_dlp
 
-# --- APP CONFIGURATION ---
+# --- 1. APP CONFIGURATION ---
 st.set_page_config(page_title="Parasecurity | Fake News Detection", page_icon="🛡️", layout="wide")
 
 # --- CUSTOM CSS BRANDING ---
@@ -21,21 +22,22 @@ st.title("🛡️ Parasecurity Hybrid Investigator")
 st.markdown("### Multimedia & Text Fake News Detection System")
 st.caption("Forensic Intelligence Environment | FORTH & TUC Lab")
 
-# --- SESSION STATE (MEMORY) ---
-# Persists extracted data across UI interactions
+# --- 2. SESSION STATE (MEMORY) ---
 if "content_to_check" not in st.session_state:
     st.session_state.content_to_check = ""
 if "analysis_report" not in st.session_state:
     st.session_state.analysis_report = ""
+if "selected_lang" not in st.session_state:
+    st.session_state.selected_lang = "Ελληνικά 🇬🇷"
 
-# --- API KEY VALIDATION ---
+# --- 3. API KEY VALIDATION ---
 if "GROQ_API_KEY" not in st.secrets:
     st.error("GROQ_API_KEY is missing from Streamlit Secrets.")
     st.stop()
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-# --- INPUT PANEL ---
+# --- 4. INPUT PANEL ---
 source = st.radio("Select Investigation Source:", 
                   ["📝 Text Analysis", "🔗 YouTube Hybrid", "📰 News Scraper", "📁 Manual Upload"], 
                   horizontal=True)
@@ -48,9 +50,9 @@ with col1:
         text_input = st.text_area("Paste text or claims to verify:", height=200)
         if st.button("Load Text for Analysis"):
             st.session_state.content_to_check = text_input
-            st.success("Text data successfully loaded into memory.")
+            st.success("Text data successfully loaded.")
 
-    # 2. HYBRID YOUTUBE (API + WHISPER FALLBACK)
+    # 2. HYBRID YOUTUBE
     elif source == "🔗 YouTube Hybrid":
         url = st.text_input("YouTube URL:")
         if st.button("Process Video Evidence"):
@@ -58,13 +60,11 @@ with col1:
                 video_id = url.split("v=")[-1] if "v=" in url else url.split("/")[-1]
                 if "&" in video_id: video_id = video_id.split("&")[0]
                 
-                # Attempt Fast Transcript Retrieval
                 try:
                     with st.spinner("Retrieving official transcripts..."):
                         data = YouTubeTranscriptApi.get_transcript(video_id, languages=['el', 'en'])
                         st.session_state.content_to_check = " ".join([item['text'] for item in data])
                         st.success("Transcript retrieved successfully.")
-                # Fallback to Whisper Audio Transcription
                 except Exception:
                     st.warning("Subtitles unavailable. Running AI Audio Extraction (Whisper)...")
                     try:
@@ -83,7 +83,7 @@ with col1:
                     except Exception as e:
                         st.error(f"Critical System Failure: {e}")
 
-    # 3. NEWS SCRAPER (WEB ARTICLES)
+    # 3. NEWS SCRAPER
     elif source == "📰 News Scraper":
         url = st.text_input("Article Link:")
         if st.button("Scrape Web Content"):
@@ -94,7 +94,7 @@ with col1:
             except Exception as e:
                 st.error(f"Scraper Error: {e}")
 
-    # 4. FILE UPLOAD (MP3/MP4)
+    # 4. FILE UPLOAD
     else:
         uploaded_file = st.file_uploader("Upload Audio/Video:", type=["mp3", "mp4", "wav", "m4a"])
         if uploaded_file and st.button("Run AI Forensic Transcription"):
@@ -111,52 +111,40 @@ with col1:
 
 with col2:
     st.info("🔎 **Investigator Mode**: Active")
-    # THE PERSISTENT CLEAR BUTTON
     if st.button("🗑️ Clear Lab Records"):
         st.session_state.content_to_check = ""
         st.session_state.analysis_report = ""
         st.rerun()
 
-# --- FORENSIC ANALYSIS ENGINE (DUAL LANGUAGE) ---
-
+# --- 5. FORENSIC ANALYSIS ENGINE (DUAL LANGUAGE) ---
 
 if st.session_state.content_to_check:
     st.divider()
-    # Updated Button Label as requested
     if st.button("🚀 EXECUTE FAKE NEWS DETECTION"):
         with st.status("Analyzing claims and detecting propaganda patterns...", expanded=True) as status:
             try:
-                # DUAL-LANGUAGE SKEPTICAL PROMPT
                 prompt = f"""
-                SYSTEM: You are the Parasecurity Forensic Truth-Seeker. 
-                ROLE: Expert in identifying propaganda, logical fallacies, and misinformation.
+                SYSTEM: You are the Parasecurity Forensic Truth-Seeker.
+                ROLE: Expert in identifying propaganda and misinformation.
                 
                 CONTENT TO ANALYZE:
                 {st.session_state.content_to_check}
                 
                 INSTRUCTIONS:
-                1. Critically evaluate all claims. Look for emotional manipulation or lack of sourcing.
-                2. Check if the narrative conflicts with official Greek Law or factual records.
-                3. PROVIDE THE REPORT IN TWO SECTIONS: GREEK AND THEN ENGLISH.
+                1. Critically evaluate claims.
+                2. Provide the report in GREEK, then the exact symbol '|||', then the report in ENGLISH.
 
-                STRUCTURE:
-                --- ΕΛΛΗΝΙΚΗ ΕΚΘΕΣΗ (GREEK REPORT) ---
-                - **ΒΑΣΙΚΟΙ ΙΣΧΥΡΙΣΜΟΙ**:
-                - **ΕΤΥΜΗΓΟΡΙΑ**: (Αληθές / Ψευδές / Παραπλανητικό / Ανεπιβεβαίωτο)
-                - **ΚΟΚΚΙΝΕΣ ΣΗΜΑΙΕΣ**: (Τεχνικές χειραγώγησης ή προπαγάνδας)
-                - **ΒΑΘΜΟΣ ΠΙΣΤΟΤΗΤΑΣ**: (0-100%)
-
-                --- ENGLISH FORENSIC REPORT ---
-                - **KEY CLAIMS**:
-                - **VERDICT**:
-                - **RED FLAGS**:
-                - **CREDIBILITY SCORE**:
+                STRUCTURE FOR BOTH LANGUAGES:
+                - **ΒΑΣΙΚΟΙ ΙΣΧΥΡΙΣΜΟΙ / KEY CLAIMS**:
+                - **ΕΤΥΜΗΓΟΡΙΑ / VERDICT**:
+                - **ΚΟΚΚΙΝΕΣ ΣΗΜΑΙΕΣ / RED FLAGS**:
+                - **ΒΑΘΜΟΣ ΠΙΣΤΟΤΗΤΑΣ / CREDIBILITY SCORE**:
                 """
                 
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[{"role": "user", "content": prompt}],
-                    temperature=0 # Factual precision mode
+                    temperature=0 
                 )
                 
                 st.session_state.analysis_report = response.choices[0].message.content
@@ -164,10 +152,36 @@ if st.session_state.content_to_check:
             except Exception as e:
                 st.error(f"AI Engine Error: {e}")
 
-# Render the result
+# --- 6. RENDER THE RESULT WITH LANGUAGE TOGGLE ---
 if st.session_state.analysis_report:
-    st.subheader("📊 Fake News Detection Report (EL/EN)")
-    st.markdown(st.session_state.analysis_report)
+    st.subheader("📊 Fake News Detection Report")
+    
+    # Split content logic
+    if "|||" in st.session_state.analysis_report:
+        parts = st.session_state.analysis_report.split("|||")
+        greek_content = parts[0].strip()
+        english_content = parts[1].strip()
+    else:
+        greek_content = st.session_state.analysis_report
+        english_content = "English version was not partitioned correctly by AI."
+
+    # Language Switcher Buttons
+    l_col1, l_col2, _ = st.columns([1, 1, 4])
+    with l_col1:
+        if st.button("Ελληνικά 🇬🇷"):
+            st.session_state.selected_lang = "Ελληνικά 🇬🇷"
+            st.rerun()
+    with l_col2:
+        if st.button("English 🇬🇧"):
+            st.session_state.selected_lang = "English 🇬🇧"
+            st.rerun()
+
+    # Display selected language
+    st.markdown(f"### {st.session_state.selected_lang}")
+    if st.session_state.selected_lang == "Ελληνικά 🇬🇷":
+        st.markdown(greek_content)
+    else:
+        st.markdown(english_content)
 
 st.sidebar.divider()
 st.sidebar.caption("© 2026 Parasecurity Labs | FORTH & TUC")
