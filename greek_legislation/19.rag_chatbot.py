@@ -52,82 +52,84 @@ df = load_data()
 # --- 3. UI TABS ---
 tab1, tab2 = st.tabs(["💬 Νομικός Σύμβουλος (Chat)", "🔍 Fake News Detector"])
 
+ 
 # ---------------------------------------------------------
 # TAB 1: Chatbot (Legal Consultant)
 # ---------------------------------------------------------
 with tab1:
     st.header("⚖️ Συζήτηση με τη Νομοθεσία")
     
-    # Initialize session state for chat history
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # INPUT SECTION: Using a form to enable 'Enter' key submission and auto-clear
-    with st.container():
-        with st.form(key="chat_form", clear_on_submit=True):
-            user_input = st.text_input("Ρωτήστε για τους νόμους:", key="input_field")
-            submit_button = st.form_submit_button("Αποστολή 🚀")
+    # 1. ΣΤΑΘΕΡΟ INPUT ΣΤΗΝ ΚΟΡΥΦΗ
+    with st.form(key="top_input_form", clear_on_submit=True):
+        user_input = st.text_input("Ρωτήστε για τους νόμους:", placeholder="π.χ. Τι λέει το άρθρο 5 για το Κτηματολόγιο;")
+        submit_button = st.form_submit_button("Αποστολή 🚀")
+
+    # 2. CONTAINER ΓΙΑ ΤΑ ΜΗΝΥΜΑΤΑ
+    chat_container = st.container()
 
     if submit_button and user_input:
-        # Step A: Forensic Check & Text Normalization
         suspicious = detect_suspicious_characters(user_input)
         clean_input = sanitize_greek_text(user_input)
         
-        # Prepare text for display (add warning flag if suspicious chars found)
         display_text = user_input
         if suspicious:
             display_text = f"🚩 [Εντοπίστηκαν ύποπτοι χαρακτήρες: {', '.join(suspicious)}]\n\n{user_input}"
         
-        # Append user message to history
+        # Αποθήκευση ερώτησης
         st.session_state.messages.append({"role": "user", "content": display_text})
 
-        # Step B: RAG Logic (Retrieval Augmented Generation)
+        # RAG Logic
         context = ""
         if df is not None:
-            # Identify the column containing the legal text
             text_cols = [c for c in df.columns if any(w in c.lower() for w in ['text', 'content', 'άρθρο'])]
             target_col = text_cols[0] if text_cols else df.columns[-1]
-            
-            # Escape keywords to prevent Regex PatternErrors (e.g., from '?' or '*')
             keywords = [re.escape(word) for word in clean_input.split() if word]
             if keywords:
                 pattern = '|'.join(keywords)
-                # Filter CSV for relevant laws/articles
                 mask = df[target_col].astype(str).str.contains(pattern, case=False, na=False, regex=True)
-                # Limit context to top 2 results and truncate to avoid Token Limit (Error 413)
                 context = "\n\n".join(df[mask].head(2)[target_col].astype(str).str[:1500].values)
 
-        # Step C: AI Generation via Groq (Llama 3.3)
+        # AI Generation
         try:
             with st.spinner("Αναζήτηση..."):
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=[
-                        {
-                            "role": "system", 
-                            "content": (
-                                "You are the AI Legal Consultant for Parasecurity. "
-                                "Respond strictly in Greek with a professional and neutral tone. "
-                                "Do NOT use any names (yours or the user's). "
-                                "Provide evidence-based answers using the provided context:\n"
-                                f"{context}"
-                            )
-                        },
-                        # Send the last 3 messages for conversational memory
-                        *st.session_state.messages[-3:]
+                        {"role": "system", "content": f"You are the AI Legal Consultant for Parasecurity. Respond strictly in Greek. Context:\n{context}"},
+                        *st.session_state.messages[-5:]
                     ]
                 )
                 answer = response.choices[0].message.content
+                # Αποθήκευση απάντησης
                 st.session_state.messages.append({"role": "assistant", "content": answer})
-                st.rerun() # Refresh to show the new message immediately
+                st.rerun()
         except Exception as e:
             st.error(f"AI Service Error: {e}")
 
-    # MESSAGE DISPLAY: Newest messages appear at the top
-    st.divider()
-    for message in reversed(st.session_state.messages):
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+    # 3. ΕΜΦΑΝΙΣΗ: Τελευταίο ζευγάρι πρώτο, αλλά μέσα στο ζευγάρι User -> Assistant
+    with chat_container:
+        st.write("---")
+        # Ομαδοποιούμε τα μηνύματα σε ζευγάρια (User, Assistant)
+        # και αντιστρέφουμε τη σειρά των ζευγαριών
+        msgs = st.session_state.messages
+        for i in range(len(msgs) - 1, -1, -2):
+            # Αν υπάρχει ζευγάρι (User + Assistant)
+            if i > 0 and msgs[i-1]["role"] == "user":
+                # Δείχνουμε πρώτα τον User (i-1)
+                with st.chat_message("user"):
+                    st.markdown(msgs[i-1]["content"])
+                # Και μετά τον Assistant (i)
+                with st.chat_message("assistant"):
+                    st.markdown(msgs[i]["content"])
+                st.divider() # Μικρή γραμμή ανάμεσα στα ζευγάρια
+            
+            # Περίπτωση που υπάρχει μόνο ερώτηση (πριν απαντήσει το AI)
+            elif msgs[i]["role"] == "user":
+                with st.chat_message("user"):
+                    st.markdown(msgs[i]["content"])
 
 # ---------------------------------------------------------
 # TAB 2: Fake News Detector (Media Fact-Checking)
