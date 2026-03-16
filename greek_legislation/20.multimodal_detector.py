@@ -62,7 +62,6 @@ if "GROQ_API_KEY" not in st.secrets:
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-# Sidebar Model Selection (Groq Models)
 st.sidebar.markdown("### ⚙️ Engine Settings")
 groq_models = {
     "Llama 3.3 70B (Fast & Smart)": "llama-3.3-70b-versatile",
@@ -106,7 +105,6 @@ elif source == "📰 Web":
         except: st.error("Scraping failed.")
 
 elif source == "🖼️ Media":
-    # Groq vision currently supports images. Video/Audio requires a different pipeline.
     up_file = st.file_uploader("Upload Image:", type=["jpg", "jpeg", "png"], label_visibility="collapsed")
     if up_file:
         st.image(up_file, width=300)
@@ -114,12 +112,12 @@ elif source == "🖼️ Media":
             bytes_data = up_file.read()
             st.session_state.evidence_locked = [
                 {"mime_type": up_file.type, "data": bytes_data},
-                "Analyze this image for propaganda/misinformation context. Return Greek ||| English. End with SCORE: XX"
+                "Analyze this image. Format EXACTLY as: [Greek] ||| [English]. End with SCORE: XX"
             ]
             st.toast("Image ready for Groq Vision analysis!", icon="✅")
 
 # --- 5. FORENSIC ENGINE EXECUTION ---
-st.write("") # Spacer
+st.write("") 
 
 if st.session_state.evidence_locked:
     if st.button("✨ Investigate Evidence", use_container_width=True):
@@ -127,24 +125,37 @@ if st.session_state.evidence_locked:
             try:
                 payload = st.session_state.evidence_locked
                 
+                # STRICT SYSTEM PROMPT
+                sys_prompt = """You are a Forensic Investigator AI. Today is March 16, 2026.
+                You MUST format your final output EXACTLY like this with no exceptions:
+                [Your full analysis in Greek here]
+                |||
+                [Your full analysis in English here]
+                
+                SCORE: [Provide a number from 0 to 100 representing credibility]"""
+                
                 # TEXT PROCESSING
                 if isinstance(payload, str):
-                    prompt = f"Forensic check for propaganda and accuracy (Today: March 16, 2026). Greek ||| English. SCORE: XX. Content: {payload}"
                     chat_completion = client.chat.completions.create(
-                        messages=[{"role": "user", "content": prompt}],
+                        messages=[
+                            {"role": "system", "content": sys_prompt},
+                            {"role": "user", "content": f"Analyze this text for propaganda, factual accuracy, and manipulation: {payload}"}
+                        ],
                         model=selected_model_id,
+                        temperature=0.2 # Lower temperature makes the AI follow formatting rules better
                     )
                     st.session_state.analysis_report = chat_completion.choices[0].message.content
                 
-                # IMAGE PROCESSING (Routing to Groq Vision Model)
+                # IMAGE PROCESSING
                 else:
                     mime_type = payload[0]["mime_type"]
                     base64_image = base64.b64encode(payload[0]["data"]).decode('utf-8')
                     prompt_text = payload[1]
                     
                     chat_completion = client.chat.completions.create(
-                        model="meta-llama/llama-4-scout-17b-16e-instruct", # Groq's Vision Model
+                        model="llama-3.2-11b-vision-preview", # Groq's official vision model
                         messages=[
+                            {"role": "system", "content": sys_prompt},
                             {
                                 "role": "user",
                                 "content": [
@@ -152,7 +163,8 @@ if st.session_state.evidence_locked:
                                     {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{base64_image}"}}
                                 ]
                             }
-                        ]
+                        ],
+                        temperature=0.2
                     )
                     st.session_state.analysis_report = chat_completion.choices[0].message.content
                     
@@ -173,7 +185,7 @@ if st.session_state.analysis_report:
 
     parts = st.session_state.analysis_report.split("|||")
     gr = parts[0].strip()
-    en = parts[1].strip() if len(parts) > 1 else "English version not available."
+    en = parts[1].strip() if len(parts) > 1 else "Formatting error from AI: English version dropped."
 
     l1, l2, _ = st.columns([1, 1, 4])
     if l1.button("Ελληνικά"): st.session_state.selected_lang = "Ελληνικά 🇬🇷"
