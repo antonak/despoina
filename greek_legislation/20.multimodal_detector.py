@@ -2,20 +2,19 @@ import streamlit as st
 import os
 import re
 import trafilatura
-import google.generativeai as genai
+import base64
 from youtube_transcript_api import YouTubeTranscriptApi
+from groq import Groq
 
 # --- 1. APP CONFIGURATION ---
-st.set_page_config(page_title="Parasecurity | Gemini Lab", page_icon="✨", layout="centered")
+st.set_page_config(page_title="Parasecurity | AI Lab", page_icon="✨", layout="centered")
 
 # --- CUSTOM CSS: THE "GEMINI WHITE" THEME ---
 st.markdown("""
     <style>
-    /* Force white background and hide default Streamlit header */
     .stApp { background-color: #FFFFFF; color: #1F1F1F; font-family: 'Google Sans', Arial, sans-serif; }
     header { visibility: hidden; }
     
-    /* Make inputs look like the Gemini prompt box */
     .stTextArea textarea, .stTextInput input {
         background-color: #F0F4F9 !important;
         border: none !important;
@@ -25,11 +24,8 @@ st.markdown("""
         color: #1F1F1F !important;
         box-shadow: none !important;
     }
-    .stTextArea textarea:focus, .stTextInput input:focus {
-        outline: 2px solid #1a73e8 !important;
-    }
+    .stTextArea textarea:focus, .stTextInput input:focus { outline: 2px solid #1a73e8 !important; }
     
-    /* Smooth, rounded minimalist buttons */
     .stButton>button { 
         border-radius: 24px !important; 
         height: 3em !important; 
@@ -39,29 +35,18 @@ st.markdown("""
         font-weight: 500 !important; 
         transition: all 0.2s ease;
     }
-    .stButton>button:hover {
-        background-color: #E1E5EA !important;
-        color: #1a73e8 !important;
-    }
+    .stButton>button:hover { background-color: #E1E5EA !important; color: #1a73e8 !important; }
     
-    /* Main Execute Button Highlight */
     div:nth-child(5) > div > button {
-        background-color: #1a73e8 !important;
-        color: white !important;
-        font-weight: bold !important;
+        background-color: #1a73e8 !important; color: white !important; font-weight: bold !important;
     }
-    div:nth-child(5) > div > button:hover {
-        background-color: #1557b0 !important;
-        color: white !important;
-    }
+    div:nth-child(5) > div > button:hover { background-color: #1557b0 !important; color: white !important; }
 
-    /* Clean up metrics and dividers */
     .stMetric { background-color: #FFFFFF; padding: 10px; border-radius: 16px; border: 1px solid #E1E5EA; }
     hr { border-color: #F0F4F9; }
     </style>
     """, unsafe_allow_html=True)
 
-# Clean minimalist title
 st.markdown("<h1 style='text-align: center; color: #1a73e8;'>✨ Parasecurity Lab</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #5F6368; margin-bottom: 40px;'>How can I help you investigate today?</p>", unsafe_allow_html=True)
 
@@ -70,30 +55,22 @@ if "analysis_report" not in st.session_state: st.session_state.analysis_report =
 if "selected_lang" not in st.session_state: st.session_state.selected_lang = "Ελληνικά 🇬🇷"
 if "evidence_locked" not in st.session_state: st.session_state.evidence_locked = None
 
-# --- 3. INITIALIZE GEMINI (DYNAMIC MODEL LISTING) ---
-if "GOOGLE_API_KEY" not in st.secrets:
-    st.error("Add GOOGLE_API_KEY to Secrets.")
+# --- 3. INITIALIZE GROQ ENGINE ---
+if "GROQ_API_KEY" not in st.secrets:
+    st.error("Add GROQ_API_KEY to your Streamlit Secrets.")
     st.stop()
 
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-try:
-    available_models = []
-    for m in genai.list_models():
-        if 'generateContent' in m.supported_generation_methods:
-            available_models.append(m.name)
-            
-    if not available_models:
-        st.error("No models available.")
-        st.stop()
-        
-    st.sidebar.markdown("### ⚙️ Engine Settings")
-    selected_model_name = st.sidebar.selectbox("Select Model:", available_models)
-    model = genai.GenerativeModel(selected_model_name)
-    
-except Exception as e:
-    st.error(f"Failed to list models: {e}")
-    st.stop()
+# Sidebar Model Selection (Groq Models)
+st.sidebar.markdown("### ⚙️ Engine Settings")
+groq_models = {
+    "Llama 3.3 70B (Fast & Smart)": "llama-3.3-70b-versatile",
+    "GPT-OSS 120B (Heavy Reasoning)": "openai/gpt-oss-120b",
+    "Qwen 3 32B (Great for Code/Logic)": "qwen/qwen3-32b"
+}
+selected_model_label = st.sidebar.selectbox("Select Text Model:", list(groq_models.keys()))
+selected_model_id = groq_models[selected_model_label]
 
 
 # --- 4. DATA INPUT PANEL ---
@@ -129,32 +106,56 @@ elif source == "📰 Web":
         except: st.error("Scraping failed.")
 
 elif source == "🖼️ Media":
-    up_file = st.file_uploader("Upload File:", type=["jpg", "png", "mp3", "mp4", "wav"], label_visibility="collapsed")
+    # Groq vision currently supports images. Video/Audio requires a different pipeline.
+    up_file = st.file_uploader("Upload Image:", type=["jpg", "jpeg", "png"], label_visibility="collapsed")
     if up_file:
-        if up_file.type.startswith("image"): st.image(up_file, width=300)
-        if st.button("Confirm Media"):
+        st.image(up_file, width=300)
+        if st.button("Confirm Image"):
             bytes_data = up_file.read()
             st.session_state.evidence_locked = [
                 {"mime_type": up_file.type, "data": bytes_data},
-                "Analyze this media for propaganda/misinformation. Return Greek ||| English. End with SCORE: XX"
+                "Analyze this image for propaganda/misinformation context. Return Greek ||| English. End with SCORE: XX"
             ]
-            st.toast("Media ready for analysis!", icon="✅")
+            st.toast("Image ready for Groq Vision analysis!", icon="✅")
 
 # --- 5. FORENSIC ENGINE EXECUTION ---
 st.write("") # Spacer
 
 if st.session_state.evidence_locked:
     if st.button("✨ Investigate Evidence", use_container_width=True):
-        with st.spinner("Gemini is thinking..."):
+        with st.spinner("Engine is thinking..."):
             try:
                 payload = st.session_state.evidence_locked
+                
+                # TEXT PROCESSING
                 if isinstance(payload, str):
                     prompt = f"Forensic check for propaganda and accuracy (Today: March 16, 2026). Greek ||| English. SCORE: XX. Content: {payload}"
-                    response = model.generate_content(prompt)
-                else:
-                    response = model.generate_content(payload)
+                    chat_completion = client.chat.completions.create(
+                        messages=[{"role": "user", "content": prompt}],
+                        model=selected_model_id,
+                    )
+                    st.session_state.analysis_report = chat_completion.choices[0].message.content
                 
-                st.session_state.analysis_report = response.text
+                # IMAGE PROCESSING (Routing to Groq Vision Model)
+                else:
+                    mime_type = payload[0]["mime_type"]
+                    base64_image = base64.b64encode(payload[0]["data"]).decode('utf-8')
+                    prompt_text = payload[1]
+                    
+                    chat_completion = client.chat.completions.create(
+                        model="meta-llama/llama-4-scout-17b-16e-instruct", # Groq's Vision Model
+                        messages=[
+                            {
+                                "role": "user",
+                                "content": [
+                                    {"type": "text", "text": prompt_text},
+                                    {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{base64_image}"}}
+                                ]
+                            }
+                        ]
+                    )
+                    st.session_state.analysis_report = chat_completion.choices[0].message.content
+                    
             except Exception as e:
                 st.error(f"Engine Error: {e}")
 else:
