@@ -3,6 +3,7 @@ import os
 import re
 import trafilatura
 import base64
+import yt_dlp
 from youtube_transcript_api import YouTubeTranscriptApi
 from groq import Groq
 
@@ -85,15 +86,56 @@ if source == "📝 Text":
 
 elif source == "🔗 YouTube":
     url = st.text_input("YouTube URL:", label_visibility="collapsed", placeholder="Paste YouTube Link here...")
-    if st.button("Fetch Subtitles"):
-        video_id = url.split("v=")[-1] if "v=" in url else url.split("/")[-1]
-        if "&" in video_id: video_id = video_id.split("&")[0]
-        try:
-            transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['el', 'en'])
-            st.session_state.evidence_locked = " ".join([i['text'] for i in transcript])
-            st.toast("Subtitles loaded successfully!", icon="✅")
-        except:
-            st.error("No subtitles found.")
+    if st.button("Extract Video Evidence"):
+        video_id = ""
+        if "v=" in url: video_id = url.split("v=")[-1].split("&")[0]
+        elif "youtu.be/" in url: video_id = url.split("youtu.be/")[-1].split("?")[0]
+        elif "shorts/" in url: video_id = url.split("shorts/")[-1].split("?")[0]
+        else: video_id = url.split("/")[-1]
+        
+        with st.spinner("Extracting evidence from YouTube..."):
+            try:
+                # 1. Try fetching existing subtitles first (Fast)
+                transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+                try:
+                    transcript_info = transcript_list.find_transcript(['el', 'en'])
+                except:
+                    transcript_info = next(iter(transcript_list))
+                transcript = transcript_info.fetch()
+                st.session_state.evidence_locked = " ".join([i['text'] for i in transcript])
+                st.toast("Subtitles found and loaded!", icon="✅")
+                
+            except Exception:
+                # 2. Fallback: No subtitles? Download audio and use Groq Whisper AI (Smart)
+                st.toast("No subtitles found. Listening to audio track...", icon="🎧")
+                try:
+                    # Download native audio stream (usually m4a or webm) to save processing time
+                    ydl_opts = {
+                        'format': 'm4a/bestaudio/best',
+                        'outtmpl': f'temp_audio_{video_id}.%(ext)s',
+                        'quiet': True
+                    }
+                    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                        info = ydl.extract_info(url, download=True)
+                        audio_ext = info.get('ext', 'm4a')
+                        audio_file = f"temp_audio_{video_id}.{audio_ext}"
+                        
+                    # Ask Groq Whisper to transcribe the file
+                    with open(audio_file, "rb") as file:
+                        transcription = client.audio.transcriptions.create(
+                            file=(audio_file, file.read()),
+                            model="whisper-large-v3"
+                        )
+                    
+                    st.session_state.evidence_locked = transcription.text
+                    st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
+                    
+                    # Clean up the temp file so your hard drive doesn't get full
+                    if os.path.exists(audio_file):
+                        os.remove(audio_file)
+                        
+                except Exception as e:
+                    st.error(f"Deep extraction failed: {e}. Check if the video is private or deleted.")
 
 elif source == "📰 Web":
     url = st.text_input("Article Link:", label_visibility="collapsed", placeholder="Paste Article URL here...")
@@ -125,7 +167,6 @@ if st.session_state.evidence_locked:
             try:
                 payload = st.session_state.evidence_locked
                 
-                # STRICT SYSTEM PROMPT
                 sys_prompt = """You are a Forensic Investigator AI. Today is March 16, 2026.
                 You MUST format your final output EXACTLY like this with no exceptions:
                 [Your full analysis in Greek here]
@@ -134,7 +175,6 @@ if st.session_state.evidence_locked:
                 
                 SCORE: [Provide a number from 0 to 100 representing credibility]"""
                 
-                # TEXT PROCESSING
                 if isinstance(payload, str):
                     chat_completion = client.chat.completions.create(
                         messages=[
@@ -142,18 +182,17 @@ if st.session_state.evidence_locked:
                             {"role": "user", "content": f"Analyze this text for propaganda, factual accuracy, and manipulation: {payload}"}
                         ],
                         model=selected_model_id,
-                        temperature=0.2 # Lower temperature makes the AI follow formatting rules better
+                        temperature=0.2
                     )
                     st.session_state.analysis_report = chat_completion.choices[0].message.content
                 
-                # IMAGE PROCESSING
                 else:
                     mime_type = payload[0]["mime_type"]
                     base64_image = base64.b64encode(payload[0]["data"]).decode('utf-8')
                     prompt_text = payload[1]
                     
                     chat_completion = client.chat.completions.create(
-                        model="llama-3.2-11b-vision-preview", # Groq's official vision model
+                        model="llama-3.2-11b-vision-preview",
                         messages=[
                             {"role": "system", "content": sys_prompt},
                             {
