@@ -1,10 +1,11 @@
 import streamlit as st
 import os
+import glob
 import re
 import trafilatura
 import base64
 import yt_dlp
-import glob
+from pydub import AudioSegment  # NEW: The audio slicer
 from youtube_transcript_api import YouTubeTranscriptApi
 from groq import Groq
 
@@ -75,9 +76,8 @@ selected_model_id = groq_models[selected_model_label]
 
 
 # --- 4. DATA INPUT PANEL ---
-# Added Audio option to bypass YouTube blocks manually
 source = st.radio("Evidence Type:", 
-                  ["📝 Text", "🔗 YouTube", "📰 Web", "🖼️ Image", "🎙️ Audio"], 
+                  ["📝 Text", "🔗 YouTube", "📰 Web", "🖼️ Media"], 
                   horizontal=True, label_visibility="collapsed")
 
 if source == "📝 Text":
@@ -112,17 +112,17 @@ elif source == "🔗 YouTube":
                     st.toast("Subtitles found and loaded!", icon="✅")
                     
                 except Exception:
-                    # 2. Fallback: No subtitles? Download audio with Heavy Disguise
-                    st.toast("No subtitles found. Attempting deep audio extraction...", icon="🎧")
+                    # 2. Fallback: Download audio and chunk if necessary
+                    st.toast("No subtitles found. Downloading audio track...", icon="🎧")
                     try:
                         ydl_opts = {
-                            'format': 'm4a/bestaudio/best',
+                            'format': 'worstaudio[ext=m4a]/m4a/bestaudio/best', # Keep it small
                             'outtmpl': f'temp_audio_{video_id}.%(ext)s',
                             'quiet': True,
-                            'source_address': '0.0.0.0',
-                            'extractor_args': {'youtube': {'player_client': ['tv', 'mweb']}},
+                            'extractor_args': {'youtube': {'player_client': ['ios', 'android', 'web']}},
                             'nocheckcertificate': True,
-                            'no_warnings': True
+                            'ignoreerrors': True,
+                            'no_warnings': True,
                         }
                         
                         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -131,31 +131,58 @@ elif source == "🔗 YouTube":
                         downloaded_files = glob.glob(f"temp_audio_{video_id}.*")
                         
                         if not downloaded_files:
-                            st.error("⚠️ YouTube actively blocked the server from downloading this audio (Error 403). Try the 'Audio' upload tab.")
+                            st.error("⚠️ YouTube blocked the extraction or video is private.")
                         else:
                             audio_file = downloaded_files[0]
-                            st.toast("Transcribing audio with Whisper AI...", icon="🧠")
-                            with open(audio_file, "rb") as file:
-                                transcription = client.audio.transcriptions.create(
-                                    file=(audio_file, file.read()),
-                                    model="whisper-large-v3"
-                                )
+                            file_size_mb = os.path.getsize(audio_file) / (1024 * 1024)
                             
-                            st.session_state.evidence_locked = transcription.text
-                            st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
+                            # CHUNKING LOGIC: If file is over 24MB, split it up
+                            if file_size_mb > 24:
+                                st.toast(f"File is {file_size_mb:.1f}MB. Chopping into smaller parts...", icon="✂️")
+                                audio = AudioSegment.from_file(audio_file)
+                                
+                                # Split into 15-minute chunks (15 * 60 * 1000 milliseconds)
+                                chunk_length_ms = 15 * 60 * 1000 
+                                chunks = [audio[i:i+chunk_length_ms] for i in range(0, len(audio), chunk_length_ms)]
+                                
+                                full_transcript = ""
+                                progress_bar = st.progress(0)
+                                
+                                for i, chunk in enumerate(chunks):
+                                    chunk_name = f"chunk_{i}.mp3"
+                                    chunk.export(chunk_name, format="mp3") # Export as small mp3
+                                    
+                                    with open(chunk_name, "rb") as f:
+                                        transcription = client.audio.transcriptions.create(
+                                            file=(chunk_name, f.read()),
+                                            model="whisper-large-v3"
+                                        )
+                                    full_transcript += transcription.text + " "
+                                    os.remove(chunk_name) # Clean up the chunk
+                                    
+                                    # Update user on progress
+                                    progress_bar.progress((i + 1) / len(chunks))
+                                
+                                st.session_state.evidence_locked = full_transcript
+                                st.toast("All parts transcribed and merged!", icon="✅")
+                                
+                            else:
+                                # Normal single-file processing
+                                st.toast("Transcribing audio with Whisper AI...", icon="🧠")
+                                with open(audio_file, "rb") as file:
+                                    transcription = client.audio.transcriptions.create(
+                                        file=(audio_file, file.read()),
+                                        model="whisper-large-v3"
+                                    )
+                                st.session_state.evidence_locked = transcription.text
+                                st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
                             
+                            # Clean up the original file
                             if os.path.exists(audio_file):
                                 os.remove(audio_file)
                                 
                     except Exception as e:
-                        error_msg = str(e)
-                        # Graceful error handling for YouTube's final boss blocks
-                        if "DRM protected" in error_msg:
-                            st.error("🔒 **DRM Protection:** This video is encrypted by the owner (e.g., premium music, movies). Use the 'Audio' tab to upload a manual recording.")
-                        elif "403" in error_msg or "Sign in" in error_msg:
-                            st.error("⚠️ **Server Blocked:** YouTube blocked the server. Use the 'Audio' tab to upload a manual recording instead.")
-                        else:
-                            st.error(f"❌ Extraction failed: {e}")
+                        st.error(f"Deep extraction failed: {e}. Check if the video is private or blocked.")
 
 elif source == "📰 Web":
     url = st.text_input("Article Link:", label_visibility="collapsed", placeholder="Paste Article URL here...")
@@ -166,7 +193,7 @@ elif source == "📰 Web":
             st.toast("Article scraped successfully!", icon="✅")
         except: st.error("Scraping failed.")
 
-elif source == "🖼️ Image":
+elif source == "🖼️ Media":
     up_file = st.file_uploader("Upload Image:", type=["jpg", "jpeg", "png"], label_visibility="collapsed")
     if up_file:
         st.image(up_file, width=300)
@@ -177,24 +204,6 @@ elif source == "🖼️ Image":
                 "Analyze this image. Format EXACTLY as: [Greek] ||| [English]. End with SCORE: XX"
             ]
             st.toast("Image ready for Groq Vision analysis!", icon="✅")
-
-# --- NEW: DIRECT AUDIO UPLOAD ROUTE ---
-elif source == "🎙️ Audio":
-    st.info("Bypass YouTube blocks by uploading your own audio recording here (Max 25MB).")
-    up_audio = st.file_uploader("Upload Audio:", type=["mp3", "m4a", "wav", "flac"], label_visibility="collapsed")
-    if up_audio:
-        st.audio(up_audio)
-        if st.button("Transcribe & Confirm Audio"):
-            with st.spinner("Whisper AI is transcribing your file..."):
-                try:
-                    transcription = client.audio.transcriptions.create(
-                        file=(up_audio.name, up_audio.read()),
-                        model="whisper-large-v3"
-                    )
-                    st.session_state.evidence_locked = transcription.text
-                    st.toast("Audio transcribed perfectly! Ready to analyze.", icon="✅")
-                except Exception as e:
-                    st.error(f"Transcription failed: {e}")
 
 # --- 5. FORENSIC ENGINE EXECUTION ---
 st.write("") 
