@@ -4,6 +4,7 @@ import re
 import trafilatura
 import base64
 import yt_dlp
+import glob  # <-- NEW: Added to smartly find the downloaded audio file
 from youtube_transcript_api import YouTubeTranscriptApi
 from groq import Groq
 
@@ -111,44 +112,49 @@ elif source == "🔗 YouTube":
                     st.toast("Subtitles found and loaded!", icon="✅")
                     
                 except Exception:
-                    # 2. Fallback: No subtitles? Download audio with Android disguise and use Groq Whisper AI (Smart)
-                    st.toast("No subtitles found. Downloading audio track...", icon="🎧")
+                    # 2. Fallback: No subtitles? Download audio with Heavy Disguise and use Whisper AI
+                    st.toast("No subtitles found. Attempting deep audio extraction...", icon="🎧")
                     try:
-                        # Android Disguise to bypass YouTube Bot blocks
-                        # The Heavy Disguise to bypass Streamlit Cloud 403 IP Blocks
                         ydl_opts = {
                             'format': 'm4a/bestaudio/best',
                             'outtmpl': f'temp_audio_{video_id}.%(ext)s',
                             'quiet': True,
-                            # We feed it multiple fake clients so it can rotate if one gets blocked
                             'extractor_args': {'youtube': {'player_client': ['ios', 'android', 'web']}},
                             'nocheckcertificate': True,
-                            'ignoreerrors': True,
-                            'no_warnings': True,
+                            'no_warnings': True
                         }
                         
+                        # Download the file
                         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                            info = ydl.extract_info(url, download=True)
-                            audio_ext = info.get('ext', 'm4a')
-                            audio_file = f"temp_audio_{video_id}.{audio_ext}"
+                            ydl.extract_info(url, download=True)
                             
-                        # Ask Groq Whisper to transcribe the file
-                        st.toast("Transcribing audio with Whisper AI...", icon="🧠")
-                        with open(audio_file, "rb") as file:
-                            transcription = client.audio.transcriptions.create(
-                                file=(audio_file, file.read()),
-                                model="whisper-large-v3"
-                            )
+                        # SMART FINDER: Search the directory for ANY file starting with our temp name
+                        downloaded_files = glob.glob(f"temp_audio_{video_id}.*")
                         
-                        st.session_state.evidence_locked = transcription.text
-                        st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
-                        
-                        # Clean up the temp file
-                        if os.path.exists(audio_file):
-                            os.remove(audio_file)
+                        if not downloaded_files:
+                            # If the list is empty, YouTube blocked the download entirely (403 Forbidden).
+                            st.error("⚠️ YouTube actively blocked the server from downloading this audio (Error 403). Try another link or paste the transcript as Text.")
+                        else:
+                            # Grab the actual file that was saved, whatever the extension is
+                            audio_file = downloaded_files[0]
                             
+                            # Ask Groq Whisper to transcribe the file
+                            st.toast("Transcribing audio with Whisper AI...", icon="🧠")
+                            with open(audio_file, "rb") as file:
+                                transcription = client.audio.transcriptions.create(
+                                    file=(audio_file, file.read()),
+                                    model="whisper-large-v3"
+                                )
+                            
+                            st.session_state.evidence_locked = transcription.text
+                            st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
+                            
+                            # Clean up the temp file so the server doesn't run out of space
+                            if os.path.exists(audio_file):
+                                os.remove(audio_file)
+                                
                     except Exception as e:
-                        st.error(f"Deep extraction failed: {e}. Check if the video is private or blocked.")
+                        st.error(f"Deep extraction failed: {e}. Check if the video is private.")
 
 elif source == "📰 Web":
     url = st.text_input("Article Link:", label_visibility="collapsed", placeholder="Paste Article URL here...")
@@ -181,7 +187,7 @@ if st.session_state.evidence_locked:
                 payload = st.session_state.evidence_locked
                 
                 # STRICT SYSTEM PROMPT
-                sys_prompt = """You are a Forensic Investigator AI. Today is March 16, 2026.
+                sys_prompt = """You are a Forensic Investigator AI. Today is March 17, 2026.
                 You MUST format your final output EXACTLY like this with no exceptions:
                 [Your full analysis in Greek here]
                 |||
