@@ -115,11 +115,16 @@ elif source == "🔗 YouTube":
                     st.toast("No subtitles found. Downloading audio track...", icon="🎧")
                     try:
                         # Android Disguise to bypass YouTube Bot blocks
+                        # The Heavy Disguise to bypass Streamlit Cloud 403 IP Blocks
                         ydl_opts = {
                             'format': 'm4a/bestaudio/best',
                             'outtmpl': f'temp_audio_{video_id}.%(ext)s',
                             'quiet': True,
-                            'extractor_args': {'youtube': {'player_client': ['android']}}
+                            # We feed it multiple fake clients so it can rotate if one gets blocked
+                            'extractor_args': {'youtube': {'player_client': ['ios', 'android', 'web']}},
+                            'nocheckcertificate': True,
+                            'ignoreerrors': True,
+                            'no_warnings': True,
                         }
                         
                         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
