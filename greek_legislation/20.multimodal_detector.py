@@ -86,16 +86,107 @@ def extract_video_id(url: str) -> str:
 # HELPER: transcribe one audio file via Groq Whisper,
 #         splitting with ffmpeg if it exceeds 24 MB
 # ─────────────────────────────────────────────────────────────
+import time
+import urllib.request
+import json as _json
+
+# ─────────────────────────────────────────────────────────────
+# AssemblyAI fallback transcription
+# Free tier: $50 credits (~300+ hours). Get key at assemblyai.com
+# ─────────────────────────────────────────────────────────────
+ASSEMBLYAI_KEY = st.secrets.get("ASSEMBLYAI_API_KEY", "")
+ASSEMBLYAI_BASE = "https://api.assemblyai.com/v2"
+
+def _assemblyai_transcribe(file_path: str, status_obj) -> str:
+    """Upload file to AssemblyAI and poll until transcript is ready."""
+    if not ASSEMBLYAI_KEY:
+        raise RuntimeError(
+            "AssemblyAI fallback is not configured. "
+            "Add ASSEMBLYAI_API_KEY to your Streamlit secrets. "
+            "Get a free key at https://www.assemblyai.com"
+        )
+
+    headers = {"authorization": ASSEMBLYAI_KEY, "content-type": "application/json"}
+
+    # Step 1 — upload the audio file
+    status_obj.write("☁️ Uploading audio to AssemblyAI…")
+    with open(file_path, "rb") as f:
+        audio_data = f.read()
+
+    upload_req = urllib.request.Request(
+        f"{ASSEMBLYAI_BASE}/upload",
+        data=audio_data,
+        headers={"authorization": ASSEMBLYAI_KEY, "content-type": "application/octet-stream"},
+        method="POST"
+    )
+    with urllib.request.urlopen(upload_req) as resp:
+        upload_url = _json.loads(resp.read())["upload_url"]
+
+    # Step 2 — request transcription (enable language detection for Greek support)
+    transcript_req = urllib.request.Request(
+        f"{ASSEMBLYAI_BASE}/transcript",
+        data=_json.dumps({
+            "audio_url": upload_url,
+            "language_detection": True   # auto-detects Greek, English, etc.
+        }).encode(),
+        headers=headers,
+        method="POST"
+    )
+    with urllib.request.urlopen(transcript_req) as resp:
+        transcript_id = _json.loads(resp.read())["id"]
+
+    # Step 3 — poll until done
+    status_obj.write("🧠 AssemblyAI is transcribing…")
+    poll_url = f"{ASSEMBLYAI_BASE}/transcript/{transcript_id}"
+    poll_headers = {"authorization": ASSEMBLYAI_KEY}
+
+    for _ in range(120):   # max ~4 minutes of polling
+        time.sleep(2)
+        poll_req = urllib.request.Request(poll_url, headers=poll_headers)
+        with urllib.request.urlopen(poll_req) as resp:
+            result = _json.loads(resp.read())
+
+        if result["status"] == "completed":
+            return result["text"]
+        if result["status"] == "error":
+            raise RuntimeError(f"AssemblyAI error: {result.get('error', 'unknown')}")
+
+    raise RuntimeError("AssemblyAI transcription timed out after 4 minutes.")
+
+
+# ─────────────────────────────────────────────────────────────
+# Primary transcription via Groq Whisper, with automatic
+# AssemblyAI fallback on 429 rate-limit errors
+# ─────────────────────────────────────────────────────────────
+def _transcribe_one_file(file_path: str, label: str, status_obj) -> str:
+    """Try Groq Whisper first; fall back to AssemblyAI on 429."""
+    try:
+        with open(file_path, "rb") as f:
+            ts = client.audio.transcriptions.create(
+                file=(os.path.basename(file_path), f.read()),
+                model="whisper-large-v3"
+            )
+        return ts.text
+
+    except Exception as e:
+        err_str = str(e)
+        if "429" not in err_str and "rate_limit" not in err_str.lower():
+            raise  # not a rate-limit — propagate immediately
+
+        status_obj.write(
+            f"⚠️ Groq Whisper rate limit hit on {label}. "
+            "Switching to AssemblyAI fallback (no wait needed)…"
+        )
+        return _assemblyai_transcribe(file_path, status_obj)
+
+
 def transcribe_audio(audio_path: str, video_id: str, status_obj) -> str:
-    # ── Step 1: always re-encode to a tiny 32 kbps mono MP3 first ──
-    # This guarantees the file is small regardless of original format/bitrate.
+    # ── Step 1: compress to 32 kbps mono MP3 ──────────────────
     compressed_path = f"compressed_{video_id}.mp3"
     status_obj.write("🔧 Compressing audio to 32 kbps mono MP3…")
     result = subprocess.run(
         ["ffmpeg", "-y", "-i", audio_path,
-         "-ar", "16000",   # 16 kHz sample rate — enough for speech
-         "-ac", "1",       # mono
-         "-b:a", "32k",    # 32 kbps bitrate → ~14 MB/hour of audio
+         "-ar", "16000", "-ac", "1", "-b:a", "32k",
          compressed_path],
         stdout=subprocess.DEVNULL, stderr=subprocess.PIPE
     )
@@ -105,28 +196,21 @@ def transcribe_audio(audio_path: str, video_id: str, status_obj) -> str:
     file_size_mb = os.path.getsize(compressed_path) / (1024 * 1024)
     status_obj.write(f"📦 Compressed size: {file_size_mb:.1f} MB")
 
-    # ── Step 2: if still under 24 MB, send directly ──
+    # ── Step 2: single file if small enough ───────────────────
     if file_size_mb <= 24:
         status_obj.write("🧠 Transcribing with Whisper AI…")
         try:
-            with open(compressed_path, "rb") as f:
-                ts = client.audio.transcriptions.create(
-                    file=(os.path.basename(compressed_path), f.read()),
-                    model="whisper-large-v3"
-                )
-            return ts.text
+            return _transcribe_one_file(compressed_path, "full audio", status_obj)
         finally:
             if os.path.exists(compressed_path):
                 os.remove(compressed_path)
 
-    # ── Step 3: still too large → split the compressed file into chunks ──
-    # At 32 kbps each 10-min chunk ≈ 2.4 MB, so this will always fit.
-    status_obj.write(f"✂️ File is {file_size_mb:.1f} MB — splitting into 10-min chunks…")
+    # ── Step 3: split into 5-min chunks ───────────────────────
+    status_obj.write(f"✂️ File is {file_size_mb:.1f} MB — splitting into 5-min chunks…")
     chunk_pattern = f"chunk_{video_id}_%03d.mp3"
-
     result = subprocess.run(
         ["ffmpeg", "-y", "-i", compressed_path,
-         "-f", "segment", "-segment_time", "600",  # 10 minutes per chunk
+         "-f", "segment", "-segment_time", "300",
          "-c", "copy", chunk_pattern],
         stdout=subprocess.DEVNULL, stderr=subprocess.PIPE
     )
@@ -143,14 +227,10 @@ def transcribe_audio(audio_path: str, video_id: str, status_obj) -> str:
     progress_bar = st.progress(0)
     for i, chunk in enumerate(chunks):
         chunk_mb = os.path.getsize(chunk) / (1024 * 1024)
-        status_obj.write(f"🧠 Transcribing part {i+1}/{len(chunks)} ({chunk_mb:.1f} MB)…")
+        label = f"part {i+1}/{len(chunks)}"
+        status_obj.write(f"🧠 Transcribing {label} ({chunk_mb:.1f} MB)…")
         try:
-            with open(chunk, "rb") as f:
-                ts = client.audio.transcriptions.create(
-                    file=(os.path.basename(chunk), f.read()),
-                    model="whisper-large-v3"
-                )
-            full_transcript += ts.text + " "
+            full_transcript += _transcribe_one_file(chunk, label, status_obj) + " "
         finally:
             if os.path.exists(chunk):
                 os.remove(chunk)
@@ -283,7 +363,7 @@ Do NOT add any other headers, labels, or text outside these tags."""
                 if source == "🖼️ Εικόνα":
                     b64_img = base64.b64encode(image_payload["data"]).decode("utf-8")
                     response = client.chat.completions.create(
-                        model="llama-3.2-11b-vision-preview",
+                        model="meta-llama/llama-4-scout-17b-16e-instruct",
                         messages=[
                             {"role": "system", "content": sys_prompt},
                             {"role": "user", "content": [
