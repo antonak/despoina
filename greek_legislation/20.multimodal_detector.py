@@ -18,14 +18,16 @@ st.markdown("""
     .stApp { background-color: #FFFFFF; color: #1F1F1F; font-family: 'Google Sans', Arial, sans-serif; }
     header { visibility: hidden; }
     .stTextArea textarea, .stTextInput input {
-        background-color: #F0F4F9 !important;
-        border: none !important;
-        border-radius: 24px !important;
-        padding: 16px !important;
-        color: #1F1F1F !important;
+        background-color: #F0F4F9 !important; border: none !important;
+        border-radius: 24px !important; padding: 16px !important;
     }
-    .stButton>button { border-radius: 24px !important; background-color: #F0F4F9 !important; color: #1F1F1F !important; border: none !important; }
-    div.stButton > button:first-child[kind="primary"] { background-color: #1a73e8 !important; color: white !important; }
+    .stButton>button { 
+        border-radius: 24px !important; width: 100%; 
+        height: 50px; font-weight: bold;
+    }
+    div.stButton > button:first-child {
+        background-color: #1a73e8 !important; color: white !important; border: none !important;
+    }
     .stMetric { background-color: #FFFFFF; padding: 10px; border-radius: 16px; border: 1px solid #E1E5EA; }
     </style>
     """, unsafe_allow_html=True)
@@ -35,116 +37,122 @@ st.markdown("<h1 style='text-align: center; color: #1a73e8;'>✨ Parasecurity La
 # --- 2. SESSION STATE ---
 if "analysis_report" not in st.session_state: st.session_state.analysis_report = ""
 if "selected_lang" not in st.session_state: st.session_state.selected_lang = "Ελληνικά 🇬🇷"
-if "evidence_locked" not in st.session_state: st.session_state.evidence_locked = None
 
 # --- 3. INITIALIZE GROQ ---
 if "GROQ_API_KEY" not in st.secrets:
-    st.error("Add GROQ_API_KEY to secrets.")
+    st.error("Missing API Key in Secrets.")
     st.stop()
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-st.sidebar.markdown("### ⚙️ Engine")
-groq_models = {
-    "Llama 3.3 70B": "llama-3.3-70b-versatile",
-    "Llama 3.1 405B": "llama-3.1-405b-reasoning"
-}
-selected_model_id = groq_models[st.sidebar.selectbox("Model:", list(groq_models.keys()))]
+st.sidebar.markdown("### ⚙️ Engine Settings")
+selected_model_id = st.sidebar.selectbox("Model:", ["llama-3.3-70b-versatile", "llama-3.1-405b-reasoning"])
 
-# --- 4. DATA INPUT ---
-source = st.radio("Source:", ["📝 Text", "🔗 YouTube", "📰 Web", "🖼️ Image"], horizontal=True, label_visibility="collapsed")
+# --- 4. INPUT INTERFACE ---
+source = st.radio("Επιλογή Πηγής:", ["📝 Κείμενο", "🔗 YouTube", "📰 Web", "🖼️ Εικόνα"], horizontal=True)
 
-if source == "📝 Text":
-    user_text = st.text_area("Paste text:", height=150, label_visibility="collapsed")
-    if st.button("Confirm Text"):
-        st.session_state.evidence_locked = user_text
-        st.toast("Locked!", icon="✅")
+user_payload = None
+image_payload = None
+
+if source == "📝 Κείμενο":
+    user_payload = st.text_area("Κείμενο:", placeholder="Επικολλήστε εδώ...", height=200)
 
 elif source == "🔗 YouTube":
-    url = st.text_input("YouTube URL:", placeholder="Paste link...")
-    if st.button("Extract"):
-        video_id = url.split("v=")[-1].split("&")[0] if "v=" in url else url.split("/")[-1]
-        try:
-            transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['el', 'en'])
-            st.session_state.evidence_locked = " ".join([i['text'] for i in transcript])
-            st.success("Transcript loaded!")
-        except:
-            st.error("Could not extract subtitles.")
+    user_payload = st.text_input("YouTube URL:", placeholder="https://youtube.com/watch?v=...")
 
 elif source == "📰 Web":
-    url = st.text_input("Article Link:")
-    if st.button("Scrape"):
-        downloaded = trafilatura.fetch_url(url)
-        st.session_state.evidence_locked = trafilatura.extract(downloaded)
-        st.success("Article scraped!")
+    user_payload = st.text_input("Link Άρθρου:", placeholder="https://news-site.com/article...")
 
-elif source == "🖼️ Image":
-    up_file = st.file_uploader("Upload Image:", type=["jpg", "png"])
+elif source == "🖼️ Εικόνα":
+    up_file = st.file_uploader("Ανεβάστε Εικόνα:", type=["jpg", "png", "jpeg"])
     if up_file:
-        st.image(up_file, width=300)
-        if st.button("Confirm Image"):
-            st.session_state.evidence_locked = [{"mime_type": up_file.type, "data": up_file.read()}]
+        st.image(up_file, width=250)
+        image_payload = {"mime_type": up_file.type, "data": up_file.read()}
 
-# --- 5. FORENSIC ENGINE ---
-if st.session_state.evidence_locked:
-    if st.button("✨ Start Investigation", type="primary", use_container_width=True):
-        with st.spinner("Analyzing..."):
+# --- 5. THE MAGIC BUTTON (SCRAPE + ANALYZE) ---
+if st.button("🚀 Έναρξη Πλήρους Ανάλυσης"):
+    if not user_payload and not image_payload:
+        st.warning("Παρακαλώ εισάγετε κάποιο περιεχόμενο πρώτα!")
+    else:
+        with st.status("Εκτέλεση Διεργασιών...", expanded=True) as status:
+            final_text = ""
+            
             try:
-                # ΝΕΟ ΠΑΝΙΣΧΥΡΟ PROMPT ΜΕ TAGS
-                sys_prompt = """You are a Forensic Investigator. 
-                STRICT OUTPUT FORMAT:
-                <GREEK> [Full analysis in Greek here] </GREEK>
-                <ENGLISH> [Full analysis in English here] </ENGLISH>
-                SCORE: [0-100]
+                # STEP A: SCRAPING LOGIC
+                if source == "🔗 YouTube":
+                    status.write("🔍 Ανάκτηση δεδομένων από YouTube...")
+                    v_id = user_payload.split("v=")[-1].split("&")[0] if "v=" in user_payload else user_payload.split("/")[-1]
+                    try:
+                        t = YouTubeTranscriptApi.get_transcript(v_id, languages=['el', 'en'])
+                        final_text = " ".join([i['text'] for i in t])
+                    except:
+                        status.write("🎧 Οι υπότιτλοι απέτυχαν. Προσπάθεια μεταγραφής ήχου...")
+                        ydl_opts = {'format': 'm4a/best', 'outtmpl': f'tmp_{v_id}.%(ext)s', 'quiet': True}
+                        with yt_dlp.YoutubeDL(ydl_opts) as ydl: ydl.download([user_payload])
+                        audio_path = glob.glob(f"tmp_{v_id}.*")[0]
+                        with open(audio_path, "rb") as f:
+                            ts = client.audio.transcriptions.create(file=(audio_path, f.read()), model="whisper-large-v3")
+                            final_text = ts.text
+                        os.remove(audio_path)
+
+                elif source == "📰 Web":
+                    status.write("🌐 Ανάγνωση σελίδας...")
+                    final_text = trafilatura.extract(trafilatura.fetch_url(user_payload))
                 
-                MANDATORY: Do not use any other labels or headers. Everything must be inside the tags."""
-                
-                if isinstance(st.session_state.evidence_locked, str):
-                    response = client.chat.completions.create(
-                        messages=[{"role": "system", "content": sys_prompt},
-                                  {"role": "user", "content": st.session_state.evidence_locked}],
-                        model=selected_model_id, temperature=0.1
-                    )
-                else:
-                    b64_img = base64.b64encode(st.session_state.evidence_locked[0]["data"]).decode('utf-8')
+                elif source == "📝 Κείμενο":
+                    final_text = user_payload
+
+                # STEP B: AI ANALYSIS
+                status.write("🧠 Ο κινητήρας AI αναλύει το περιεχόμενο...")
+                sys_prompt = """Forensic Investigator Mode. 
+                STRICT FORMAT: 
+                <GREEK> [Analysis in Greek] </GREEK>
+                <ENGLISH> [Analysis in English] </ENGLISH>
+                SCORE: [0-100]"""
+
+                if source == "🖼️ Εικόνα":
+                    b64_img = base64.b64encode(image_payload["data"]).decode('utf-8')
                     response = client.chat.completions.create(
                         model="llama-3.2-11b-vision-preview",
                         messages=[{"role": "system", "content": sys_prompt},
                                   {"role": "user", "content": [
-                                      {"type": "text", "text": "Analyze for propaganda."},
-                                      {"type": "image_url", "image_url": {"url": f"data:{st.session_state.evidence_locked[0]['mime_type']};base64,{b64_img}"}}
+                                      {"type": "text", "text": "Analyze for propaganda/fake news."},
+                                      {"type": "image_url", "image_url": {"url": f"data:{image_payload['mime_type']};base64,{b64_img}"}}
                                   ]}]
                     )
+                else:
+                    response = client.chat.completions.create(
+                        messages=[{"role": "system", "content": sys_prompt},
+                                  {"role": "user", "content": final_text}],
+                        model=selected_model_id, temperature=0.1
+                    )
+                
                 st.session_state.analysis_report = response.choices[0].message.content
+                status.update(label="✅ Η ανάλυση ολοκληρώθηκε!", state="complete", expanded=False)
+
             except Exception as e:
-                st.error(f"Error: {e}")
+                st.error(f"Σφάλμα: {str(e)}")
 
-# --- 6. REPORT RENDERING (PARSING) ---
+# --- 6. DISPLAY RESULTS (TABS FIXED) ---
 if st.session_state.analysis_report:
-    st.divider()
     report = st.session_state.analysis_report
-
-    # Εξαγωγή Score
-    score_match = re.search(r"SCORE:\s*(\d+)", report)
-    score = int(score_match.group(1)) if score_match else 50
+    
+    # Parsing Score
+    s_match = re.search(r"SCORE:\s*(\d+)", report)
+    score = int(s_match.group(1)) if s_match else 50
     color = "#1E8E3E" if score > 70 else "#F9AB00" if score > 40 else "#D93025"
-    st.markdown(f"<div class='stMetric'><strong>Credibility:</strong> <span style='color:{color}; font-size: 24px;'>{score}%</span></div>", unsafe_allow_html=True)
+    
+    st.markdown(f"<div class='stMetric'><strong>Αξιοπιστία:</strong> <span style='color:{color}; font-size: 26px; font-weight: bold;'>{score}%</span></div>", unsafe_allow_html=True)
 
-    # ΕΞΥΠΝΟ PARSING ΜΕ REGEX ΓΙΑ ΤΑ TAGS
-    gr_match = re.search(r'<GREEK>(.*?)</GREEK>', report, re.DOTALL | re.IGNORECASE)
-    en_match = re.search(r'<ENGLISH>(.*?)</ENGLISH>', report, re.DOTALL | re.IGNORECASE)
+    # Parsing Tags (The Robust Way)
+    gr_part = re.search(r'<GREEK>(.*?)</GREEK>', report, re.DOTALL | re.IGNORECASE)
+    en_part = re.search(r'<ENGLISH>(.*?)</ENGLISH>', report, re.DOTALL | re.IGNORECASE)
 
-    gr_text = gr_match.group(1).strip() if gr_match else "Η ελληνική ανάλυση δεν βρέθηκε."
-    en_text = en_match.group(1).strip() if en_match else "English analysis not found."
+    gr_txt = gr_part.group(1).strip() if gr_part else "Σφάλμα ανάκτησης ελληνικού κειμένου."
+    en_txt = en_part.group(1).strip() if en_part else "Error retrieving English text."
 
-    # Tabs
-    l1, l2, _ = st.columns([1, 1, 4])
-    if l1.button("Ελληνικά"): st.session_state.selected_lang = "Ελληνικά 🇬🇷"
-    if l2.button("English"): st.session_state.selected_lang = "English 🇬🇧"
+    # Language Selector
+    c1, c2, _ = st.columns([1, 1, 3])
+    if c1.button("Ελληνικά"): st.session_state.selected_lang = "Ελληνικά 🇬🇷"
+    if c2.button("English"): st.session_state.selected_lang = "English 🇬🇧"
 
-    st.markdown(f"<div style='background-color: #F0F4F9; padding: 25px; border-radius: 20px;'>{gr_text if st.session_state.selected_lang == 'Ελληνικά 🇬🇷' else en_text}</div>", unsafe_allow_html=True)
-
-st.sidebar.divider()
-if st.sidebar.button("🗑️ Reset"):
-    st.session_state.analysis_report = ""
-    st.session_state.evidence_locked = None
-    st.rerun()
+    st.markdown(f"<div style='background-color: #F0F4F9; padding: 25px; border-radius: 20px; border-left: 8px solid {color};'>{gr_txt if st.session_state.selected_lang == 'Ελληνικά 🇬🇷' else en_txt}</div>", unsafe_allow_html=True)
