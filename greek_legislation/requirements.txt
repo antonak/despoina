@@ -8,5 +8,6 @@ python-docx
 groq
 trafilatura
 yt-dlp>=2024.03.10
-youtube-transcript-api==0.6.2
+youtube-transcript-api
 pydub
+pyaudioop
