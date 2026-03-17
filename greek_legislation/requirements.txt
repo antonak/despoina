@@ -7,6 +7,6 @@ requests
 python-docx
 groq
 trafilatura
-yt-dlp
-youtube-transcript-api
+yt-dlp>=2024.03.10
 youtube-transcript-api==0.6.2
+pydub
