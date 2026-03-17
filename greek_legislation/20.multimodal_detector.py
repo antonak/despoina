@@ -1,10 +1,10 @@
 import streamlit as st
 import os
-import glob
 import re
 import trafilatura
 import base64
 import yt_dlp
+import glob
 from youtube_transcript_api import YouTubeTranscriptApi
 from groq import Groq
 
@@ -75,8 +75,9 @@ selected_model_id = groq_models[selected_model_label]
 
 
 # --- 4. DATA INPUT PANEL ---
+# Added Audio option to bypass YouTube blocks manually
 source = st.radio("Evidence Type:", 
-                  ["📝 Text", "🔗 YouTube", "📰 Web", "🖼️ Media"], 
+                  ["📝 Text", "🔗 YouTube", "📰 Web", "🖼️ Image", "🎙️ Audio"], 
                   horizontal=True, label_visibility="collapsed")
 
 if source == "📝 Text":
@@ -89,9 +90,8 @@ elif source == "🔗 YouTube":
     url = st.text_input("YouTube URL:", label_visibility="collapsed", placeholder="Paste YouTube Link here...")
     if st.button("Extract Video Evidence"):
         
-        # Safety Check for valid YouTube URL
         if "youtube.com" not in url and "youtu.be" not in url and "shorts/" not in url:
-            st.error("⚠️ That doesn't look like a YouTube URL. Please make sure the link contains 'youtube.com' or 'youtu.be'.")
+            st.error("⚠️ That doesn't look like a valid YouTube URL.")
         else:
             video_id = ""
             if "v=" in url: video_id = url.split("v=")[-1].split("&")[0]
@@ -112,44 +112,50 @@ elif source == "🔗 YouTube":
                     st.toast("Subtitles found and loaded!", icon="✅")
                     
                 except Exception:
-                    # 2. Fallback: No subtitles? Download audio with Android disguise and use Groq Whisper AI (Smart)
-                    st.toast("No subtitles found. Downloading audio track...", icon="🎧")
+                    # 2. Fallback: No subtitles? Download audio with Heavy Disguise
+                    st.toast("No subtitles found. Attempting deep audio extraction...", icon="🎧")
                     try:
-                        # Android Disguise to bypass YouTube Bot blocks
-                        # The Heavy Disguise to bypass Streamlit Cloud 403 IP Blocks
                         ydl_opts = {
                             'format': 'm4a/bestaudio/best',
                             'outtmpl': f'temp_audio_{video_id}.%(ext)s',
                             'quiet': True,
-                            # We feed it multiple fake clients so it can rotate if one gets blocked
-                            'extractor_args': {'youtube': {'player_client': ['ios', 'android', 'web']}},
+                            'source_address': '0.0.0.0',
+                            'extractor_args': {'youtube': {'player_client': ['tv', 'mweb']}},
                             'nocheckcertificate': True,
-                            'ignoreerrors': True,
-                            'no_warnings': True,
+                            'no_warnings': True
                         }
                         
                         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                            info = ydl.extract_info(url, download=True)
-                            audio_ext = info.get('ext', 'm4a')
-                            audio_file = f"temp_audio_{video_id}.{audio_ext}"
+                            ydl.extract_info(url, download=True)
                             
-                        # Ask Groq Whisper to transcribe the file
-                        st.toast("Transcribing audio with Whisper AI...", icon="🧠")
-                        with open(audio_file, "rb") as file:
-                            transcription = client.audio.transcriptions.create(
-                                file=(audio_file, file.read()),
-                                model="whisper-large-v3"
-                            )
+                        downloaded_files = glob.glob(f"temp_audio_{video_id}.*")
                         
-                        st.session_state.evidence_locked = transcription.text
-                        st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
-                        
-                        # Clean up the temp file
-                        if os.path.exists(audio_file):
-                            os.remove(audio_file)
+                        if not downloaded_files:
+                            st.error("⚠️ YouTube actively blocked the server from downloading this audio (Error 403). Try the 'Audio' upload tab.")
+                        else:
+                            audio_file = downloaded_files[0]
+                            st.toast("Transcribing audio with Whisper AI...", icon="🧠")
+                            with open(audio_file, "rb") as file:
+                                transcription = client.audio.transcriptions.create(
+                                    file=(audio_file, file.read()),
+                                    model="whisper-large-v3"
+                                )
                             
+                            st.session_state.evidence_locked = transcription.text
+                            st.toast("Audio transcribed by Groq! Ready to analyze.", icon="✅")
+                            
+                            if os.path.exists(audio_file):
+                                os.remove(audio_file)
+                                
                     except Exception as e:
-                        st.error(f"Deep extraction failed: {e}. Check if the video is private or blocked.")
+                        error_msg = str(e)
+                        # Graceful error handling for YouTube's final boss blocks
+                        if "DRM protected" in error_msg:
+                            st.error("🔒 **DRM Protection:** This video is encrypted by the owner (e.g., premium music, movies). Use the 'Audio' tab to upload a manual recording.")
+                        elif "403" in error_msg or "Sign in" in error_msg:
+                            st.error("⚠️ **Server Blocked:** YouTube blocked the server. Use the 'Audio' tab to upload a manual recording instead.")
+                        else:
+                            st.error(f"❌ Extraction failed: {e}")
 
 elif source == "📰 Web":
     url = st.text_input("Article Link:", label_visibility="collapsed", placeholder="Paste Article URL here...")
@@ -160,7 +166,7 @@ elif source == "📰 Web":
             st.toast("Article scraped successfully!", icon="✅")
         except: st.error("Scraping failed.")
 
-elif source == "🖼️ Media":
+elif source == "🖼️ Image":
     up_file = st.file_uploader("Upload Image:", type=["jpg", "jpeg", "png"], label_visibility="collapsed")
     if up_file:
         st.image(up_file, width=300)
@@ -172,6 +178,24 @@ elif source == "🖼️ Media":
             ]
             st.toast("Image ready for Groq Vision analysis!", icon="✅")
 
+# --- NEW: DIRECT AUDIO UPLOAD ROUTE ---
+elif source == "🎙️ Audio":
+    st.info("Bypass YouTube blocks by uploading your own audio recording here (Max 25MB).")
+    up_audio = st.file_uploader("Upload Audio:", type=["mp3", "m4a", "wav", "flac"], label_visibility="collapsed")
+    if up_audio:
+        st.audio(up_audio)
+        if st.button("Transcribe & Confirm Audio"):
+            with st.spinner("Whisper AI is transcribing your file..."):
+                try:
+                    transcription = client.audio.transcriptions.create(
+                        file=(up_audio.name, up_audio.read()),
+                        model="whisper-large-v3"
+                    )
+                    st.session_state.evidence_locked = transcription.text
+                    st.toast("Audio transcribed perfectly! Ready to analyze.", icon="✅")
+                except Exception as e:
+                    st.error(f"Transcription failed: {e}")
+
 # --- 5. FORENSIC ENGINE EXECUTION ---
 st.write("") 
 
@@ -182,7 +206,7 @@ if st.session_state.evidence_locked:
                 payload = st.session_state.evidence_locked
                 
                 # STRICT SYSTEM PROMPT
-                sys_prompt = """You are a Forensic Investigator AI. Today is March 16, 2026.
+                sys_prompt = """You are a Forensic Investigator AI. Today is March 17, 2026.
                 You MUST format your final output EXACTLY like this with no exceptions:
                 [Your full analysis in Greek here]
                 |||
