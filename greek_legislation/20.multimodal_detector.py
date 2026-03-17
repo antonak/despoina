@@ -5,7 +5,7 @@ import re
 import trafilatura
 import base64
 import yt_dlp
-from pydub import AudioSegment  # NEW: The audio slicer
+import subprocess # NEW: Python's built-in tool to talk directly to FFmpeg
 from youtube_transcript_api import YouTubeTranscriptApi
 from groq import Groq
 
@@ -74,7 +74,6 @@ groq_models = {
 selected_model_label = st.sidebar.selectbox("Select Text Model:", list(groq_models.keys()))
 selected_model_id = groq_models[selected_model_label]
 
-
 # --- 4. DATA INPUT PANEL ---
 source = st.radio("Evidence Type:", 
                   ["📝 Text", "🔗 YouTube", "📰 Web", "🖼️ Media"], 
@@ -112,11 +111,11 @@ elif source == "🔗 YouTube":
                     st.toast("Subtitles found and loaded!", icon="✅")
                     
                 except Exception:
-                    # 2. Fallback: Download audio and chunk if necessary
+                    # 2. Fallback: Download audio and chunk with FFmpeg directly
                     st.toast("No subtitles found. Downloading audio track...", icon="🎧")
                     try:
                         ydl_opts = {
-                            'format': 'worstaudio[ext=m4a]/m4a/bestaudio/best', # Keep it small
+                            'format': 'worstaudio[ext=m4a]/m4a/bestaudio/best',
                             'outtmpl': f'temp_audio_{video_id}.%(ext)s',
                             'quiet': True,
                             'extractor_args': {'youtube': {'player_client': ['ios', 'android', 'web']}},
@@ -134,31 +133,35 @@ elif source == "🔗 YouTube":
                             st.error("⚠️ YouTube blocked the extraction or video is private.")
                         else:
                             audio_file = downloaded_files[0]
+                            file_ext = audio_file.split('.')[-1]
                             file_size_mb = os.path.getsize(audio_file) / (1024 * 1024)
                             
                             # CHUNKING LOGIC: If file is over 24MB, split it up
                             if file_size_mb > 24:
-                                st.toast(f"File is {file_size_mb:.1f}MB. Chopping into smaller parts...", icon="✂️")
-                                audio = AudioSegment.from_file(audio_file)
+                                st.toast(f"File is {file_size_mb:.1f}MB. Fast-slicing with FFmpeg...", icon="✂️")
                                 
-                                # Split into 15-minute chunks (15 * 60 * 1000 milliseconds)
-                                chunk_length_ms = 15 * 60 * 1000 
-                                chunks = [audio[i:i+chunk_length_ms] for i in range(0, len(audio), chunk_length_ms)]
+                                chunk_pattern = f"chunk_{video_id}_%03d.{file_ext}"
                                 
+                                # Ask the system's ffmpeg to cut it into 15-min (900 second) chunks
+                                subprocess.run([
+                                    "ffmpeg", "-y", "-i", audio_file, 
+                                    "-f", "segment", "-segment_time", "900", 
+                                    "-c", "copy", chunk_pattern
+                                ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                                
+                                # Find all the newly created chunks
+                                chunks = sorted(glob.glob(f"chunk_{video_id}_*"))
                                 full_transcript = ""
                                 progress_bar = st.progress(0)
                                 
                                 for i, chunk in enumerate(chunks):
-                                    chunk_name = f"chunk_{i}.mp3"
-                                    chunk.export(chunk_name, format="mp3") # Export as small mp3
-                                    
-                                    with open(chunk_name, "rb") as f:
+                                    with open(chunk, "rb") as f:
                                         transcription = client.audio.transcriptions.create(
-                                            file=(chunk_name, f.read()),
+                                            file=(chunk, f.read()),
                                             model="whisper-large-v3"
                                         )
                                     full_transcript += transcription.text + " "
-                                    os.remove(chunk_name) # Clean up the chunk
+                                    os.remove(chunk) # Clean up the chunk
                                     
                                     # Update user on progress
                                     progress_bar.progress((i + 1) / len(chunks))
