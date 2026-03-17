@@ -1,13 +1,5 @@
 streamlit
-pandas
-chromadb
-sentence-transformers
-openai
-requests
-python-docx
-groq
 trafilatura
-yt-dlp>=2024.03.10
 youtube-transcript-api
-pydub
-pyaudioop
+groq
+yt-dlp>=2024.03.10
