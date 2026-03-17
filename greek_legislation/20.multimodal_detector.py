@@ -115,11 +115,13 @@ elif source == "🔗 YouTube":
                     # 2. Fallback: No subtitles? Download audio with Heavy Disguise and use Whisper AI
                     st.toast("No subtitles found. Attempting deep audio extraction...", icon="🎧")
                     try:
+                        # THE FINAL DISGUISE: Force IPv4 and pretend to be a Smart TV
                         ydl_opts = {
                             'format': 'm4a/bestaudio/best',
                             'outtmpl': f'temp_audio_{video_id}.%(ext)s',
                             'quiet': True,
-                            'extractor_args': {'youtube': {'player_client': ['ios', 'android', 'web']}},
+                            'source_address': '0.0.0.0',  # Forces IPv4 (Bypasses many datacenter IP bans)
+                            'extractor_args': {'youtube': {'player_client': ['tv', 'mweb']}}, # Smart TV client
                             'nocheckcertificate': True,
                             'no_warnings': True
                         }
