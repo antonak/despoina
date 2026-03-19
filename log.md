@@ -30669,3 +30669,429 @@ ktlp alla genika kalutera na diavazeis ta paper pou vgainoun se sunedria.
       
 
 mpardounas%%1234*
+
+
+===============================================DETANGLE
+
+# WP2 – Action Log / Activity Timeline
+
+ Το 2.1 (Stakeholder Analysis) ICERT συλλέγει τις ανάγκες από τους εμπλεκόμενους (π.χ. use cases).
+Το 2.2 (Stakeholder Engagement) ATH επιβεβαιώνει αυτές τις ανάγκες και τις ωριμάζει, ώστε να είναι ξεκάθαρες. 
+Το 2.3 (Requirements) ATH παίρνει τις επιβεβαιωμένες ανάγκες και τις μετατρέπει σε συγκεκριμένες, ιχνηλατήσιμες απαιτήσεις. 
+Αυτό που περιμένουμε είναι να ολοκληρωθούν οι συνεντεύξεις και το ερωτηματολόγιο από το 2.1, να επιβεβαιωθούν τα ευρήματα στο 2.2, και μετά να περάσουν στο 2.3 για να γίνουν απαιτήσεις. Πρέπει να ακολουθήσουμε αυτή τη σειρά, χωρίς να βιαστούμε να κάνουμε requirements πριν επιβεβαιωθούν σωστά οι ανάγκες.
+
+This document records actions taken and coordination steps completed within WP2 since project start.
+It focuses on what was done (emails, meetings, documents), not on document content.
+
+## January 2026
+
+### Action 1 – WP2 kick-off coordination
+- Date: Early January 2026
+- Action: ATH initiated internal WP2 coordination and clarified WP2 leadership role.
+- Outcome: Agreement to align first on process and methodology.
+
+### Action 2 – Draft WP2 methodology alignment email
+- Date: Early January 2026
+- Action: ATH drafted an email proposing a phased requirements elicitation methodology.
+- Recipients: Project Coordinator (ITML CY), Technical Management (UBI).
+- Status: Draft prepared.
+
+### Action 3 – Circulation of T2.3 Requirements Framework (Draft v1)
+- Date: Mid-January 2026
+- Action: ATH circulated the draft framework to WP2 partners.
+- Outcome: Feedback requested for early consolidation.
+
+### Action 4 – ITML feedback received
+- Date: Mid–late January 2026
+- Action: ITML returned an updated framework version.
+- Outcome: Changes reviewed and consolidated.
+
+### Action 5 – ATH background clarification request
+- Date: Late January 2026
+- Action: Clarification requested on ATH background access restrictions.
+- Outcome: Updated text prepared.
+
+### Action 6 – Updated ATH background submitted
+- Date: Late January 2026
+- Action: ATH submitted revised background section.
+- Status: Completed; signature pending.
+
+## February 2026
+
+### Action 7 – ICERT coordination meeting (T2.1–T2.3)
+- Date: 27 February 2026
+- Action: Bilateral meeting with ICERT on stakeholder analysis and requirements flow.
+- Outcome: Alignment on phased stakeholder engagement.
+
+### Action 8 – WP2 methodology refinement
+- Date: Late February 2026
+- Action: Methodology refined based on ICERT meeting and lessons learned.
+
+### Action 9 – WP2 coordination meetings setup
+- Date: Late February 2026
+- Action: Coordination meeting proposal sent; Doodle poll circulated.
+
+### Action 10 – First WP2 coordination meeting
+- Date: Early February 2026
+- Action: ATH chaired first WP2 meeting; MoM and attendance recorded.
+
+### Action 10a – Presentation of draft stakeholder questionnaire
+- Date: 10 February 2026
+- Action: ICERT presented a draft stakeholder questionnaire/checklist (Excel) during the WP2 coordination meeting.
+- Outcome: Initial structure and dimensions of stakeholder inputs introduced to WP2 partners.
+
+### Action 10b – Agreement on stakeholder questionnaire refinements
+- Date: 10 February 2026
+- Action: Agreement reached on refinements to the stakeholder questionnaire, including prioritisation (Must/Should/Could) and inclusion of “Not Applicable” options.
+- Outcome: Partners invited to review and provide feedback on the refined checklist.
+
+### Action 10c – Launch of internal stakeholder interviews
+- Date: Mid-February 2026
+- Action: ICERT initiated internal stakeholder interviews under Task 2.1, with ATH support.
+- Outcome: Collection of early stakeholder inputs initiated.
+
+### Action 10d – Coordination with CRA on pilot engagement
+- Date: Mid-February 2026
+- Action: Agreement to coordinate WP2 stakeholder and pilot engagement activities with CRA (WP5) to avoid overlap.
+- Outcome: Cross-WP alignment on pilot engagement approach.
+
+### Action 10e – Initiation of T2.4 master tracking Excel
+- Date: Mid-February 2026
+- Action: UBI, with ITML support, initiated the design of a master Excel tracking file for technologies, artefacts, and alignment with stakeholder requirements.
+- Outcome: First version planned for partner review.
+
+### Action 11 – WP2 slide deck preparation
+- Date: February 2026
+- Action: Preparation of structured WP2 slides (T2.1–T2.6).
+
+### Action 12 – WP2 two-week checkpoint slides
+- Date: February 2026
+- Action: Two-week checkpoint PPT prepared and shared.
+
+## Ongoing / Open Actions
+
+### Action 13 – Send methodology alignment email
+- Owner: ATH / Sotiris Ioannidis
+- Status: Pending.SEND . OK 
+
+### Action 14 – T2.1 early inputs
+- Owner: ICERT
+- Status: Draft checklist and early inputs expected.
+
+### Action 15 – Next WP2 coordination meeting
+- Owner: ATH
+- Status: OK .
+- Log: https://itmlgr.sharepoint.com/sites/DETANGLE/DETANGLE%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDETANGLE%2FDETANGLE%20Documents%2FDocuments%2F02%2D%20Project%20Meetings%2FWP2%2FWP2%2Dmeeting%2D10%2DFebruary%2D2026&viewid=41523bf1%2D874f%2D46f7%2Db177%2D25957ddc15a1&sharingv2=true&fromShare=true&at=9&CID=c7403002%2D8499%2D4f9a%2Da440%2D96dbd51bfc86&FolderCTID=0x012000D2F2201447CCCB40B46CA456FE626748
+
+### Action 16 – Receipt and review of ICERT supporting documents
+- Date: Mid–February 2026
+- Action: Acknowledgement of ICERT confirmation regarding preparation of a stakeholder questionnaire and accompanying supporting document for CRACoWi end-users and related projects (Aliens-SOC, INTERCEPT, ACT4FOOD).
+- Outcome: Awaiting receipt of questionnaire and supporting material to enable structured engagement with CRACoWi end-users and alignment with WP2 requirements elicitation process.
+- Status: In progress.
+
+### Action 16a – Proposal of phased stakeholder engagement approach
+- Date: Early–mid February 2026
+- Action: ATH proposed a two-phase approach for engaging CRACoWi end-users, combining an initial offline questionnaire with targeted follow-up interviews, to ensure informed and focused requirements elicitation.
+- Outcome: Agreement in principle on structured, phased engagement prior to direct interviews.
+- Status: Completed.
+
+### Action 16b – Alignment with ICERT on stakeholder materials
+- Date: Mid-February 2026
+- Action: Bilateral coordination with ICERT to align on the scope, objectives, and format of stakeholder engagement materials (questionnaire and supporting document).
+- Outcome: ICERT confirmed preparation of a structured questionnaire and explanatory supporting document to be shared with CRACoWi end-users and related projects.
+- Status: Completed.
+
+### Action 16c – Acknowledgement and preparation for next WP2 steps
+- Action 18 – Acknowledgement of ICERT update by CRACoWi PM
+- Date: Mid-February 2026
+- Action: ITML (CRACoWi Project Manager) acknowledged ICERT’s confirmation regarding preparation of the stakeholder questionnaire and supporting documents.
+- Outcome: Confirmation of alignment and expectation of receipt of materials to enable next WP2 stakeholder engagement steps.
+- Status: In progress.
+
+### Action 17d – MEETING WITH ICERT  - 13/2/2026 - Cross-project coordination building on CRACoWi
+- Date: Mid–February 2026 - at coordination meeting with ICERT that we agreed we do not need them since we have the WP2 biweekly meeings. 
+- Action: Confirmation that coordination with the CRACoWi project has led to identification and engagement with three additional related projects (ACT4FOOD, Aliens-SOC, INTERCEPT) for potential synergies.
+- Outcome: Cross-project coordination scope expanded to include relevant external initiatives.
+- Status: In progress.
+
+### Action 17e – Preparation of explanatory note to support stakeholder understanding
+- Date: Mid–February 2026
+- Action: Agreement to prepare a short explanatory note to accompany the stakeholder questionnaire, clarifying context, scope, and objectives in order to anticipate questions and support informed responses.
+- Outcome: Supporting explanatory material to be shared together with the questionnaire.
+- Status: In progress.
+
+### Action 17f – Clarification of needs collection across DETANGLE main outputs
+- Date: Mid–February 2026
+- Action: Agreement that WP2 will collect general, solution-agnostic needs, expectations, and constraints mapped internally to each of the five main DETANGLE outputs, rather than requesting solution-specific validation from stakeholders.
+- Outcome: Common questionnaire approach maintained, with internal mapping to outputs ensured by WP2 in coordination with technical WPs.
+- Status: Completed.
+
+### Action 17g – Agreement on information-first approach prior to interviews
+- Date: Mid–February 2026
+- Action: Agreement to prioritise consolidation of available information and questionnaire maturity before launching external stakeholder interviews, while continuing to monitor WP2 progress via regular coordination meetings.
+- Outcome: External interviews to be launched once sufficient information has been collected and internally aligned.
+- Status: In progress.
+
+### Action 17h – Follow-up of today’s meeting via WP2 coordination forum
+- Date: Mid–February 2026
+- Action: Decision to skip additional ad-hoc meetings on the same topics and instead capture updates and decisions through the regular WP2 coordination meetings.
+- Outcome: Streamlined coordination and avoidance of meeting duplication.
+- Status: Completed.
+
+### Action 17i – Scheduling of pilot interviews initiated
+- Date: 11 February 2026
+- Action: ICERT initiated scheduling of stakeholder interviews with pilots under Task 2.1, following circulation of the draft questionnaire.
+- Outcome: Stakeholder engagement process formally initiated; interviews to be conducted progressively.
+- Status: In progress.
+
+### Action 17 - presenated in PBM meeting the wp2 update 
+- powerpoint in folder drive under https://itmlgr.sharepoint.com/sites/DETANGLE/DETANGLE%20Documents/Documents/03-%20Work%20Packages/WP1/MEETINGS/1%20PMB%20meeting%2016%20Feb%202026/Misc/1stPMBmeeting_wp2.pptx
+
+### Action 18 Technical Coordination Meeting Wendesday 18 febryuary tecnical meeting - Technical coordination meeting (T2.1–T2.3 alignment)
+Date: 18 February 2026
+- Action: Technical discussion held regarding alignment between T2.1 (Stakeholder Analysis) and T2.3 (Requirements Framework).
+- Key Points Discussed:
+- Proposal by Evaggelos Kafantaris to add a “Source” column in the stakeholder/requirements tracking file in order to improve traceability.
+- ATH confirmed agreement to include the “Source” column to enhance transparency and requirement origin tracking.
+- Clarification requested on whether outputs from T2.1 (e.g., stakeholder use cases and early insights) should directly feed into T2.3.
+- Clarification Provided by ATH:
+- Task 2.3 formal requirement consolidation will follow the structured methodology and timeline.
+- However, early inputs from T2.1 (including potential use cases and stakeholder insights) may be preliminarily captured to support future requirements refinement.
+- Outcome:
+- Agreement to enable early information flow from T2.1 to T2.3 without formally triggering requirement validation before the defined T2.3 phase.
+
+#### TODO : 
+- share link of wp2 meeting 
+- Do not launch interviews before consolidating questionnaire.
+- Do not allow WP5 to start pilots before requirement traceability is clear.
+- created WP2_Traceability_Matrix 
+- add column 
+
+### Action 19 👉 What is the difference between:
+- “Use Case” (T2.1 output)
+- “Requirement” (T2.3 output)
+- Suggested positioning:
+- T2.1 → collects stakeholder problems, needs, use cases
+- T2.3 → transforms validated needs into structured, traceable requirements
+
+#### Internal clarification – T2.1 vs T2.3
+- T2.1 (Use Cases): Captures stakeholder problems, needs, and operational scenarios in a solution-agnostic manner.
+- Purpose: Understand context, actors, and expectations before defining system obligations.
+- T2.3 (Requirements): Converts validated needs and use cases into structured, traceable, and testable requirement statements.
+- Purpose: Support prioritisation, technical alignment, and mapping to DETANGLE outputs and deliverables.
+- Link: Use cases and stakeholder inputs from T2.1 serve as sources for T2.3 requirement formulation under the phased methodology.
+
+### action 20 CREATED  WP2 internal governance tool.
+- Its purpose is to:
+- Link T2.1 → T2.2 → T2.3
+- Ensure traceability for RP1
+- Show reviewers how needs become requirements
+- Protect ATH as WP2 lead
+It is a WP2 internal governance tool. Its purpose is to: Link T2.1 → T2.2 → T2.3. Ensure traceability for RP1 . Show reviewers how needs become requirements. Protect ATH as WP2 lead. It is your control instrument. Who Should Fill It? You should define ownership clearly:
+- Primary Owner:
+- ATH (WP2 Lead)
+- Contributors:
+- ICERT → provides stakeholder input references
+- Technical WPs → confirm mapping to outputs (when needed)
+But:
+👉 Partners should NOT directly edit it without coordination.
+👉 Otherwise it becomes chaotic.
+
+
+### action 21 WP6 mail received
+    📦 What is WP6? WP6 = Impact Management & Policy Outreach
+    Leader: IMPRO Participants: ITMLCY + all partners
+    ATH must:
+    Contribute to dissemination activities
+    Report communication actions
+    Provide evidence (screenshots, posts, events, etc.)
+    Support impact-related activities when relevant to WP2 outputs
+    ✅ Fill in the CD Reporting Table
+        If ATH has:
+            Website posts
+            Social media posts
+            Presentations mentioning DETANGLE
+            Conference participation
+            Scientific publications
+            Internal dissemination
+            Meetings with stakeholders
+            Workshops
+            Policy contributions
+    📌 Important: You as WP2 Lead
+
+            Because ATH leads WP2:
+
+            Stakeholder meetings
+
+            Pilot coordination meetings
+
+            Cross-project synergy discussions (CRACoWi etc.)
+
+            These count as dissemination / impact-related activities.
+### action 22 DETANGLE | CRACoWi - Synergies on Stakeholder Analysis and User Needs - WP2DETANGLE
+1) answer to emai 
+2) comment ask she asks 
+    3) report it to my log 
+    Date: 24/2/2026
+-     Action: ICERT shared the stakeholder engagement package prepared under Task 2.1, including:
+-     Project Introduction & Call to Action document
+-   Stakeholder Needs Collection Checklist (structured questionnaire)
+-     Coordination:
+    ATH acknowledged receipt and initiated internal review to ensure alignment with the WP2 phased methodology (T2.1 Stakeholder Analysis → T2.2 Stakeholder Engagement → T2.3 Requirements Consolidation).
+    Process clarification:
+    ATH confirmed that:
+    The questionnaire constitutes a T2.1 stakeholder input collection instrument.
+    Stakeholder responses will be consolidated and validated under T2.2 prior to formal requirement definition.
+    Formal requirement specification and traceability mapping will be conducted under T2.3, following validation and structured consolidation.
+
+    Next steps:
+
+    Questionnaire to be circulated to pilot owners and external stakeholders.
+
+    Responses to be consolidated and analysed prior to requirement formulation.
+
+    Traceability to be maintained via the WP2 internal governance and tracking tools.
+
+    Outcome:
+    Stakeholder engagement process progressing under controlled WP2 methodology, ensuring structured transition from stakeholder inputs to validated requirements.
+
+    Status: In progress
+### Action 12 – T2.1 Interview Scheduling (SRA – San Raffaele)
+- Date: February 2026
+- Action: Coordination and confirmation of stakeholder interview.
+- Outcome: Interview scheduled for March 12, 2026.
+- Participants: ICERT, ATH (WP2 Lead), UBI (Technical Coordination), SRA (WP5 Lead).
+- Status: Confirmed.
+
+### Action 13 – T2.1 Interview Scheduling (IKEM)
+- Date: March 2026
+- Action: Coordination and confirmation of stakeholder interview following checklist distribution.
+- Outcome: Interview scheduled for March 12, 2026.
+- Participants: ICERT, ATH (WP2 Lead), UBI (Technical Coordination), SRA (WP5 Lead).
+- Status: Confirmed.
+
+### Action 14 – T2.1 Interview Scheduling (MOH)
+- Date: February–March 2026
+- Action: Outreach and coordination for end-user needs interview.
+- Outcome: Interview scheduled (date confirmed via email exchange).
+- Participants: ICERT, ATH (WP2 Lead), UBI (Technical Coordination), MOH.
+- Status: Confirmed / Ongoing.
+
+### Action 15 – T2.1 Interview Scheduling (FV)
+- Date: February–March 2026
+- Action: Outreach and coordination for pilot needs analysis interview.
+- Outcome: Interview scheduled (date confirmed via email exchange).
+- Participants: ICERT, ATH (WP2 Lead), UBI (Technical Coordination), FV.
+- Status: Confirmed / Ongoing.
+
+### Action 16 – Stakeholder Needs Checklist Distribution (All Pilots)
+- Date: February–March 2026
+- Action: Official distribution of T2.1 Stakeholder Needs Checklist to MOH, FV, IKEM, and SRA.
+- Purpose: Structured collection of functional, technical, and regulatory requirements.
+- Status: Ongoing (awaiting completed checklists).
+
+### Action 17 – WP2 Alignment for Pilot Interviews
+- Date: February 2026
+- Action: Agreement that ATH (WP2), UBI (Technical Coordination), and SRA (WP5) participate in pilot interviews.
+- Purpose: Ensure alignment between requirements elicitation (T2.3), technical feasibility, and pilot implementation.
+- Status: Implemented.s
+
+
+### Action 18 – WP2 Coordination Meeting #3 (Stakeholder Interviews Launch)
+- Date: 10 March 2026
+- Action: WP2 coordination meeting held to review progress of stakeholder engagement activities under T2.1 and confirm next steps for pilot interviews and requirements consolidation.
+- Key Points:
+  - Stakeholder Needs Checklist distributed to all pilot organisations.
+  - Pilot interviews scheduled with SRA, IKEM, MOH, and Fundación Valenciaport.
+  - Interviews will involve ICERT (T2.1), ATH (WP2 Lead / T2.3), UBI (Technical Coordination), and SRA (WP5) to ensure alignment between requirements elicitation, technical feasibility, and pilot implementation.
+  - Confirmation that stakeholder inputs collected in T2.1 will be validated and refined under T2.2 before being converted into structured requirements in T2.3.
+- Outcome:
+  - Stakeholder engagement phase formally launched.
+  - WP2 traceability matrix initiated to track pilot engagement and requirement sources.
+  - Next step: execution of pilot interviews and consolidation of collected inputs into the WP2 requirements workflow.
+- Status: Ongoing.
+
+### Action 26 – IKEM Pilot Needs Interview & Checklist Review
+ - Date: March 12, 2026
+ - Action: Conducted T2.1/T2.2 stakeholder interview with the IKEM Pilot (Denis Chikurtev). Confirmed the checklist template is clear. 
+ - Extracted critical technical details: strong focus on the OCPP protocol for car-to-charging station communication, and identified   
+    that current vulnerability handling is "manual only". Evangelos requested existing documentation to establish a baseline for NIS2 compliance.
+-  Purpose: To verify the clarity of the questionnaire, extract initial technical hooks (OCPP), assess current cybersecurity practices (manual vs. automated), and measure the "distance to target" for future EU certifications.
+-    Status: Completed (IKEM to send any specific follow-up questions by March 13 and finalize the completed checklist by mid-next week).
+
+### Action 27 – SRA Pilot Needs Interview & Scoping
+-   Date: March 12, 2026
+-    Action: Conducted T2.1/T2.2 stakeholder interview with the SRA Pilot (Fiorella, DPO). Discussed the complexity of healthcare compliance, focusing heavily on mapping strict regulatory requirements: NIS2 (Essential Entity status), EU Medical Device Regulation (MDR), and GDPR Article 9. Identified the need to involve SRA's IT personnel to map out the current IT deployment (cloud/hybrid/on-premise).
+-   Purpose: To guide the DPO on specific regulatory frameworks before completing the checklist, and to schedule a technical deep-dive to identify infrastructure weak points for incident management integration.
+-    Status: Completed (Checklist pending; DPO actively working on responses until Monday. IT architecture review scheduled for the next meeting).
+
+            ΙΚΕΜ interveiw  12 march 2026 
+            -----------------------------
+
+            Matteo we are now collecting the question for the 
+
+                will then be transformed and basically from these need will come to technical requirements to technical temas we ned to underastand cehcklist if anything to be specific 
+
+                today not answer teh question tgetehr or gather inf ...but be sie that the questiona re clear to you and that ou have all the info to answer and teh be done by yoursefl and tehm you will sent the qustion clear 
+
+            DENIS chikurtev: (IKEM)
+                concern about ybersecirity 
+
+                mayvbe we need to go deeper in this and come back to general the tempklat is clae so no qustion for now 
+
+                qustion are clear . 
+                I give short answers to be clear . if you go to teh fileld doqument 
+
+            matteo 
+            ------
+            the aoutput from this we will end of march we need to produce output . Is if you have somethign to ks clarification please sent question as soon as possible . 
+
+            denis
+            -----
+            everything is clear . try till tommorow to sent specifc question . 
+
+            matteo
+            -----
+            detangel it a project cybersecurity compliance and incident response in the past i do have some experience with the current industry . tehre are standards and other regulation need to be applied. from a cs perpective and since my guess what you do it is related (components of cars, conenct to cars ) just a hint . there were in teh past teh computer component in teh car  in a previous project and specifically for the cyberincident response taht needs to be inmplemented..you will need to have the same . 
+
+            denis 
+            ------
+            we have some considerations for these sndards, iso standards. to be clear of teh manufacturers . we had previous consideration and comunnitactiopn between car and charging stations. 
+
+            matteo . 
+            ---------
+            colective  effort so sharing is important . 
+
+            dennis 
+            ------
+            occp protocol for car and charging stations 
+            cybersecurity teest scenarions there . iedea for applying eu standards 
+
+            evangelos 
+            =======
+            target list ? in teh next tewo year might have certification . target list discuss with all pilots certifucatiuon 
+            so far if you happen to have some certification , what tyope of ddocumention was given ,. identify a baseline 
+            NIS 2 compliance: what type of documentation for a pilot partnter even if no current certification what documentation is available . dynamic cahcklist . critical to create teh basline .
+            have a n assesmsnet of teh distance to be covered , some data that need to be achieved. 
+
+            denis
+            ========
+
+
+            ME ? Integration Specifics: They mentioned "REST API/WebSocket integration with OCPP backend."
+            ----------maybe too technical if possible 
+            1)    ATH Comment: is DETANGLE is expected to pull data from the OCPP (Open Charge Point Protocol) or just monitor the traffic. This changes the technical requirement significantly.data but would practices on how to aplpy . have some embedded authentivcation . asn so on there are three version of this procrocol two are available . the last is under development is under release . oplan to measure and how to improve the trafic . wil not rovide improvemet . we can be open protocool . evrytone can implrovement . so option 
+            --> i thing that we might provide some  
+
+            2) Manual Only" Vulnerabilities: They noted vulnerability handling is "Manual only."
+                ATH Comment: Does IKEM expect DETANGLE to discover the vulnerabilities (Scanning) or just manage the workflow of fixing them (GRC)?
+            under development . nop automated process . maybe we can marge them .  this will be enoiugh at this. for now. 
+
+            alice " what dedaline do we expect : 
+            till tommorrow question . from dennis . middle of nexty week we can finalize . 
+
+### Action 28 – FV Pilot Needs Interview & Checklist Review
+-    Date: March 18, 2026
+-    Action: Conducted T2.1/T2.2 stakeholder interview with the FV Pilot (Pablo Gimenez Salazar). FV is the first pilot to successfully complete and submit the questionnaire. Identified a critical technical constraint: DETANGLE software cannot be deployed in or connected to FV's real infrastructure, and all deployments must be strictly on-premise.
+-    Purpose: To verify clarity of the checklist, confirm technical deployment architecture (on-premise vs. cloud/hybrid), and establish the timeline for WP2 to review the submitted answers.
+-    Status: Completed (Checklist received; WP2 to review the document and send any follow-up questions to FV by next week. Finalization of all pilot answers set for end of March).
