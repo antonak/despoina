@@ -1,0 +1,22 @@
+Loaded 147 messages from PalestineSolidarityBelgium_2025-09-16.json
+Loaded 49604 messages from gazaenglishupdates_2025-09-16.json
+Loaded 119 messages from StopGazaGenocide_2025-09-16.json
+Loaded 10 messages from Palestine2024_2025-09-16.json
+Loaded 19 messages from PalestinianResistance_2025-09-16.json
+Loaded 2708 messages from palestineresistance_2025-09-16.json
+Loaded 57041 messages from pal_Online9_2025-09-16.json
+Loaded 102 messages from GazaNow_2025-09-16.json
+Loaded 480 messages from PalestineUpdates_2025-09-16.json
+Loaded 1890 messages from TIMESOFGAZA_2025-09-16.json
+Loaded 58 messages from Aqsatvsat_2025-09-16.json
+Loaded 6990 messages from resistancechain_2025-09-16.json
+Loaded 11762 messages from gazaalanpa_2025-09-16.json
+Loaded 1 messages from FreePalestine2023_2025-09-16.json
+Total messages loaded: 3599456
+Traceback (most recent call last):
+  File "/home/antonakd/TelegramCollector/cdf/cdf9.py", line 139, in <module>
+    main()
+  File "/home/antonakd/TelegramCollector/cdf/cdf9.py", line 115, in main
+    messages.sort(key=lambda x: x['date'])
+TypeError: can't compare offset-naive and offset-aware datetimes
+(base) antonakd@blackmamba:~$ 

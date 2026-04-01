@@ -1,0 +1,4 @@
+Today’s FaaS runtimes, such as those used in AWS Lambda, Knative, or OpenFaaS, are optimized for centralized cloud environments and rely on containers, resulting in high cold-start latencies and limited portability. 
+
+
+WebAssembly runtimes like Wasmtime, Wasmer, or WAMR improve startup time and isolation, but are typically disconnected from cyber-physical I/O, constrained hardware conditions, and multi-tenant execution models. Security is limited to sandboxing at the syscall level, with little or no support for trusted module loading, attestation, or integration with Trusted Execution Environments (TEEs). Existing runtimes also lack support for coordination with networking subsystems such as eBPF/XDP or exposure to policy contexts relevant in 6G systems.
