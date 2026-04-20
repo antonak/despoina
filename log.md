@@ -286,6 +286,162 @@ OPEN AI KEY
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+
+20 April 
+===========
+- DETANGLE PBM meeting 
+-- from email about agenda plenary . email I have not sent but studied and replied :
+		Dear Alice, Siranush, dear all,
+		Thank you for the proposed structure. We fully agree that organizing the Stakeholder Engagement session around these three pillars is the best approach to ensure tight alignment between stakeholder needs and our technical development.
+		From the WP2 / ATH perspective:
+		1. Internal Stakeholder Needs (T2.1/T2.3): We are very happy to co-moderate this first part with ICERT. Following our recent review of the v0.4 report, ATH will prepare a focused set of key findings and "Critical Technical Gaps" (e.g., deployment constraints, timeline alignment, and scope boundaries). This will perfectly facilitate the meaningful discussion we need with UBI, NCI, and the component developers regarding feasibility.
+		2. External Stakeholder Registry & Integrated Outreach Strategy: The approach for the remaining pillars is very well-aligned with the planned WP2–WP6 interaction. As the leader of Task 2.2, ATH is fully prepared to briefly share our strategy on creating collaboration links and how we plan to utilize the registry for our external requirements validation phase.
+		Looking forward to a highly productive session!
+
+--- created 2 slides 
+---
+
+ALEX 
+todo des an teleiwsan ta upoloipa mpou katevaze gia cyprus : 
+			Τμήμα	Περιεχόμενο	Εκτίμηση PDFs	Κατάσταση
+		CAP (Κεφάλαια)	Αποικιακοί νόμοι πριν το 1960	~340	❌ Λείπουν
+		Έτος 1959	Πρώτοι νόμοι ανεξαρτησίας	~14	❌ Λείπουν
+		Συνταγματικές τροπολογίες	Σύνταγμα	—	✅ Έχουμε
+		
+
+		Τα CAP (Chapters) είναι οι αποικιακοί νόμοι της Βρετανικής περιόδου πριν το 1960.
+
+todo des an teleiwsan oi areios pageos scraper 42.scrape_areios_pagos
+todo :  na ftiaxw ena benchmark : test to  opoio opoio xereis ta apotelemsata kai me vash auto na douleyei 
+todo : upoyiazomai oti exeis kanei kapoioa la8h bse ola ta site spase auto pou exeis kanei se mikta kommatia pes pmou pws ta ekanan kai ftiaxe monos ou test an prepei na allaxaoun ktl ..
+
+18 April 
+===========
+5.278 PDF (Greek FEK)
+      ↓  33.extract_pdf_text.py
+Αρχεία .txt (pdf_text_cache/)
+      ↓  34.build_vector_db.py
+Chunks ~1.000 χαρακτήρων με overlap 150
+      ↓  SentenceTransformer
+      paraphrase-multilingual-MiniLM-L12-v2
+      ↓
+ChromaDB (vector_db/)
+399.971 chunks — κάθε chunk = vector 384 διαστάσεων
+Το μοντέλο embeddings (paraphrase-multilingual-MiniLM-L12-v2) τρέχει στον bb8 server (CPU), όχι GPU — γι' αυτό το query παίρνει ~15 δευτερόλεπτα.
+
+Όταν πληκτρολογείς "εργατικό δίκαιο", το ίδιο μοντέλο μετατρέπει τη φράση σε vector και ψάχνει τα 150 πιο κοντινά vectors στη βάση (cosine similarity). Αυτά επιστρέφονται ως τα πιο σχετικά αποσπάσματα νόμων.
+
+17 April
+=======
+		P traffic from https://dikaio-cyprus.serveousercontent.com
+		[0m--- network ---
+		[Fri Apr 17 06:22:13 PM EDT 2026] Connecting dikaio-network...
+		Pseudo-terminal will not be allocated because stdin is not a terminal.
+		[32mForwarding HTTP traffic from https://dikaio-network.serveousercontent.com
+		[0m
+		Both permanent URLs are live:
+
+		App	Permanent URL
+		🇨🇾 Cyprus Law Chat	https://dikaio-cyprus.serveousercontent.com
+		⚖️ Law Network Analyzer	https://dikaio-network.serveousercontent.com
+		⚖️ Greek Lawyer Chat	https://dikaio.serveousercontent.com
+		All three run on the new SSH key (id_rsa_tunnels) registered on your second serveo account, will auto-reconnect if they drop, and can be embedded directly into Google Sites.
+		 3 are live with no warning page:
+
+App	URL
+⚖️ Greek Lawyer Chat	https://dimension-scroll-tend-officials.trycloudflare.com
+🇨🇾 Cyprus Chat	https://titans-renew-housewares-breed.trycloudflare.com
+🔴 Law Network	https://bonds-protocols-searching-pediatric.trycloudflare.com
+These work in Google Sites 
+
+
+
+App	URL
+⚖️ Greek Lawyer Chat	https://dimension-scroll-tend-officials.trycloudflare.com
+🇨🇾 Cyprus Chat	https://titans-renew-housewares-breed.trycloudflare.com
+🔴 Law Network	https://bonds-protocols-searching-pediatric.trycloudflare.com
+These wor
+
+- TODO : look for NotbookLM
+- STARTED downloading CAPs laws for cyprus in C/home/dantonakaki/greek_legislation/code/CYPRUS_CAP
+(base) [dantonakaki@bb8 CYPRUS_CAP]$ 
+-started chat gia cyprus in  38.cyprus_chat.py:
+	Subdomains δεν δέχονται underscore, θα είναι dikaio-cyprus.serveousercontent.com (με παύλα).
+	Φτιάχνω το αρχείο τώρα — αντιγράφω τη δομή του 36 αλλά με Cyprus-specific prompt και port 7862:
+
+- DONE: Cyprus : Bash Count files per year
+			152 2007
+			58 2008
+			80 2009
+			89 2010
+			111 2011
+			118 2012
+			92 2013
+			95 2014
+			95 2015
+			86 2016
+			98 2017
+			99 2018
+			137 2019
+			60 2020
+			90 2021
+			116 2022
+			76 2023
+			90 2024
+			133 2025
+			47 2026
+
+					Downloaded: 3,637 PDFs — 7.3 GB from cylaw.org (1960–2026).
+		Τα 1,922 είναι μόνο τα χρόνια 2007–2026 που είδες. Τα υπόλοιπα 1,715 είναι από 1960–2006:
+
+		1960–1999: ~597 νόμοι (λίγοι ανά χρόνο, παλιά αρχεία)
+		2000–2006: ~985 νόμοι (εκεί φαίνεται άλμα — 2002 έχει 180!)
+		2007–2026: 1,922 νόμοι
+		Το άλμα στο 2000 (125→180 ανά χρόνο) πιθανώς αντικατοπτρίζει ψηφιοποίηση/ανέβασμα παλιών αρχείων στο cylaw.org.
+
+		Σύνοψη: 3,637 PDFs, 1960–2026, 7.3GB. 
+
+ 
+- Greek laws
+		Ελληνική Νομοθεσία (FEK): 510,603 PDFs, 1971–2025
+
+		Περίοδος	Αρχεία	Παρατήρηση
+		1971–1985	~28,000	Λίγα ανά χρόνο (~1,700–2,400)
+		1986–1992	~43,000	Άλμα — αρχίζει ψηφιοποίηση
+		1993–1999	~73,000	Έκρηξη (~10,000/χρόνο)
+		2000–2014	~210,000	Κορύφωση — 18,066 το 2014
+		2015–2025	~143,000	Μείωση μετά το 2014
+		Σύγκριση:
+
+		Αρχεία	Μέγεθος
+		🇬🇷 Ελλάδα (FEK)	510,603	310 GB
+		🇨🇾 Κύπρος	3,637	7.3 GB
+		Σύνολο	514,240	317 GB
+
+14 April
+==========
+* created new WP2 prsenattion for DETNAGLE 
+- steps in log.md (DETANGLE) Some todod for plenarry meeting 
+* 
+
+7  Arpil
+===========
+ngrok
+MKA5J7XKEG
+5NRBPM4JMY
+GCMMAZMW4F
+TVNS9HFE23
+G65STSJXBF
+YHPG2V7MQE
+VQDJ3XH9SM
+27VP3US5KU
+GZTD62NDSD
+A5HFZHGBMR
+
+2 April
+==========
+
+TODO : check requirements form Alice!
 1 April
 ==========
 - Here is a concise, impactful paragraph summarizing the latest WP2 progress, tailored specifically for your Technical Coordination (TC) meeting today. It highlights your key milestone and the technical constraints the developers need to know:
