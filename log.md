@@ -289,6 +289,86 @@ OPEN AI KEY
 
 20 April 
 ===========
+TODOs
+- dhlwseis examhnou 
+-  sotiris mporei na paei sthn rwmh .  
+- manos papoutaskis na kanoume proposal mazi kai na xanasteiloume to cyberguerad
+- law app: apo sotiri 1. des to hallicuinatye. mila me lambrou . grayou pantou kai rwrtya ti apa
+		Καλο που δεν χρησιμοποιουν αλλα! :)
+		Και αυτοι που ρωτησα εγω, δεν ειχαν ιδεα.
+		Δεσποινα, αυτο με τα ακρονυμα ειναι πολυ σημαντικο. Ξερεις τι θα εκανα
+		επιλεον. Θα γραφομουν και στις αλλες υπηρεσιες, και θα εβαζα τα ιδια
+		queries να δω τι θα βγαλουν. Αν το καναμε και με καποιο τροπο
+		αυτοματισμενα, θα ηταν πολυ καλο!
+
+	
+	το ξεκιναω αυτο τωρα (αφου τελειωσω με τις συναντησεις του detangle ¨))
+
+	
+
+		Κατι ακομα, μπορουμε να υπολογισουμε τι μας "κοστιζει" καθε ερωτηση;
+		Το ξερω οτι ειναι ισως δυσκολο να υπολογιστει ακριβως γιατι μπορει να
+		ειναι και πολυ περιπλοκες οι ερωτησεις, αλλα ας δουμε πως το μετραει ο
+		κοσμος. Ισως κατι απλο για αρχη: "αν η απαντηση χρειαστει Χ
+		δευτερολεπτα, αυτο φορτωνει την CPU κατα Υ και καιει Ζ ρευμα". Θελω να
+		δω τι μπορουμε ναυποστηριξουμε με την υποδομη που εχουμε.
+- MPB detangle meeting minutes
+ --- 
+
+		​several issues in the agenda 
+
+		1) wp1: ATHn missing original signature CA missing several original signature pages  TODO sebnt mail ask what is missing ..
+
+		2) deliverabl 1.1. 1.2, submitted 
+		3) register list registartion list  for the pleannary ? 
+		4) 
+		agenda for meting 1. intenal  stakeholder ICERT . half an hour 
+		external stakeholder half hour 
+		3 intergated outreach stategy nad kpi 1.2.2 creating collaboration link (ATH)
+
+
+		ICERT sais : what is the scope with external stkeholder and responsibility how far from35.000 are we going according to kpi from wp6 ? 
+
+		nikos lamrou impro  is leading the 3 part . 
+
+		35.000 we dont have thsi number !!! 
+
+		sandra : this number was summary all databases all partner joint reach . foer example tiko has a db over 5.000 can be used not shared. webinar will be shared to db contaske of tiko pro and similarly everyon may have a similar db !
+
+		fioorella : something about education what can be done in teh medical section 
+
+		sandra 6.1 : exploitation plan : one part how to reach should be we need to outline what are plan and tehn deliverable updates for dissemination . need to prepare something what we plan to do . 
+		markeign section sais fiorella can help with this . she will introduce . 
+
+		evangelos : tehy weill lead traingin sections . 
+
+		siranush 
+		100+ individuals to reach , for webinars . 
+		maybe delite 35000 --> confusion . check offline with alice . 
+
+		use cases detangle ubi + sra 
+
+		evangelos : ​netcompany request write user stories and small presenation from netcompany . idea:is :  stakeholder requirement creates some open question regarding the nature of integration . 
+		so it would be helpful to have some input user stories. will discuss with netcompany .  have some examples technical wokskshop how it looks from etchnical perpective. user side : how user see and othe is how developer looks ?
+
+		wp2. 
+		====
+		​somment on my slide : starting take a look in teh document . very good job . key finding need to be discussed furthe, one more review . from technical manager so all aspects are takedn into account . these finding will be in devliveralbel 2.1 (so enough on time) . general comment : are we going further stick on objectived . some needs are out of scope ... 
+		TODO : point tehm in teh document. 
+
+		Alice : still works on document with comemnt from siranush side. take it slowly , for best final result. prioritazation on efforts. 
+
+		evangelos : next 2 weeks iitml bi lateral tema meeting to have update regarding teh kpis a feew idea to share . 
+
+		wp6. 
+		====
+		​sandra communiatio ndissemination board . ongoing . 
+		​sees slides. 
+
+		​6.1 request from input . by end of week . 
+
+
+
 - DETANGLE PBM meeting 
 -- from email about agenda plenary . email I have not sent but studied and replied :
 		Dear Alice, Siranush, dear all,
