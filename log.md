@@ -287,6 +287,78 @@ OPEN AI KEY
 =========================================================================================================================================================
 =========================================================================================================================================================
 
+
+24 April
+===========
+* Moscow uploaded . todo see on monday again and tehn send mail 
+* laws again downloading Δικαστήριο	Κατάσταση
+	ΣτΕ	✅ 1,500 αποφάσεις — κατεβασμένες, indexed (43,117 chunks στη βάση)
+	ΕλΣυν	❌ Υπάρχει ο φάκελος elsyn_cache/ αλλά άδειος — τίποτα δεν κατέβηκε
+	Εφετεία	❌ Τίποτα — μόνο ένα αρχείο με αρχαίες αποφάσεις 2014 από παλιό scr
+* pathfinder + accelerator funding search
+* CYBERGURAD resubmit  ?
+
+22 april
+=========
+https://dimension-scroll-tend-officials.trycloudflare.com/
+https://dimension-scroll-tend-officials.trycloudflare.com/
+
+
+21 April
+===========
+my progress on chat laws
+	Έχει νόημα να κάνεις switch τώρα. Να γιατί:
+
+	Τι κερδίζεις αμέσως:
+
+	CODES (AK, PK, KPD, KPolD) → πλήρως indexed με bge-m3 + contextual retrieval
+	Areios Pagos → 126,905 chunks με 3x καλύτερα embeddings από το τώρα
+	Αυτές είναι οι πιο critical πηγές για νομικές ερωτήσεις
+	Τι χάνεις προσωρινά:
+
+	FEK coverage: v2 έχει ~689 αρχεία, v1 έχει όλα — αλλά v1 τα έχει με παλιά 384-dim embeddings σε κακό plain text
+	Δηλαδή: χάνεις coverage αλλά η ποιότητα αυτών που έχεις είναι πολύ καλύτερη
+	Το καλύτερο: το switch είναι incremental. Μπορείς:
+
+	Switch τώρα → apps τρέχουν σε v2
+	olmOCR συνεχίζει background
+	Κάθε μερικές ώρες/μέρες: python 47.build_v2_index.py (χωρίς --reset) → προσθέτει νέα FEK αρχεία αυτόματα χωρίς restart apps
+	Και αν θες να γυρίσεις πίσω, αρκεί να ξανατρέξεις 48.switch_to_v2.py με v1 τιμές.
+
+	Σύσταση: κάνε switch τώρα. Θες να το κάνω;
+
+lambrou 
+		edwsa [plhrh prosvash . mou esteiel ayta ta sxolia : ]pairs = [(q, c["text"][:500]) for c in candidates] cuts every chunk to 500 chars. bge-reranker-v2-m3     
+	supports 8,192. Raising that (to 2,000–4,000) is free accuracy
+	BM25 doesn't cover FEKs — only CODES + AP. So for pure statute questions the hybrid benefit disappears and you're back to dense-only.    
+	Worth considering if FEK hallucinations still show up after the switch.
+
+INTACT 
+
+gregory scomment send to email : 
+	Dear PUC4 team, 
+
+Regarding the IDS setup from TUC, Gregory asked me to share the following updates:
+
+    Weekend Progress: Over the weekend, we logged in and tried to set up the IDS based on the provided instructions. We successfully created a VM, but unfortunately, we still couldn't establish a network/internet connection at the end.
+    Platform Selection: We noticed that there are 7 different platforms available, and almost everyone seems to be gathered on Platform 2. We weren't sure if there was a specific instruction to use this one.
+    Using Platform 4: To avoid causing any issues or interfering with the other partners—since it's our first time using the environment—Gregory opted to use Platform 4, which was empty. However, he couldn't get internet access there.
+    Why Internet is Needed: Just as a reminder, having an internet connection on the VM is essential for us so we can download the IDS, install it, and then proceed with running our experiments.
+    Next Steps: Gregory will make another attempt today or tomorrow on Platform 2 (hoping it won't disrupt anyone else's work). If we still can't make it work, we will send a detailed email with all our questions later this week.
+
+meeting DETANGLE wp2: 
+
+mAIL : to evangelos 
+DETANGLE : 
+	MoSCoW Prioritization: Πρέπει να συμφωνήσετε με τους τεχνικούς ποια requirements είναι Must have, Should have, Could have, και Won't have. Δεν γίνεται να υλοποιηθούν όλα στο 100%. Η κατηγοριοποίηση αυτή είναι το εργαλείο σου για να κόψεις το "scope creep" (π.χ. τα Ισπανικά/Ιταλικά εθνικά πρότυπα ίσως πάνε στο "Won't have" ή "Could have").
+
+	Requirements Format (Agile vs. Traditional): Πρέπει να ρωτήσεις την UBI/NCI πώς θέλουν γραμμένα τα requirements. Τα θέλουν ως User Stories (π.χ. "As a compliance officer at MOH, I want to automatically generate a NIS2 gap analysis report, so that I can...") ή με την παραδοσιακή μορφή (π.χ. "The system SHALL generate a NIS2 gap analysis report in PDF format...");
+
+	Επίσημο Sign-off από τους Πιλότους: Μόλις φτιάξεις το τελικό Traceability Matrix του T2.3 μαζί με τους τεχνικούς, πρέπει να το στείλεις πίσω σε MOH, IKEM, SRA, FV και να σου δώσουν γραπτή έγκριση (sign-off). Αν στο M15 σου πουν "μα εμείς θέλαμε και αυτό", το T2.3 θα είναι η ασπίδα σου.
+
+	Διασύνδεση με το Task 2.2 (External Stakeholders): Το Traceability Matrix σου πρέπει να έχει ένα πεδίο που να δείχνει πώς οι απαιτήσεις των πιλότων (Internal) ευθυγραμμίζονται με τις προσδοκίες των External Stakeholders (CSIRTs, OES) που μαζεύει η InfoCert.
+
+
 20 April 
 ===========
 TODOs

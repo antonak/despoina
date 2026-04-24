@@ -677,3 +677,116 @@ But:
 - Per my action items, I will annotate these directly in the v0.4 document with a clear label to protect ATH as the WP2 lead.
 - For N7, N9, N14, N15, N16, and N26, I will mark them as "Out of Scope — GA defines cloud-only / EU-level regulations / IT platform scope, not to be converted to T2.3 requirements, but flagged as a gap for consortium awareness."
 - For N6, N12, and N23, I will mark them as "Not in GA scope — to be discussed with UBI/NCI as potential extensions, not baseline requirements."
+
+
+###  Create presentation for plenary 
+- based in the agenda and comments like : 
+
+
+I suggest organizing the session into three 30-minute slots as follows:
+
+ 
+
+    Internal Stakeholder Needs & Requirements Analysis (T2.1/T2.3): A deep dive into the results from the initial questionnaires and interviews. I would like to moderate together with ATH (if they agree) a brief open discussion to gather feedback from technical partners (NCI, UBI, etc.) regarding the feasibility and impact of the requirements identified so far. Together with ATH, we can pre-select the most critical needs that require technical validation.
+    External Stakeholder Registry:  As we work towards the Month 6 deadline for the consolidated registry, we will present a first draft based on partner contributions (collection starts next week). During the session, I would like each partner to provide a brief overview of their identified stakeholders, focusing on categories (e.g., SMEs, MSAs, CSIRTs) rather than individual entities, to help us refine the overarching engagement strategy.
+    Integrated Outreach Strategy and KPIs To ensure consortium-wide alignment, I would like responsible partners to share their envisioned strategies for tasks and associated KPI involving external outreach. Since these partners will be the ones "using" and enriching the initial registry, it is vital that we are all on the same page. The key areas I see involved are:
+        Task 2.2: Creating collaboration links (Lead: ATH).
+        Task 2.6: Policy Outreach and Twinning (Lead: IMPRO).
+        Training & Capacity Building (WP3 – Lead: UBI/WP6 – Lead: TP): preparation of training modules and goal of 28 webinars and consultations for 100+ individuals.
+        Stakeholder Registry (WP6): Maximizing the impact across the consortium’s 35,000 potential contacts.
+
+ 
+
+Regarding the WP2 session (10:15–10:45), I agree with your proposal to focus on general updates, the timetable, and overall action points.
+
+ 
+
+On a side note: we have yet to finalize the planning for contacting the CracoWi end users. I understood from our previous exchange that it was better to wait for the first requirements collection to conclude. We are now ready to send out the checklist (as an online form) and the introductory document at your convenience. Would you suggest proceeding before the plenary meeting, or should we structure this action within the T2.2 timeline (starting from M7)?
+
+### Action 42 – Alignment with UBI/NCI on Requirements Consolidation & MoSCoW Approach
+- Date: April 2026
+- Action: ATH (WP2 Lead) initiated and coordinated alignment with UBI (Technical Coordination) and NCI (Architecture) regarding the transition from stakeholder inputs (T2.1/T2.2) to structured requirements (T2.3).
+- Outcome:
+  - Agreement to use the consolidated document (v0.7) as the basis for collecting partner feedback through an expanded “open topics” section.
+  - Alignment on transforming open topics into structured requirements using the MoSCoW prioritisation method.
+  - Confirmation that partner input will be gathered through WP2 and Technical Coordination meetings, while ATH will coordinate the formal requirements consolidation process.
+  - Initial alignment on timeline to prepare a prioritised set of requirements ahead of the plenary meeting.
+- Purpose: To ensure a coordinated and controlled transition from stakeholder needs to formalised and prioritised requirements, maintaining WP2 traceability and alignment with T2.4 and T2.5.
+- Status: In progress
+
+### Action 43 - started MoSCoW 
+see file MoSCoW_Process.md
+see file MoSCoW_v1.xlsx
+
+also send an email The short message to send with the draft MoSCoW_v1.xlsx
+
+When you are ready to schedule the meeting (or send the file beforehand), you can use a message like this:
+
+    "Hi Vangelis and Olga, to make our upcoming TC/WP2 sync as efficient as possible, ATH has prepared a first draft of the MoSCoW prioritization based on the v0.7 report and the Grant Agreement. >
+    As you will see in the attached draft, we have locked the 'Covered' items as our Must-Have baseline. For our meeting, we only need to focus on Section B (the Open Topics). We have added a WP2 proposed MoSCoW rating for these gaps, but we need your final technical validation on feasibility before we lock them in for the Plenary. >
+    Looking forward to finalizing this together."
+
+This approach makes you look highly organized, collaborative, and entirely in command of the requirements pipeline!
+
+### Action 44 moscow ready first drat and sent 
+-       Following up on my previous email, please find attached the first draft of our MoSCoW prioritization matrix (MoSCoW_v1.xlsx), based on the latest Stakeholder  
+        Needs report (v0.7).
+        To make our next discussion as efficient as possible, I have structured the file into two main sections:
+        Locked Baseline (Must Haves): The first row groups the 30+ needs that are fully aligned with the Grant Agreement. We consider these locked as the core system baseline and they will not require further debate.
+        Open Topics for Technical Validation: The subsequent rows detail the specific items that require a technical decision (Deployment, Timeline, etc.), along with WP2's proposed MoSCoW rating.
+        Please focus your review on the "Pending Technical Validation" column. Our goal for the upcoming TC meeting is to efficiently finalize these 5-6 open items so that we can present a unified, stable requirements baseline at the  Plenary.
+        I remain at your disposal for any clarifications before our sync.
+        Best regards,
+        Despoina
+
+        (On behalf of ATH - WP2 Lead)
+
+
+# Action 45 added also moscow in slide fro rome 
+ - /Users/antonakd/Documents/DETANGLE/WP2/T2.3- ATH/MoSCoW_v1.xls
+ - /Users/antonakd/Documents/DETANGLE/plenary_rome_june_2026/
+ 
+# prepare for next TC to talk abou moscow 
+
+                The TC Meeting Script (Οδηγός για το call)
+                1. Το Άνοιγμα (The Anchor - 2 λεπτά)
+
+                Ο στόχος εδώ είναι να βάλεις τα όρια με το καλημέρα. Δεν συζητάτε όλο το σύστημα, συζητάτε μόνο 5 γραμμές.
+
+                    Τι να πεις:
+                    "Hi everyone. Thank you for checking the Excel file I sent. Just to set the scene for today: as you saw in row 1, we have successfully mapped over 30 needs from the v0.7 report directly to the Grant Agreement. These are locked as our MUST HAVEs. We don't need to discuss them today. Today, our goal is strictly to make a technical decision on the 5 open constraints so I can finalize the T2.3 baseline for the Plenary."
+
+                2. The Rapid-Fire Decisions (20 λεπτά)
+
+                Ανοίγεις το Excel σου με Share Screen. Πηγαίνεις γραμμή-γραμμή και ζητάς συγκεκριμένες απαντήσεις.
+
+                Για το N14 (Deployment - Hybrid vs Cloud):
+
+                    "Let’s start with N14. The GA assumes a Cloud deployment, but FV strictly needs on-premise, and others need hybrid. NCI/UBI, is a hybrid workaround technically feasible? If yes, I will log it as a SHOULD HAVE. If not, we need to officially inform the pilots."
+                    (Περιμένεις την απάντησή τους και τη γράφεις επιτόπου στο Excel)
+
+                Για το N17 (Timeline - M12 vs M18):
+
+                    "Moving to N17. The pilots want a usable platform by M12, but delivery is M18. UBI, can we agree to provide early UI/UX mockups at M12 to keep them engaged? I propose we rate this as a SHOULD HAVE."
+
+                Για το N15 (Mobile Access):
+
+                    "N15 is Mobile Access. Is a responsive web design natively supported by your tech stack? If yes, it's a COULD HAVE. If it requires building a dedicated native app, WP2 proposes we drop it to WON'T HAVE to protect the scope."
+
+                Για τα N7, N16 & N9 (Out of Scope - OCPP & National Frameworks):
+
+                    "Finally, N7, N16, and N9. These are sector-specific protocols (like OCPP) and national regulations (ENS/PSNC). Since they are not funded by the GA, WP2 strongly proposes classifying these as WON'T HAVE for the core baseline, unless you have an out-of-the-box API for them. Do we agree to lock them as WON'T HAVE?"
+
+                3. Το Κλείσιμο (The Wrap-Up - 3 λεπτά)
+
+                Κλείνεις το meeting επιβεβαιώνοντας ότι πλέον έχεις όλα όσα χρειάζεσαι για το Plenary.
+
+                    Τι να πεις:
+                    "Perfect. Thank you both. We have now resolved the open constraints. I will update the MoSCoW matrix with today's decisions and translate this directly into our official 1-slide visual for the Rome Plenary. This means the WP2 requirements baseline is now officially stable."
+
+                💡 Το μυστικό της επιτυχίας:
+
+                Αν κάποιος (π.χ. ο Βαγγέλης) αρχίσει να μιλάει πολύ τεχνικά για το πώς θα χτιστεί κάτι, τον διακόπτεις ευγενικά λέγοντας:
+                "That makes perfect sense for the T2.4 architecture design, Vangelis. But for our WP2 requirement baseline today, do we classify this as a Should Have or a Won't Have?"
+
+                Έχοντας αυτό το script ανοιχτό σε μια άλλη οθόνη κατά τη διάρκεια του meeting, θα ελέγχεις απόλυτα τη ροή και θα το τελειώσετε σε 30 λεπτά ακριβώς!
