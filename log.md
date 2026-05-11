@@ -35,7 +35,6 @@ blackmamba ssh -p 22599 antonakd@139.91.71.14 ... 41
 
 
 
-
 Timologia 
 ================================================================
 * GREEN.DAT.AI*
@@ -279,23 +278,233 @@ Regarding the scheduling of the TC Meeting I want to thank our partners from ITM
 =============================
 OPEN AI KEY 
 
- 
+=========================================================================================================================================================
+=========================================================================================================================================================
+=========================================================================================================================================================
+=========================================================================================================================================================
+calls June 2026
 
+* RESERVE LIST: SONAR	Advanced Architectures Systems and Technologies 	HORIZON-JU-SNS-2025-01-STREAM-B-01-01	17/09/2025	TUC	TUC	Drasko Draskovic	Despoina Antonakaki	Drasko DRASKOVIC 	
+  from email : 		Request for Support: SONAR – A High-Impact SNS Proposal on the Reserve List (mail sent on 3/2/2026)														 
 =========================================================================================================================================================
 =========================================================================================================================================================
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+8 May
+===========
+* DETANGLE συμβαση. προβλημα με ΦΠΑ. το κοιταζει η Αννα μεσω εφορίας, και θα αποστειλουμε ταχυδρομικα αφού τελειωσει;;;
+* calls : 
 
 
+28 April
+============
+
+Proposals calls 
+=========
+	apo auta pou kophkan na mpoun se mia lista kai na douem pou tairiazoun , apo deytera trith na kanoume ta xconatct 
+	2) space call? 
+	3) alla calls ton septemvrh 
+
+	a) Towards Artificial General Intelligence (AGI) for healthcare
+	HORIZON-HLTH-2027-03-TOOL-08
+	https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-08?order=DESC&pageNumber=1&pageSize=50&sortBy=relevance&keywords=cybersecurity&isExactMatch=true&status=31094501,31094502
+
+	b)Enhancing the Security, Privacy and Robustness of AI Models and Systems (SecureAI)
+	HORIZON-CL3-2026-02-CS-ECCC-02
+	https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-02-CS-ECCC-01?order=DESC&pageNumber=1&pageSize=50&sortBy=relevance&keywords=cybersecurity&isExactMatch=true&status=31094501,31094502
+
+	c) Artificial Intelligence for Cybersecurity applications
+	HORIZON-CL3-2027-02-CS-ECCC-01
+	https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-02-CS-ECCC-01?order=DESC&pageNumber=1&pageSize=50&sortBy=relevance&keywords=cybersecurity&isExactMatch=true&status=31094501,31094502
+
+LAWS
+=====
+	xekinhsa ta sxolia ths xristinas kai eftiaxa to mail pou zhthse o manos na to steiloume stous dikhgorous gia  na mas to testaroun 
+
+DETNAGLE
+======
+	So what should YOU do now (practical plan)
+	🔵 Phase NOW (M4–M6) → “Preparation for T2.2”
+
+	You are here 👇
+
+	Do this:
+
+	Finalise T2.3 requirements (MoSCoW) ✅
+	Define:
+	stakeholder categories
+	engagement strategy
+	Prepare:
+	WP2 external validation plan
+
+	👉 This is your bridge
+
+
+	🟢 Phase M7 (July) → OFFICIAL START T2.2
+
+	You launch:
+
+	1. “WP2 External Validation Group” (🔥 your strongest move)
+	curated list (~30–50 stakeholders)
+	from:
+	CRACoWi
+	WP6 registry
+	partners
+	2. First engagement actions:
+	targeted questionnaire (refined from T2.3)
+	validation workshops
+	feedback sessions
+============
+next setps 
+
+ok regarding this 🧠 4. So what should YOU do now (practical plan)
+🔵 Phase NOW (M4–M6) → “Preparation for T2.2”
+
+You are here 👇
+
+Do this:
+
+Finalise T2.3 requirements (MoSCoW) ✅
+Define:
+stakeholder categories
+engagement strategy
+Prepare:
+WP2 external validation plan
+
+👉 This is your bridge
+
+i have already had some feedback on teh moscow from :
+1)"SEGOU Olga" <Olga.SEGOU@netcompany.com>
+B26: Deployment model (cloud vs hybrid vs on-prem)
+N14 is a little vague; the requirement could be whether the user needs support for different governance models - but how we design the deployment itself can be considered an architectural consideration. Maybe this requirement can be clarified a bit.
+2) B41: Timeline expectation (M12 vs M18 mismatch)
+This is more of a planning consideration rather than a requirement description. It does not describe a functional, non-functional or user/business requirement for the platform. We would kindly suggest removing it.
+3) Author
+
+Theofilos Tsoris replied
+
+I would let it to be decided in the TC meetings.
+
+D21: COULD (NFR)
+
+4) heofilos Tsoris added a comment
+
+Correct positioning. No SLA or performance guarantees should be assumed beyond GA scope.
+
+D21: COULD (NFR)
+
+5)
+Author
+
+Theofilos Tsoris added a comment
+
+This is categorized as "Covered" in the internal stakeholder document and indeed resource pooling aligns with core collaboration capabilities defined in the GA. It may require reconsideration of its prioritisation level to MUST.
+
+
+6)
+
+Theofilos Tsoris added a comment
+
+This introduces a potential conflict with the platform’s cross-organisational collaboration model, which relies on controlled information sharing between entities. This could be treated as an architectural trade-off (data isolation vs. collaboration capabilities), rather than treated as a feature refinement.
+
+D10: SHOULD
+
+7)
+
+Theofilos Tsoris added a comment
+
+This reflects a planning misalignment rather than a system requirement. It should be treated as a coordination constraint. If deemed feasible by TC, a phased approach (e.g., early prototyping) could be explored to support pilot engagement, without affecting the GA-defined timeline.
+
+D13: SHOULD (GOVERNANCE)
+
+8)
+
+Theofilos Tsoris<t.tsoris@itml.gr>
+1) Hybrid/on-prem is not aligned with the GA-defined cloud-based architecture. Its classification as SHOULD may imply scope extension and should be revisited at TC level. Constraints as such should be managed within a cloud-based system.
+
+This reflects a planning misalignment rather than a system requirement. It should be treated as a coordination constraint. If deemed feasible by TC, a phased approach (e.g., early prototyping) could be explored to support pilot engagement, without affecting the GA-defined timeline.
+
+9)
+
+Theofilos Tsoris added a comment
+
+Hybrid/on-prem is not aligned with the GA-defined cloud-based architecture. Its classification as SHOULD may imply scope extension and should be revisited at TC level. Constraints as such should be managed within a cloud-based system.
+
+D6: SHOULD (ARCHITECTURE DRIVER)
+
+
+=============
+gia ton aleko 
+
+https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-08?order=DESC&pageNumber=1&pageSize=50&sortBy=relevance&keywords=cybersecurity&isExactMatch=true&status=31094501,31094502
+============
+INTACT 
+* bernards garn has setyhing to aska about teh packet hes has already preparted and want to ask someting not to breal tls? 
+
+
+27 Απριλ ¨
+==========
+* ΤΟΔΟ check the training sessions on DETANGLE (WP6 taskswhen tehy start and what to do now also send the Moscow draft mail )
+25 April
+==========
+* den eixe sumperilavei to megalo adatset me olh thn nomothessia sto chat . to vazei twra . 
+
+		Το indexing τρέχει στο background. Σε ~1 ώρα θα είναι έτοιμο και θα κάνω αυτόματα restart τα apps.
+
+		Τρέχουσα πρόοδος:
+
+		6,517 Period_A αρχεία (1998–2025) → indexing σε εξέλιξη
+		Ήδη 18,048 νέα chunks από τα πρώτα 500 αρχεία
+		Αναμενόμενο τελικό σύνολο: ~330,000+ chunks (από 250,508 σήμερα
+
+* to problhma pou emfanise ston sotiri : 
+- 8u8hke 		
 24 April
 ===========
-* Moscow uploaded . todo see on monday again and tehn send mail 
+			* Moscow uploaded . todo see on monday again and tehn send mail 
+				φόσον τα έγγραφα είναι έτοιμα, ορίστε το στρατηγικό email που θα τους στείλεις για να κλείσετε το meeting. Είναι γραμμένο έτσι ώστε να τους βάλει απευθείας στο πλαίσιο (ADRs) και να αξιοποιήσει την υποστήριξη του Συντονιστή.
+
+			Subject: DETANGLE WP2: T2.3 MoSCoW Baseline Finalization & Architecture Risk Register (TC prep)
+
+			Body:
+
+				Hi Vangelis and Olga,
+
+				To ensure we can finalize the WP2 requirements baseline (T2.3) ahead of the Rome Plenary, I have consolidated the pilot constraints into the attached MoSCoW matrix and Architecture Risk Register.
+
+				As you will see, we have already filtered out the noise. Following Theofilos’ recent directives (e.g., locking the Cloud-only baseline and excluding out-of-scope plugins like OCPP/ENS), WP2 has firmly categorized several items as WON'T HAVE to protect the GA scope.
+
+				For our upcoming TC meeting, we only need your technical validation on the remaining Architecture Decision Records (ADRs) – specifically the borderline SHOULD/COULD items (e.g., hybrid pilot workarounds, mobile UI access, and NFRs).
+
+				Please review the attached:
+
+					MoSCoW Priorities & GA Scope mapping (Excel / Word)
+
+					Architecture Risk Register (Highlighting the technical conflicts)
+
+				Let me know your availability for a 30-minute sync this week so we can officially lock these decisions.
+
+				Best regards,
 * laws again downloading Δικαστήριο	Κατάσταση
 	ΣτΕ	✅ 1,500 αποφάσεις — κατεβασμένες, indexed (43,117 chunks στη βάση)
 	ΕλΣυν	❌ Υπάρχει ο φάκελος elsyn_cache/ αλλά άδειος — τίποτα δεν κατέβηκε
 	Εφετεία	❌ Τίποτα — μόνο ένα αρχείο με αρχαίες αποφάσεις 2014 από παλιό scr
+
+			000  https://elsyn.gr/wp-json/wp/v2/posts?per_page=1
+		200  https://www.hellenicparliament.gr/Nomothetiko-Ergo/Anazitisi-Nomothesias/?law_id=
+		200  https://nomosphysis.org.gr/wp-json/wp/v2/posts?categories=232&per_page=5&search=%CE%B5%CE%BB%CF%83%CF%85%CE%BD&_fields=id,title
+		200  https://ddikastes.gr/wp-json/wp/v2/posts?categories=613&per_page=100&search=%CE%B5%CE%BB.+%CF%83%CF%85%CE%BD&_fields=id,title,date&page=1
 * pathfinder + accelerator funding search
+
+Τρέχουσα κατάσταση βάσης (245,516 chunks συνολικά):
+
+Folder	Chunks
+AP (Άρειος Πάγος)	130,893
+FEK (ΦΕΚ)	47,744
+STE (ΣτΕ)	43,117
+ELSYN (ΕλΣυν)	16,307
+CODES	7,455
 * CYBERGURAD resubmit  ?
 
 22 april

@@ -50,6 +50,151 @@ It focuses on what was done (emails, meetings, documents), not on document conte
 - Action: Bilateral meeting with ICERT on stakeholder analysis and requirements flow.
 - Outcome: Alignment on phased stakeholder engagement.
 
+    Meeting with ICERT Tuesday 27/2/2026
+            
+            Notes from meeting
+            
+            Alicia Project manager fro DETNAGLE
+            Matteo lead of technical part - And Tomaso will be working with him .
+            
+            
+            Requirements …on 2.3 taks
+            Month 3 should  be a stakeholer internal stakegholder analysis
+            
+            Interviews with internal stakeholder
+            
+            On month 6 external stakeholders
+            
+            Internal in month 3 and external stakeholder on month 6
+            
+            This taks they will draft questions and checklist in roder to gather stakeholder list will be a first stakeholder list .
+            
+            Internally with infochern and gather more intelligence and they will gather information internally and this inwll help to reuse internally with other detengle stakeholders as a first round which participates 2.3
+            
+            Akicia shares a pdf with companies
+            
+            We need a cjheck list of qeustion but fuirst we need comversations then from conversation à question ..tehn internally wuith some companyies will review
+            
+            Check questions internally and see if need more and then will be fisr t analysis and mapping..maybe usuful to englarfe the auduence
+            
+            Is tt ok if after gathering to share to other detangle sharestake holder is it ok ?
+            
+            The first will be the ones is it ok to send   I answer is YES alre we also we PILOTS? This will be the input for the pilots this is the function requrement anaysis
+            This is a need our fiel we sent
+            Apostlis :
+            first go to the pilots and coordinator said in the kom they had a project similar and get together with this project need input
+            engage also thes other stakeholders
+            Maybe wont be enough we need end usrs cracoWI project
+            Also ask itml to pick up a few names
+            ITML are aso coordinator there ..
+            Matteo: you are suggesting to basically interface with the companies entitesi of the other project ?? how they actually ..
+            
+            Apostolis
+            We create quation à pilots à tools of input not ony fom stakeholder of our pilots but also stakeholder from other prjctes
+            
+            Other project will look the questionarie make want t make sure that question are alighed with what we are doing in detangle a fail safe that wentdot get requtirement that we cannot meet
+            
+            Matteo :
+            They will elaborate and connect with alicia to connect with them
+            2.1 first idea
+            
+            For morch m3 we need to produce the first output from this task à next week inetran l meeting and start sharing the furst draft of the questoionaire ..
+            
+            The questionair for the internal stakeholder may not be the same but extended with the questons with the one to external because in hos exprecence twe have several partners the thing is e. we want mor einfo from diverse industries e.g oil health digital service BUT we may want other kind of service food beverages etc. my feeling this will be the fisr inetrall . when we go outside wee will need to extend the questionair
+            Comliance need are similar bt applicatio is different in dufferent fields
+            
+            Alicia add agree and adds this is a liyyle difficult . this analysis and mappoing and what are collecting if not correct in the beginnig and a lot of task wil go wrot – wp6 can go very wrong share skide see sharerd slides
+            Different in term of what we want from tehm …maybe share in between internal and then go outside ?
+            We have to englarge toward the whole consortium
+            
+            Mayeb first agree on the info we collect stakeholder analysis and then add our stakeholder then sgare with other partners
+            
+            Or maybe first asks stakeholders amd then
+            
+            Matteo : after we collct internally > 6 month? We have time to discuss..based on info inetrannly see what is the best path to follow
+            
+            Matteo why did he mention other industries aoart frm stakeholder. Because we look at the eu lansdscaoe . these are a small fraction will be
+            
+            Cybersecurity operators ..we may need to expand this list but later
+            The shared slide shows the stakeholders
+            
+            This does not include companies that externilise and they have internally
+            
+            Thinkng to contact stakeholder outside this gtoup ..discuss it later
+            e.e foofd and beverage companies
+            apostlie what we need form stakeholder
+            last sentence actors that play role in the omplementaion in cyber resilience act à kind of enforcing the end user to be gatherd maybe we loking to enforce the cyber resilience act
+            
+            who make the legistaltion reallity benecifial to inlude end users
+            matteo
+            if we look at cyber resilience act
+            either treat these stakelohler the one they se and enforce or we should expand the list to get to the finaluser of ourt solution
+            
+            apostolis do we have solution for end users ? we don’t have omage ?
+            maytteo need to gather the needs of stakeholder . we may have stakeholder thae use the tools for themselcvs or provide to other …thtast why we need to collect and map
+            
+            apostolis pilots are end users > ?
+            
+            alicia what we can do : 2.1 à two different missions
+            one for m3 most silira to stak isleft a first anaysis of thre pilts and alignment with project carowi à will organize meeting with pilots itml and cracowi à
+            etexternal stakeholer analysis : veruy long stakelohder lists we have collaboration platform need to know that grid is fuctional to other task . how we discuss with other oartners how we gather this info
+            
+            also clear for me : thse stahkelholder still personal contacts , do not share as a project gour wtill it partners cotanct we may steal contacts our coiens insteredted in the solution are enrgy users could be clients of other partner if we share that might be very nice . DO NOT SHRE with possible competitors
+            
+            gather info and anonimize the source IMPRTANT ANONYMIZE we put major play in the enrgy indistry . shre info is stakeholder agrees. May be a problem . e can anonimize ..then we gather more info.
+            
+            Concern how we expand this list .    
+            
+            Next mmeetig? Keeping in copy and update
+            Share checkllist with pilost and US (ATH) ..put our next meeting /
+            
+            Friday 13 10:30 greek time 
+            “Let’s agree on how requirements will flow from T2.1 to T2.3.”
+            What we need at this stage is alignment on process, not content.
+            
+            intro
+            “We understand that T2.1 is still very early, and that at this stage you may not yet have consolidated stakeholder requirements.
+            That is absolutely expected.”.
+            
+            How T2.1 and T2.3 fit together
+            “From our side, T2.3 does not require finished requirements from T2.1.
+            What it needs is:
+            • early signals,
+            • preliminary stakeholder categories,
+            • and agreement on how future inputs will be passed to T2.3.”
+            This shows maturity and realism.
+            
+            Expectation 
+            1️⃣ process, not deliverables
+            “How do you plan to collect and structure stakeholder inputs in T2.1?”
+            
+            2️⃣ Ask what will be available early, even if incomplete
+            “In the first months, what kind of outputs can we expect from T2.1?
+            For example:
+            • stakeholder lists,
+            • interview notes,
+            • early assumptions,
+            • preliminary mappings.”
+            Even notes are valuable for T2.3.
+            
+            3️⃣ Align explicitly with  Pilots
+            Step 1 bullet fits .
+            “ Consider incorporating feedback from pilots, technical tasks, demos, and regulators as they become available — not only formal stakeholder interviews.”
+            This reassures ICERT that:
+            • requirements maturity is expected to grow over time
+            • T2.1 is not the only source
+            
+            4️⃣ Lightweight handover mechanism.
+            “Would it work for you if T2.1 shares:
+            • short summaries,
+            • structured notes,
+            • or interim tables,
+            even before anything is final?”
+            
+            ✅ Just to inform you: ATH has already circulated a draft T2.3 Requirements Framework and initial register to all WP2 partners.
+            This is purely an internal working document, and we asked partners to share any early comments or draft inputs by 29 January.
+            We do not expect mature or validated requirements at this stage — this is only to start the consolidation process.”
+
 ### Action 8 – WP2 methodology refinement
 - Date: Late February 2026
 - Action: Methodology refined based on ICERT meeting and lessons learned.
@@ -790,3 +935,193 @@ This approach makes you look highly organized, collaborative, and entirely in co
                 "That makes perfect sense for the T2.4 architecture design, Vangelis. But for our WP2 requirement baseline today, do we classify this as a Should Have or a Won't Have?"
 
                 Έχοντας αυτό το script ανοιχτό σε μια άλλη οθόνη κατά τη διάρκεια του meeting, θα ελέγχεις απόλυτα τη ροή και θα το τελειώσετε σε 30 λεπτά ακριβώς!
+
+            
+ ### Action 46 – MoSCoW refinement based on TC feedback (requirement vs constraint separation)
+- Date: April 2026  
+- Action: ATH reviewed feedback from Technical Coordination (UBI, NCI, ITML) on the initial MoSCoW_v1 and refined the classification of items to clearly distinguish between:
+  - system requirements (functional / non-functional),
+  - architectural drivers,
+  - and project-level constraints.
+- Key Adjustments:
+  - Identification of timeline-related items (e.g., N17 – M12 vs M18) as **project coordination constraints**, not system requirements.
+  - Reclassification of such items outside the MoSCoW prioritisation framework.
+  - Clarification of deployment-related requirements (N14) as **constraint-aware requirements**, aligned with GA-defined cloud architecture.
+- Outcome:
+  - Improved consistency of T2.3 requirements with requirements engineering principles.
+  - Alignment with Technical Coordination expectations.
+- Status: Completed
+
+### Action TC meeting 28/April 20226
+- From the WP2 side, we have prepared an initial MoSCoW prioritisation based on the v0.7 needs and the Grant Agreement, and we are now focusing on validating the remaining open items with you to finalise the T2.3 baseline.”
+🔥 More assertive (if you want to lead the discussion)
+- “WP2 has already locked the baseline ‘Must-Have’ requirements aligned with the GA, and today we’d like to focus only on the few open MoSCoW items that need your technical validation to finalise the requirements.”
+ Very short version (if time is tight)
+“We’ve prepared the MoSCoW draft and locked the baseline—today we just need your input on the open items to finalise T2.3.”
+🎯 Slightly strategic (signals control + alignment)
+“The MoSCoW draft is ready on our side, with the GA-aligned baseline already locked, so today’s goal is to converge on the open constraints and ensure alignment with T2.4.”
+
+
+Notes from meeting. 
+---------------
+
+
+discussion points 
+
+timeline reveiw 
+
+
+
+do ATh has to build teh architecture ???? ι ηαωε το ασκ !
+
+
+
+Tehofilos l: We need architecture !!this is a preliminary work as evangelos replied... 
+Eleni Maria Kalogeraki ? 
+
+ 
+
+Not sure foe the items below if tehy stay ? 
+TODO !!! 28 Apriliou 2026 
+--------------------------------------------------
+### Action 47 – Separation of Project Constraints from T2.3 Requirements
+- Date: April 2026  
+- Action: ATH introduced a structured separation between:
+  - **T2.3 Requirements (MoSCoW prioritised)** and  
+  - **Project Constraints / Coordination Considerations**
+- Scope:
+  - Timeline misalignment (M12 vs M18)
+  - Early prototype expectations
+  - Coordination dependencies across WPs
+- Outcome:
+  - Creation of a controlled “Project Constraints” layer to ensure:
+    - T2.3 remains clean and auditable,
+    - non-requirement items do not affect prioritisation,
+    - alignment with GA scope is preserved.
+- Status: Completed
+
+
+### Action 48 – Reclassification of MoSCoW items based on GA compliance and TC input
+- Date: April 2026  
+- Action: ATH updated MoSCoW prioritisation following partner feedback:
+  - Promoted GA-aligned capabilities (e.g., collaboration / resource pooling) to **MUST**
+  - Confirmed out-of-scope items (e.g., OCPP, national frameworks) as **WON’T HAVE (baseline)**
+  - Maintained architectural trade-offs (e.g., data isolation vs collaboration) as **SHOULD**
+- Outcome:
+  - MoSCoW matrix aligned with:
+    - Grant Agreement scope
+    - technical feasibility considerations
+    - WP2 traceability requirements
+- Status: Completed
+
+
+### Action 49 – Preparation of final MoSCoW baseline for Plenary presentation
+- Date: April 2026  
+- Action: ATH prepared the updated MoSCoW matrix (v2) incorporating:
+  - Technical Coordination feedback
+  - GA scope validation
+  - refined prioritisation
+- Scope:
+  - Locked baseline (MUST)
+  - Validated SHOULD items (architecture drivers)
+  - Controlled COULD items (extensions)
+  - Explicit WON’T HAVE (out-of-scope baseline)
+- Outcome:
+  - Stable T2.3 requirements baseline ready for:
+    - Plenary presentation
+    - transition to T2.4 (technology mapping)
+- Status: In progress
+
+
+### Action 50 – WP2 governance reinforcement for requirements traceability
+- Date: April 2026  
+- Action: ATH reinforced WP2 internal governance by:
+  - ensuring all requirements are traceable to stakeholder inputs (T2.1/T2.2),
+  - validating alignment with GA scope before inclusion in T2.3,
+  - preventing scope creep through controlled MoSCoW classification.
+- Outcome:
+  - Strengthened WP2 positioning as requirements authority within the consortium.
+  - Ensured auditability for future reviews (RP1).
+- Status: Ongoing
+
+### Action 51 -   Where You Stand (M1=Jan → Now = M5, May 2026)
+Here's the journey so far in a nutshell:
+M1–M2 (Jan–Feb): ATH set up WP2 governance, circulated methodology, ran first meetings, agreed phased approach: T2.1 → T2.2 → T2.3.
+M2–M3 (Feb–Mar): ICERT ran pilot interviews (IKEM, SRA, FV, MOH) with ATH support. All 4 pilots completed. Key findings: FV = on-premise only, MOH = human-in-the-loop AI required, IKEM = OCPP protocol focus, SRA = complex healthcare compliance.
+M3–M4 (Mar–Apr): ICERT delivered the Internal Stakeholder Needs report v0.4/v0.7. ATH reviewed it, flagged out-of-scope items (N7, N9, N14, N15, N16, N26), built the MoSCoW matrix v1, sent it to UBI/NCI for technical validation.
+M4–M5 (Apr–May): TC meeting on 28 April. MoSCoW refined (Actions 46–50). Baseline locked on 30+ MUST HAVEs. 5 items still need technical decisions today (N14, N22, N28, N36 + timeline constraint). T2.3 is almost finalised — the plenary (Rome) is next.
+
+ 
+
+
+### Action 52 – MoSCoW baseline review and MUST HAVE lock
+- Date: May 2026
+- Action: WP2 conducted a live review of the MoSCoW Matrix v2.0 with all task leaders and pilots:
+  - confirmed 30+ MUST HAVE items (N1–N42) as the locked core baseline,
+  - validated full alignment with the Grant Agreement scope,
+  - formally excluded WON'T HAVE items (N9 – national frameworks ENS/PSNC) to prevent scope creep.
+- Outcome:
+  - MUST HAVE baseline locked and ready to feed WP3, WP4, WP5 architecture design (T2.4).
+  - WON'T HAVE items documented to protect consortium resources.
+- Status: Complete
+
+---
+
+### Action 53 – Reclassification of architectural SHOULD HAVE items
+- Date: May 2026
+- Action: WP2, UBITECH and ITML jointly reviewed pending SHOULD HAVE items triggering ADRs:
+  - N14 (Deployment Model) downgraded to COULD HAVE; bilateral discussion with pilot provider initiated,
+  - N22 (Data Sensitivity) split into a platform-level MUST and a use-case-specific sub-requirement,
+  - N36 (Timeline Expectations) reclassified to WON'T HAVE as a coordination constraint outside GA scope,
+  - N12/N23 (SLAs) retained as tentative COULD HAVE pending architecture maturity,
+  - N28 (Human-in-the-Loop AI) flagged for rephrasing and integration into SOC workflows.
+- Outcome:
+  - Unblocked architectural decision-making for WP3, WP4, WP5.
+  - Reduced risk of scope overload on non-GA items.
+- Status: In progress (matrix updates pending)
+
+---
+
+### Action 54 – Capture of early architectural insights from requirements discussion
+- Date: May 2026
+- Action: UBITECH proposed and WP2 agreed to document architectural insights arising from the MoSCoW review:
+  - federated architecture confirmed as the baseline deployment model,
+  - data isolation to be implemented as a configurable switch per use case,
+  - dockerised packaging identified as the approach for on-premise compatibility,
+  - executive reporting and human-in-the-loop to be designed as an integrated workflow.
+- Outcome:
+  - Early architectural guidance captured ahead of formal T2.4 deliverable.
+  - Inputs available for WP3 (T3.1) already drafted by UBITECH.
+- Status: Ongoing
+
+
+### Action 55 – Alignment on T2.1 External Stakeholder Registry & T2.2 next steps
+- Reviewed ICERT communication regarding the **T2.1 External Stakeholders Registry (v0.3)** and accompanying instructions.
+- Confirmed that **ICERT leads stakeholder collection (T2.1)**, with input from all partners (no need for ATH to initiate separate collection).
+- Clarified that **ATH (WP2 Lead / T2.2)** will:
+  - build upon the registry results,
+  - define **stakeholder prioritisation and categorisation**,
+  - design the **engagement and collaboration strategy** (validation, pilots, dissemination support).
+- Identified dependency with **WP6**, which will support outreach and campaigns based on WP2-defined stakeholder categories and priorities.
+- Agreed on the need for an **alignment meeting (ICERT, ATH, UBI, IMPRO, TP)** to:
+  - validate the structure and use of the registry,
+  - align T2.1 → T2.2 transition,
+  - prepare the **Stakeholder Engagement session for the Plenary**.
+- Next step: provide confirmation/feedback on ICERT documents and participate in alignment meeting to ensure coordinated execution.
+ 
+ ### Action 56 – Reply to ICERT: T2.1 Registry endorsement & T2.2 positioning
+- Sent reply to Alice Zanasi (ICERT) and all WP2 partners endorsing the **T2.1 External Stakeholders Registry (v0.3)** approach and timeline.
+- Reminded all partners of the **end-of-May contribution deadline** to ensure a consolidated version ahead of the Plenary.
+- Formally positioned **ATH as T2.2 Lead**, clarifying that WP2 will build on T2.1 results to:
+  - structure and prioritise the stakeholder landscape,
+  - define the engagement and collaboration strategy,
+  - align with **WP6** on outreach and engagement actions.
+- Confirmed support for the proposed **alignment meeting (ICERT, ATH, UBI, IMPRO, TP)** and offered to coordinate scheduling.
+- **No attachment sent** — ATH stakeholder entries (ATH-001–010) pending internal review before submission.
+ 
+
+### Action 57 – TODO: Internal review of ATH stakeholder entries
+- Drafted **10 stakeholder entries (ATH-001–010)** for submission to the T2.1 registry, covering: ENISA, ADAE, CERT-GR, GRNET, FORTH, ENCS, GSRT, SEV, ECSO, Energy ISAC.
+- To be sent to ATH colleague for review and approval before forwarding to ICERT.
+- Colleague to confirm entries or add new ones (format: ATH-011, ATH-012 etc.).
+- **Next step:** Send internal email with Excel attachment → collect feedback → submit final version to Alice (ICERT) before end of May.
