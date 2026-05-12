@@ -1125,3 +1125,145 @@ M4–M5 (Apr–May): TC meeting on 28 April. MoSCoW refined (Actions 46–50). B
 - To be sent to ATH colleague for review and approval before forwarding to ICERT.
 - Colleague to confirm entries or add new ones (format: ATH-011, ATH-012 etc.).
 - **Next step:** Send internal email with Excel attachment → collect feedback → submit final version to Alice (ICERT) before end of May.
+
+
+### Action 58 – Review of ICERT bilateral meeting notes (27 February 2026) & T2.2 confidentiality constraints
+
+- Reviewed detailed notes from the bilateral meeting between ATH and ICERT held on 27 February 2026 (previously logged as Action 7).
+- **Key clarification identified:** Alice Zanasi (ICERT) explicitly raised a **confidentiality constraint** on external stakeholder contacts:
+  - Partner-proposed stakeholders may be **commercial contacts or potential clients** of other consortium members.
+  - Sharing them freely within the consortium risks **conflict of interest and competitive exposure**.
+  - Alice's directive: **DO NOT SHARE** stakeholder contacts with possible competitors. **ANONYMIZE** the source when reporting.
+- **Implications for T2.2 (ATH lead):**
+  - The stakeholder registry is an **internal WP2 document**, not a full consortium asset.
+  - ATH must engage stakeholders through **institutional and public channels** (ENISA, CERT-GR, ADAE, ECSO, EU CSIRTs network directory) — not via partner-provided personal contacts.
+  - When a partner proposes a stakeholder, **that partner remains the liaison** — ATH does not cold-contact directly.
+  - Deliverables and periodic reports should refer to **stakeholder categories**, not named organisations where commercially sensitive.
+- **Conceptual clarification on end-user scope (raised by Apostolis Fournaris / ATH):**
+  - The meeting surfaced an unresolved question: who is the true "end user" of DETANGLE?
+  - ATH position to be formally proposed at the Plenary: **pilots = end users; external stakeholders = validators and dissemination targets**. This boundary must be held to prevent T2.2 from becoming an open-ended expansion exercise.
+- **Status:** Constraint documented; to be reflected in T2.2 Engagement Strategy from M7 onwards.
+
+
+### Action 58b – Use Case discussion in WP2 Meeting #7 (19 May)
+- Siranush (ITML) + Evangelos (UBI) requested a short UC owners conversation during the next WP2 meeting to prepare for the Rome Plenary UC session.
+- ATH confirmed time is available. No formal presentation needed.
+- **Evangelos to send heads-up email to UC owners this week.**
+- **Next step:** ATH adds UC item to Meeting #7 agenda.
+
+### Action 59 – T2.2 Implementation Plan (M7–M36) — ATH as Task Leader
+
+**Context:** T2.2 officially starts M7 = July 2026. M1 = January 2026.
+
+---
+### Action 60 - Ask email Sotiris-Manos about externan stakeholder 
+### Action 60 – ATH internal stakeholder collection strategy aligned with T2.1 registry process
+* Date: May 2026
+* Following the circulation of the ICERT-led T2.1 External Stakeholder Registry process, ATH reviewed the stakeholder collection approach for upcoming T2.2 activities.
+* ATH decided to reposition the internal ATH stakeholder request process:
+  * instead of asking ATH members to validate a predefined stakeholder list,
+  * ATH requested proposals directly from partners’ and researchers’ own networks,
+  * while keeping ATH responsible for consolidation and submission to ICERT.
+* The approach was aligned with:
+  * the consortium-wide T2.1 stakeholder mapping process coordinated by ICERT,
+  * liaison/confidentiality principles discussed within the consortium,
+  * and the future T2.2 stakeholder engagement responsibilities of ATH.
+* An updated internal ATH email was prepared requesting:
+  * stakeholder names,
+  * categories,
+  * relevance to DETANGLE,
+  * optional contact points,
+  * with emphasis on CRA/NIS2-related actors, CSIRTs, SOCs, OES, DSPs, ISACs and cybersecurity communities.
+* Outcome:
+  * ATH positioned as WP2 stakeholder engagement coordinator rather than only contributor of stakeholder entries.
+  * Internal collection process aligned with consortium registry timeline (end of May deadline).
+  * Prepared ground for future T2.2 engagement and validation activities.
+* Status: Ongoing
+
+
+### Action 61 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#######################################################################################################################################
+#######################################################################################################################################
+#######################################################################################################################################
+### NEXT STEPS   – WP2 status consolidation and definition of next operational steps
+* Date: 12 May 2026
+* ATH consolidated the current operational status of WP2 activities ahead of the upcoming WP2 coordination meeting and Rome Plenary preparation.
+* Current WP2 status reviewed internally:
+  **T2.3 – Requirements elicitation and refinement**
+  * MoSCoW baseline stabilised following technical review discussions,
+  * MUST HAVE requirements locked as the contractual baseline,
+  * architecture-impacting SHOULD HAVE items under technical alignment with WP3/WP4/WP5 leaders,
+  * outputs prepared to feed upcoming T2.4 architecture activities.
+  **T2.1 – External stakeholder registry**
+  * stakeholder collection process ongoing under ICERT coordination,
+  * ATH preparing ATH contribution and supporting stakeholder consolidation activities.
+  **T2.2 – Stakeholder engagement and collaboration**
+  * ATH preparing the next-phase stakeholder engagement strategy,
+  * stakeholder prioritisation and collaboration planning to begin after first stakeholder registry consolidation.
+* Agreed next operational steps:
+  * finalisation of MoSCoW Matrix v2,
+  * transfer of validated requirements into T2.4 architecture discussions,
+  * consolidation of first stakeholder pool before the Rome Plenary,
+  * alignment with WP6 regarding dissemination and outreach mechanisms,
+  * preparation of stakeholder engagement workflow and external validation planning.
+* Outcome:
+  * Clear WP2 operational picture established for consortium coordination.
+  * Dependencies between T2.1, T2.2, T2.3 and T2.4 clarified.
+  * ATH confirmed transition from requirements consolidation phase toward architecture support and stakeholder engagement preparation.
+* Status: Ongoing
+
+
+ 
+
+### NEXT STEPS   – Initial operational roadmap defined for T2.2 stakeholder engagement activities NEXT STEPS 
+
+* Date: May 2026
+* Action:
+
+  * ATH drafted the first structured operational roadmap for **WP2 / T2.2 – Creating links and ensuring collaboration with multiple stakeholders** based on:
+
+    * the Grant Agreement scope,
+    * ICERT’s T2.1 stakeholder registry process,
+    * WP2 MoSCoW and validation discussions,
+    * and planned interactions with WP5, WP6 and T6.3.
+  * The roadmap clarified the separation between:
+
+    * **Pilots / end users** (requirements and validation actors),
+    * and **external stakeholders** (validators, collaboration actors, dissemination/community targets).
+  * ATH also defined a preliminary phased engagement structure:
+
+    * M5–M6: T2.1 → T2.2 handover preparation,
+    * M7–M9: stakeholder landscape structuring and prioritisation,
+    * M9–M12: first engagement activities and outreach planning,
+    * M13–M24: validation-oriented collaboration and T6.3 community linkage,
+    * M25–M36: sustained engagement and ecosystem consolidation.
+  * A preliminary engagement governance model was also outlined:
+
+    * ATH coordinates engagement planning and stakeholder prioritisation,
+    * liaison ownership remains with the proposing partner,
+    * WP6 supports dissemination campaigns and outreach channels,
+    * WP5 aligns validation stakeholders with pilot activities.
+* Outcome:
+
+  * Established the first coherent operational interpretation of T2.2 within WP2.
+  * Clarified dependencies between T2.1, T2.2, WP5 validation activities, WP6 dissemination and T6.3 community-building.
+  * Defined the basis for a future lightweight T2.2 Stakeholder Engagement Strategy document.
+* Status: Ongoing
