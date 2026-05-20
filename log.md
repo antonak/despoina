@@ -291,6 +291,46 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+15 May
+=============
+* INTACT deliverables 
+- 3.1 , 6.4 , 3.3 , 4.3 
+* form chat codex- claud code --> 
+- Paper: "Detecting Synthetic Political Narratives in Cross-Platform Social Media Discourse" — cross-platform (Telegram + Reddit) framework to detect coordinated synthetic political discourse through semantic, linguistic, and temporal coordination signals.
+
+	What's done:
+
+	Paper draft (paper.tex) — intro, related work, dataset section written
+	Both collection scripts are complete and have already run successfully
+	Data collected: 6,908 total records
+	Reddit: 1,383 Ukraine + 1,372 Gaza records across 7 subreddits
+	Telegram: 2,546 Ukraine + 1,607 Gaza records from 2 channels
+	Config fully wired: 2 events, 2 Telegram channels, 7 subreddits
+	Where you left off:
+	The data collection phase is complete. The Telegram log shows a database is locked error at the very end — that's from a second run attempt on an already-authenticated session, not a data loss issue. The data files are intact and fully populated.
+
+	What comes next — the analysis pipeline:
+	The paper's methodology calls for:
+
+	Preprocessing — text cleaning, deduplication, author pseudonymization
+	Semantic embeddings — sentence-transformers to embed all messages
+	Topic modeling — BERTopic or LDA to identify narrative clusters per platform
+	Stylometric features — lexical diversity, linguistic entropy, rhetorical template detection
+	Temporal synchronization analysis — event-windowed coordination between Telegram and Reddit
+	Cross-platform narrative clustering — compare semantic alignment between platforms
+	The requirements.txt currently only has collection libs — you'll need to add sentence-transformers, scikit-learn, pandas, bertopic etc. for the analysis phase.
+
+	Where would you like to start — preprocessing, embeddings, or setting up the full analysis pipeline skeleton?
+
+13 May 
+=============
+- Mainly adding login system in chat 
+
+
+12 May
+===========
+- started main presntention for detangle wp2 + rome 
+
 8 May
 ===========
 * DETANGLE συμβαση. προβλημα με ΦΠΑ. το κοιταζει η Αννα μεσω εφορίας, και θα αποστειλουμε ταχυδρομικα αφού τελειωσει;;;

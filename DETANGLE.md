@@ -1181,17 +1181,315 @@ M4–M5 (Apr–May): TC meeting on 28 April. MoSCoW refined (Actions 46–50). B
 * Status: Ongoing
 
 
-### Action 61 -
+### Action 61 - Initial coordination for DETANGLE participation in CyberHoT 2026 training activities
+
+* Date: May 2026
+* Action:
+
+  * ITML proposed the participation of DETANGLE in CyberHoT 2026 through a potential hands-on training session.
+  * Initial coordination discussions started between ATH, ITML and DETANGLE partners regarding:
+
+    * the feasibility of a DETANGLE technical training/demo,
+    * expected session duration (~1.5 hours),
+    * and possible interactive format involving participant laptops.
+  * ATH identified the need to clarify internally:
+
+    * the technical scope of the training,
+    * maturity and readiness of DETANGLE components,
+    * ownership and contribution of technical partners,
+    * and alignment with WP6 dissemination activities.
+  * Preliminary candidate formats discussed:
+
+    * SOC-oriented technical walkthrough,
+    * compliance workflow demonstration,
+    * architecture/platform presentation,
+    * interactive cybersecurity exercise linked to DETANGLE use cases.
+* Outcome:
+
+  * CyberHoT identified as a potential dissemination, community-building and training opportunity for DETANGLE.
+  * Internal alignment required before committing to final training scope and format.
+* Status: Ongoing
 
 
+### Action 63 – Presentation of consolidated WP2 progress overview at PMB meeting
+
+* Date: May 2026
+* Action:
+
+  * ATH presented a short consolidated overview of WP2 progress covering the evolution of activities from WP2 Coordination Meetings #5, #6 and #7.
+  * The presentation summarised:
+
+    * the transition from stakeholder collection and pilot interviews toward structured governance and requirements consolidation,
+    * stabilisation of the MoSCoW baseline aligned with the Grant Agreement,
+    * establishment of the WP2 Traceability Matrix and Architecture Risk Register,
+    * and the transition toward architecture support and stakeholder engagement activities.
+  * ATH also highlighted:
+
+    * ongoing technical alignment discussions with WP3/WP4/WP5 regarding deployment models and operational constraints,
+    * ongoing T2.1 stakeholder collection activities under ICERT coordination,
+    * preparation of the ATH-led T2.2 stakeholder engagement strategy,
+    * and the role of the upcoming Rome Plenary as the formal transition point toward T2.4 and stakeholder engagement activities.
+* Outcome:
+
+  * No major comments or objections raised during the PMB discussion.
+  * WP2 progress and positioning accepted as aligned with current consortium planning.
+* Status: Completed
+
+---
+
+### Action 64 – Initial discussion on potential DETANGLE participation in CyberHOT 2026
+
+* Date: May 2026
+* Action:
+
+  * During the PMB meeting, ITML raised a new dissemination and training opportunity related to CyberHOT 2026.
+  * The consortium was informed that DETANGLE may be invited to contribute a hands-on technical training session.
+  * Initial expectations discussed:
+
+    * ~1.5-hour interactive slot,
+    * participant laptops expected,
+    * technical audience profile based on previous CyberHOT editions.
+  * Preliminary candidate formats discussed internally:
+
+    * SOC-oriented technical walkthrough,
+    * DETANGLE compliance and incident-management workflows,
+    * architecture/platform demonstration,
+    * lightweight cybersecurity exercise connected to project use cases.
+  * Eleni-Maria Klogeraki highlighted:
+
+    * the need to assess the maturity level of DETANGLE components before committing to a technical demonstration,
+    * possible focus on conformity/certification workflows,
+    * and the technical profile of the expected audience based on previous CyberHOT participation.
+  * Eleni-Maria also indicated that she would share relevant information with Evangelos and that a dedicated coordination meeting may be organised later.
+* Outcome:
+
+  * CyberHOT identified as a potentially valuable dissemination and technical visibility opportunity for DETANGLE.
+  * Internal technical alignment and maturity assessment required before defining the final contribution format.
+* Status: Ongoing
+
+---
+
+### Action 65 – PMB operational updates and consortium coordination points
+
+* Date: May 2026
+* Action:
+
+  * PMB reviewed remaining administrative and consortium coordination items.
+  * ITML confirmed that:
+
+    * original CA signature pages are still missing from several partners,
+    * additional follow-up reminders will be sent.
+  * PMB also reviewed the planned joint workshop:
+
+    * “Building Cyber Resilience in the Digital Era”
+    * organised jointly with CRACOWI and INCIDETRON,
+    * scheduled for 2 October 2026 in Athens.
+  * ATH internally noted potential participation and possible contribution depending on DETANGLE platform maturity closer to the event date.
+  * Missing participation/feedback from RINA was also noted during the discussion.
+* Outcome:
+
+  * Administrative follow-up actions remain open.
+  * Workshop participation and DETANGLE contribution to be revisited closer to the Plenary and technical maturity milestones.
+* Status: Ongoing
+
+ASKED HALPELIDIS to goDONE!
 
 
+### Action 66 – WP2 Meeting #7: Transition from requirements consolidation to T2.4 preparation
+
+* Date: 19 May 2026
+* Action:
+
+  * WP2 reviewed the current status of T2.3 requirements consolidation and confirmed that:
+
+    * the requirements baseline is approaching final lock,
+    * downstream technical work in T2.4 now depends on more detailed mapping between use cases, workflows, data types and DETANGLE subcomponents.
+  * Evangelos Kafantaris (UBI) highlighted the need to:
+
+    * move from high-level requirements toward component-level operational analysis,
+    * identify what types of compliance workflows and operational workflows exist per pilot,
+    * classify the different categories of data involved in each use case,
+    * and use this mapping to support subcomponent matching and architecture planning.
+  * UBI clarified that T2.4 discussions will focus on:
+
+    * documentation exploration and assessment of current organisational status,
+    * existing operational and compliance-related data,
+    * incident-management systems and log-access capabilities,
+    * and the technical maturity and interoperability constraints of pilot infrastructures.
+* Outcome:
+
+  * WP2 formally transitioned discussions from generic requirements toward detailed operational and architecture-oriented decomposition.
+  * Need identified for more focused bilateral discussions with pilots before the Rome Plenary.
+* Status: Ongoing
+
+---
+
+### Action 67 – Use case refinement and pilot-specific technical preparation for Rome Plenary
+
+* Date: 19 May 2026
+* Action:
+
+  * Use case owners and technical partners discussed the structure of the upcoming Rome Plenary use case session.
+  * Georgia (DEDE) clarified that:
+
+    * pilots will present the current state of each use case,
+    * proposed operational workflows,
+    * technical challenges,
+    * and expected DETANGLE support needs,
+    * followed by targeted feedback discussions with partners.
+  * Evangelos proposed that the second-day plenary session should remain focused on:
+
+    * operational use case evolution,
+    * component applicability,
+    * and cross-pilot matching opportunities.
+  * Siranush (ITML) supported maintaining dedicated use case presentations so all pilots can present:
+
+    * current status,
+    * operational challenges,
+    * and expected interactions with DETANGLE components.
+  * Theofilos Tsoris (ITML) explained that:
+
+    * ITML use cases involve workflows across multiple stakeholders and decision points,
+    * and that technical challenges and workflow complexity can already be presented even if final tooling is still immature.
+  * Valerio Lubello (San Raffaele) highlighted:
+
+    * ongoing regulatory developments in Italy,
+    * including newly published healthcare authority guidance affecting vendor compliance obligations,
+    * which may influence healthcare-related DETANGLE requirements.
+* Outcome:
+
+  * Agreement reached to maintain dedicated use case discussions during the Rome Plenary.
+  * Additional bilateral pilot discussions expected before the Plenary to refine technical scope and component applicability.
+* Status: Ongoing
+
+---
+
+### Action 68 – Data availability, anonymisation and pilot interoperability discussions
+
+* Date: 19 May 2026
+* Action:
+
+  * Technical partners discussed the types of operational and compliance-related data expected from pilots during upcoming T2.4 activities.
+  * Tommaso Boatto (Agora/ICERT) clarified that:
+
+    * ICERT can provide incident-platform related datasets,
+    * including alerts, logs and operational records,
+    * but that all shared data will require anonymisation before use within DETANGLE technical workflows.
+  * Evangelos stressed the need to:
+
+    * establish a registry of technical questions per pilot,
+    * identify which DETANGLE subcomponents interact with which pilot workflows,
+    * and define processing and interoperability requirements before implementation planning.
+  * The discussion also highlighted that:
+
+    * pilots differ significantly in maturity, operational scope and available datasets,
+    * requiring prioritisation and pilot-specific adaptation strategies.
+* Outcome:
+
+  * Data governance and anonymisation recognised as central dependencies for T2.4 technical planning.
+  * Need identified for pilot-specific technical follow-up discussions and interoperability assessment.
+* Status: Ongoing
+
+---
+
+### Action 69 – Initial alignment between T2.4 activities and WP6.5 training preparation
+
+* Date: 19 May 2026
+* Action:
+
+  * WP2 and WP6 discussions identified an early connection between:
+
+    * T2.4 operational workflows,
+    * compliance gap analysis,
+    * and future WP6.5 training material preparation.
+  * Manuele Barbieri raised the need for:
+
+    * structured training analysis,
+    * identification of the most important operational and regulatory topics,
+    * and gradual extraction of reusable material for future DETANGLE training assets.
+  * Evangelos proposed that:
+
+    * as T2.4 progresses,
+    * DETANGLE should progressively identify documentation gaps, operational workflows and compliance processes,
+    * which could later support the creation of:
+
+      * training material,
+      * automated documentation generation,
+      * and compliance-oriented educational content.
+* Outcome:
+
+  * Early linkage established between technical workflow analysis and future training/dissemination activities.
+  * WP6.5 training preparation expected to evolve progressively alongside T2.4 implementation maturity.
+* Status: Ongoing
+
+---
+
+### Action 70 – Operational coordination updates and upcoming meetings
+
+* Date: 19 May 2026
+* Action:
+
+  * WP2 agreed to:
+
+    * temporarily pause Friday coordination meetings,
+    * resume the regular meeting schedule in June,
+    * and organise bilateral technical discussions where needed before the Rome Plenary.
+  * Theofilos Tsoris confirmed limited availability for Friday meetings during the current period.
+  * Missing partner participation from RINA was again noted during the meeting.
+* Outcome:
+
+  * Coordination structure adjusted to support focused bilateral preparation ahead of the Plenary.
+* Status: Ongoing
 
 
+######################################################################################################
+######################################################################################################
+#######################T2.2 stakeholder engagement responsibilities###################################
+######################################################################################################
+######################################################################################################
+### Action 71 – Formal operational interpretation of T2.2 stakeholder engagement responsibilities
 
+* Date: May 2026
+* Action:
 
+  * ATH internally consolidated the operational interpretation of **WP2 / T2.2 – Creating links and ensuring collaboration with multiple stakeholders** based on the Grant Agreement description and ongoing WP2 discussions.
+  * It was clarified that T2.2 is not limited to stakeholder collection activities (covered under T2.1), but instead focuses on:
+    * establishing and coordinating the DETANGLE stakeholder engagement ecosystem,
+    * creating structured collaboration mechanisms with external actors,
+    * and supporting validation, dissemination and operational interaction activities throughout the project lifecycle (M7–M36).
+  * ATH identified its role under T2.2 as:
+    * stakeholder engagement coordinator,
+    * collaboration orchestrator,
+    * and governance layer between pilots, external validators, WP6 dissemination activities and technical work packages.
+  * The following operational responsibilities were identified for ATH:
+    * stakeholder categorisation and prioritisation,
+    * definition of engagement governance and workflows,
+    * coordination of stakeholder workshops and validation activities,
+    * alignment of external stakeholders with DETANGLE offerings and pilot validation needs,
+    * management of liaison ownership and confidentiality constraints,
+    * coordination with WP6 regarding outreach and dissemination channels,
+    * and preparation of long-term collaboration and community-building activities.
+  * ATH also formalised the conceptual distinction between:
 
+    * **pilots as DETANGLE end users**, and
+    * **external stakeholders as validators, dissemination actors and ecosystem contributors**.
+  * A preliminary three-tier stakeholder governance structure was also confirmed:
 
+    * Tier 1: institutional/public stakeholders coordinated directly by ATH,
+    * Tier 2: partner-proposed stakeholders where the partner remains liaison,
+    * Tier 3: broader dissemination/community targets coordinated mainly through WP6.
+* Outcome:
+
+  * T2.2 operational scope clarified internally ahead of Rome Plenary discussions.
+  * ATH positioning reinforced as coordinator of the external collaboration and validation ecosystem surrounding DETANGLE.
+  * Governance foundations established for future stakeholder engagement strategy activities from M7 onwards.
+* Status: Ongoing
+
+######################################################################################################
+######################################################################################################
+#######################T2.2 stakeholder engagement responsibilities###################################
+######################################################################################################
+######################################################################################################
 
 
 
