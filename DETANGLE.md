@@ -1485,6 +1485,62 @@ ASKED HALPELIDIS to goDONE!
   * Governance foundations established for future stakeholder engagement strategy activities from M7 onwards.
 * Status: Ongoing
 
+### Action 72 – WP2 cordination meetin 2 June status review and pre-plenary coordination meeting
+
+* Date: June 2026
+
+* Action:
+
+  * ATH chaired the regular WP2 bi-weekly coordination meeting ahead of the Rome Plenary.
+  * Reviewed the current status of all WP2 tasks against the Grant Agreement timeline:
+
+    * T2.1 stakeholder analysis and registry consolidation,
+    * T2.2 stakeholder engagement preparation,
+    * T2.3 requirements consolidation and governance,
+    * T2.4 technology mapping preparation,
+    * T2.5 architecture preparation.
+  * ATH confirmed that:
+
+    * T2.1 stakeholder registry activities remain ongoing under ICERT coordination,
+    * T2.2 officially starts in M7 and ATH has already prepared the initial governance and engagement framework,
+    * T2.3 requirements baseline remains stable and aligned with the Grant Agreement,
+    * WP3, WP4 and WP5 can continue preparation activities based on the validated baseline.
+
+* Outcome:
+
+  * Consortium alignment achieved ahead of the Rome Plenary.
+  * No major blockers identified.
+  * WP2 confirmed transition from requirements consolidation toward architecture support and stakeholder engagement activities.
+
+* Status: Ongoing
+
+### Action 73 – T2.4 technical alignment preparation and coordination update
+
+* Date: June 2026
+
+* Action:
+
+  * UBITECH provided an update regarding ongoing T2.4 preparation activities.
+  * Initial draft inputs are being collected from WP3 and WP4 task leaders.
+  * Technical discussions are being consolidated to align:
+
+    * T2.3 requirements,
+    * technology mapping activities,
+    * component and subcomponent identification,
+    * pilot operational constraints.
+  * Bilateral discussions with use case providers and tool developers are ongoing.
+  * Open technical observations, integration constraints and architecture opportunities are being recorded for future consortium-level discussions.
+
+* Outcome:
+
+  * Improved alignment between requirements and technology mapping activities.
+  * Early identification of architecture-impacting requirements and integration dependencies.
+  * Preparation initiated for technical discussions during the Rome Plenary.
+
+* Status: Ongoing
+
+
+
 ######################################################################################################
 ######################################################################################################
 #######################T2.2 stakeholder engagement responsibilities###################################

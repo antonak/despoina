@@ -291,12 +291,41 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+20 May
+===========
+* sent paper to arxiv 
+* new contract gfor June for ONE MONTH evelpaiing previous contact in FORTH
+* started new paper on  Rice theorems
+* 2.2. 2.1 presenattion 
+* sent new questionaire to christina and mylva DONE 
+* 2.2 meeting : Alicia asked if I wll need time to taslk a bout 2.2. in her presnetation . i asked NO . I will talk about it in mine . 
+** Meeting notes : the first is cavoeed in wp2 .. 
+		Align te collection of stakeholder with the engagement of stakeholders.
+		See also 6.3 
+		Toodo: cerate a 
+		The pipeline:  . Collection, selection, planning , actual engagements on 13 
+		EVANGELOS ADD BULLETS MORE CLEAR 2.4 
+		Proposed schedule ?> 
+		We cannot share that kind of info so we forward th requestes and coment to the list . 
+		Collect all this info in one place and during your presenattiona dna in Alicia gshow and pinpoint the contact and who gave it And see what we have collectively . And have a Collaborative discussion. 
+		Never share each partner contacts each own event 
+		des amn creaizese xrono sto 1600 1615 kai apanthse ths aurio 
+		check ovelap ni registry 
+		Each line is written in WP6 fro deliverables  EXACT text IN WP2 
+		Same categories in deliverable in sandra and in excel …
+		In deliverabel is like in GA 
+		In M18 deliverable (review mid term. In that delievrabel we changes target ) update the already submitted in deliverabel adjust the mapping , 
+		Based also from GA and previous backgroung in matrekting. (SANDRA)
+		Stakeholders a on a pipeline of action and I camn sneak in and talk if I need too. She will mention and I will talk if I need to . 
+
+
 15 May
 =============
 * INTACT deliverables 
-- 3.1 , 6.4 , 3.3 , 4.3 
-* form chat codex- claud code --> 
-- Paper: "Detecting Synthetic Political Narratives in Cross-Platform Social Media Discourse" — cross-platform (Telegram + Reddit) framework to detect coordinated synthetic political discourse through semantic, linguistic, and temporal coordination signals.
+ - 3.1 , 6.4 , 3.3 , 4.3 
+*  
+* PAPER chat codex- claud code --> 
+ - Paper: "Detecting Synthetic Political Narratives in Cross-Platform Social Media Discourse" — cross-platform (Telegram + Reddit) framework to detect coordinated synthetic political discourse through semantic, linguistic, and temporal coordination signals.
 
 	What's done:
 
@@ -321,6 +350,66 @@ calls June 2026
 	The requirements.txt currently only has collection libs — you'll need to add sentence-transformers, scikit-learn, pandas, bertopic etc. for the analysis phase.
 
 	Where would you like to start — preprocessing, embeddings, or setting up the full analysis pipeline skeleton?
+
+					Here's the full dataset breakdown:
+
+				Total: 6,908 records | Jan 1 – May 14, 2026
+
+				Event 1 — Russia-Ukraine (3,929 records)
+
+				Keywords searched: ukraine, russia, zelensky, putin, nato, sanctions, ceasefire, proxy war, escalation, western weapons, peace talks, false flag, #Ukraine, #UkraineWar, #Russia, #NATO, #StandWithUkraine
+
+				Source	Platform	Records
+				KyivIndependent_official	Telegram	2,255
+				MiddleEastEye_TG	Telegram	291
+				europe	Reddit	248
+				IsraelPalestine	Reddit	247
+				geopolitics	Reddit	246
+				worldnews	Reddit	241
+				credibledefense	Reddit	208
+				news	Reddit	193
+				Event 2 — Israel-Gaza (2,979 records)
+
+				Keywords searched: israel, gaza, hamas, palestine, ceasefire, hostages, humanitarian, humanitarian aid, war crimes, genocide, hostage deal, #Gaza, #Israel, #Palestine, #CeasefireNow, #FreePalestine
+
+				Source	Platform	Records
+				MiddleEastEye_TG	Telegram	1,461
+				worldnews	Reddit	249
+				IsraelPalestine	Reddit	248
+				geopolitics	Reddit	246
+				europe	Reddit	246
+				news	Reddit	201
+				credibledefense	Reddit	182
+				KyivIndependent_official	Telegram	146
+				Two things to flag:
+
+				UkraineWarVideoReport subreddit (in your config) returned 0 results — it may be restricted or the search API didn't index it.
+				r/IsraelPalestine appears in the Ukraine dataset (247 records) because keywords like ceasefire, nato, sanctions overlap — those posts are noise and should be filtered during preprocessing.
+				Do you want to proceed with the analysis pipeline, or add more sources/events to the dataset first?
+				
+* CHAT LAW :can you create a headlieas browser and test sevelar features of teh site if they are working and report problems to me to fix them ?
+		13/13 — all tests pass. Here's a summary of what was tested and the results:
+
+		Test	Result	Notes
+		T1: Page load & title	✅	"Greek Law AI — Attorney Mode"
+		T2: Auth modal opens	✅	Modal overlay appears on login click
+		T3: Wrong password rejected	✅	Returns "Λάθος username ή password."
+		T4: Admin login works	✅	admin/admin1234 logs in successfully
+		T5: Registration → pending	✅	Email already taken (test user still pending)
+		T6: Pending user blocked	✅	"⏳ αναμένει έγκριση" correctly shown
+		T7: Admin panel loads	✅	admin-profile-col visible after login
+		T8: Pending user in admin list	✅	testuser_pw_auto appears in pending radio
+		T9: Admin approves user	✅	"✅ Ο χρήστης εγκρίθηκε"
+		T10: Approved user can login	✅	Login succeeds after admin approval
+		T11: Forgot password OTP	✅	"✅ Ο κωδικός στάλθηκε στο email σας"
+		T12: Chat gets response	✅	Bot replies to "Τι είναι η αδικοπραξία;"
+		T13: Admin deletes user (cleanup)	✅	"✅ Ο χρήστης διαγράφηκε"
+		No bugs found — the entire auth flow, admin panel, forgot password, and chat all work correctly. You can run test_site.py anytime to catch regressions.
+
+		Two notes from the run:
+
+		T5 showed "email already in use" — there's a leftover testuser_pw_auto from the previous run attempt (still pending, not deleted). The test correctly detected it can't log in (T6). This cleans up in T13.
+		Admin password is now admin1234 (was changed by your earlier reset). Change it to something stronger via the admin panel's "Αλλαγή δικού σας κωδικού" section.
 
 13 May 
 =============
