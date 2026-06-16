@@ -291,6 +291,271 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+
+16 June - detagle meeting 
+===============
+* Evangelos : TODO : Start createing a draft of D2.1 deliverable 
+Deliverable D2.1 – The DETANGLE baseline
+Deliverable Number D2.1 Lead Beneficiary 14 - ATH
+Deliverable Name The DETANGLE baseline
+Type R — Document, report Dissemination Level PU - Public
+Due Date (month) 12 Work Package No WP2
+Description
+A detailed report including a detailed stakeholder analyses and mapping, the tools, projects’ and technologies’ alignment,
+and a concrete plan for stakeholders’ collaboration management (English)
+* Sme issue with a use cas wwe need to dinsucc along with Evangelos 
+* Olga segou NCI :  WP4 need clarification on how to proceed on 4.3 (des slide screenshot)
+what approach fuzzy logic mathematical approahe ?
+4.4 she sees Olga segou overlapping with WP3
+
+* objectives: 
+* paper ATH is leading nad EO3 EOG7: >4 white papers drafted with >50 downloads ATH
+by the end of the project.
+TP, All
+E)G 7 white paper 
+1) levarage events like the 
+cyberHot .. or my publication ..
+opeb access shoudl be 
+zenodo use for open access ..
+papers:  we neeed pre -publication version  greek open access for EU 
+
+see what partners have arranges and for next yoar like cybehot .. what is already planned and see then 
+
+15 June
+================
+	Airport notes :) 
+	# WP2 / T2.2 / T2.5 Discussion Notes
+
+	## T2.2 – Stakeholder Engagement & Communication
+
+	### Questions
+
+	* What project results will be communicated externally?
+	* Which results can be shared publicly and at which stage of maturity?
+	* Who decides when results are mature enough for dissemination?
+	* How should WP2 coordinate with:
+
+	* the Technical Coordinator,
+	* WP6,
+	* technical work packages,
+		before communicating results to stakeholders?
+
+	### Points for Discussion
+
+	* Define stakeholder communication workflow.
+	* Define approval process for external communication.
+	* Clarify which stakeholder categories receive which type of information.
+	* Align stakeholder engagement activities with dissemination and exploitation activities.
+
+	---
+
+	## T2.5 – Specifications, Architecture and DETANGLE Offerings
+
+	### Understanding the DETANGLE Platform
+
+	Questions to clarify:
+
+	* What are the concrete DETANGLE tools/components being developed?
+	* Is there a consolidated list of all DETANGLE components?
+	* What functionality does each component provide?
+	* Which components already exist and which are being developed within DETANGLE?
+	* Which components belong to WP3, WP4 and WP5?
+
+	### Architecture Questions
+
+	* What is the expected deployment model for each pilot?
+	* Which components will be deployed:
+
+	* on-premise?
+	* hybrid?
+	* cloud-based?
+	* Which pilot constraints affect architecture decisions?
+
+	---
+
+	# DETANGLE Pilots
+
+	## Number of Pilots
+
+	DETANGLE currently includes four pilot environments:
+
+	1. IKEM
+	2. San Raffaele (SRA)
+	3. Fundación Valenciaport (FV)
+	4. Motor Oil Hellas (MOH)
+
+	---
+
+	## Pilot Contacts
+
+	### IKEM
+
+	* Roumen Nikolov
+	* Denis Chikurtev
+	* Alexandre Chikalanov
+
+	### SRA
+
+	* Fiorella Guadagni
+	* Patrizia Ferroni
+
+	### Fundación Valenciaport (FV)
+
+	* Pablo Gimenez
+	* Mapi Diego
+	* Inez Gonzalez
+	* Antonio Torregrosa
+
+	### Motor Oil Hellas (MOH)
+
+	* Fanis Panagopoulos
+	* Panagiotis Georgiou
+	* Fanis Christakopoulos
+	* Konstantinos Chatzifotis
+	* Eleni Koustibi
+
+	---
+
+	# Pilot Constraints Identified So Far
+
+	## Fundación Valenciaport (FV)
+
+	* No connection to live operational infrastructure.
+	* Strict on-premise deployment requirements.
+	* Strong operational and security restrictions.
+
+	## Motor Oil Hellas (MOH)
+
+	* Critical infrastructure environment.
+	* Human-in-the-loop mandatory for AI-supported incident response.
+	* No fully autonomous incident-response actions.
+	* Different workflows for:
+
+	* Compliance teams
+	* Incident response teams
+
+	## IKEM
+
+	* Vulnerability management currently largely manual.
+	* Interest in CRA-related compliance support.
+	* OCPP and EV charging ecosystem considerations.
+
+	## San Raffaele (SRA)
+
+	* Healthcare environment.
+	* GDPR and health-data sensitivity constraints.
+	* Strong requirements regarding data sharing and privacy.
+
+	---
+
+	# Open Questions for Future Meetings
+
+	### Pilot Environments
+
+	* What software platforms are currently used by each pilot?
+	* What cybersecurity tools are already deployed?
+	* What SIEM/SOAR platforms are available?
+	* What incident-management workflows currently exist?
+
+	### DETANGLE Deployment
+
+	* Which DETANGLE components will be installed at each pilot?
+	* Which components will interact with existing pilot systems?
+	* Which integrations are required per pilot?
+
+	### Validation
+
+	* Which pilot validates which DETANGLE functionality?
+	* Which external stakeholders can participate in validation activities?
+	* How will pilot feedback be incorporated into future releases?
+
+* PILOTS : FV(Valencia), SRA (SAn raffaele), IKEM, MOH
+* 
+Contacts on each pilot: 
+
+  FV: fundacion.valenciaport : Pablo Gimenez - Mapi Diego -  Inez Gonzalez
+  IKEM: Roumen Nikolov - Denis Chikurtev  - Alexandre Chikalanov 
+  SRA: Fiorella Guadagni , Ferroni Patrizia 
+  MOH: panagofa <panagofa@moh.gr>,Georgiou Panagiotis <pageorgiou@moh.gr>,Christakopoulos Fanis <fchristakopoulos@moh.gr>,kchatzifotis ,Koustibi Eleni 
+
+
+10 June 
+================
+* Rag chat law (see folder-> text logs)
+* INTACT . reveiw ok, yesterday . send email to Jenny about next trip
+* DETANGLE meetng plenary nest week. see presenattion, partners parta are missing. 
+* MCSA proposla . missing input from Sotiris 
+* SECURE-AI Proposal x RISE. 
+** Ask use cases from Finland/Sweeden. As FORTH we have available 
+** from Anastasiia Andriievska <anastasiia.andriievska@ri.se>: Dear Manos, taking Technical Coordinator sounds great and we can discuss it more tomorrow.
+
+MOM : take a list of all oorganization you have in mind to contact with them . Manos athanatos has already conatcted . technical coordinator also write the writing in section 1 . create that initail idea taht will be the first draft of the proposal . FIORTH will hanndle all other parts . anotehr issue is teh use cases . we alreasy have in mind in FORTH for use case. pleas go on if you have ...Anastasia most partners sweeden and finland . she will drtaft a document and potentsial use cases she already had, so nest staep share and tehn  FORTH> will guide . Paivi, says taht it is better to tae rol TC in RISE ... in tehy haeve a preliminary paper fro use xases ..SATU ai expert : use case is the loutilize ai in threat detection ...already developing . relevant for this research (Luxemburg ) can put taht togetehr . look different use case ..BOSCH angle ..theer is a good interest . Anastasia ; what does TC include ? part one ? somethign else 
+
+presenation slides from Anastasia 
+
+on or more of teh follwoing topics to follwo in the proposal 
+
+it is not a big project sio we see what we can deliver in this money .. improve ..what is teh safe bet not overreach . 
+Paivi fu;l;u agree ..have a discussion on teh use cases and see suggest what are use caseds what matters most . waht scales down and what leave out what use case bring expertiose ... Satu .. has a pre,liminary thought . let;s see teh : intereset soverewign local . Eu techonology ...where does it sit in AI ? 
+how dio bruing use cases ? will send an email of teh paper . do you have a teams space ? create a space ? do you have ? for the appliication . (micahel ) 
+
+so maybe technical coordination on TEAMS ..
+
+ERIC is also interested ...
+athanatos has already a list of extra members taht will join. 
+
+eric de ahom ?  tampere ? 
+
+micahe can compile all teh mail and a summary of this requests for joingin  to be presented to teh other .. so we have a list preference on the 
+
+there was also an sme say this list and place it on the same folder ... 
+
+sare a working sppace .. in teams ... WE ? FORTH  ?mallon 
+a ot of email to share list of email .. after we put the email we will decise and next meeying we decide. 
+
+michel Popoff : reply to teh email he sent . 
+
+tehre is a lso a colluege good on portal ??? did not understand 
+
+one mmnth left to write !!! Juky - Augiust - for us holiday .. we have to work fast !
+form a + b is part A + B technical part of the proposal ...
+
+impact ..we shoudl strive .. not in teh last minute ... it is substatial ..start m,aybe with it.. wehat we like to achive .. build the implementation part of the 
+
+we have npot initiated on the portal . Manos paputaskis will start in teh portal . 
+
+manos agrees on impact . FORTH has already a 
+
+we have a furst version on the WPs . FORTH will help with thi s. 
+
+
+Mattila .. telco next week .. 
+
+can we have a telco weekly ...
+
+on wendesday on 5 ..weekly .. for now and if have time in teh monring we chang it . 
+
+potentoial partners from FORTH >? 
+ten - twelve in total . ? is it too much . 2 million sound 8-10 .. 
+
+we need to decide in order to tell third parties we invitre ..
+
+duration of teh poject 3- 4 years  > 
+
+3 years is too long and 2 years ti too short , 2,5 yers ? maybe compromise on 2.5 years 
+reveiwers will see teh fll duration and claim less moiney or less time .. 
+
+Manos will create the teams workspace .. 
+
+japan ? eligibility 
+
+time is short .. next week more time for teh meeting . 
+
+tommorow moring manos will send tea,s sharing and ask manos  about teh availability . 
+Satu will start uplodoainf the paper and we need to start working since the deadline is verryl close. 
+
+american colleue that can do the proofreading . 
+
 20 May
 ===========
 * sent paper to arxiv 

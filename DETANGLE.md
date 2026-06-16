@@ -1538,6 +1538,29 @@ ASKED HALPELIDIS to goDONE!
   * Preparation initiated for technical discussions during the Rome Plenary.
 
 * Status: Ongoing
+### Action 74 – T2.5 architecture preparation and plenary kick-off planning
+
+* Date: June 2026
+
+* Action:
+
+  * NCI confirmed review of WP2 requirements, risks and architecture-related discussion points generated during T2.3 activities.
+  * Preliminary analysis of:
+
+    * identified risks,
+    * architecture constraints,
+    * deployment considerations,
+    * pilot operational limitations,
+      was completed.
+  * NCI confirmed that T2.5 has not officially started yet and that architecture activities will formally kick off following the Rome Plenary.
+
+* Outcome:
+
+  * Early architecture preparation completed.
+  * Inputs from T2.3 available to support T2.5 launch.
+  * Rome Plenary identified as the main starting point for architecture coordination activities.
+
+* Status: Planned / Upcoming
 
 
 
@@ -1621,3 +1644,23 @@ ASKED HALPELIDIS to goDONE!
   * Clarified dependencies between T2.1, T2.2, WP5 validation activities, WP6 dissemination and T6.3 community-building.
   * Defined the basis for a future lightweight T2.2 Stakeholder Engagement Strategy document.
 * Status: Ongoing
+
+
+### EO3 / EG7 – White Papers and Knowledge Transfer Activities (ATH Contribution)
+
+ATH will contribute to the development of project white papers based on stakeholder engagement activities, pilot requirements analyses and lessons learned from DETANGLE validation activities.
+
+Planned activities include:
+
+* Leveraging project workshops and community events (e.g., CyberHOT and DETANGLE stakeholder workshops) to identify topics of interest and collect expert feedback.
+* Transforming key project findings into concise practitioner-oriented white papers targeting cybersecurity operators, policy makers and compliance stakeholders.
+* Publishing white papers through open-access repositories (e.g., Zenodo) and project dissemination channels to maximise visibility and reuse.
+* Coordinating with WP6 to promote downloads, dissemination and stakeholder uptake.
+* Exploring synergies with scientific publications and conference presentations to increase impact and outreach.
+
+Indicative topics may include:
+
+* NIS2 implementation challenges and lessons learned.
+* Human-in-the-loop approaches for cybersecurity compliance automation.
+* Multi-stakeholder collaboration for cyber resilience.
+* Practical pathways towards CRA compliance.
