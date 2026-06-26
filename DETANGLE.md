@@ -1564,6 +1564,291 @@ ASKED HALPELIDIS to goDONE!
 
 
 
+ 
+# 16 June 2026 – DETANGLE Plenary (Rome)
+
+## WP2 / D2.1 Deliverable
+
+TODO:
+
+* Start preparing the structure and first draft of D2.1 – The DETANGLE Baseline.
+* Create D2.1 Table of Contents and chapter ownership matrix.
+* Contact ICERT regarding T2.1 contributions.
+* Contact UBI regarding T2.4 contributions.
+* Prepare ATH sections (T2.2 and T2.3).
+
+Deliverable D2.1 – The DETANGLE Baseline
+Lead: ATH
+Due: M12
+
+Main contributing tasks:
+
+* T2.1 Stakeholder Analysis and Mapping (ICERT)
+* T2.2 Stakeholder Collaboration Management (ATH)
+* T2.3 Requirements Elicitation and Refinement (ATH)
+* T2.4 Tools, Projects and Technologies Alignment (UBI)
+
+Need to clarify:
+
+* Expected level of detail for technology mapping.
+* How much architecture-related content should be included before D2.2.
+
+---
+
+## Technical Discussions
+
+TODO:
+
+* Discuss SME-related use case with Evangelos.
+* Clarify expected functionality and scope.
+
+## NCI / WP4
+
+Olga Segou raised questions regarding WP4.
+
+TODO:
+
+* Clarify Task 4.3 methodology.
+
+  * Fuzzy logic?
+  * Mathematical approach?
+  * Alternative approach?
+
+* Clarify possible overlap between Task 4.4 and WP3 activities.
+
+* Follow up with NCI and technical coordination.
+
+---
+
+## White Papers (ATH Lead)
+
+Objective EO3 / EG7:
+
+> 4+ white papers drafted with >50 downloads by project end.
+
+Ideas:
+
+* Leverage CyberHOT and similar events.
+* Reuse material from ATH publications where appropriate.
+* Publish through:
+
+  * Zenodo (open access)
+  * DETANGLE website
+  * WP6 dissemination channels
+
+Potential topics:
+
+* NIS2 implementation lessons learned.
+* CRA compliance pathways.
+* Human-in-the-loop AI for critical infrastructures.
+* Stakeholder collaboration and cyber resilience.
+
+TODO:
+
+* Review planned dissemination activities from all partners.
+* Check future CyberHOT events and opportunities.
+* Coordinate with WP6 dissemination planning.
+* Define white paper roadmap and ownership.
+
+---
+
+## External Stakeholder Engagement (T2.2)
+
+Discussion:
+
+* Communication must provide value.
+* Avoid excessive emails to stakeholders.
+* First contact should establish interest and willingness to participate.
+* Some stakeholders are high-level decision makers with limited availability.
+
+Questions:
+
+* How do we classify stakeholder involvement?
+* Who becomes:
+
+  * Information recipient?
+  * Consultation participant?
+  * Validation contributor?
+  * Strategic stakeholder?
+
+Need:
+
+* Stakeholder engagement model.
+* Stakeholder categorisation framework.
+* Clear engagement levels.
+
+TODO:
+
+* Define stakeholder engagement ladder.
+* Define validation participant criteria.
+* Define expected stakeholder commitment.
+
+---
+
+## Stakeholder Communication Material
+
+Need before engagement starts:
+
+* DETANGLE one-page factsheet.
+* Project presentation deck.
+* Stakeholder information package.
+* Initial questionnaire/interview guide.
+* Consent and contact management process.
+
+TODO:
+
+* Prepare stakeholder engagement package.
+* Align material with WP6 communication activities.
+
+---
+
+## Geographical Coverage
+
+Observation:
+
+* Stakeholder engagement should not focus only on Greece and Italy.
+
+TODO:
+
+* Expand outreach to additional EU countries.
+* Include:
+
+  * National authorities
+  * CSIRTs
+  * SOCs
+  * OES operators
+  * Industry associations
+  * Relevant EU projects and initiatives
+
+---
+
+## Follow-up with Evangelos
+
+TODO:
+
+* Review D2.1 structure.
+* Discuss SME use case.
+* Clarify T2.4 contributions.
+* Discuss external stakeholder engagement strategy.
+* Discuss stakeholder validation process and expected involvement levels.
+
+
+
+I would split the work into several WP2 actions. This makes the log much stronger because it demonstrates continuous leadership rather than one large generic activity.
+
+---
+#### ===========================NEXT 3 items are FROM 1st plenary in ROME =================================
+
+### Action 74 – T2.2 Launch of Stakeholder Collaboration Management Framework
+
+* **Date:** June 2026
+
+* **Action:**
+
+  * Following the 1st DETANGLE Plenary Meeting, ATHENA initiated T2.2 activities in accordance with the Grant Agreement.
+  * Started defining the stakeholder collaboration management framework that will guide stakeholder engagement throughout the project lifecycle.
+  * Established the initial structure covering:
+
+    * stakeholder engagement strategy,
+    * governance model,
+    * stakeholder categorisation,
+    * liaison ownership model,
+    * validation and collaboration process,
+    * stakeholder engagement roadmap (M7–M36).
+  * Aligned the engagement approach with the outcomes of the stakeholder registry activities led by ICERT and with the needs of the technical work packages.
+  * Ensured that stakeholder engagement activities will progressively evolve from stakeholder prioritisation towards validation and exploitation support.
+
+* **Outcome:**
+
+  * Initial T2.2 framework prepared.
+  * Foundation established for stakeholder collaboration activities during M7–M36.
+  * Inputs incorporated into Deliverable D2.1.
+
+* **Status:** Ongoing
+
+---
+
+### Action 75 – T2.3 Requirements Baseline Consolidation and Architecture Support
+
+* **Date:** June 2026
+
+* **Action:**
+
+  * ATHENA initiated the preparation of the T2.3 section of D2.1 by consolidating technical discussions from the Rome Plenary.
+  * Reviewed pilot presentations to identify architecture-impacting requirements including:
+
+    * operational constraints,
+    * deployment models,
+    * data availability,
+    * data sharing restrictions,
+    * anonymisation requirements,
+    * interoperability needs.
+  * Started analysing dependencies between WP2 requirements engineering activities and WP3, WP4 and WP5.
+  * Identified key technical questions requiring clarification from technical partners before architecture design progresses.
+
+* **Outcome:**
+
+  * Initial requirements baseline established.
+  * Cross-work package dependencies identified.
+  * Architecture drivers documented for further refinement.
+
+* **Status:** Ongoing
+
+---
+
+### Action 76 – Preparation of Deliverable D2.1 "The DETANGLE Baseline"
+
+* **Date:** June 2026
+
+* **Action:**
+
+  * ATHENA initiated the drafting of Deliverable D2.1 as WP2 leader.
+  * Designed the complete deliverable structure based on the Grant Agreement requirements, integrating contributions from:
+
+    * T2.1 Stakeholder Analysis and Mapping,
+    * T2.2 Stakeholder Collaboration Management,
+    * T2.3 Requirements Baseline and Pilot Constraints,
+    * T2.4 Tools, Projects and Technologies Alignment,
+    * T2.5 Specifications and Architecture Preparation.
+  * Prepared the initial document template and coordinated its circulation to consortium partners for contribution.
+  * Coordinated with the Technical Manager (UBI) to align the contribution process with the Technical Coordination Meeting and the project writing schedule.
+
+* **Outcome:**
+
+  * Initial D2.1 structure completed and distributed.
+  * Consortium contribution process officially launched.
+  * Internal timeline established towards the September draft and M12 submission.
+
+* **Status:** Ongoing
+
+---
+
+### Action 77 – WP2 Technical Coordination Following the Rome Plenary
+
+* **Date:** June 2026
+
+* **Action:**
+
+  * ATHENA analysed the outcomes of the pilot presentations and technical discussions to identify issues requiring further coordination.
+  * Initiated discussions with the Technical Manager regarding:
+
+    * expected maturity of DETANGLE components,
+    * implementation priorities,
+    * architecture dependencies,
+    * data availability and deployment constraints,
+    * integration challenges across pilot environments.
+  * Proposed dedicated technical follow-up discussions to ensure WP2 requirements remain aligned with architecture development and validation planning.
+
+* **Outcome:**
+
+  * Technical coordination between WP2 and the implementation work packages strengthened.
+  * Critical architecture and deployment questions identified early in the project lifecycle.
+  * Inputs prepared for upcoming Technical Coordination and WP2 meetings.
+
+* **Status:** Ongoing
+
+#### ===========================previous 3 items are FROM 1st plenary in ROME =================================
+
 ######################################################################################################
 ######################################################################################################
 #######################T2.2 stakeholder engagement responsibilities###################################
@@ -1664,3 +1949,9 @@ Indicative topics may include:
 * Human-in-the-loop approaches for cybersecurity compliance automation.
 * Multi-stakeholder collaboration for cyber resilience.
 * Practical pathways towards CRA compliance.
+
+
+
+next steps : 
+
+

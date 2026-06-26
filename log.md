@@ -109,6 +109,13 @@ Timologia
   kdosi-apodeiktikoy-enimerotitas*
 
 
+Olga kourtesa 
+====================
+Ινστιτούτο Βιομηχανικών Συστημάτων (ΙΝΒΙΣ)
+Επιστημονικό Πάρκο Πατρών
+Πλατάνι, Ρίο, Τ.Κ. 26504
+Τηλ.: 697 889 5108
+
 Timesheets 
 ================================================================
 * ITE: Cyberunity 1.1.2024 - 30.6.2024  = 6 months with total number of hours 222,72 which for each month gives us 
@@ -291,7 +298,443 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+25 June 
+	=========
+	Εγώ θα πήγαινα στη συνάντηση **όχι ως προγραμματιστής**, αλλά ως άνθρωπος που θέλει να καταλάβει πώς σκέφτεται ένας δικηγόρος όταν χρησιμοποιεί ένα τέτοιο εργαλείο.
 
+	### Εισαγωγή (2 λεπτά)
+
+	> «Έχουμε αναπτύξει έναν βοηθό τεχνητής νοημοσύνης για την ελληνική νομοθεσία και νομολογία. Τους τελευταίους μήνες έχουμε δουλέψει κυρίως στην αξιοπιστία των απαντήσεων, ώστε να βασίζονται σε πραγματικές πηγές και όχι να "εφευρίσκουν" πληροφορίες. Σήμερα θα ήθελα κυρίως τη δική σας επαγγελματική άποψη ως χρήστη.»
+
+	---
+
+	## 1. Αφήστε τον να το χρησιμοποιήσει
+
+	Μην κάνεις εσύ το demo.
+
+	Πες του:
+
+	> **«Θα ήθελα να κάνετε εσείς μερικές ερωτήσεις που θα κάνατε κανονικά στην καθημερινή σας εργασία.»**
+
+	Παρατήρησε:
+
+	* τι ρωτάει,
+	* πώς διατυπώνει τις ερωτήσεις,
+	* πού διστάζει,
+	* πότε θέλει περισσότερες πληροφορίες.
+
+	---
+
+	# 2. Ρώτησέ τον για τη δουλειά του
+
+	### Καθημερινότητα
+
+	* Ποιες νομικές ερωτήσεις αναζητάτε πιο συχνά;
+	* Σε ποιες εργασίες χάνετε περισσότερο χρόνο;
+	* Πότε ανοίγετε πρώτα τη νομοθεσία και πότε τη νομολογία;
+
+	---
+
+	### Χρήση του εργαλείου
+
+	* Σε ποιο σημείο της δουλειάς σας θα χρησιμοποιούσατε ένα τέτοιο εργαλείο;
+	* Θα το χρησιμοποιούσατε για μια πρώτη αναζήτηση ή και κατά τη σύνταξη δικογράφου;
+	* Ποιες ερωτήσεις πιστεύετε ότι πρέπει να απαντά πολύ καλά;
+
+	---
+
+	# 3. Θέματα εμπιστοσύνης
+
+	Ρώτησε:
+
+	* Μετά από μία απάντηση, πόσο θα την εμπιστευόσασταν;
+	* Τι θα σας έκανε να την εμπιστευτείτε περισσότερο;
+	* Οι παραπομπές στις πηγές είναι αρκετές;
+	* Θα θέλατε να ανοίγει απευθείας το σχετικό άρθρο ή η απόφαση;
+
+	---
+
+	# 4. Ελλείψεις
+
+	Αυτή είναι ίσως η πιο σημαντική ενότητα.
+
+	Ρώτησε:
+
+	* Ποιο ήταν το πρώτο πράγμα που ψάξατε και δεν βρήκατε;
+	* Τι πληροφορία θα θέλατε να εμφανίζεται αυτόματα;
+	* Υπάρχει κάτι που σας δυσκόλεψε στη χρήση;
+
+	---
+
+	# 5. Σύγκριση με τα εργαλεία που χρησιμοποιεί
+
+	Ρώτησε:
+
+	* Αντί για ποιο εργαλείο θα χρησιμοποιούσατε αυτό;
+	* Αντί για Google;
+	* Αντί για αναζήτηση στο e-Θέμις ή σε άλλη νομική βάση;
+	* Ή μόνο σαν βοηθητικό εργαλείο;
+
+	---
+
+	# 6. Αν ήταν διαθέσιμο αύριο
+
+	Ρώτησε:
+
+	* Θα το χρησιμοποιούσατε στην καθημερινή σας εργασία;
+	* Πόσες φορές την ημέρα;
+	* Για ποιες υποθέσεις;
+	* Θα το προτείνατε σε συνάδελφό σας;
+
+	---
+
+	# 7. Αν ήταν συνδρομητική υπηρεσία
+
+	Ρώτησε:
+
+	* Τι θα έπρεπε να βελτιωθεί ώστε να αξίζει να πληρώνετε συνδρομή;
+	* Ποια λειτουργία θα είχε τη μεγαλύτερη αξία για εσάς;
+
+	---
+
+	# Οι τρεις πιο σημαντικές ερωτήσεις
+
+	Αν ο χρόνος είναι περιορισμένος, κάνε οπωσδήποτε αυτές:
+
+	1. **Ποιο είναι το πρώτο πράγμα που σας ενόχλησε;**
+	2. **Τι θα έπρεπε να αλλάξει ώστε να το εμπιστευόσασταν σε πραγματική υπόθεση;**
+	3. **Αν μπορούσατε να αλλάξετε μόνο ένα πράγμα, ποιο θα ήταν;**
+
+	---
+
+	## Μια συμβουλή
+
+	**Μην του μιλήσεις για benchmarks, support rates, grounding ή retrieval.**
+
+	Αυτά είναι σημαντικά για εσάς ως ομάδα ανάπτυξης, αλλά ο δικηγόρος ενδιαφέρεται για άλλα πράγματα:
+
+	* Μου εξοικονομεί χρόνο;
+	* Μπορώ να εμπιστευτώ την απάντηση;
+	* Με βοηθά να βρω γρήγορα τη σωστή διάταξη ή νομολογία;
+	* Θα το χρησιμοποιούσα αύριο στη δουλειά μου;
+
+	Αν η απάντηση σε αυτά είναι «ναι», τότε έχεις ήδη πετύχει τον βασικό στόχο του προϊόντος.
+
+
+24 June 
+=========
+* detangle TC meeting : 
+** ai governance almost ready to submit - risk managemt aspects 
+** technical  slide 
+in two weeks in the technical meeting to comment on that deliverable . 
+recap of technical meeting .
+recap session of plenary 
+
+todo slides for next wekk plenary detangle wp2 meeting 
+
+SECURE AI proposla
+================
+* notes for me : 
+		Since our last meeting, FORTH has started consolidating the proposal structure and preparing an initial work package framework. At this point, we would of course like to collect input from all partners in order to better define the technical scope, validation activities, and consortium composition.
+
+		From the coordination perspective, FORTH is preparing an initial WP structure that can serve as a starting point for discussion and refinement during the upcoming meetings. We believe it would also be beneficial to start thinking about Section 2 (Impact) at an early stage, rather than leaving it until the final stages of proposal preparation.
+
+		In particular, if any partner has ideas regarding impact pathways, exploitation opportunities, standardisation activities, policy contributions, stakeholder engagement, or associated partners that could strengthen the project's impact, we would be very interested to discuss them. We are already exploring potential contributors with expertise in AI agents, distributed AI systems, and AI infrastructure, who could strengthen the project's innovation and exploitation dimensions.
+
+		We would also appreciate an update on the status of UniSystems and whether there is interest and availability for them to participate.
+
+		At this stage, our main priorities are to finalize the consortium composition, define the responsibilities of each partner, establish the overall technical direction, and begin parallel work on both the Excellence and Impact sections of the proposal.
+
+MOMs 
+===reeiw of previous call .
+share screen Anastasia 
+upadtes in temas . she will do 
+
+has initail struscture in RISE inetranl in WPS  ten wps in lump sums . sato share project proposal ..can be reshaped . 
+potential partnters ..martel consultancy service good connection to commission . ther are ussually coordinatinh projects  (do not remember teh name ) Martel is a name ...
+
+other potential gernam consrtium bosch . tehy ace suggestion for use case. 
+potentially very interesting to joing 
+
+other smes 
+
+also forth has other connctuon ?? 
+
+potential partners .. maybe 
+
+martel about the impact 2 ... 
+or drasco .. 
+
+FORTH todo : will ask Drasco if no then if he says not then martel . 
+
+Satu :  use case privacy aspect focis on teh secure aspect . so we don ton have overlap . 
+
+more technical people from Greece . 
+
+==> anastasia : excel sheet for use case 
+
+inleccom --> she also has contacts with other proposals 
+
+MARTEL : shen she has mnore from him .. 
+
+so far she responded to all peopl who conatcted her .. 
+
+turkey for collaboration . not very big funding. 
+
+10-12 partners . cannot involve everyone 
+
+cagatay Yilmaz: a company from Turkey contacted him .. good company . champer of industila --> data 
+university in turkey --> biggest 5 M people champer of commerce .. bundle. he did not say anythinh . say tehy have infrastructure to run models 
+expecia;;y the etacher . sensitive data .. crearte a datadet . no leak . lets think and we will let him know. 
+
+add t the excel sheet all new partnters . update the columns and structure 
+
+ok tehere is a file 
+
+TODO for FORTH : start in the portal. initial info . ODO TODO for forth . 
+
+		
+
+18 June 2026
+============
+
+* take all receipt and from winbank to sent to patras OK 
+* DETANGLE / cjaprhevious discussion take the notes for all task for ath and take out next steps . .
+* check how the progress on rag is OK 
+* and set up a teams meeting for melva DONE OK 
+* diplwmatilh mixalis tuesday
+* take into consideration work and notes from pleanry 
+* see what aristi asked us to set newsletter 
+* in night mode the background color is whte and in admin page i cannot see white test that is partof the page . also teh "boxes" taht conatin the back change password, rerename,usernames are a very dark gry taht do not fit with the rest of teh baige too white colors . 
+* 
+Notes for Marie curie buget allocation .
+------------
+spend some money on online tool secrvices for students or explore if we can use the one that manos athanatos sent 
+
+
+plenary meeting 
+=========
+make somw question regarding data and dependenceis with other wps and archortecture 
+make a draft of questions regarding data anonymazation type of data what parameters of data could effect archtecture , wp2 and dependecies of wp3 wit oyther work packaes 
+ask net company 
+see from here : 
+
+
+https://itmlgr.sharepoint.com/:p:/r/sites/DETANGLE/_layouts/15/Doc.aspx?sourcedoc=%7B0B6B65D3-F484-434D-924D-4614F4BEB83A%7D&file=DETANGLE_Rome_FirstPlenary_Technical%20Workshop_UBI.pptx&action=edit&mobileredirect=true
+
+ QUSTION 
+
+				# WP2 Questions for Technical Workshop Discussion
+
+				## Data Availability and Data Types
+
+				### Data Sources
+
+				* What data will each pilot make available to DETANGLE?
+				* Are the available datasets:
+
+				* operational data?
+				* compliance documentation?
+				* incident reports?
+				* threat intelligence feeds?
+				* asset inventories?
+				* vulnerability information?
+
+				### Data Sensitivity
+
+				* Which datasets contain sensitive or regulated information?
+
+				* Are there restrictions regarding:
+
+				* personal data?
+				* healthcare data?
+				* operational technology data?
+				* critical infrastructure information?
+
+				* Can data leave the pilot environment?
+
+				* Which pilots require strictly on-premise processing?
+
+				### Data Anonymisation
+
+				* Will anonymisation be required before data is shared with DETANGLE modules?
+
+				* Which anonymisation techniques are expected?
+
+				* pseudonymisation
+				* aggregation
+				* masking
+				* synthetic data generation
+
+				* Which DETANGLE modules require access to raw data?
+
+				* Which modules can operate on anonymised datasets?
+
+				### Data Quality
+
+				* Is historical data available?
+				* Is labelled incident data available?
+				* Is the volume of available data sufficient for AI-based modules?
+				* How will missing or incomplete data affect deployment?
+
+				---
+
+				## Architecture and Deployment Constraints
+
+				### Deployment Models
+
+				* Which pilots require:
+
+				* on-premise deployment?
+				* hybrid deployment?
+				* centralised deployment?
+
+				* Can DETANGLE components be deployed selectively per pilot as suggested in the workshop?
+
+				### Interfacing Requirements
+
+				* What systems must DETANGLE integrate with?
+				* Are APIs available?
+				* Are there technical restrictions on integration?
+
+				### VPN and Access Management
+
+				* Who will have access to pilot environments?
+				* Who will have VPN access?
+				* Will access differ between technical partners and pilot operators?
+
+				---
+
+				## WP2 Requirements Impact on Architecture
+
+				### Human-in-the-Loop Requirements
+
+				* How will MOH's human-in-the-loop requirements affect architecture decisions?
+				* Which modules can execute recommendations?
+				* Which modules can trigger automated actions?
+
+				### Data Sharing Restrictions
+
+				* How will FV's on-premise restrictions affect:
+
+				* incident management modules?
+				* collaboration hub modules?
+				* threat intelligence sharing?
+
+				### Traceability
+
+				* How will requirements traceability be maintained from:
+
+				* stakeholder needs
+				* requirements
+				* architecture decisions
+				* implementation
+
+				---
+
+				## Dependencies Across Work Packages
+
+				### WP2 → WP3
+
+				* Which requirements are critical for WP3 development to start?
+				* What level of requirements maturity is expected?
+				* Which open requirements represent blockers?
+
+				### WP2 → WP4
+
+				* Which architecture decisions depend on unresolved WP2 requirements?
+				* Are there requirements that directly affect compliance assessment workflows?
+
+				### WP2 → WP5
+
+				* Which requirements affect validation planning?
+				* Which pilot constraints need to be reflected in validation scenarios?
+
+				### Cross-WP Dependencies
+
+				* What information is still missing from pilots that may delay architecture decisions?
+				* Which dependencies should be resolved before D2.1 and D2.2 preparation?
+
+				---
+
+				## Specific Questions for NCI
+
+				* Which modules require continuous data feeds?
+				* Which modules require historical datasets?
+				* Which modules can operate with synthetic data?
+				* What are the minimum integration requirements per pilot?
+				* What are the main architecture risks currently identified?
+
+				---
+
+				## Specific Questions for UBI
+
+				* How will technology mapping results influence architecture decisions?
+				* Are there technologies or projects already identified as strong candidates for reuse or integration?
+				* What assumptions are currently being made regarding data availability and deployment models?
+
+				---
+
+				## Outcome Expected from Discussion
+
+				* Clear understanding of pilot data availability.
+				* Clear understanding of data sensitivity constraints.
+				* Identification of architecture-impacting requirements.
+				* Identification of cross-WP dependencies.
+				* Inputs for D2.1 baseline and D2.2 architecture preparation.
+
+
+are you ok to sent you a dekployment of demo 
+
+use case 3 
+-----------IKEM : bulgaria 
+harging stations 
+
+uc5 
+
+valecnia  port o lavenci 
+
+platform on premise 
+
+test bed will not have interaction ..could transfer data to test bed ... 
+
+not synthetic data ? 
+
+would the timeline of implementation influence our project ? 
+
+=================
+
+
+tehofilos use case 6  ITML :
+
+
+evangelso : 
+=============
+
+use case profiling 
+
+too many categories of data 
+
+
+wrap up 
+===========
+a lot of question is nice so we organize meeting 
+include ITML: in metings? 
+
+also external stakeholders is statrting 
+
+
+timeline - startegy - plan - inetrnal docuemnt by end of year 
+next eyar next meeting - spain .... valencia ...
+
+
+
+
+
+17 June - wp6 
+===============
+
+wp6 presentation and monotroil 
 16 June - detagle meeting 
 ===============
 * Evangelos : TODO : Start createing a draft of D2.1 deliverable 
@@ -320,6 +763,172 @@ zenodo use for open access ..
 papers:  we neeed pre -publication version  greek open access for EU 
 
 see what partners have arranges and for next yoar like cybehot .. what is already planned and see then 
+
+
+External analysis 
+------
+we have to be concrete and sure it is working what we sent to users . we do not bother if it does not work thy wont visit iagain 
+also some of the contact are high ranked maybe with very limmited time so wont answre on each mail ...
+
+i was jut abou to contant intially if they are willing to be part of this effrt. how we decide who will be end user.. ewhat level of involvment ..
+
+material presenattion meaning for teh project ..questionaire .. we present wsme thing .. 
+will you be sure at month 18 .. 
+
+ahve everuthing perfect 
+
+not all originating  form greece and italy .. 
+
+
+One thing that stands out from your notes: before sending dozens of emails, ATH should probably define a stakeholder engagement ladder (Observer → Contributor → Validator → Strategic Advisor). Otherwise you'll collect names in the registry but won't know what level of involvement you expect from each organisation. That is probably the first thing I would discuss with Evangelos and ICERT after the plenary
+
+--# DETANGLE – Action Points and Discussion Notes
+
+## 16 June 2026 – Rome Plenary
+
+### WP2 / D2.1 Deliverable
+
+**Action (ATH / Evangelos)**
+
+* Start preparing the structure and first draft of Deliverable D2.1 – The DETANGLE Baseline.
+* Confirm ownership and contributions from:
+
+  * ICERT (T2.1 Stakeholder Analysis & Mapping)
+  * ATH (T2.2 Stakeholder Collaboration Plan)
+  * ATH (T2.3 Requirements Baseline)
+  * UBI (T2.4 Tools, Projects and Technologies Alignment)
+
+**Deliverable Scope**
+D2.1 should consolidate:
+
+* Stakeholder analysis and mapping
+* Stakeholder registry
+* Requirements baseline
+* Stakeholder collaboration and engagement plan
+* Technology and project alignment
+* Initial architecture drivers and pilot constraints
+
+---
+
+### Technical Discussion Items
+
+#### SME Use Case
+
+* Discuss SME-related use case with Evangelos.
+* Clarify expected functionality and stakeholder involvement.
+* Verify alignment with DETANGLE scope and stakeholder engagement activities.
+
+#### WP4 (NCI – Olga Segou)
+
+Open questions:
+
+* Clarification required regarding Task 4.3.
+* What methodological approach will be followed?
+
+  * Fuzzy logic?
+  * Mathematical modelling?
+  * Alternative approach?
+* Potential overlap identified between Task 4.4 and WP3 activities.
+* Discussion required between NCI and WP3 leads to clarify boundaries and responsibilities.
+
+---
+
+### White Papers (ATH Lead)
+
+**Objective**
+EO3 / EG7:
+
+* More than 4 white papers drafted.
+* More than 50 downloads by project end.
+
+Potential actions:
+
+* Leverage project events and workshops (e.g. CyberHOT).
+* Reuse results from scientific publications where appropriate.
+* Publish through:
+
+  * Zenodo (open access)
+  * DETANGLE website
+  * WP6 dissemination channels
+
+Topics under consideration:
+
+* NIS2 implementation lessons learned.
+* CRA compliance pathways.
+* Human-in-the-loop AI for critical infrastructures.
+* Multi-stakeholder cybersecurity collaboration.
+
+Actions:
+
+* Review what dissemination activities and events are already planned by partners.
+* Identify opportunities for next year (CyberHOT and similar events).
+* Coordinate with WP6 regarding publication and promotion strategy.
+
+---
+One thing that stands out from your notes: before sending dozens of emails, ATH should probably define a stakeholder engagement ladder (Observer → Contributor → Validator → Strategic Advisor). Otherwise you'll collect names in the registry but won't know what level of involvement you expect from each organisation. That is probably the first thing I would discuss with Evangelos and ICERT after the plenary
+### External Stakeholder Engagement (T2.2)
+
+#### Initial Engagement Strategy
+
+Objective:
+
+* First establish stakeholder interest.
+* Avoid overloading stakeholders with unnecessary communication.
+* Build a high-quality stakeholder community.
+
+Considerations:
+
+* Some stakeholders are high-level decision makers with limited availability.
+* Communication should be concise and targeted.
+* Stakeholder engagement should provide clear value.
+
+#### Questions to Resolve
+
+* What level of involvement can stakeholders have?
+
+* Which stakeholders become:
+
+  * Information recipients?
+  * Consultation participants?
+  * Validation contributors?
+  * Active collaborators?
+
+* How do we classify engagement levels?
+
+Possible categories:
+
+1. Observer
+2. Consultation participant
+3. Validation contributor
+4. Strategic stakeholder
+
+#### Engagement Material
+
+Before contacting stakeholders:
+
+* Prepare a concise DETANGLE information package.
+* Prepare a one-page project overview.
+* Prepare presentation material.
+* Prepare a short questionnaire/interview guide.
+
+Goal:
+
+* Ensure a professional and consistent first interaction.
+
+#### Geographic Coverage
+
+Stakeholder engagement should not focus only on Greece and Italy.
+
+Target groups should include:
+
+* EU-level organisations
+* National authorities
+* CSIRTs
+* SOCs
+* OES operators
+* Industry associations
+* Relevant projects and communities across Europe
+
 
 15 June
 ================
