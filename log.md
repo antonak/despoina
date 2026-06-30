@@ -297,11 +297,48 @@ calls June 2026
 =========================================================================================================================================================
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
-=========================================================================================================================================================\
+=========================================================================================================================================================
+30 June
+============
+* RTimologio proepiskophsh 
+* Rug rtrexei 
+* WPs @ SECURE AI 
+
 PORTAL EU  interpol, zerkalo, solaris
 29 June
 =========
 * Drasco 
+* Artificial Intelligence & Machine Learning
+Machine Learning
+Explainable AI (XAI)
+Large Language Models (LLMs)
+Classification
+Prediction Models
+Feature Engineering
+Data Analysis & Computational Information Processing
+Large-scale Data Analysis
+Statistical Analysis
+Data Mining
+Computational Information Processing
+Data Processing Pipelines
+Knowledge Extraction
+Feature Extraction
+Natural Language Processing
+Natural Language Processing (NLP)
+Sentiment Analysis
+Topic Modelling
+Named Entity Recognition
+Text Mining
+BERTopic
+Transformer Models
+Programming
+Python
+Pandas
+NumPy
+Scikit-learn
+PyTorch
+HuggingFace
+MongoDB
 
 26 June
 ==========
