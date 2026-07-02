@@ -274,6 +274,29 @@ Spyros Evangelatos	Spyros.EVANGELATOS@netcompany.com
 
 IMPRO (T2.6):
 IMPRO	DK	Nikos Lambrou	nlambrou@improvisesoftware.com 
+
+"Sotirios Ioannidis" <sioannidis@tuc.gr>;
+"Apostolos Fournaris" <fournaris@athenarc.gr>;
+"Angeliki Tsioliaridou" <atsioliaridou@tuc.gr>;
+"Alice Zanasi" <alice.zanasi.ext@infocert.it>;
+"Tommaso Boatto" <tommaso.boatto@agorasecurity.it>;
+"Matteo Brunati" <matteo.brunati@agorasecurity.it>;
+"SEGOU Olga" <olga.segou@netcompany.com>;
+"Nikos Lamprou" <nlambrou@improvisesoftware.com>;
+"Evangelos Kafantaris" <ekafantaris@ubitech.eu>;
+"Ioannis Pastellas" <ipastellas@ubitech.eu>;
+"Siranush Akarmazyan" <siranush@itml.gr>;
+"Siranush Akarmazyan via Detangle" <detangle@lists.itml.space>;
+"Aristi Philippou" <a.philippou@itml.com.cy>;
+"Patrizia Ferroni" <patrizia.ferroni@sanraffaele.it>;
+"Patricia Gimenez" <pgimenez@fundacion.valenciaport.com>;
+"Fiorella Guadagni" <fiorella.guadagni@sanraffaele.it>;
+ "Halepelidis" <haleplidis@isi.gr>;
+"Sonia Demera" <sdemera@fundacion.valenciaport.com>;
+pgimenez@fundacion.valenciaport.com  
+"Eleni Maria" <EleniMaria@KalogerakiConsulting.onmicrosoft.com>;
+"Marco Carusio" <marco.carusio@sanraffaele.it>;
+"Fiorella Guadagni (Gmail)" <guadagnifiorella@gmail.com>
 ===============================================================
 [DetangleMeetings]
 * PMB at Wednesday 11:00-12:00 CET - on the 1st and 3rd week of each month (recommended start on 18th of February in alignment with PMB) 
@@ -298,11 +321,27 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+
+​teams recording: an xaseis pote ta teams meeting phgene sto calendar kai exei RECAP !! ekei einai toi recording 
+ 
+1 July 
+============
+sent technical report of DETANFGEL to drive + siransh
+SECURE AI WPs
+
+
+questinon for SECURE AI tommorrow meeting : 
+
+1) name of porposla 
+2) whod will be added in teh portal final list of partners (ask fisrt manos) 
+3) 10 WPS? sure 
+
 30 June
 ============
 * RTimologio proepiskophsh 
 * Rug rtrexei 
 * WPs @ SECURE AI 
+* dior8wsh delievrable added chapert for task 2.5 as Olga noticed is mnissing 
 
 PORTAL EU  interpol, zerkalo, solaris
 29 June

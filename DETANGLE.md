@@ -1856,7 +1856,30 @@ I would split the work into several WP2 actions. This makes the log much stronge
 ######################################################################################################
 
 
+Action 75 – Launch of T2.2 Stakeholder Engagement Activities (M7)
+Date: July 2026
+Action:
+Following the official start of Task T2.2, ATH initiated the planning of the stakeholder engagement activities for the M7–M36 period.
+Reviewed the outcomes of the Rome Plenary Meeting regarding stakeholder engagement, stakeholder categorisation and KPI alignment.
+Identified the need to coordinate with ICERT on the updated Stakeholder Registry and stakeholder prioritisation process, which will serve as the basis for the engagement activities.
+Identified the need to align T2.2 activities with WP6 (Communication, Dissemination and Exploitation), particularly regarding dissemination events, stakeholder workshops, questionnaires, white papers and engagement planning.
+Agreed that internal stakeholders will primarily contribute to requirements elicitation, while external stakeholders will mainly participate in validation, feedback and adoption activities, as discussed during the Plenary Meeting.
+Outcome:
+Initial roadmap for T2.2 established.
+Stakeholder engagement planning to commence following the updated Stakeholder Registry from ICERT.
+Coordination with WP6 identified as a priority to ensure consistent stakeholder engagement and dissemination activities.
+Status: Ongoing
 
+I would also add a TODO immediately after this action in your personal WP2 tracker:
+
+ATHENA – Next Actions (July 2026)
+Request the updated Stakeholder Registry from ICERT.
+Organise a T2.2 coordination meeting with ICERT and TP (Sandra).
+Prepare the Stakeholder Engagement Plan (engagement strategy, liaison ownership, engagement mechanisms and roadmap).
+Define stakeholder questionnaires and engagement workflow.
+Align T2.2 activities with WP6 dissemination, workshops and white paper planning.
+
+I actually think these five items are your real work package priorities for July, now that T2.2 has officially started. They follow dire
 
 
 
