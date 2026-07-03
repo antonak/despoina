@@ -322,8 +322,22 @@ calls June 2026
 =========================================================================================================================================================
 =========================================================================================================================================================
 
+3 July 
+==========
+mixalis meeting dior8wsa epishs xaana report kai ppt 
+alls wps in secure ai complete by ME need check again 
+rag benchmark
+2.2 startes in detanlge 
+reminder for concpt note (secure ai)
+
+
 ​teams recording: an xaseis pote ta teams meeting phgene sto calendar kai exei RECAP !! ekei einai toi recording 
- 
+2 July 
+=======
+* FORTH awards
+* SECURE AI 
+
+
 1 July 
 ============
 sent technical report of DETANFGEL to drive + siransh

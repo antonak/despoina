@@ -1847,6 +1847,20 @@ I would split the work into several WP2 actions. This makes the log much stronge
 
 * **Status:** Ongoing
 
+
+Action 78 – D2.1 Structure Refinement and Collaborative Writing Preparation
+Date: July 2026
+Action:
+ATH reviewed the initial structure of Deliverable D2.1 – The DETANGLE Baseline following the Rome Plenary Meeting and the first WP2 coordination meeting.
+Incorporated partner feedback to improve the document structure, clarify the relationship between WP2 tasks and the deliverable, and facilitate the collaborative writing process.
+Introduced clear ownership information for each major chapter by defining Primary Author, Input Providers/Contributors, and Review responsibilities.
+Added an initial chapter for T2.5 – Specifications, Refined Offerings and Architecture to provide a dedicated location for the initial architectural contributions, following discussions with the consortium. The structure remains subject to final confirmation by the Technical Manager and the T2.5 task leader to avoid overlap with the dedicated architecture deliverable.
+Released the updated document (D2.1_The DETANGLE Baseline_v1) to the consortium and initiated the first contribution round.
+Outcome:
+A common document structure was established for collaborative drafting of D2.1.
+Partner responsibilities were clarified, facilitating coordinated contributions across Tasks T2.1–T2.5.
+The consortium was invited to review the proposed ownership model and begin contributing to the relevant sections.
+Status: Ongoing
 #### ===========================previous 3 items are FROM 1st plenary in ROME =================================
 
 ######################################################################################################
@@ -1856,7 +1870,7 @@ I would split the work into several WP2 actions. This makes the log much stronge
 ######################################################################################################
 
 
-Action 75 – Launch of T2.2 Stakeholder Engagement Activities (M7)
+### Action 79 – Launch of T2.2 Stakeholder Engagement Activities (M7)
 Date: July 2026
 Action:
 Following the official start of Task T2.2, ATH initiated the planning of the stakeholder engagement activities for the M7–M36 period.
@@ -1882,7 +1896,42 @@ Align T2.2 activities with WP6 dissemination, workshops and white paper planning
 I actually think these five items are your real work package priorities for July, now that T2.2 has officially started. They follow dire
 
 
+### Action 80 – Transition from T2.1 to T2.2 and Stakeholder Engagement Planning
 
+Date: May–July 2026
+
+Action:
+
+ATH initiated the transition planning between T2.1 (Stakeholder Analysis and Mapping) and T2.2 (Creating Links and Ensuring Collaboration with Multiple Stakeholders) by preparing an initial stakeholder engagement framework ahead of the Rome Plenary.
+Organised and presented an alignment session with WP2 partners to clarify the scope of T2.2, its relationship with T2.1 and the expected transition of activities from stakeholder collection towards stakeholder engagement and collaboration.
+Developed the initial governance approach for stakeholder engagement, including:
+stakeholder engagement principles,
+governance and liaison ownership model,
+distinction between institutional stakeholders, partner-owned stakeholders and dissemination stakeholders,
+initial engagement and validation workflow.
+Clarified the operational role of T2.2 as the coordination mechanism for stakeholder engagement, validation activities and collaboration with external actors supporting the DETANGLE ecosystem.
+Following the Rome Plenary, reviewed the agreed actions and aligned the initial T2.2 planning with the stakeholder registry activities led by ICERT and the dissemination activities coordinated under WP6.
+
+Outcome:
+
+Initial T2.2 governance framework prepared.
+Transition strategy between T2.1 and T2.2 established.
+Initial stakeholder governance model, engagement principles and collaboration workflow defined.
+WP2 partners aligned on the scope and objectives of T2.2 ahead of the official task launch.
+
+Status: Ongoing
+
+Then I would keep a separate Next Actions (July–August 2026):
+
+ATHENA – Next Actions (T2.2)
+Receive the updated Stakeholder Registry from ICERT.
+Review and prioritise stakeholders together with ICERT.
+Finalise the Stakeholder Engagement Strategy and Governance Model.
+Assign liaison owners for the identified stakeholder categories.
+Prepare stakeholder engagement questionnaires and communication templates.
+Define the stakeholder engagement roadmap and calendar of activities.
+Coordinate with TP (WP6) on dissemination events, stakeholder workshops, white papers and community engagement.
+Launch the first stakeholder engagement activities based on the prioritised stakeholder registry.
 
 
 #######################################################################################################################################
