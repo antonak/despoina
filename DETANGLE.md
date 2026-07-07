@@ -1879,11 +1879,10 @@ Identified the need to coordinate with ICERT on the updated Stakeholder Registry
 Identified the need to align T2.2 activities with WP6 (Communication, Dissemination and Exploitation), particularly regarding dissemination events, stakeholder workshops, questionnaires, white papers and engagement planning.
 Agreed that internal stakeholders will primarily contribute to requirements elicitation, while external stakeholders will mainly participate in validation, feedback and adoption activities, as discussed during the Plenary Meeting.
 Outcome:
-Initial roadmap for T2.2 established.
-Stakeholder engagement planning to commence following the updated Stakeholder Registry from ICERT.
-Coordination with WP6 identified as a priority to ensure consistent stakeholder engagement and dissemination activities.
-Status: Ongoing
-
+Initial concept and governance approach for T2.2 prepared.
+Operational interpretation of T2.2 agreed ahead of the Rome Plenary.
+Initial stakeholder governance model documented.
+Foundation established for the development of the Stakeholder Engagement Framework during M7.
 I would also add a TODO immediately after this action in your personal WP2 tracker:
 
 ATHENA – Next Actions (July 2026)
@@ -1933,10 +1932,43 @@ Define the stakeholder engagement roadmap and calendar of activities.
 Coordinate with TP (WP6) on dissemination events, stakeholder workshops, white papers and community engagement.
 Launch the first stakeholder engagement activities based on the prioritised stakeholder registry.
 
+### Action 81 3 July 2026 - started 2.2 
 
-#######################################################################################################################################
-#######################################################################################################################################
-#######################################################################################################################################
+Action 80 – Preparation of the T2.2 Stakeholder Engagement Framework
+Date: May–July 2026
+Action:
+ATH prepared the initial framework for Task T2.2 – Creating Links and Ensuring Collaboration with Multiple Stakeholders, defining the strategic approach for stakeholder engagement throughout the project.
+Developed the initial Stakeholder Engagement Strategy, including governance principles, stakeholder categorisation, liaison ownership model and engagement mechanisms.
+Defined the transition between T2.1 Stakeholder Analysis and Mapping and T2.2 Stakeholder Engagement, clarifying the respective responsibilities of ICERT, ATH and WP6.
+Established the initial stakeholder governance model distinguishing internal stakeholders, external stakeholders and dissemination communities, while respecting partner liaison ownership and confidentiality.
+Incorporated the initial T2.2 framework into Deliverable D2.1 – The DETANGLE Baseline and validated the overall approach during the Rome Plenary discussions and subsequent WP2 coordination meeting.
+Outcome:
+Initial stakeholder engagement framework established.
+Governance model and engagement principles defined.
+Foundation created for the operational implementation of T2.2 from Month 7 onwards.
+Status: Completed
+Action 81 – Operational Launch of T2.2 Activities
+Date: July 2026
+Action:
+ATH initiated the operational planning activities for T2.2 following the official start of the task.
+Started preparing the first operational documents supporting stakeholder engagement, including:
+Stakeholder Engagement Strategy (Version 1),
+Stakeholder Governance and Liaison Model,
+Stakeholder Engagement Roadmap,
+Stakeholder Communication Templates,
+Stakeholder Questionnaires.
+Initiated coordination planning with ICERT regarding the updated Stakeholder Registry and stakeholder prioritisation process.
+Identified the need for close collaboration with WP6 to align stakeholder engagement with dissemination activities, stakeholder workshops, white papers and community-building actions.
+Planned the launch of the first stakeholder engagement activities following the completion of the stakeholder prioritisation process.
+Outcome:
+Operational implementation of T2.2 initiated.
+Initial engagement toolkit under preparation.
+Coordination activities with ICERT and WP6 planned.
+Status: Ongoing
+
+===============================================================================================================================================================================================================
+===============================================================================================================================================================================================================
+===============================================================================================================================================================================================================
 ### NEXT STEPS   – WP2 status consolidation and definition of next operational steps
 * Date: 12 May 2026
 * ATH consolidated the current operational status of WP2 activities ahead of the upcoming WP2 coordination meeting and Rome Plenary preparation.
@@ -1968,7 +2000,6 @@ Launch the first stakeholder engagement activities based on the prioritised stak
  
 
 ### NEXT STEPS   – Initial operational roadmap defined for T2.2 stakeholder engagement activities NEXT STEPS 
-
 * Date: May 2026
 * Action:
 
@@ -2003,27 +2034,97 @@ Launch the first stakeholder engagement activities based on the prioritised stak
 * Status: Ongoing
 
 
-### EO3 / EG7 – White Papers and Knowledge Transfer Activities (ATH Contribution)
+Action 84 – Internal Review and Alignment of D2.1 with WP6
 
-ATH will contribute to the development of project white papers based on stakeholder engagement activities, pilot requirements analyses and lessons learned from DETANGLE validation activities.
+Date: July 2026
 
-Planned activities include:
+Action:
+Following the internal review of Deliverable D2.1 by the WP6 leader (Sandra), ATH reviewed the document to ensure consistency with the already submitted Deliverable D6.1. The relationship between WP2 and WP6 was revised to better reflect the continuous interaction between stakeholder engagement, communication, dissemination, exploitation and community-building activities, while avoiding duplication of content between the two deliverables.
 
-* Leveraging project workshops and community events (e.g., CyberHOT and DETANGLE stakeholder workshops) to identify topics of interest and collect expert feedback.
-* Transforming key project findings into concise practitioner-oriented white papers targeting cybersecurity operators, policy makers and compliance stakeholders.
-* Publishing white papers through open-access repositories (e.g., Zenodo) and project dissemination channels to maximise visibility and reuse.
-* Coordinating with WP6 to promote downloads, dissemination and stakeholder uptake.
-* Exploring synergies with scientific publications and conference presentations to increase impact and outreach.
+Outcome:
+Deliverable D2.1 aligned with D6.1, ensuring consistency between WP2 and WP6 descriptions and incorporating the recommendations from the internal review.
 
-Indicative topics may include:
+Status: Completed
 
-* NIS2 implementation challenges and lessons learned.
-* Human-in-the-loop approaches for cybersecurity compliance automation.
-* Multi-stakeholder collaboration for cyber resilience.
-* Practical pathways towards CRA compliance.
+Action 85 – Revision of the Stakeholder Collaboration Management Plan
+
+Date: July 2026
+
+Action:
+Following the internal review comments, ATH revised and expanded the Stakeholder Collaboration Management Plan (Chapter 3) to better reflect the objectives and scope of Task T2.2, which officially commenced in Month 7. The chapter was updated with the initial Stakeholder Engagement Strategy, Governance Model, Stakeholder Categorisation, Liaison Ownership Model, Validation and Collaboration Process, and Stakeholder Engagement Roadmap, ensuring consistency with the Grant Agreement and the consortium discussions held during the Rome Plenary Meeting.
+
+Outcome:
+A comprehensive management framework for stakeholder engagement was established to guide the implementation of Task T2.2 during the remaining project period.
+
+Status: Completed
+
+Action 86 – Structural Revision of Deliverable D2.1 Following Internal Review
+
+Date: July 2026
+
+Action:
+Following the consortium's internal review of Deliverable D2.1, ATH revised the document structure and content to address partner comments. Updates included improvements to the Executive Summary, abbreviations, terminology, relationship with other work packages, deliverable scope, task descriptions and document consistency. The revised version also strengthened the alignment with the Grant Agreement and clarified partner responsibilities within WP2.
+
+Outcome:
+Internal review comments incorporated and Deliverable D2.1 updated prior to consortium consolidation.
+
+Status: Completed
+
+I prefer this wording because it is factually accurate:
 
 
 
 next steps : 
+#######################################################################################################################################
+#######################################################################################################################################
+#######################################################################################################################################
 
+1)deliverable Detangle baseline 
+2) 2.2 
+3) 
+### EO3 / EG7 – White Papers and Knowledge Transfer Activities (ATH Contribution)
 
+    ATH will contribute to the development of project white papers based on stakeholder engagement activities, pilot requirements analyses and lessons learned from DETANGLE validation activities.
+
+    Planned activities include:
+
+    * Leveraging project workshops and community events (e.g., CyberHOT and DETANGLE stakeholder workshops) to identify topics of interest and collect expert feedback.
+    * Transforming key project findings into concise practitioner-oriented white papers targeting cybersecurity operators, policy makers and compliance stakeholders.
+    * Publishing white papers through open-access repositories (e.g., Zenodo) and project dissemination channels to maximise visibility and reuse.
+    * Coordinating with WP6 to promote downloads, dissemination and stakeholder uptake.
+    * Exploring synergies with scientific publications and conference presentations to increase impact and outreach.
+
+    Indicative topics may include:
+
+    * NIS2 implementation challenges and lessons learned.
+    * Human-in-the-loop approaches for cybersecurity compliance automation.
+    * Multi-stakeholder collaboration for cyber resilience.
+    * Practical pathways towards CRA compliance.
+
+  4)
+
+  ========================================
+  In fact, I think your project evolution is:
+
+May
+
+Alignment presentation (concept)
+Governance ideas
+Transition planning
+
+↓
+
+June
+
+Rome Plenary validation
+WP2 discussions
+D2.1 Chapter 3
+
+↓
+
+July
+
+Start writing the actual Stakeholder Engagement Strategy
+Then produce the Stakeholder Engagement Framework
+
+That sequence is consistent with both your presentation and the project timeline.

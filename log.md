@@ -321,6 +321,114 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+6 July 
+==========
+
+Detangle deliverable comments form Sandra (WP6)
+* leave template as is in table (task , Wps) - Do not change the deliverable template, fill the information as proposed in the original template.
+* add to abbreviation list
+		•An initial requirements baseline derived from pilot and stakeholder interactions.
+
+		•An overview of relevant projects, tools and technologies aligned with the DETANGLE vision.
+
+		The deliverable serves as the foundation for subsequent Work Package 2 (WP2/==) activities and provides key inputs to the technical work packages responsible for architecture design, implementation and validation.
+
+		Scope and Objectives
+
+		This deliverable establishes the initial baseline of the DETANGLE project by consolidating t…
+* Since there is no explanation for "D", always add "The/a deliverable D2.1"
+	…he project objectives and Grant Agreement scope. Furthermore, WP2 supports the identification of relevant technologies, projects and collaboration opportunities that can contribute to the successful implementation and adoption of DETANGLE results. D2.1 consolidates the outcomes of the following WP2 tasks:
+
+	•T2.1 – Stakeholders' Analysis and Mapping, focusing on stakeholder identification, categorisation and analysis.
+
+	•T2.2 – Creating Links and Ensuring Collaboration with Multiple Stakeholders, fo…
+
+* always write "task T2.1"
+	…hodology followed within WP2 adopts a phased and iterative approach that ensures a controlled transition from stakeholder needs to project requirements and technical activities. The process begins with stakeholder identification and analysis under T2.1. Internal and external stakeholders are identifiedcategorised and analysed to understand their roles, expectations and potential contributions to the project.
+
+	Building upon these activities, T2.2 focuses on stakeholder engagement and collaboratio…
+
+* Too generic - There is no mention of any of the WPs, explain the direct link if it exists.
+	…s presented in this deliverable will serve as key inputs to the architecture design, implementation, validation, and stakeholder engagement activities that will be performed in the subsequent work packages and reporting periods.
+
+	Relation to Other Work Packages
+
+	Work Package 2 aims to establish a continuous process for stakeholder engagement, requirements analysis, feedback collection and impact management throughout the lifetime of the DETANGLE project.
+
+	The activities performed within WP2 ensure…
+
+
+* Why there is no mention of the WP6 since there is a direct link between these WP2. We have also mentioned this a lot in the D6.1. This information should be aligned
+
+	…CT4FOOD
+
+	•Aliens-SOC
+
+	•others identified by UBI
+
+	Technology Landscape
+
+	
+
+	Figure 1 An image respresenting something
+
+	
+
+	DETANGLE Technology Mapping
+
+	Gap Analysis
+
+	This chapter corresponds directly to:
+
+	"tools, projects' and technologies' alignment"
+
+	
+
+	DETANGLE Baseline
+
+	Baseline Overview
+
+	Key Findings
+
+	Inputs to WP3
+
+	Inputs to WP4
+
+	Inputs to WP5
+
+	Preparation for D2.2
+
+	This chapter is where ATH ties everything together.
+
+	
+
+	Conclusions
+
+	This deliverable establishes the initial DETANGLE baseline by consolidating stakehold…
+
+
+
+* I have checked the document.
+
+My only major comment is a missing link with the WP6 which is directly connected with the input from WP2.
+
+Also, we have already mentioned this in the D6.1 so this information should be aligned.
+
+ 
+
+The D6.1 is available here: D6.1_DETANGLE_Dissemination_Communication_and_Exploitation_Plan
+
+ 
+
+ 
+
+Kind regards,
+
+Sandra
+
+
+
+
 
 3 July 
 ==========
