@@ -2074,6 +2074,37 @@ I prefer this wording because it is factually accurate:
 
 
 
+### Action 60 – TC Meeting 8 July 2026 — Key outcomes affecting WP2
+
+TC meeting chaired by Evangelos Kafantaris (UBI), focused on timeline, plenary recap, tracking Excel updates and D2.1 strategy.
+D2.1 structure reviewed and agreed: task-based chapter structure confirmed for now; master chapter consolidation proposed post-September after first draft. ATH raised concern about duplicate EFFORT risk — Evangelos clarified master chapters would merge, not duplicate. AP-12 resolved.
+Tracking Excel updated by UBI with 3 new tabs: (1) use case profiling (data availability + deployment restrictions per pilot), (2) components/subcomponents with partner leads, (3) component-to-use-case matching at subcomponent level. Directly feeds T2.4 Chapter 5.
+Deployment model options confirmed: centralized cloud (OVHcloud), on-premise, or ICERT-managed cloud. Still open — pilot-specific meetings ongoing (NetCompany/NCI scheduled).
+National compliance folder created in WP2 SharePoint. Italy (SRA + ICERT) already contributed. Follow-up needed for Greece, Bulgaria, Spain.
+KPI internal reporting deadline: 21 July. All partners to submit first round of KPI progress inputs to WP1 reporting framework (Siranush's email — confirmed by Alice after finding it in spam).
+WP3 meetings to commence end of July 2026.
+
+
+### Action 61 – TODO: Add 21 July KPI deadline to Meeting #10 slide 6 action table
+
+The internal KPI reporting deadline (21 July) raised at the 8 July TC is missing from Meeting #10 slide 6. Add as new action point: "Submit KPI progress report inputs — All partners — 21 July."
+Next step: Update meeting_10_with_notes.pptx before the meeting.
+
+
+### Action 62 – TODO: National compliance documentation — ATH coordination
+
+Evangelos created a WP2 SharePoint folder for national-level NIS2 compliance documentation per pilot country. Italy covered (SRA + ICERT). Greece, Bulgaria, Spain still pending.
+As WP2 Lead, ATH should follow up with Greek pilot partners (MOH, QnR) to upload relevant national NIS2 transposition documents.
+Next step: ATH to send a short reminder to MOH and QnR pointing to the WP2 SharePoint folder. Include in next WP2 coordination meeting agenda.
+
+
+### Action 63 – TODO: T2.3 requirement — national-level NIS2 compliance
+
+Evangelos flagged in the TC that national-level NIS2 transposition requirements (e.g. Greek Presidential Decree, Italian PSNC) may need to be reflected as a T2.3 requirement: "DETANGLE solutions should be able to take into account national-level NIS2 requirements."
+This was previously classified as WON'T HAVE (N9) in the MoSCoW baseline. The TC discussion suggests this may need to be revisited — at minimum as a COULD HAVE with a modular/configurable architecture flag.
+Next step: ATH to flag this to NCI (T2.5) and raise at Meeting #10 as an open issue for slide 12.
+
+
 next steps : 
 #######################################################################################################################################
 #######################################################################################################################################

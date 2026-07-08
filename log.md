@@ -321,6 +321,71 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+9 July 
+================
+* DETANGLE
+	🔴 This week (before 18 July)
+	Write your D2.1 chapters. ATH owns four of seven — Chapter 1 (Introduction), Chapter 3 (T2.2 Collaboration Management Plan), Chapter 4 (Requirements Baseline & Pilot Constraints), and Chapter 7 (Baseline & Conclusions). These are due in four days. Chapter 4 is the heaviest — it needs to document the locked MoSCoW baseline and all four pilot constraints including the three deployment model options from the TC.
+	🟡 By 21 July
+	Submit your KPI progress report. Open Siranush's template on SharePoint (WP1/Task 1.1 folder), find ATH's assigned KPIs, and write the strategy section — not results, just your approach and planned milestones. If you are unsure which KPIs are assigned to ATH, message Siranush today.
+	🟠 After the meeting today
+	Chase MOH and QnR to upload Greek national NIS2 compliance documentation to the WP2 SharePoint folder Evangelos created. Italy is already done. Greece is pending and you are the one responsible for coordinating this.
+	Flag the N9 question to NCI — the national frameworks requirement was classified as WON'T HAVE in your MoSCoW baseline, but the TC discussion suggests it may need to come back as a COULD HAVE with a modular flag. Send a short note to NCI asking them to factor this into their T2.5 assumptions before they write Chapter 6.
+	🟢 After D2.1 deadline (post-18 July)
+	Complete the T2.2 stakeholder engagement roadmap (M7–M36). This is the most important T2.2 document not yet finished and it is blocking Chapter 3 from being complete. It also needs to be aligned with the WP5 validation plan since ATH leads both T2.2 and T5.2.
+	In short — the next four days are entirely about D2.1 writing. Everything else waits until 18 July.
+
+* rag chat 
+	Με βάση τα σχόλιά σας από την προηγούμενη αξιολόγηση, προχωρήσαμε σε αρκετές βελτιώσεις. Το σύστημα πλέον κατανοεί καλύτερα το είδος της νομικής ερώτησης, χρησιμοποιεί πιο σωστά τις πληροφορίες που δίνει ο χρήστης και δίνει πιο συνεπείς απαντήσεις κατά τη διάρκεια της συνομιλίας.
+
+	Ελέγξαμε ξανά όλα τα προβλήματα που είχαν διορθωθεί και παρέμειναν διορθωμένα. Παράλληλα, δοκιμάσαμε το σύστημα σε νέα ρεαλιστικά νομικά σενάρια και τα περισσότερα πλέον αντιμετωπίζονται σωστά.
+
+	Αυτή τη στιγμή απομένουν λίγες, συγκεκριμένες βελτιώσεις σε ορισμένες νομικές λεπτομέρειες και ειδικές περιπτώσεις. Στόχος μας είναι, μετά και τη σημερινή αξιολόγησή σας, να ολοκληρώσουμε αυτές τις τελευταίες διορθώσεις πριν προχωρήσουμε στην επόμενη φάση του έργου.
+
+	we have to pull the plug .. contumue with curpus !!
+* 
+8 july 
+===============
+* detangle tc meeting
+* deliverable table and corrections 
+* secure ai
+The concept note is aligned with RISE's understanding.
+
+✅ HLRS, UC3M and Bosch are coming as a package and have requested a joint meeting.
+✅ UC3M contributes GAMMAF for runtime monitoring and anomaly detection of LLM multi-agent systems.
+✅ Bosch contributes Bosch AI Shield and expertise in industrial AI/ML security.
+✅ HLRS contributes HammerHAI AI Factory, EuroHPC infrastructure, HPC resources, AI platform engineering, and security research for LLMs and AI agents.
+✅ RISE considers MIMER AI Factory and HammerHAI to be complementary ("synergy"), not competing infrastructures.
+✅ RISE has already met many candidate partners through Connect4Cyber and is waiting for FORTH to prioritise whom to continue discussions with.
+* Decisions still needed on Thursday
+	Should we organise the meeting with HLRS + UC3M + Bosch?
+	I would say yes. They seem to form a coherent industrial/HPC cluster.
+	VTT
+	Päivi raises a valid concern: VTT is expensive (~€20k/PM).
+	We should only invite VTT if they bring something unique that no other partner provides.
+	Before contacting them, we need to define:
+	their exact role,
+	relevant WP(s),
+	estimated PMs.
+	Partner priorities
+	Anastasiia explicitly asks FORTH to fill the priority column.
+	This should probably be one of the first agenda items on Thursday.
+	Consortium composition
+	Your concern about too many research organisations remains valid.
+	Even if there are many candidate SMEs and companies in the Excel sheet, you still need to decide which ones become core beneficiaries to maintain a good IA balance.
+
+	For Thursday:
+* 	Which partners are core?
+* 	Which partners are optional/back-up?
+* 	Which use cases become the flagship pilots?
+* 	Do we invite the HLRS–UC3M–Bosch cluster?
+* 	Does VTT add unique value that justifies its cost?
+*	Are there any gaps in the consortium (e.g., legal/compliance, end users, SMEs) that still need to be filled?
+
+7 july
+meeting pilia proposalc3po?codec
+secure ai wrote email with apaputasak 
+
 6 July 
 ==========
 
