@@ -321,8 +321,154 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+13 July 
+* eidame me ton papoutsaki ta tools gai to secure ai .kai sunanthsh me to Niko 
+* paroysiash detangel 
+
+parousiash mixalh shmeiwseis 
+=====================
+* polu wraia eisagwgh! 
+
+	ayto me ton prwto polemo sto twitter isws na mhn isxuei exoun xanauparxei alloi polemoi!
+	proxexe to kaneis den exei kanei mporei na sou pun oi exw kanei egw ...:( 
+	* 
+	slide 6 ligo megalutero sxedio dan fainontai ta keimena katw apo ta schmata 
+
+	isws na 8elei kapoio pio texniko slide na anaferei to akrivws kai pws kaname 
+	)
+
+	nomizeis oti uparxeilogokrisia , 8a mporousan an aexoun afaire8ei logw logokrisias ? akwria a(slide 8)
+	sto 9 pws ekanes to stance ? ulopoihsh iwsws na rwthsei kapoios 
+
+	------10 pisteyeios oti mporei na dws8ei kapoia lushs sto oti xarakthrizontai neutral .. pws 8a mporouse na dws8ei lusei sto 
+
+	etsi dinoume to sfine tuning LUSH!
+
+	----uparxei kapoia me8oso exisorophshs tou adatset ? arxiko dslide
+
+	slide 12 pio katw to keimeno na megalwsei h eikona 
+
+	pio pmegala figure 14 
+
+	les kai exoun meletisei to algori8mo 
+
+	14 kai pali giati dra etsi o algorithmos 
+
+
+	plos preepi na paei !!!!
+
+	16 an anafereis onomata 8a preepi na peis citation katw sto footer 
+
+
+	who is teh annotater ?  why not ftiaxneis ena site kai vazeis na yhfiszoun ...Crowdsourced Annotation
+
+	limited resources ... mporei sna peis future work //
+
+
+	logorithmo logokrisia
+
+	mahsa -- san to feggari 
+
 9 July 
 ================
+
+POis 
+* SECURE AI 
+minutes (see also transcript: 3-4 use cases 
+  (athanatos) IA --> inlecom industry , bosch , rto ?
+6 use cases ? the more use case teh more teh research and budget is divided 
+priority all partners it own use case 
+Manos paoutsakis (technical providers ) step back and recognize teh technologyes we have and then tools and partners 
+anastasia agrees / inlecom 
+FORTH + inlecom same 
+
+inlecom will provide  
+
+if we build a framewor dsplit the 
+
+not use ovelap
+
+we have six tools 
+
+identify gaps 
+
+a good skeleton  (anastasia)
+
+chat 
+==================
+Apex Numeris is a French deeptech (Lyon, Minalogic member). Our
+platform, SentinelleIA, is a TRL-6 multi-agent runtime security layer
+for deployed AI systems and LLM agents — fully local, no external model,
+EU-sovereign. It complements your adversarial-ML / robust-training core
+rather than duplicating it: we cover runtime defence of AI systems in
+operation and AI Act conformity evidence (Art. 9–15 mapping), with
+categorical OWASP LLM Top 10 coverage and MITRE ATLAS / ANSSI alignment.
+It is patent-backed, which gives the consortium a defensible foreground
+and a concrete exploitation story.
+Practically, we could (a) own the runtime-defence + compliance-evidence
+component, and (b) serve as an operational validation use case in a
+regulated/sovereign environment — the 2–3 sensitive-domain pilots the
+topic calls for.
+ 
+ 
+ 
+LeakPro — our open-source privacy risk audit tool for AI models and data (github.com/aidotse/LeakPro). It runs empirical privacy attacks (membership inference and related) to quantify leakage risk in trained models, which maps directly onto the proposal's privacy/robustness assessment angle. We already have a service description prepared for TEF Health that we can base the SECURE-AI contribution on — not sure if we have an equivalent LeakPro service description for the AI Factory.
+DP-CondFL — in case federated learning is on the plate, we can also contribute DP-CondFL: federated learning for heterogeneous data, enhanced by PETs (differentially private conditioning + SMPC). This would fit a use case where partners train jointly across non-IID data without sharing it.
+ 
+ 
+Turku
+FORTH
+RISE
+ 
+Bosch?
+Aphex? SecudaAI? 
+ 
+Identify technologies and map to Use Cases
+ 
+ 
+LIST of Tools, integrated into framework
+ 
+Turku UAS: MISP and MatterMost
+ 
+FORTH: Trusted execution environment + detection tools of attacks against models 
+ 
+INLECOM - have ai tools that needed to be robust in the framework
+ 
+ describe toos + identify gaps. 
+ if we find gaps we go to the list of tools 
+ FORTH: Trusted execution environment + detection tools of attacks against models 
+ 
+INLECOM - have ai tools that needed to be robust in the framework
+ 
+describe tools + identify gaps
+ 
+Tech_UC.docx
+Tech_UC.docx
+ 
+Tools - use cases - section 1
+then section 2 - impact
+how to achieve the calls objectives out of the framework we have
+ 
+
+===========
+i think we have limited teh number of partners and usecase in ta number we can work . 
+
+desctiption of tools by tomorrow gaps by monday  exchange email .. and next thurday see use cases 
+
+tehn start 1 ..tehn go to sectoon 2 impact martel not responding .. .
+
+anastasia ha background of the 
+
+
+
+=============
+καλησπέρα Νικο!  Ετοιμασοπυμε  ενα proposal, με μια μικρη περιγραφη εδω 
+SecureEU Shield will deliver a European AI Assurance Framework that enables organizations to securely deploy and operate AI in sensitive environments. The project will provide end-to-end protection across the AI lifecycle—from data acquisition and model training to deployment and runtime operation—combining cybersecurity, privacy-preserving technologies, robustness assessment, and compliance-by-design. The framework will generate measurable evidence of security, privacy, and trustworthiness, directly supporting secure AI adoption in line with the AI Act and European digital sovereignty objectives. 
+
+ και μιλησαμε με τον Αθανατο ο οποιος μα ειπε τι εχεις κανει κατι σε  trusted executtion environment +  AI tools.  Εχεις χρονο καποια στιγμη αυριο να μιλησουμε ; 
+
+==========
+
 * DETANGLE
 	🔴 This week (before 18 July)
 	Write your D2.1 chapters. ATH owns four of seven — Chapter 1 (Introduction), Chapter 3 (T2.2 Collaboration Management Plan), Chapter 4 (Requirements Baseline & Pilot Constraints), and Chapter 7 (Baseline & Conclusions). These are due in four days. Chapter 4 is the heaviest — it needs to document the locked MoSCoW baseline and all four pilot constraints including the three deployment model options from the TC.
@@ -343,8 +489,176 @@ calls June 2026
 	Αυτή τη στιγμή απομένουν λίγες, συγκεκριμένες βελτιώσεις σε ορισμένες νομικές λεπτομέρειες και ειδικές περιπτώσεις. Στόχος μας είναι, μετά και τη σημερινή αξιολόγησή σας, να ολοκληρώσουμε αυτές τις τελευταίες διορθώσεις πριν προχωρήσουμε στην επόμενη φάση του έργου.
 
 	we have to pull the plug .. contumue with curpus !!
-* 
-8 july 
+* SECURE AI 
+	SECURE-AI – Meeting Notes (Updated)
+	1. Proposal Governance & Timeline (Highest Priority)
+
+		Manos raised concerns that the proposal currently lacks:
+
+		Clear goals
+		Clear responsibilities
+		Clear deadlines
+
+		Päivi proposed that FORTH, as coordinator, should:
+
+		Define the proposal timeline.
+		Set deadlines for each proposal section.
+		Assign responsibilities for writing each chapter.
+		Lock the consortium after agreeing on the use cases.
+
+		Decision needed
+
+		Confirm FORTH's coordination role and proposal timeline.
+		Agree on writing responsibilities and deadlines.
+	2. Final Use Cases
+
+		Tomorrow we should decide which use cases will become the official pilots.
+
+		Once agreed:
+
+		the consortium can be locked,
+		partner roles can be finalised,
+		remaining partner invitations can be decided.
+	3. Consortium Finalisation
+
+		After selecting the use cases:
+
+		confirm the role of each partner;
+		remove partners with overlapping contributions;
+		identify any missing expertise.
+
+		Anastasiia is waiting for FORTH to prioritise the partners before continuing discussions.
+
+	4. Partner Priorities
+
+		Review the partner priority list.
+
+		For each candidate decide:
+
+		Core beneficiary
+		Optional partner
+		Backup partner
+		Remove
+	5. HLRS – UC3M – Bosch Cluster
+
+		RISE proposes a joint meeting.
+
+		Current understanding:
+
+		HLRS
+
+		HammerHAI AI Factory
+		EuroHPC infrastructure
+		HPC
+		AI platform engineering
+		LLM / AI Agent infrastructure
+
+		UC3M
+
+		GAMMAF framework
+		Runtime monitoring
+		Multi-agent systems
+		Multi-agent firewall architectures
+
+		Bosch
+
+		Bosch AI Shield
+		Industrial AI security
+		Manufacturing use cases
+
+		Decision
+
+		Organise the joint meeting?
+		Do we include all three?
+	6. RISE
+
+		Clarify RISE's role.
+
+		Besides technical coordination:
+
+		PET technologies
+		Validation framework
+		MIMER AI Factory
+		TEFs
+
+		Need to clarify:
+
+		concrete software assets,
+		existing tools,
+		integration responsibilities.
+	7. Turku UAS
+
+		Clarify the contribution:
+
+		MISP
+		Mattermost
+		AI-assisted threat intelligence
+		validation environment
+		operational pilot
+
+		Need confirmation of the concrete assets they bring.
+
+	8. VTT
+
+		Päivi has not contacted VTT yet.
+
+		Reason:
+
+		expensive (~€20k/PM),
+		role not defined.
+
+		Decision
+
+		Do we need VTT?
+
+		If yes:
+
+		which WP?
+		which tasks?
+		how many PMs?
+		what unique expertise?
+
+		Otherwise, do not invite them.
+
+	9. MIMER AI Factory vs HammerHAI
+
+		RISE considers them a synergy rather than an overlap.
+
+		Need to clearly define:
+
+		HammerHAI role
+		MIMER role
+
+		to avoid reviewer concerns.
+
+	10. IA Consortium Balance
+
+		Current concern:
+
+		Too many
+
+		research organisations
+		universities
+
+		Need stronger representation from:
+
+		SMEs
+		industry
+		public authorities
+		end users
+		Decisions Required Tomorrow
+		Lock the project vision.
+		Select the flagship use cases.
+		Lock the consortium.
+		Assign clear roles to every partner.
+		Decide whether to include:
+		HLRS
+		UC3M
+		Bosch
+		VTT
+		Finalise partner priorities.
+		Agree on proposal writing timeline and responsibilities.
+8 july 			
 ===============
 * detangle tc meeting
 * deliverable table and corrections 

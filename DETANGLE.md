@@ -2104,11 +2104,120 @@ Evangelos flagged in the TC that national-level NIS2 transposition requirements 
 This was previously classified as WON'T HAVE (N9) in the MoSCoW baseline. The TC discussion suggests this may need to be revisited — at minimum as a COULD HAVE with a modular/configurable architecture flag.
 Next step: ATH to flag this to NCI (T2.5) and raise at Meeting #10 as an open issue for slide 12.
 
+### Action 87 – WP2 Bi-weekly Meeting #10 (14 July 2026)
+- Date: 14 July 2026, 8:00 AM
+- Action: ATH chaired WP2 bi-weekly meeting. Confirmed stakeholder registry freeze closed (78 entries/69 orgs, QnR and ICAM contributions received). Confirmed D2.1 contribution status from ICERT, UBI, NCI — no risk flags for 18 July deadline. AP-12 (D2.1 structure/T2.5 placement) confirmed closed.
+- Key outcomes:
+  - New AP-13 logged: internal KPI progress reporting, deadline 21 July, template circulated by Siranush.
+  - N9 (national frameworks) reclassification clarified: requirement reframed from "support other national-level certifications" (out of scope, WON'T) to "support national-level requirements for NIS2 compliance" (in scope, per GA). ATH to update traceability matrix and flag architecture impact to NCI.
+  - Third deployment model option confirmed: ICERT-managed cloud, alongside centralised cloud and on-premise (N14).
+  - Synthetic data confirmed as option for infrastructure mapping — to be flagged in D2.1 Chapter 4.
+  - Goal 6 (incident reporting) ownership resolved: UBI remains Goal Owner, ITML and NetCompany added as contributors; ICERT confirmed not required to action this KPI round. Action assigned to Siranush to update tracking table.
+  - T2.5 (NCI) requested 5–10 min slot at next TC/WP2 meeting to present architecture model/methodology.
+- Status: Completed. Full MoM produced.
+
+### Action 88 – WP4 Task 4.1 Architecture Working Session (14 July 2026, afternoon)
+- Date: 14 July 2026
+- Action: ATH participated in impromptu WP4 architecture discussion focused on Task 4.1 (Intelligent Incident Detection). Session also touched T4.2, T4.3, and T4.4 scope boundaries.
+- Key findings relevant to WP2/ATH:
+  - Confirmed via live notes that Task 4.3 (Cost Optimisation & Resource Pooling) is co-owned by UBI and ATH — consistent with GA participant list. The hosting/self-hosting budget question raised mid-session (partially by Eleni) was determined to belong under T4.3, not T4.1.
+  - A T4.3–T4.1 integration call is being scheduled for the following week (Evangelos, ITML dev team, Theofilos Tsoris) — ATH not yet included on the invite despite T4.3 co-ownership; to be requested.
+  - Pilot representation gap identified: only Pablo (FV) present, despite several open items (data availability, legacy system access, real-time/batch processing) requiring pilot-level input.
+  - QNR tool scope ambiguity flagged: tool consumes open repositories (NIST, GitHub, SBOM data), performs no detection on pilot data — unclear fit within T4.1; possible better fit under T3.2 (certification support).
+  - Common data layer scope (project-wide vs. T4.2-specific) identified as the single highest-impact unresolved architecture question; to be revisited with Evangelos the following day.
+  - N14 (deployment model) reconfirmed as top architectural priority, consistent with WP2's existing tracking.
+- Outcome: Multiple open questions logged (12 total, see minutes) affecting T4.1–T4.4 architecture design. No pilot-facing decisions finalised.
+- ATH Follow-up items:
+  - Request inclusion on T4.3–T4.1 integration call given co-ownership.
+  - Cross-reference hosting/T4.3 discussion against N14 deployment decision in traceability matrix.
+  - Flag pilot representation gap to WP2/T5.2 validation planning.
+  - Monitor QNR tool scope resolution (T4.1 vs T3.2) for potential capability matrix / D2.1 Chapter 5 impact.
+- Status: Ongoing — follow-up calls scheduled for next day (T4.3/common data layer) and next week (T4.3–T4.1 integration).
+
+### Action 89 – WP4.1 Coordination Meeting on Capability Mapping and Architecture Dependencies
+Date: 15 July 2026
+Action: ATH participated in the WP4.1 coordination meeting to clarify the scope of Task 4.1 (Incident Detection), identify dependencies on WP2 outputs, and discuss partner contributions to the incident management platform.
+ 
+### Action 90 – WP4 Task 4.1 Architecture Working Session (14 July 2026, afternoon)
+- **Date:** 14 July 2026
+- **Action:** ATH participated in an ad-hoc WP4 architecture working session focused on Task 4.1 (Intelligent Incident Detection), with discussions also covering the interfaces between Tasks T4.2, T4.3 and T4.4.
+- **Key Points:**
+  - Confirmed that the architecture of Task 4.1 is currently dependent on pilot-specific information regarding available data sources, legacy systems, deployment constraints and access permissions.
+  - Identified that the Common Data Layer (CDL) remains a major open architectural question, requiring clarification on whether it will be project-wide or specific to Task 4.2.
+  - Discussed the relationship between static vulnerability analysis (WP3 Task 3.2) and dynamic incident risk scoring (WP4 Task 4.1), highlighting the need to clearly define responsibilities and avoid functional overlap.
+  - Confirmed that deployment model decisions (cloud, hybrid or on-premise) remain a key architectural dependency, consistent with the deployment constraints already identified through WP2 stakeholder requirements.
+  - Reviewed the expected role of partner technologies, including Q&R's vulnerability assessment capabilities, and identified the need to clarify their integration within the overall architecture.
+  - Agreed that a dedicated capability matrix should be prepared to map partner contributions across the Task 4.1 functional components (ML, NLP, Risk Scoring, Orchestration and Integration).
+- **Outcome:**
+  - Several architectural dependencies affecting Tasks T4.1–T4.4 were identified and documented.
+  - Follow-up technical meetings were planned to clarify capability ownership, risk scoring responsibilities and architecture integration.
+  - ATH will ensure that architecture-impacting pilot constraints identified through WP2 are reflected in the WP2 Traceability Matrix and considered during architecture development.
+- **ATH Follow-up:**
+  - Request participation in the planned T4.3–T4.1 technical integration discussions where relevant.
+  - Coordinate with pilot owners to collect any additional information required on deployment models, data availability and legacy systems.
+  - Monitor the resolution of WP3/WP4 functional boundaries and update the WP2 Traceability Matrix accordingly.
+- **Status:** Ongoing.
+
+### Action 89 – WP4.3 Technical Coordination Meeting: Cost Optimisation & Architecture Dependencies (15 July 2026)
+- **Date:** 15 July 2026
+- **Action:** ATH participated in the WP4.3 technical coordination meeting to clarify the scope of Task 4.3 (Cost Optimisation and Resource Pooling), its interfaces with Tasks T4.1 and T4.2, and the architectural dependencies affecting the implementation of WP4.
+- **Key Findings:**
+  - Confirmed that the design of the cost optimisation component remains dependent on pilot-specific information regarding available data sources, legacy systems, deployment models and integration constraints.
+  - Reconfirmed that the Common Data Layer (CDL) is a major open architectural issue requiring clarification regarding its scope (project-wide or WP4-specific).
+  - Identified that hosting, deployment responsibility and associated budget allocation remain unresolved and require coordination with project management.
+  - Discussed the relationship between cost optimisation, intelligent orchestration and automated remediation, highlighting the need to clearly define the role of Ansible, Terraform and orchestration mechanisms within Task T4.3.
+  - Continued discussions regarding the interface between WP3 static risk scoring capabilities and WP4 real-time incident detection and classification.
+  - Agreed that partner capabilities and pilot data availability should be systematically mapped before finalising the WP4 architecture.
+- **Outcome:**
+  - Multiple architecture decisions remain pending until pilot capability and data availability information is consolidated.
+  - ATH will continue supporting the collection and traceability of architecture-impacting requirements through WP2 activities.
+- **Status:** Ongoing.
+
+### Action 90 – WP2 Support for WP4 Architecture Definition (15 July 2026)
+- **Date:** 15 July 2026
+- **Action:** Following the WP4.1 and WP4.3 technical coordination meetings, ATH identified additional information that should be captured within the WP2 Requirements Baseline and Traceability Matrix to support downstream architecture activities.
+- **Key Actions Identified:**
+  - Record pilot data availability (logs, traffic, endpoint, threat intelligence).
+  - Record deployment models (cloud, hybrid, on-premise).
+  - Record legacy systems and integration constraints.
+  - Record hosting assumptions and architecture-impacting requirements.
+  - Ensure these requirements remain traceable from stakeholder needs through architecture and pilot validation.
+- **Outcome:**
+  - WP2 Traceability Matrix identified as the central mechanism for maintaining architecture-impacting requirements and supporting WP3, WP4 and WP5 activities.
+- **Status:** Ongoing.
+
+### Action 91 – WP4.3 Technical Coordination on Cost Optimisation and Cross-Border Resource Pooling (15 July 2026)
+- **Date:** 15 July 2026
+- **Action:** ATH participated in the WP4.3 technical coordination meeting focusing on Cost Optimisation and Resource Pooling mechanisms and their interaction with the WP4 architecture.
+- **Key Findings:**
+  - Confirmed that Task T4.3 depends on pilot-specific scenarios defining data availability, deployment constraints, resource utilisation and optimisation objectives.
+  - Identified the need to establish a common methodology for quantifying optimisation parameters, including infrastructure utilisation, operational costs, personnel effort and security resource allocation.
+  - Discussed the incorporation of human-in-the-loop decision latency into the optimisation model, recognising that response workflows cannot be fully automated.
+  - Confirmed that scenario development will drive both architecture decisions and the definition of pilot data requirements.
+- **Outcome:**
+  - Cost optimisation requirements and pilot scenarios identified as key architectural inputs requiring further refinement.
+  - ATH will ensure that architecture-impacting pilot constraints remain traceable through WP2 requirements activities.
+- **Status:** Ongoing.
+
+
+
+### Action 92 – WP4 Architecture Coordination: Common Data Layer and Cross-Border Information Sharing (15 July 2026)
+- **Date:** 15 July 2026
+- **Action:** ATH participated in discussions regarding the Common Data Layer, cross-border collaboration mechanisms and secure information exchange within WP4.
+- **Key Findings:**
+  - Agreed that the Common Data Layer should be considered a WP4-specific architectural component rather than a project-wide platform, simplifying the overall system architecture.
+  - Discussed the use of Kafka-based mechanisms to support secure cross-border cyber threat intelligence sharing, while recognising that anonymisation, sanitisation and responsible disclosure mechanisms will also be required.
+  - Confirmed that cross-border resource pooling extends beyond technical infrastructure and should also support the sharing of expertise, operational knowledge and security playbooks between pilot organisations.
+  - Identified the need to capture cross-border constraints, policy considerations and data-sharing restrictions as architecture-impacting requirements.
+- **Outcome:**
+  - Architecture assumptions regarding cross-border collaboration and the Common Data Layer will be further refined during the upcoming WP4 technical coordination meetings.
+  - ATH will monitor these decisions and ensure that relevant requirements are reflected within the WP2 Requirements Baseline and Traceability Matrix.
+- **Status:** Ongoing.
+
+
 
 next steps : 
-#######################################################################################################################################
-#######################################################################################################################################
-#######################################################################################################################################
+###############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
 
 1)deliverable Detangle baseline 
 2) 2.2 
@@ -2137,25 +2246,84 @@ next steps :
   ========================================
   In fact, I think your project evolution is:
 
-May
+      May
 
-Alignment presentation (concept)
-Governance ideas
-Transition planning
+      Alignment presentation (concept)
+      Governance ideas
+      Transition planning
 
-↓
+      ↓
 
-June
+      June
 
-Rome Plenary validation
-WP2 discussions
-D2.1 Chapter 3
+      Rome Plenary validation
+      WP2 discussions
+      D2.1 Chapter 3
 
-↓
+      ↓
 
-July
+      July
 
-Start writing the actual Stakeholder Engagement Strategy
-Then produce the Stakeholder Engagement Framework
+      Start writing the actual Stakeholder Engagement Strategy
+      Then produce the Stakeholder Engagement Framework
 
-That sequence is consistent with both your presentation and the project timeline.
+      That sequence is consistent with both your presentation and the project timeline.
+=======================
+
+### DELIVERABLE 
+      Overall: Very Good Foundation — But Uneven Maturity
+The structure is solid and professionally written. Chapters 1, 2, and 3 are genuinely strong. Chapters 4–7 need significant work before submission.
+
+✅ What is working well
+Chapter 1 (Introduction) is excellent. The Purpose of the Document is sharp and reviewer-friendly — the framing around the evidence chain for RP1 is exactly right. The Relation to Other Work Packages section is one of the best-written parts of the document, especially the WP6 interface paragraph with the three concrete artefacts. Keep this.
+Chapter 2 (T2.1 — ICERT) is the most complete chapter by far. The methodology is rigorous, the 78-entry registry is well described, the Mendelow analysis is referenced properly, and the gap analysis of the 42 needs is traceable. The pilot profiles in Section 2.2.1 are well-written and the cybersecurity maturity comparison is a strong analytical contribution. The external stakeholder analysis is thorough.
+Chapter 3 (T2.2 — ATH) is well-structured and the governance model, liaison ownership model, and confidentiality constraint are all written in proper deliverable language. The three-tier table is clear. The roadmap table is good. The end-user boundary distinction (pilots = end users, external stakeholders = validators) is exactly the right framing.
+
+⚠️ What needs work before 18 July
+Chapter 4 (T2.3 — ATH) is a skeleton. The section headers are there but the substance is thin bullets and placeholders. You need to write the actual MoSCoW table with all 30+ MUST HAVE items, the SHOULD/COULD/WON'T categorisations, and the full pilot constraint documentation — including the three deployment model options now confirmed from the TC meeting. This is the biggest gap and your most urgent writing task.
+Chapters 5, 6, and 7 are essentially empty — headers with placeholder text from UBI and NCI. This is expected since those are UBI and NCI contributions, but you should flag them formally in an email to UBI and NCI today as the 18 July deadline is in four days.
+Section 2.2.2 and 2.2.3 (Technical partners, WP leaders) contain Lorem Ipsum placeholder text — "scrambled it to make a type specimen book." This must be replaced before any external review.
+Tables 1, 3, and 4 have no data — they are labelled but empty. The actual numbers from the registry analysis need to be filled in.
+Annexes A, B, C are empty. Annex A (Stakeholder Registry) should at minimum reference the frozen registry file. Annex B (Requirements Catalogue) should include the MoSCoW table.
+Minor issues: "Table 1test" appears in the List of Tables — likely a test entry that needs removing. Figure 2 is a duplicate/test figure. The document history shows only v1.0 from June — update to reflect current version.
+
+🎯 Your writing priority for the next 4 days
+Focus entirely on Chapter 4. That is ATH's heaviest contribution and the one that ties directly to the locked MoSCoW baseline you spent months building. The other ATH chapters (1, 3, 7) are already in good shape or have partial content. Chapter 4 needs the actual requirements table, the constraint documentation per pilot, and the architecture drivers. Want me to draft Chapter 4 for you based on everything we have in the log?
+
+================================================
+Με βάση το πού βρίσαι τώρα (μόλις ξεκίνησε επίσημα το T2.2 στο M7, και το registry freeze deadline είναι αύριο 10/7), να τα άμεσα βήματα:
+
+## Άμεσες προτεραιότητες (αυτή/επόμενη εβδομάδα)
+
+**1. Ζήτα το updated Stakeholder Registry από την ICERT**
+Το registry "παγώνει" στις 10 Ιουλίου (αύριο) για τους σκοπούς του D2.1. Χρειάζεσαι το τελικό αρχείο για να ξεκινήσεις τη δουλειά κατηγοριοποίησης/πρoτεραιοποίησης του T2.2.
+
+**2. Επιβεβαίωσε ποιοι partners δεν έχουν στείλει ακόμα entries**
+Είχες σημειώσει ότι QnR, ICAM (και πιθανόν άλλοι) λείπουν. Follow-up email αν δεν έχει ολοκληρωθεί.
+
+**3. Κλείσε συνάντηση T2.2 με ICERT + Sandra (TP/WP6)**
+Αυτό ήταν στο δικό σου action item — coordination meeting για να ευθυγραμμιστείτε πριν αρχίσει το πραγματικό engagement.
+
+## Τι είναι ήδη έτοιμο (από το D2.1 Chapter 3)
+
+Το πλαίσιο του T2.2 είναι ήδη γραμμένο στο D2.1:
+- Stakeholder Engagement Strategy ✅
+- Governance Model ✅
+- Three-tier categorisation (Tier 1/2/3) ✅
+- Liaison Ownership Model + confidentiality constraint ✅
+- Roadmap M7-M36 ✅
+
+Άρα το "framework writing" τελείωσε — τώρα μπαίνεις σε **operational** φάση.
+
+## Operational βήματα (M7-M12 period, σύμφωνα με το δικό σου roadmap)
+
+1. **Ετοίμασε τα πρώτα engagement materials** — questionnaires, interview guides, workshop templates (ήδη προγραμματισμένο στο roadmap σου για M7-M12)
+2. **Ανάθεσε liaison owners** ανά κατηγορία stakeholder, με βάση το registry που θα λάβεις
+3. **Ξεκίνα τα πρώτα engagement activities** — πιθανόν πρώτα με Tier 1 (institutional, π.χ. ENISA, CSIRTs) μιας και αυτά τα coordinate εσύ απευθείας
+
+## Παράλληλα — μην ξεχάσεις
+
+- **D2.1 contribution deadline: 18 Ιουλίου** — αν λείπουν ακόμα κομμάτια από WP2 πλευρά, priority
+- Το white paper (Human-in-the-Loop AI) είναι έτοιμο draft — μπορεί να τρέξει παράλληλα, δεν μπλοκάρει τίποτα
+
+Θέλεις να σου ετοιμάσω ένα draft email προς ICERT/Sandra για να κλείσετε το coordination meeting, ή προτιμάς να ξεκινήσουμε τα πρώτα engagement materials (questionnaire template) για το T2.2;
