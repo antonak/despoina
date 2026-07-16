@@ -321,7 +321,59 @@ calls June 2026
 =============================================================DAILY LOG===================================================================================
 =========================================================================================================================================================
 =========================================================================================================================================================
+15 July 
+===================
+* reveiwed CODEC section 2 
+* started paper --> arxiv fro mixalis . added all content from tehsis 
+* INTACT meeting 
+ 		Dashboard Visualization Approach
+		Raw feature/number data not user-friendly for dashboards
+		Separate service converts data into readable text for visualization
+		Open QShould visualization be in front-end widget or sent from tool?
+		Need to agree with partner on specific prediction use case
+		Embed partner predictions and AVA explanations in same widget
+		DecisionDisplay layout is up to the partners to define
+		Separate widget for AVA is optional, not required
+		Data Linking & Frontend Flexibility
+		Request ID can link predictions, explanations, and monitoring events
+		Frontend can display linked data in any layout desired
+		Building foundation with linked data enables flexible presentation
+		Frontend-Backend Separation Concerns
+		Concernfrontend shouldn't need backend method knowledge
+		Different methods may require specialized visualizations
+		DecisionFrontend must know expected data per widget to visualize it
+		Generic widgets can ignore backend data specifics
+		DecisionDefer visualization concerns; focus on integration first
+		Meeting Logistics & Updates
+		Jenny and Kata requested to join PUC meetings
+		P1 financialsdeadline today; response status being checked internally
+		KTY and PUC need to confirm approval of comments
+		Upcoming Meetings
+		ClarificationSeptember 8 was a misread; likely October 8 (confirmed)
+		October plenary meeting already known
+		Request was to extend October physical meeting by one day
+		Email Jenny to clarify September 8 technical meeting details
+* meeting SECURE AI 
+		* panic me to claude sto VS Your session data is all still on disk, intact:
+
+		/home/dantonakaki/.claude/projects/-home-dantonakaki/c706c32d-...jsonl — 109 MB, ~41,672 messages (last touched Jul 9 20:38) — this is almost certainly your big Greek-legislation RAG session (36.lawyer_chat.py, retrieval benchmarks, etc.)
+		/home/dantonakaki/.claude/projects/-home-dantonakaki/6ebf9dae-...jsonl — 3.9 MB, ~1,449 messages (last touched Jul 15 06:54)
+		Plus subagent transcripts and a real memory bank (project_architecture_freeze.md, project_issue_tracker.md, project_gpu_constraints.md, etc.) under that same folder.
+		Why it looked like it vanished: Claude Code scopes session history to the working directory you open it from. Your prior work was done with the working directory as /home/dantonakaki (the project root). This new window opened instead in /home/dantonakaki/greek_legislation/latex — a LaTeX-paper subfolder — which Claude Code treats as a different project, so it shows an empty/near-empty history (ebcfaa88-...jsonl, only 16 lines, started today).
+
+		Nothing was deleted or corrupted — you're just looking at a different project's session list.
+
+		To get back to it: close this session and reopen Claude Code with the working directory set to /home/dantonakaki (the project root), e.g. cd /home/dantonakaki && claude then use --resume (or /resume inside the CLI) to pick the c706c32d... or 6ebf9dae... session from the list.
+
+		Want me to pull up a summary of what's in the most recent big session (6ebf9dae, Jul 15) instead, so you have context right now without switching directories?
+14 July
+===================
+* DETANGLE meeting in 4.1
+* mixalis parousiash : 10!!
+* completed CODEC proposal section 2 
+
 13 July 
+=======
 * eidame me ton papoutsaki ta tools gai to secure ai .kai sunanthsh me to Niko 
 * paroysiash detangel 
 

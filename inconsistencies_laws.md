@@ -114,3 +114,5 @@ ask claude
 
 1) epishs pws 8a mporeousan na entopisw paradeismata tetoiwsn confliuct akomh kai an eimai asxeth apo nomikh ? 
 2) ta nodes einai apla la8os
+
+poious nomous xrhsimopooei ? 
