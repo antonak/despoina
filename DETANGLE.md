@@ -2708,4 +2708,3 @@ ti proteinei  vevaia akomh den uparxoun apotelesmata tou ergou ngia na epikoinwn
   - ATH to reissue the September presentation and minutes on the official project templates and apply them going forward.
 - **Status:** In Progress.
 
-aa
