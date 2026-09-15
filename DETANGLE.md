@@ -2690,3 +2690,20 @@ ti proteinei  vevaia akomh den uparxoun apotelesmata tou ergou ngia na epikoinwn
   - Event calendar confirmed for October–December 2026; partner attendance to be confirmed to support promotional preparation and KPI reporting.
   - Events to be used deliberately to build collaborations for joint webinars and future activities.
 - **Status:** In Progress.
+
+
+### Action 100 – WP2/WP6 Outreach Coordination with TIKO PRO (September 2026)
+
+- **Date:** September 2026
+- **Action:** Following TIKO PRO's review of the WP2 Meeting #12 minutes and request for a call, ATH initiated coordination between T2.2 stakeholder engagement and WP6 dissemination outreach.
+- **Key Findings:**
+  - Task T2.2 has been running since M7, so stakeholder engagement is formally underway, making the sequencing of outreach a live question.
+  - TIKO PRO raised at the plenary that approaching stakeholders before DETANGLE has concrete results may be premature; ICERT made a comparable point at WP2 Meeting #12, noting that a clear message and tangible offering are needed before contact is made. ATH concurred.
+  - Both WP2 (T2.2 engagement) and WP6 (dissemination) draw on the same Stakeholder Registry, creating a risk that the same organisations are approached twice.
+  - The ICERT gap analysis identifies SMEs as the largest shortfall (approximately 15 mapped against a target of 30), followed by market surveillance authorities and notified/accreditation bodies.
+  - TIKO PRO holds a substantial contact base beyond the Registry, identified as the most promising route for closing the SME gap.
+  - TIKO PRO requested that the official project templates be used for presentations and meeting minutes.
+- **Outcome:**
+  - A coordination call to be scheduled to agree when outreach realistically begins, the first-wave message, and the division of contacts between T2.2 and WP6.
+  - ATH to reissue the September presentation and minutes on the official project templates and apply them going forward.
+- **Status:** In Progress.
