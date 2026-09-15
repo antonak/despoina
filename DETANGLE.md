@@ -2707,3 +2707,5 @@ ti proteinei  vevaia akomh den uparxoun apotelesmata tou ergou ngia na epikoinwn
   - A coordination call to be scheduled to agree when outreach realistically begins, the first-wave message, and the division of contacts between T2.2 and WP6.
   - ATH to reissue the September presentation and minutes on the official project templates and apply them going forward.
 - **Status:** In Progress.
+
+aa
