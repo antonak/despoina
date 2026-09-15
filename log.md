@@ -316,11 +316,156 @@ calls June 2026
 
 * RESERVE LIST: SONAR	Advanced Architectures Systems and Technologies 	HORIZON-JU-SNS-2025-01-STREAM-B-01-01	17/09/2025	TUC	TUC	Drasko Draskovic	Despoina Antonakaki	Drasko DRASKOVIC 	
   from email : 		Request for Support: SONAR – A High-Impact SNS Proposal on the Reserve List (mail sent on 3/2/2026)														 
-=========================================================================================================================================================
-=========================================================================================================================================================
-=============================================================DAILY LOG===================================================================================
-=========================================================================================================================================================
-=========================================================================================================================================================
+==================================================================================================================================================================
+==================================================================================================================================================================
+============================DAILY LOG============================================
+==================================================================================================================================================================
+
+
+15 september 2026
+=============================
+* submitted themis . https://drive.google.com/drive/u/1/folders/17iwcSb_j5EiCOEjD2XPHZDOu47utdklG
+
+
+contacts SECURE AI , THEMIS
+Anastasiia Andriievska <anastasiia.andriievska@ri.se>
+Mattila Päivi <paivi.mattila@turkuamk.fi>,
+Korhonen Satu <satu.korhonen@turkuamk.fi>,
+Henrik Forsgren <henrik.forsgren@ri.se>,
+Michael Popoff <michael.popoff@ri.se>,
+Rickard Brännvall <rickard.brannvall@ri.se>,
+Paavola Jarkko <jarkko.paavola@turkuamk.fi>,
+Leonardo Tonetto <leonardo.tonetto@martel-innovate.com>,
+"anita.gojanovic@digital4planet.org" <anita.gojanovic@digital4planet.org>,
+Cristina Pereira <cristina.pereira@digital4planet.org>,
+"fisher@dor7.com" <fisher@dor7.com>,
+Kevin Keyaert <kevin.keyaert@martel-innovate.com>,
+Andrea Falconi <andrea.falconi@digital4planet.org>,
+"jelena@bavel.health" <jelena@bavel.health>,
+Ilias Gkotsis <ilias.gkotsis@inlecomsystems.com>,
+Andrea Saracino <andrea.saracino@santannapisa.it>,
+Sotiris Ioannidis <sotiris@ics.forth.gr>,
+Manos Athanatos <manos@cymph.io>,
+Manos Papoutsakis <paputsak@ics.forth.gr>,
+Quoc-Nam Nguyen <qnn@apex-numeris.com>
+eero.lehtonen@turkuamk.fi,
+ riku.klen@utu.fi,
+ jarmo.teuho@utu.fi
+ 
+
+
+ 9/9/2026
+ ===========
+ Missing from portal : TURUN YLIOPISTO
+
+INTACT wp3 
+================
+Impromptu Googl
+Visibility
+No Team Visibility
+eleni k-pop
+
+ 
+
+7 September 2026
+===================
+* OCDs? 
+
+
+3 September 2026
+==================
+* INTACT : meeting in Dublin mallon den mporoume 
+* des me tn mano ethics + security apo claude
+* vale to part A pdf me copy paste mono to aprt A na to kanei reveiw to calude
+
+
+2 september 
+================
+* DETANGLE TC meeting 
+* 3.2, 3.3  task discussion ? 
+D2.1 will be updated by evangelos. might be some changes later ofn operational workgflow of the tool . 
+* remind : 
+** deadline for part A
+** OCD
+OTHER staff in portal 
+	** what is this the portal need ? Attachment info
+			Part B Security section
+			- filetype:  pdf
+			- filename: A-Z, a-z, 0-9,_ (underscore),-(dash),.(dot) or space
+			- maximum file size: 10 MB
+
+			That's the upload slot for a security-classified Part B, and it almost certainly doesn't apply to you — but it's worth understanding what it's for, because your proposal touches on adjacent territory.
+
+			The Security Section relates to projects involving EU classified information (EUCI) or sensitive information, which must go through a security appraisal process before funding can be authorised. That covers things like:
+
+			Projects generating or accessing information classified RESTREINT UE/EU RESTRICTED or above
+			Cases requiring a facility security clearance (FSC) from a national security authority
+			Work where results need restricted disclosure for security reasons
+
+			THEMIS produces none of this. Your outputs are research artefacts — attack corpora, evidence schemas, robustness evaluations. Some are commercially or operationally sensitive, which is why you marked three deliverables SEN, but "sensitive" in the deliverable-classification sense is not the same as EU classified information requiring a Security Section and an FSC.
+
+			So my reading: leave it empty, unless the ECCC-02 topic conditions specifically require a security section for this topic. That's worth a quick check, since Cluster 3 security calls occasionally do.
+
+			One related item you should confirm regardless — the General Annexes require that beneficiaries ensure their projects are not subject to national or third-country security requirements that could affect implementation. Given Inlecom's border/customs environment and any national-authority pilot data, it's worth asking those partners whether anything in their environment carries a national classification. If it does, that's a conversation to have now rather than at grant preparation.
+
+			If you're unsure after checking the topic text, the safest move is to ask the ECCC via the topic Q&A — but given your timeline, the more practical route is: if the topic doesn't mandate it, leave it blank.
+*** ttachment info
+Part B Ethics section
+		- filetype:  pdf
+		- filename: A-Z, a-z, 0-9,_ (underscore),-(dash),.(dot) or space
+		- maximum file size: 10 MB
+
+		This one does apply to you, and it's worth taking seriously.
+
+		The General Annexes state that applicants must complete the ethics self-assessment as part of their application, and that projects involving ethics issues undergo an ethics review before funding is authorised. THEMIS has several genuine ethics dimensions, so this isn't a formality you can skip.
+
+		Where your ethics issues sit:
+
+		Personal and clinical data. Pilot 2 processes sensitive patient data in Bavel Health's clinical infrastructure. That's the strongest trigger — GDPR, data-protection safeguards, and possibly ethics-committee approval from the participating clinical site.
+		Public-authority operational data. Inlecom's i-RAT handles border, customs and maritime information, which may involve personal data on individuals.
+		Dual-use and misuse potential. You develop attack corpora and exploit knowledge. Even though the intent is defensive, this is a legitimate ethics consideration and reviewers in cybersecurity calls expect to see it addressed.
+		Human participants, if any usability or human-oversight evaluation involves people.
+		Non-EU data transfers, if any pilot data crosses borders — though your architecture is explicitly designed to avoid this.
+		How the mechanics work: the ethics self-assessment is completed as a set of questions inside Part A. The Part B Ethics section here is where you upload the narrative document explaining the issues identified and how you'll handle them — typically covering the legal basis for processing, data minimisation and anonymisation, approvals required, informed consent where relevant, and your misuse-mitigation approach.
+
+		Two things worth knowing: this document is outside the 45-page limit, so it doesn't compete for space. And you already have most of the substance written — the GDPR and privacy-by-design passages in Pilot 2, the synthetic-first data approach, and the responsible-disclosure and staged-release material in the open-science subsection all feed directly into it.
+
+		For tomorrow's meeting, this needs an owner and a deadline. Bavel Health should draft the clinical-data part, since only they know what approvals their sites require and whether an ethics-committee opinion is already in place or needs requesting — the latter can take weeks, so it's worth asking now rather than discovering it at grant preparation.
+
+
+18 July or whatever 
+================
+probvlhma me thn matter most exoume elnallktikh 
+
+problhma me ton xrono...
+
+
+ftiaxe mou ena timetable 
+section 1 telos 10/8 
+meta mia section 2 
+ktl mia evdomada section 3 
+kai meta tha doume ta upoloipa 
+
+
+
+he suggested names during the meeting were nice. We also have some ideas:
+
+GUARDIAN: Governance & Unified Analysis for Robust Deployment of Intelligent AI Networks
+
+FORTRESS: Framework for Observing Risks & Testing Robustness in Emerging Secure Systems
+
+VANGUARD: Verifiable Assurance Network for Governing Uncompromised Adaptive Resilience & Defense
+
+VERITAS: VErifiable Robustness, Integrity & Trusted Assurance for AI Systems
+
+17 July 
+======================
+
+detangel presnetation for PBM sent
+INTACT crisis with FR and signature resolved andread respons to carolina 
+SECURe Ai .. ok anastasia will start writing section 1 moved back meeting
+mixalis perimenw arxiv changes
+
 15 July 
 ===================
 * reveiwed CODEC section 2 
@@ -354,7 +499,7 @@ calls June 2026
 		Request was to extend October physical meeting by one day
 		Email Jenny to clarify September 8 technical meeting details
 * meeting SECURE AI 
-		* panic me to claude sto VS Your session data is all still on disk, intact:
+		*  me to claude sto VS Your session data is all still on disk, intact:
 
 		/home/dantonakaki/.claude/projects/-home-dantonakaki/c706c32d-...jsonl — 109 MB, ~41,672 messages (last touched Jul 9 20:38) — this is almost certainly your big Greek-legislation RAG session (36.lawyer_chat.py, retrieval benchmarks, etc.)
 		/home/dantonakaki/.claude/projects/-home-dantonakaki/6ebf9dae-...jsonl — 3.9 MB, ~1,449 messages (last touched Jul 15 06:54)

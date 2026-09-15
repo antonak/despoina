@@ -2214,9 +2214,150 @@ Action: ATH participated in the WP4.1 coordination meeting to clarify the scope 
   - ATH will monitor these decisions and ensure that relevant requirements are reflected within the WP2 Requirements Baseline and Traceability Matrix.
 - **Status:** Ongoing.
 
+### Action 93 – Update of Requirement N9 Following PMB Clarification (20 July 2026)
 
+- **Date:** 20 July 2026
+- **Action:** During the PMB meeting, the consortium clarified the scope of Requirement N9 concerning national compliance frameworks.
+- **Key Findings:**
+  - N9 refers specifically to supporting national-level implementations of the NIS2 Directive.
+  - The requirement had previously been classified as "Won't Have" due to an incorrect interpretation that it referred to unrelated national certification schemes.
+  - The clarification confirmed that N9 is part of the Grant Agreement scope and should remain within the Requirements Baseline.
+  - Country-specific implementation requirements may be represented as configurable ("should") requirements where appropriate rather than mandatory ("must") requirements.
+- **Outcome:**
+  - ATH will update the WP2 Requirements Baseline accordingly and ensure traceability of the revised requirement within D2.1.
+- **Status:** In Progress.
+### Action 94 – Monitor Pilot Participation for WP4 Technical Coordination (20 July 2026)
+
+- **Date:** 20 July 2026
+- **Action:** The PMB recognised that broader participation of pilot representatives in WP4 technical meetings is necessary to validate deployment assumptions and architecture decisions.
+- **Key Findings:**
+  - Limited pilot participation has delayed the confirmation of deployment constraints, available data sources and architecture assumptions.
+  - Outlook invitation issues also contributed to reduced attendance.
+- **Outcome:**
+  - ATH will continue monitoring architecture-impacting decisions from WP4 and ensure that validated pilot constraints are reflected in the WP2 Requirements Baseline and Traceability Matrix.
+- **Status:** Ongoing.
+
+### Action 94 – Launch of T2.2 Stakeholder Engagement Phase (July 2026)
+
+- **Date:** July 2026
+- **Action:** Following the completion of the Stakeholder Registry (Task T2.1), ATH formally initiated Task T2.2 activities focusing on structured stakeholder engagement, validation planning, and continuous refinement of stakeholder needs.
+- **Key Findings:**
+  - The Stakeholder Engagement Roadmap was initiated for the M7–M36 period.
+  - Governance principles for stakeholder engagement and collaboration were defined.
+  - Coordination with WP6 was initiated to ensure complementary stakeholder engagement activities and avoid duplication of effort.
+  - Preparatory work started for the stakeholder validation process supporting RP1 requirements refinement.
+- **Outcome:**
+  - Task T2.2 officially entered its implementation phase following completion of the stakeholder analysis activities.
+  - ATH will coordinate stakeholder engagement activities and integrate validated feedback into the WP2 Requirements Baseline.
+- **Status:** In Progress.
+
+### Action 95 – Preparation of the T2.2 Stakeholder Engagement Roadmap (July 2026)
+
+- **Date:** July 2026
+- **Action:** ATH prepared the initial Stakeholder Engagement Roadmap to guide Task T2.2 activities throughout the project lifecycle.
+- **Key Findings:**
+  - The roadmap defines stakeholder validation cycles throughout the project.
+  - Planned activities include questionnaires, bilateral meetings, workshops, and continuous feedback collection.
+  - The roadmap establishes the iterative refinement process between stakeholder engagement (T2.2), requirements engineering (T2.3), validation (WP5), and dissemination (WP6).
+- **Outcome:**
+  - A structured engagement plan has been established to support continuous stakeholder involvement and requirements validation until project completion.
+- **Status:** Ongoing.
+
+### Action 96 – Monitoring WP4 Architecture Dependencies Affecting WP2 (July 2026)
+
+- **Date:** July 2026
+- **Action:** ATH participated in WP4 technical coordination meetings to monitor architectural decisions affecting the WP2 Requirements Baseline and D2.1 preparation.
+- **Key Findings:**
+  - Architecture discussions identified several requirements that remain dependent on pilot-specific information.
+  - Key dependencies include deployment models, pilot data availability, legacy systems, Common Data Layer definition, cross-border information exchange mechanisms, and cost optimisation constraints.
+  - These architecture decisions directly influence requirements traceability and architecture preparation under Task T2.5.
+- **Outcome:**
+  - ATH will continue updating the WP2 Traceability Matrix as architecture assumptions become validated by the technical work packages.
+- **Status:** Ongoing.
+
+### Action 97 – Update of Requirement N9 Following PMB Clarification (20 July 2026)
+
+- **Date:** 20 July 2026
+- **Action:** During the PMB meeting, the consortium clarified the scope of Requirement N9 concerning national compliance frameworks.
+- **Key Findings:**
+  - N9 refers specifically to supporting national-level implementations of the NIS2 Directive.
+  - The requirement had previously been classified as "Won't Have" due to an incorrect interpretation that it referred to unrelated national certification schemes.
+  - The clarification confirmed that N9 is part of the Grant Agreement scope and should remain within the Requirements Baseline.
+  - Country-specific implementation requirements may be represented as configurable ("Should") requirements where appropriate rather than mandatory ("Must") requirements.
+- **Outcome:**
+  - ATH will update the WP2 Requirements Baseline accordingly and ensure traceability of the revised requirement within D2.1.
+- **Status:** In Progress.
+
+### Action 98 – Monitor Pilot Participation for WP4 Technical Coordination (20 July 2026)
+
+- **Date:** 20 July 2026
+- **Action:** During the PMB meeting, ATH highlighted the dependency between WP2 and WP4 on active participation from pilot representatives during the ongoing technical coordination meetings.
+- **Key Findings:**
+  - Limited pilot participation delayed validation of deployment constraints, available data sources, and architecture assumptions.
+  - Outlook invitation issues also contributed to reduced attendance in technical meetings.
+  - Broader pilot participation is required before consolidating the September D2.1 draft and progressing WP4 architecture activities.
+- **Outcome:**
+  - ATH will continue monitoring architecture-impacting decisions from WP4 and ensure validated pilot constraints are reflected in the WP2 Requirements Baseline and Traceability Matrix.
+- **Status:** Ongoing.
+
+### Action 99 – Alignment of Architecture Risks with the WP2 Requirements Baseline (July 2026)
+
+- **Date:** July 2026
+- **Action:** ATH aligned the WP2 Requirements Baseline with the emerging Architecture Risk Register to strengthen traceability between stakeholder requirements and architectural decisions.
+- **Key Findings:**
+  - Three architecture-driving requirements were identified as requiring continuous monitoring:
+    - **N14** – Deployment Model.
+    - **N9** – National NIS2 Implementation.
+    - **N15** – Mobile Access.
+  - These requirements have direct implications for architecture decisions, Architectural Decision Records (ADRs), and future system design.
+  - Continuous traceability between stakeholder needs, requirements, architecture risks, and validation activities will be maintained throughout the project.
+- **Outcome:**
+  - ATH will ensure that architecture-impacting requirements remain synchronised across the Requirements Baseline, Traceability Matrix, Architecture Risk Register, and D2.1.
+- **Status:** Ongoing.
+
+### Action 100 – WP3 Technical Coordination: Compliance Tools and Risk Assessment Architecture
+
+- **Date:** 30 July 2026
+- **Action:** Participated in the WP3 technical coordination meeting to review the current implementation progress of the DETANGLE compliance and certification tools, discuss the architecture of the NIS2 Compliance Tracker (T3.1), the Pre-certification Assessment and Risk Notification tools (T3.2), and their interaction with WP4 risk capabilities. The meeting also examined the role of AI agents, local LLM deployment, and cross-WP integration requirements.
+
+- **Key Findings:**
+  - The T3.1 NIS2 Compliance Tracker is being developed as an AI-assisted compliance assessment platform using FastAPI, Docker, PydanticAI, Ollama (local LLM hosting), PostgreSQL and a Compliance Command Center dashboard.
+  - The compliance workflow follows a structured agent pipeline covering organisation profiling, evidence collection, regulatory obligation identification, gap analysis and report generation.
+  - Human-in-the-loop approval points are incorporated throughout the workflow to improve transparency and validation of AI-generated recommendations.
+  - T3.2 focuses on product-level pre-certification assessments and dynamic risk assessment using external vulnerability intelligence sources (e.g., MITRE ATT&CK, CPE, GitHub Advisories) and a knowledge graph-based architecture.
+  - Discussions highlighted the need to clearly define the relationship between WP3 risk assessment capabilities and WP4 incident management risk scoring, including how vulnerability information produced by WP3 will contribute to operational risk prioritisation.
+  - Open architectural questions remain regarding whether DETANGLE will implement a unified risk-scoring service or multiple specialised risk calculation components across WP3 and WP4.
+  - WP2 requirements, stakeholder constraints and pilot-specific operational needs were identified as important inputs for validating risk calculation logic and ensuring traceability between stakeholder requirements and implemented platform capabilities.
+
+- **Outcome:**
+  - Identified several architecture and requirements dependencies between WP2, WP3 and WP4 that should be reflected in the Requirements Baseline and future architecture documentation.
+  - Confirmed that continued coordination between WP2, WP3 and WP4 will be required to ensure consistent interpretation of risk, compliance and explainability requirements across the platform.
+
+- **Status:** Ongoing
+
+
+### Action 100 – WP3 Technical Coordination: Compliance Tools and Risk Assessment Architecture
+
+- **Date:** 30 July 2026
+- **Action:** Participated in the WP3 technical coordination meeting to review the current implementation progress of the DETANGLE compliance and certification tools, discuss the architecture of the NIS2 Compliance Tracker (T3.1), the Pre-certification Assessment and Risk Notification tools (T3.2), and their interaction with WP4 risk capabilities. The meeting also examined the role of AI agents, local LLM deployment, and cross-WP integration requirements.
+
+- **Key Findings:**
+  - The T3.1 NIS2 Compliance Tracker is being developed as an AI-assisted compliance assessment platform using FastAPI, Docker, PydanticAI, Ollama (local LLM hosting), PostgreSQL and a Compliance Command Center dashboard.
+  - The compliance workflow follows a structured agent pipeline covering organisation profiling, evidence collection, regulatory obligation identification, gap analysis and report generation.
+  - Human-in-the-loop approval points are incorporated throughout the workflow to improve transparency and validation of AI-generated recommendations.
+  - T3.2 focuses on product-level pre-certification assessments and dynamic risk assessment using external vulnerability intelligence sources (e.g., MITRE ATT&CK, CPE, GitHub Advisories) and a knowledge graph-based architecture.
+  - Discussions highlighted the need to clearly define the relationship between WP3 risk assessment capabilities and WP4 incident management risk scoring, including how vulnerability information produced by WP3 will contribute to operational risk prioritisation.
+  - Open architectural questions remain regarding whether DETANGLE will implement a unified risk-scoring service or multiple specialised risk calculation components across WP3 and WP4.
+  - WP2 requirements, stakeholder constraints and pilot-specific operational needs were identified as important inputs for validating risk calculation logic and ensuring traceability between stakeholder requirements and implemented platform capabilities.
+
+- **Outcome:**
+  - Identified several architecture and requirements dependencies between WP2, WP3 and WP4 that should be reflected in the Requirements Baseline and future architecture documentation.
+  - Confirmed that continued coordination between WP2, WP3 and WP4 will be required to ensure consistent interpretation of risk, compliance and explainability requirements across the platform.
+
+- **Status:** Ongoing
 
 next steps : 
+
 ###############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
 
 1)deliverable Detangle baseline 
@@ -2327,3 +2468,225 @@ Focus entirely on Chapter 4. That is ATH's heaviest contribution and the one tha
 - Το white paper (Human-in-the-Loop AI) είναι έτοιμο draft — μπορεί να τρέξει παράλληλα, δεν μπλοκάρει τίποτα
 
 Θέλεις να σου ετοιμάσω ένα draft email προς ICERT/Sandra για να κλείσετε το coordination meeting, ή προτιμάς να ξεκινήσουμε τα πρώτα engagement materials (questionnaire template) για το T2.2;
+
+
+rwta thn sandtra sto epomeno wp2 meeting pws 8a suntinistoume gai to 2.2. 
+
+ti proteinei  vevaia akomh den uparxoun apotelesmata tou ergou ngia na epikoinwnhsoume ..
+
+===================
+
+ ### Action 96 – DETANGLE CDB Meeting: Dissemination Planning (September 2026)
+
+- **Date:** September 2026
+- **Action:** ATH participated in the Communication and Dissemination Board (CDB) meeting led by TIKO PRO (Sandra Bortek) to plan the autumn dissemination programme, confirm event participation, and align WP2 stakeholder engagement with WP6 outreach activities.
+- **Key Findings:**
+  - Autumn dissemination programme structured around three strands: a legislation webinar series, a use-case pilot webinar series, and physical event participation.
+  - Several activities map directly to project KPIs (event attendance, CRA workshops, stakeholder consultation).
+  - October is European Cybersecurity Month and will be leveraged for project visibility.
+  - Stakeholder mapping was raised but deferred to a later meeting.
+- **Outcome:**
+  - Dissemination calendar agreed for October–December 2026.
+  - ATH to align T2.2 stakeholder engagement with the WP6 event calendar to avoid duplicated outreach.
+- **Status:** In Progress.
+
+---
+
+### Action 97 – Webinar Series on European Legislation (September 2026)
+
+- **Date:** September 2026
+- **Action:** A three-part webinar series providing an overview of European cybersecurity legislation was confirmed, to be organised by Valerio Lubello (RINA Consulting).
+- **Key Findings:**
+  - Draft dates set for 29 October, 19 November and 10 December 2026.
+  - Sessions remain in draft; partners to be notified once confirmed.
+  - CRA workshops are confirmed as KPI-contributing activities.
+  - A workshop template (titles, objectives, duration) was requested for circulation to partners.
+  - Capacity Building Board lead (Olga Segou, NCI) involved in workshop planning.
+  - **Decision:** DORA excluded from webinar scope, as it is not formally part of the project.
+- **Outcome:**
+  - Legislation webinar series scheduled; workshop template to be shared with partners.
+- **Status:** In Progress.
+
+---
+
+### Action 96 – WP3 Technical Meeting: Development Status and Task Alignment (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** ATH participated in the WP3 technical meeting, covering technical updates and project management, with the main focus on aligning Tasks 3.2 (QnR) and 3.3 (MLT).
+- **Key Findings:**
+  - Meeting structured around two agenda areas: technical updates and project management.
+  - No technical blockers reported by partners; collaboration scope discussed.
+  - MLT joined late and noted possible internal delays; invited to bring additional team members to future sessions for broader technical Q&A.
+  - Deadlines and business travel were noted as potential causes of delayed responses across teams.
+  - Slides are uploaded to the WP3 folder, organised by upcoming meeting date; current slides are copied into the next meeting's folder so partners can reuse them as source material.
+- **Outcome:**
+  - WP3 technical coordination proceeding; a dedicated meeting with all WP3 partners to be held on T3.2/T3.3 alignment.
+- **Status:** In Progress.
+
+---
+
+### Action 97 – Task 3.1 Development: Gap Analysis Engine and Compliance Command Centre (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** UBITECH presented early-stage development of the automated gap analysis engine and preliminary work on the Compliance Command Centre under Task 3.1, with Ioannis Pastellas leading development of both modules.
+- **Key Findings:**
+  - **Document processing pipeline:** PDF input requires a parsing pipeline that splits documents into relevant chunks and extracts metadata, citations and summaries for structured output. Requirements extraction is the key output; agents extract status from processed documents (linking to Task 3.4).
+  - **Compliance requirements matching:** a dedicated phase determines which reporting requirements apply to a given organisation, using rule-based matching against the user profile. LLM-based reasoning is envisaged for later general-purpose intelligence.
+  - **Compliance modules:** development needed for organisational use, with European compliance module integration planned.
+  - **Compliance Command Centre** was demonstrated with gap analysis screenshots. Development is structured in three phases: (1) compliance assessment, (2) compliance engine implementation, (3) decision-making profile for compliance. The process tracks compliance status per entity with associated remediation tasks.
+  - Further detail on user profiling and obligations matching was requested; Task 3.1 to be covered in more depth at forthcoming meetings.
+- **Outcome:**
+  - Task 3.1 development progressing across both modules; additional detail on profiling and obligations matching to follow.
+- **Status:** In Progress.
+
+---
+
+### Action 98 – Alignment of Tasks 3.2 and 3.3 (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** The meeting focused on aligning the CRA-related tooling developed under Task 3.2 (QnR) and Task 3.3 (MLT), covering use cases, workflows and integration points.
+- **Key Findings:**
+  - **Use case alignment** was identified as the central challenge across partners. Agreed data flow: input is a binary file representing a software component for certification checking; output is an overall assessment report on certification status, including a risk profile. JSON was proposed for input/output exchange, with CycloneDX referenced as a potential component data source.
+  - QnR asked to present its use cases for alignment discussion; use cases may be produced as separate deliverables, with alignment intended to improve deliverable quality.
+  - **Profiling stage** distinguishes two routes: CRA compliance (for organisations) and CRA accreditation (for MSAs and accreditation auditors). Workflows, questionnaires and analysis are being defined per route. Input requirements are still being finalised; binary files are not required at this stage.
+  - MLT's CRA use case will serve as the template for the project. A meeting is to be arranged with iChem for MSA workflow input, iChem being the only partner fitting the MSA/accreditation workflow.
+  - **Integration proposal:** T3.2 modules to feed T3.3 modules, with T3.3 designed to accept T3.2 input for analysis. The T3.2 assessment and risk report feeds the T3.3 accreditation workflow. The tooling extends beyond questionnaires by integrating external data sources.
+  - QnR to share detailed tool architecture and module descriptions, needed to map output integration points and close the alignment loop.
+  - MLT asked to provide serial workflow diagrams for T3.3, mapping step-by-step progression for accreditation.
+  - **Decision:** non-core features to be held back; development to focus on core functionality first, with additional features added in a subsequent iteration.
+  - Open question raised as to whether the DETANGLE and CRACoWi teams share members.
+- **Outcome:**
+  - T3.2/T3.3 integration approach agreed in principle; architecture documentation and workflow diagrams to be exchanged, followed by a dedicated all-partner WP3 alignment meeting.
+- **Status:** In Progress.
+
+---
+
+### Action 99 – WP3/WP4 Deliverable Reduction and Amendment Request (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** The consortium agreed to reduce the number of deliverables in Work Packages 3 and 4, to be formalised through a Grant Agreement amendment.
+- **Key Findings:**
+  - **Decision:** the number of deliverables is to be reduced; no objections were raised.
+  - The amendment request is to be initiated in the coming days.
+  - Deliverables remain required for both Work Package 3 and Work Package 4; the reduction concerns their number rather than their existence.
+- **Outcome:**
+  - Amendment procedure to be initiated; WP2 planning to be checked for any knock-on effects once the revised deliverable list is confirmed.
+- **Status:** In Progress.
+
+
+### Action 96 – WP3 Technical Meeting: Development Status and Task Alignment (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** ATH participated in the WP3 technical meeting, covering technical updates and project management, with the main focus on aligning Tasks 3.2 (QnR) and 3.3 (MLT).
+- **Key Findings:**
+  - Meeting structured around two agenda areas: technical updates and project management.
+  - No technical blockers reported by partners; collaboration scope discussed.
+  - MLT joined late and noted possible internal delays; invited to bring additional team members to future sessions for broader technical Q&A.
+  - Deadlines and business travel were noted as potential causes of delayed responses across teams.
+  - Slides are uploaded to the WP3 folder, organised by upcoming meeting date; current slides are copied into the next meeting's folder so partners can reuse them as source material.
+- **Outcome:**
+  - WP3 technical coordination proceeding; a dedicated meeting with all WP3 partners to be held on T3.2/T3.3 alignment.
+- **Status:** In Progress.
+
+---
+
+### Action 97 – Task 3.1 Development: Gap Analysis Engine and Compliance Command Centre (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** UBITECH presented early-stage development of the automated gap analysis engine and preliminary work on the Compliance Command Centre under Task 3.1, with Ioannis Pastellas leading development of both modules.
+- **Key Findings:**
+  - **Document processing pipeline:** PDF input requires a parsing pipeline that splits documents into relevant chunks and extracts metadata, citations and summaries for structured output. Requirements extraction is the key output; agents extract status from processed documents (linking to Task 3.4).
+  - **Compliance requirements matching:** a dedicated phase determines which reporting requirements apply to a given organisation, using rule-based matching against the user profile. LLM-based reasoning is envisaged for later general-purpose intelligence.
+  - **Compliance modules:** development needed for organisational use, with European compliance module integration planned.
+  - **Compliance Command Centre** was demonstrated with gap analysis screenshots. Development is structured in three phases: (1) compliance assessment, (2) compliance engine implementation, (3) decision-making profile for compliance. The process tracks compliance status per entity with associated remediation tasks.
+  - Further detail on user profiling and obligations matching was requested; Task 3.1 to be covered in more depth at forthcoming meetings.
+- **Outcome:**
+  - Task 3.1 development progressing across both modules; additional detail on profiling and obligations matching to follow.
+- **Status:** In Progress.
+
+---
+
+### Action 98 – Alignment of Tasks 3.2 and 3.3 (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** The meeting focused on aligning the CRA-related tooling developed under Task 3.2 (QnR) and Task 3.3 (MLT), covering use cases, workflows and integration points.
+- **Key Findings:**
+  - **Use case alignment** was identified as the central challenge across partners. Agreed data flow: input is a binary file representing a software component for certification checking; output is an overall assessment report on certification status, including a risk profile. JSON was proposed for input/output exchange, with CycloneDX referenced as a potential component data source.
+  - QnR asked to present its use cases for alignment discussion; use cases may be produced as separate deliverables, with alignment intended to improve deliverable quality.
+  - **Profiling stage** distinguishes two routes: CRA compliance (for organisations) and CRA accreditation (for MSAs and accreditation auditors). Workflows, questionnaires and analysis are being defined per route. Input requirements are still being finalised; binary files are not required at this stage.
+  - MLT's CRA use case will serve as the template for the project. A meeting is to be arranged with iChem for MSA workflow input, iChem being the only partner fitting the MSA/accreditation workflow.
+  - **Integration proposal:** T3.2 modules to feed T3.3 modules, with T3.3 designed to accept T3.2 input for analysis. The T3.2 assessment and risk report feeds the T3.3 accreditation workflow. The tooling extends beyond questionnaires by integrating external data sources.
+  - QnR to share detailed tool architecture and module descriptions, needed to map output integration points and close the alignment loop.
+  - MLT asked to provide serial workflow diagrams for T3.3, mapping step-by-step progression for accreditation.
+  - **Decision:** non-core features to be held back; development to focus on core functionality first, with additional features added in a subsequent iteration.
+  - Open question raised as to whether the DETANGLE and CRACoWi teams share members.
+- **Outcome:**
+  - T3.2/T3.3 integration approach agreed in principle; architecture documentation and workflow diagrams to be exchanged, followed by a dedicated all-partner WP3 alignment meeting.
+- **Status:** In Progress.
+
+---
+
+### Action 99 – WP3/WP4 Deliverable Reduction and Amendment Request (9 September 2026)
+
+- **Date:** 9 September 2026
+- **Action:** The consortium agreed to reduce the number of deliverables in Work Packages 3 and 4, to be formalised through a Grant Agreement amendment.
+- **Key Findings:**
+  - **Decision:** the number of deliverables is to be reduced; no objections were raised.
+  - The amendment request is to be initiated in the coming days.
+  - Deliverables remain required for both Work Package 3 and Work Package 4; the reduction concerns their number rather than their existence.
+- **Outcome:**
+  - Amendment procedure to be initiated; WP2 planning to be checked for any knock-on effects once the revised deliverable list is confirmed.
+- **Status:** In Progress.
+
+### Action 98 – Use Case Pilot Webinar Series (September 2026)
+
+- **Date:** 15 September 2026
+- **Action:** A separate webinar series dedicated to the project use cases was planned, tracked under its own KPI and distinct from the legislation webinar series.
+- **Key Findings:**
+  - A bilateral call held over the summer established the initial plan; the schedule follows the agreed template.
+  - First webinar to give a general project overview, targeted for October 2026, with early November as fallback.
+  - Subsequent webinars to focus on individual pilots; use-case owners to select dates in November/December.
+  - Content scope agreed: overview, challenges, goals and logical architecture — excluding internal project detail. All six pilots to be presented, with an extended time slot.
+  - Logical architecture expected to be available from WP2 by October.
+  - Presenter still to be confirmed (ITML or UBITECH); approximately three weeks of lead time required for slide preparation.
+  - **Decision:** Q&A to be handled by collecting questions via chat, with a moderator selecting the most relevant.
+  - **Decision:** Feedback to be gathered through a live interactive tool during the session rather than a post-event form; collected questions feed the stakeholder consultation KPI.
+  - Recordings to be edited to display only the presenter's name, subject to a privacy check.
+  - Pilot implementation to begin only after the corresponding webinar.
+- **Outcome:**
+  - Pilot webinar series scheduled for mid-October to early November onwards; presenter assignment and detailed schedule to be settled at the next technical coordination call.
+- **Status:** In Progress.
+
+---
+
+### Action 99 – Dissemination KPI Campaign and LinkedIn Growth (September 2026)
+
+- **Date:** September 2026
+- **Action:** A partner campaign was launched to promote the consortium across digital channels and to reach the project's social media follower KPI.
+- **Key Findings:**
+  - The project LinkedIn page reached 140 followers; 9 additional followers are required to enable the LinkedIn newsletter function.
+  - Each partner contributing approximately 5 followers would yield 30–40 in total, exceeding the immediate target.
+  - Partners asked to share project content, repost event photographs, and invite their own networks to follow the page.
+  - Partners invited to submit content for publication on LinkedIn or the project website.
+  - TIKO PRO holds a subscriber list of over 10,000 contacts available for event outreach.
+  - ECCC contacts are available for publishing cybersecurity-related press releases; CRA cluster membership can also be used for promotion.
+- **Outcome:**
+  - Coordinated digital campaign underway; one dissemination action per partner multiplies overall project visibility.
+- **Status:** In Progress.
+
+---
+
+### Action 100 – Event Participation and Follow-up (September 2026)
+
+- **Date:** September 2026
+- **Action:** Consortium participation in autumn events was reviewed, covering completed, confirmed and prospective events.
+- **Key Findings:**
+  - **Copenhagen (26–27 August 2026):** approximately 150 attendees, cybersecurity focus. Attendee list loaded into CRM; follow-up underway, prioritising DETANGLE promotion, SME outreach and follower growth.
+  - **Ljubljana workshop (2 October 2026):** organised with a broad multi-project agenda. Tommaso Boatto (ICERT) is the only confirmed consortium speaker. ITML confirmed on-site (Siranush Akarmazyan, Theofilos Tsoris); QnR may also attend. Registration is free and required for attendance tracking; over 50 registrations recorded. Remote support offered to Tommaso by an unavailable partner.
+  - **Ljubljana sister-project event (15 October 2026):** a 15-minute slot reserved for DETANGLE. Organised by the Digital Innovation Hub Slovenia, focused on SMEs, the CRA and NIS2, and held alongside the CRACoWi plenary — providing an opportunity to meet other partners and explore collaborations. MLT cannot attend; other partners invited. Attendance contributes to project KPIs; confirmation required so promotional materials can be prepared.
+  - A further event before year-end is under consideration (attendance without sponsorship), with a possible joint webinar in late November or early December.
+  - The EU emblem must be included in press releases and social media posts.
+- **Outcome:**
+  - Event calendar confirmed for October–December 2026; partner attendance to be confirmed to support promotional preparation and KPI reporting.
+  - Events to be used deliberately to build collaborations for joint webinars and future activities.
+- **Status:** In Progress.
