@@ -324,6 +324,11 @@ calls June 2026
 16 September 2026 
 =============================
 
+* DETANGLE TC meeting 
+* claude next prompt 
+	take into consideration the TC metingand all new development after previous WP2 meeting of courcse and create a presentation for next week WP2 meeting in the template taht sandra send . from teh todays (TC meeting) take only notes taht are RELEVNAT to WP2!
+* TODO . check from signal MC Doctoral network .. ti paizei ? to xanagrafoume ? (portokalidis)
+
 15 september 2026
 =============================
 * submitted themis . https://drive.google.com/drive/u/1/folders/17iwcSb_j5EiCOEjD2XPHZDOu47utdklG

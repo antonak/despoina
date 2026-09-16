@@ -2708,3 +2708,74 @@ ti proteinei  vevaia akomh den uparxoun apotelesmata tou ergou ngia na epikoinwn
   - ATH to reissue the September presentation and minutes on the official project templates and apply them going forward.
 - **Status:** In Progress.
 
+===============
+
+P### Action 101 – Bi-weekly Technical Coordination Meeting (T1.3) (16 September 2026)
+
+- **Date:** 16 September 2026
+- **Action:** ATH participated in the bi-weekly Technical Coordination meeting (T1.3, led by UBITECH), covering the project timeline, WP3 use-case alignment, the WP4 pilot questionnaire and dissemination planning.
+- **Key Findings:**
+  - **Timeline and deliverables:** the DETANGLE project baseline (D2.1) remains the main consolidation deliverable at M12. D1.3 will carry the KPI analysis, leaders, contributors and strategies. Webinars and workshops carry KPIs that the consortium must report.
+  - **KPI contributors** are to be defined in D2.1 at M12. *Note: WP2 Meeting #12 had agreed the KPI analysis would remain an internal working document feeding D1.3 and would not be reproduced in D2.1 — this requires clarification before D2.1 is consolidated.*
+  - **D2.1 Chapter 5** was updated on the technologies landscape (UBITECH).
+  - **WP3 use-case alignment:** an InfoCert scenario links QnR pre-certification tools with MLT CRA tools, forming a T3.2 → T3.3 chain in which the InfoCert product prototype feeds the QnR tools, which in turn feed the MLT CRA components. Discussion continues between InfoCert and QnR on the pre-certification usage scenario.
+  - **CRA partner engagement:** MLT's CRA components open two potential new engagements. IKEM could use the MLT tools as an accreditation entity for products in its domain; a bilateral or coordination meeting between MLT and IKEM is to be arranged (IKEM represented by Ilia; Denis Chikurtev unavailable and to be followed up). Motor Oil is involved in the CRACoWi project with a CRA focus, representing a further potential engagement — team overlap with CRACoWi to be checked, and Motor Oil to be contacted regarding the CRA usage scenario, with MLT providing a brief overview if required. The objective is to match MLT sub-components to specific usage scenarios.
+  - **WP4 questionnaire:** NCI and ITML have prepared a questionnaire for pilot partners covering Tasks 4.1, 4.2 and 4.3, with T4.4 (UBITECH-led) as the consolidation task. Pilot responses will clarify design choices for the NCI and ITML components and support usage-scenario matching. Pilots may need to route individual questions to different internal contacts, and open questions can be raised at technical coordination meetings before answering. The Grant Agreement and WP4 task descriptions provide context. NCI to circulate the questionnaire by email today.
+  - **Dissemination:** NCI has designed a template for the DETANGLE webinar series.
+- **Outcome:**
+  - WP4 questionnaire to be distributed to pilots; responses will inform component design and usage-scenario matching.
+  - ATH to clarify the D2.1 / D1.3 boundary for KPI contributors before consolidating the M12 deliverable.
+  - ATH to seek access to the WP4 questionnaire responses, which bear directly on T5.2 (ATH-led, validation protocol planning, D5.3 due M18) and on the T2.3 requirements baseline.
+- **Status:** In Progress.
+
+=============================
+
+### Action 102 – DETANGLE–INCIDENTRON Joint White Paper Agreed (September 2026) (16 September 2026)
+
+- **Date:** September 2026
+- **Action:** ATH participated in an exploratory call with the INCIDENTRON project to assess the potential for a joint white paper. Agreement was reached to co-author a paper on Cyber Resilience Act (CRA) compliance.
+- **Key Findings:**
+  - **INCIDENTRON** is developing a platform guiding organisations through end-to-end incident reporting in order to reduce duplication of effort. Its regulatory scope covers NIS2, GDPR and DORA, with three use cases: digital infrastructure (most mature), banking and health.
+  - **DETANGLE** has a broader scope but deliberately excludes DORA in order to maintain focus — providing a clean demarcation between the two projects.
+  - **Shared ground:** both projects address the CRA, which forms the basis for collaboration.
+  - **Primary driver:** INCIDENTRON has a hard KPI deadline at the end of October 2026 for a CRA-focused white paper. DETANGLE's less rigid timeline allows it to contribute.
+  - The white paper is positioned as a stepping stone towards a scientific paper, to be developed once results mature.
+- **Outcome:**
+  - Joint white paper on CRA compliance agreed between the two projects.
+  - Contributes to DETANGLE's dissemination KPIs (4 white papers and 6 scientific papers over the project lifetime); ATH is goals owner for the white paper target.
+- **Status:** In Progress.
+
+---
+
+### Action 103 – Scope and Content Strategy for the Joint White Paper (September 2026)
+
+- **Date:** September 2026
+- **Action:** The content strategy, use-case focus and division of contributions between the two projects were agreed.
+- **Key Findings:**
+  - **Target audience:** SMEs in the digital infrastructure sector, which lack the staff and resources to manage complex compliance obligations.
+  - **Content approach:** problem-oriented, comprising (i) definition of the CRA compliance challenges facing SMEs and (ii) theoretical solutions in the form of proposed workflows and supporting procedures.
+  - **Explicit limitation:** as both projects are at an early stage, the paper will state clearly that it presents a preliminary framing and that mature results are not yet available.
+  - **Division of contributions:**
+    - INCIDENTRON — the SME's internal reporting workflow and compliance needs.
+    - DETANGLE — the perspective of Market Surveillance Authorities (MSAs), and how they interact with and guide the SME.
+  - **Future direction:** cross-border incidents were acknowledged as complex but valuable, and identified as a candidate topic for a subsequent scientific paper.
+- **Outcome:**
+  - Agreed structure allows both projects to contribute meaningfully despite early-stage maturity, with DETANGLE covering the enforcement-authority side of the CRA chain.
+  - WP2 stakeholder evidence on MSA reachability is available to support the DETANGLE contribution.
+- **Status:** In Progress.
+
+---
+
+### Action 104 – Working Arrangements and Drafting Timeline (September 2026)
+
+- **Date:** September 2026
+- **Action:** Practical arrangements for collaborative drafting were established.
+- **Key Findings:**
+  - ITML (Siranush Akarmazyan) to create a shared SharePoint folder for the white paper and grant access to Lampros Patsiouras (INCIDENTRON).
+  - A draft Table of Contents to be developed collaboratively in the shared document, structured initially around the use case and the problem definition.
+  - Partners to work offline for two weeks to begin drafting content according to the agreed strategy.
+  - A follow-up call to be scheduled after the two-week drafting period to review progress and define next steps.
+  - The INCIDENTRON KPI deadline of end-October 2026 governs the overall timeline.
+- **Outcome:**
+  - Shared workspace and drafting timeline established; first review point set for approximately two weeks from the meeting.
+- **Status:** In Progress.
